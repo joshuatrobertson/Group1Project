@@ -1,4 +1,7 @@
-# For MacOS
+# ===================================================
+# MacOS
+# ===================================================
+
 # General
 .DS_Store
 .AppleDouble
@@ -26,7 +29,9 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
-# For Windows
+# ===================================================
+# Windows
+# ===================================================
 Thumbs.db
 Thumbs.db:encryptable
 ehthumbs.db
@@ -51,7 +56,9 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
+# ===================================================
 # Linux
+# ===================================================
 *~
 
 # temporary files which can be created if a process still has a handle open of a deleted file
@@ -65,3 +72,17 @@ $RECYCLE.BIN/
 
 # .nfs files are created when an open file is removed but is still being accessed
 .nfs*
+
+# ===================================================
+# VSCode
+# ===================================================
+
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# Local History for Visual Studio Code
+.history/
