@@ -9,6 +9,7 @@ Item  | Responsible | Due by |
 Integrate Github with Jira| Josh, Keane    | 14.03.21 |
 Research game APIs        | Efan, Alan     | 18.03.21 |
 Create paper prototype    | Ella, Josh     | 21.03.21 |
+Document prototyping    | Ella, Josh    21.03.21
 Create skeleton for report| Keane			   | 21.03.21 |
 Draft data model          | Everyone       | tentative|
 
