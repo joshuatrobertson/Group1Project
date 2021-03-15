@@ -26,6 +26,9 @@ ___
 - Ella Gryf-Lowczowska
 - Keane Fernandes
 
+
+### Agenda Items
+
 Item | Notes
 ---- | ----
 Set up Jira account, added everyone |
