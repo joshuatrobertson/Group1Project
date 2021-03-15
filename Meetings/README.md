@@ -6,10 +6,10 @@ This table keeps changing with every meeting.
 
 Item  | Responsible | Due by |
 ----  | ----        | ---- |
-Integrate Github with Jira| Josh, Keane    | 14.03.21 |
+Integrate Github with Jira| Josh, Keane    | 15.03.21 |
 Research game APIs        | Efan, Alan     | 18.03.21 |
-Create paper prototype    | Ella, Josh     | 21.03.21 |
-Document prototyping    | Ella, Josh    | 21.03.21
+Create paper prototype    | Ella, Josh     | 14.03.21 |
+Document prototyping    | Ella, Josh    | 14.03.21
 Create skeleton for report| Keane			   | 21.03.21 |
 Draft data model          | Everyone       | tentative|
 
@@ -58,3 +58,19 @@ Arranged a meeting on Sunday to prototype the new idea |
 
 ___
 
+
+
+### Week 7 (15/03/21, 12:00 - 12:30)  
+
+### Attendees
+- Joshua Robertson
+- Alan Cen
+- Efan Haynes
+- Ella Gryf-Lowczowska
+- Keane Fernandes
+
+Item | Notes
+---- | ----
+Set up Jira account, added everyone |
+Integrated Jira with GitHub |
+___
