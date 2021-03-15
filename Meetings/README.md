@@ -6,16 +6,25 @@ This table keeps changing with every meeting.
 
 Item  | Responsible | Due by |
 ----  | ----        | ---- |
-Integrate Github with Jira| Josh, Keane    | 15.03.21 |
 Research game APIs        | Efan, Alan     | 18.03.21 |
-Create paper prototype    | Ella, Josh     | 14.03.21 |
-Document prototyping    | Ella, Josh    | 14.03.21
-Create skeleton for report| Keane			   | 21.03.21 |
+Create skeleton for report| Keane   | 21.03.21 |
 Draft data model          | Everyone       | tentative|
+
+
+### Done
+
+Item  | Responsible | Done On |
+----  | ----        | ---- |
+Integrate Github with Jira| Josh, Keane    | 15.03.21 |
+Create paper prototype    | Ella, Josh     | 14.03.21 |
+Document prototyping    | Ella, Josh    | 14.03.21 |
+
+___
+___
+
 
 ## 2. Meeting minutes (Recent first)
 
-___
 
 ### Week 7 (15/03/21, 12:00 - 12:30)  
 
