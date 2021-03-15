@@ -17,6 +17,43 @@ Draft data model          | Everyone       | tentative|
 
 ___
 
+### Week 7 (15/03/21, 12:00 - 12:30)  
+
+### Attendees
+- Joshua Robertson
+- Alan Cen
+- Efan Haynes
+- Ella Gryf-Lowczowska
+- Keane Fernandes
+
+Item | Notes
+---- | ----
+Set up Jira account, added everyone |
+Integrated Jira with GitHub |
+
+___
+
+___
+
+
+### Week 6 (14/03/21, 10:00 - 11:45)  
+
+### Attendees
+- Joshua Robertson
+- Ella Gryf-Lowczowska
+
+### Agenda Items
+
+Item | Notes
+---- | ----
+Created prototype for new idea using AdobeXD |
+Documented prototyping process [insert link] |
+
+
+___
+
+___
+
 ### Week 6 (12/03/21, 16:00 - 16:30)  
 
 ### Attendees
@@ -58,19 +95,3 @@ Arranged a meeting on Sunday to prototype the new idea |
 
 ___
 
-
-
-### Week 7 (15/03/21, 12:00 - 12:30)  
-
-### Attendees
-- Joshua Robertson
-- Alan Cen
-- Efan Haynes
-- Ella Gryf-Lowczowska
-- Keane Fernandes
-
-Item | Notes
----- | ----
-Set up Jira account, added everyone |
-Integrated Jira with GitHub |
-___
