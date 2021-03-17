@@ -1,9 +1,18 @@
-# Group1Project
-Team 1 - Software Engineering Group Project
+<h1 align="center">
+  <br>
+  <a ![][report/images/image001_logo.png] </a>
+  <br>
+  [Name of our product]
+  <br>
+</h1>
+
 
 # Introduction
 
 # Project Idea
+
+
+
 
 ## 1. Sustainadress (*provisional name*) 
 
