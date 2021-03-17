@@ -1,13 +1,17 @@
-<h1 align="center">
-  <br>
-  <a ![][report/images/image001_logo.png] </a>
-  <br>
-  [Name of our product]
-  <br>
+<HTML>
+<h1>
+<center>
+<img src="report/images/image001_logo.png" alt="drawing" width="150"/>
+<br>
+[Name of our product]
 </h1>
+</HTML>
+
+___
+
+# Meet the team
 
 
-# Introduction
 
 # Project Idea
 
