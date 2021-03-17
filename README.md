@@ -3,11 +3,42 @@
 <center>
 <img src="report/images/image001_logo.png" alt="drawing" width="150"/>
 <br>
-[Name of our product]
+Lockdown Minds [Tentative]
 </h1>
 
-# Meet the team
+<h4 align="center">A distraction-infested memory game to help improve concentration during lockdown.</h4>
 
+
+<p align="center">
+  <a href="https://badge.fury.io/js/%40angular%2Fcore"><img src="https://badge.fury.io/js/%40angular%2Fcore.svg" alt="npm version" 	height="18"></a>
+</p>
+
+
+# Meet the team
+<p float="left">
+  <img src="report/images/image002_alan.png" width="90" />
+  <img src="report/images/image003_efan.png" width="90" /> 
+  <img src="report/images/image004_josh.png" width="90" />
+  <img src="report/images/image005_ella.png" width="90" />
+  <img src="report/images/image006_keane.png" width="90" />
+</p>
+
+<table style="width:100%">
+    <tr>
+        <td><center><img src="report/images/image002_alan.png" width="50"></center></td>
+        <td><center><img src="report/images/image002_alan.png" width="50"><center></td>
+        <td><center><img src="report/images/image002_alan.png" width="50"><center></td>
+        <td><center><img src="report/images/image002_alan.png" width="50"><center></td>
+        <td><center><img src="report/images/image002_alan.png" width="50"><center></td>
+    </tr>
+    <tr>
+        <td colspan="1"><center>Alan</center></td>
+        <td colspan="1"><center>Efan</center></td>
+        <td colspan="1"><center>Joshua</center></td>
+        <td colspan="1"><center>Ella</center></td>
+        <td colspan="1"><center>Keane</center></td>
+    </tr>
+</table>
 
 
 # Project Idea
