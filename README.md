@@ -14,7 +14,7 @@ Lockdown Minds [Tentative]
 </p>
 
 
-# Meet the team
+# Team
 
 <table style="width:100%">
     <tr>
@@ -25,19 +25,16 @@ Lockdown Minds [Tentative]
         <td><center><img src="report/images/image002_alan.png" width="100"><center></td>
     </tr>
     <tr>
-        <td colspan="1"><center>Alan</center></td>
-        <td colspan="1"><center>Efan</center></td>
-        <td colspan="1"><center>Joshua</center></td>
-        <td colspan="1"><center>Ella</center></td>
-        <td colspan="1"><center>Keane</center></td>
+        <td colspan="1"><center>Alan (Team Role)</center></td>
+        <td colspan="1"><center>Efan (Team Role)</center></td>
+        <td colspan="1"><center>Joshua (Team Role)</center></td>
+        <td colspan="1"><center>Ella (Team Role)</center></td>
+        <td colspan="1"><center>Keane Fernandes (DevOps / Product Owner)</center></td>
     </tr>
 </table>
 
 
 # Project Idea
-
-
-
 
 ## 1. Sustainadress (*provisional name*) 
 
