@@ -22,7 +22,7 @@ Lockdown Minds [Tentative]
         <td><center><img src="report/images/image002_alan.png" width="100"><center></td>
         <td><center><img src="report/images/image002_alan.png" width="100"><center></td>
         <td><center><img src="report/images/image002_alan.png" width="100"><center></td>
-        <td><center><img src="report/images/image002_alan.png" width="100"><center></td>
+        <td><center><img src="report/images/image006_keane.jpeg" width="100"><center></td>
     </tr>
     <tr>
         <td colspan="1"><center>Alan (Team Role)</center></td>
