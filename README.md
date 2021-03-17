@@ -20,8 +20,8 @@ Lockdown Minds [Tentative]
     <tr>
         <td><center><img src="report/images/image002_alan.png" width="100"></center></td>
         <td><center><img src="report/images/image002_alan.png" width="100"><center></td>
-        <td><center><img src="report/images/image002_alan.png" width="100"><center></td>
         <td><center><img src="report/images/image004_josh.jpg" width="100"><center></td>
+        <td><center><img src="report/images/image002_alan.png" width="100"><center></td>
         <td><center><img src="report/images/image006_keane.jpeg" width="100"><center></td>
     </tr>
     <tr>
