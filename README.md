@@ -15,21 +15,14 @@ Lockdown Minds [Tentative]
 
 
 # Meet the team
-<p float="left">
-  <img src="report/images/image002_alan.png" width="90" />
-  <img src="report/images/image003_efan.png" width="90" /> 
-  <img src="report/images/image004_josh.png" width="90" />
-  <img src="report/images/image005_ella.png" width="90" />
-  <img src="report/images/image006_keane.png" width="90" />
-</p>
 
 <table style="width:100%">
     <tr>
-        <td><center><img src="report/images/image002_alan.png" width="50"></center></td>
-        <td><center><img src="report/images/image002_alan.png" width="50"><center></td>
-        <td><center><img src="report/images/image002_alan.png" width="50"><center></td>
-        <td><center><img src="report/images/image002_alan.png" width="50"><center></td>
-        <td><center><img src="report/images/image002_alan.png" width="50"><center></td>
+        <td><center><img src="report/images/image002_alan.png" width="100"></center></td>
+        <td><center><img src="report/images/image002_alan.png" width="100"><center></td>
+        <td><center><img src="report/images/image002_alan.png" width="100"><center></td>
+        <td><center><img src="report/images/image002_alan.png" width="100"><center></td>
+        <td><center><img src="report/images/image002_alan.png" width="100"><center></td>
     </tr>
     <tr>
         <td colspan="1"><center>Alan</center></td>
