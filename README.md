@@ -43,3 +43,12 @@ In the project we propose Sustainadress, a single page application where the use
 ## 2. Memory tests/Continuous tasks (*provisional name*) 
 
 In the project we propose (placeholder), a single page application where the user can choose between many simple brain training tasks. These games are then subjected to increasing levels of distracting stimuli, making it harder to successfully complete these. This is meant to represent the difficulty of staying focused during lockdown.
+
+## 3. User stories
+
+- As a user I want to click on new game to  be able to start and play a new game
+- As a user I want to click on information so that I can find out about the reasoning for the project
+- As a user I want to be able to see the landing page for the website
+- As a user I want to be able to see the history of my recent games
+- As a user I want to be able to measure the difference in scores between the distraction and non-distraction versions of the game
+- As a user I want to be able to compare my scores against past users of the game
