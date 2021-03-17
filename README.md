@@ -21,13 +21,13 @@ Lockdown Minds [Tentative]
         <td><center><img src="report/images/image002_alan.png" width="100"></center></td>
         <td><center><img src="report/images/image002_alan.png" width="100"><center></td>
         <td><center><img src="report/images/image002_alan.png" width="100"><center></td>
-        <td><center><img src="report/images/image002_alan.png" width="100"><center></td>
+        <td><center><img src="report/images/image004_josh.jpg" width="100"><center></td>
         <td><center><img src="report/images/image006_keane.jpeg" width="100"><center></td>
     </tr>
     <tr>
         <td colspan="1"><center>Alan (Team Role)</center></td>
         <td colspan="1"><center>Efan (Team Role)</center></td>
-        <td colspan="1"><center>Joshua (Team Role)</center></td>
+        <td colspan="1"><center>Joshua (Developer - Frontend)</center></td>
         <td colspan="1"><center>Ella (Team Role)</center></td>
         <td colspan="1"><center>Keane Fernandes (DevOps / Product Owner)</center></td>
     </tr>
