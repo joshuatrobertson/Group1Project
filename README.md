@@ -1,13 +1,10 @@
-<HTML>
-<h1>
+
+<h1 align="center">
 <center>
 <img src="report/images/image001_logo.png" alt="drawing" width="150"/>
 <br>
 [Name of our product]
 </h1>
-</HTML>
-
-___
 
 # Meet the team
 
