@@ -19,7 +19,6 @@ This table keeps changing with every meeting.
 | Create paper prototype     | Ella, Josh  | 14.03.21 |
 | Document prototyping       | Ella, Josh  | 14.03.21 |
 | First round of end user testing | Ella | 17.03.21 |
-| -------------------------- | ----------- | -------- |
 
 ___
 
