@@ -57,8 +57,7 @@ ___
 
 | Item                  | Notes                          |
 | --------------------- | ------------------------------ |
-| User surveys | - For our UX / UI, consider making the game happen inside a phone screen, where some of the disctractions
-involve incoming message notifications |
+| User surveys | - For our UX / UI, consider making the game happen inside a phone screen, where some of the disctractions involve incoming message notifications |
 
 ___
 
