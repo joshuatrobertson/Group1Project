@@ -19,9 +19,9 @@ Lockdown Minds [Tentative]
 <table style="width:100%">
     <tr>
         <td><center><img src="report/images/image002_alan.png" width="100"></center></td>
-        <td><center><img src="report/images/image002_alan.png" width="100"><center></td>
+        <td><center><img src="report/images/image003_efan.png" width="100"><center></td>
         <td><center><img src="report/images/image004_josh.jpg" width="100"><center></td>
-        <td><center><img src="report/images/image002_alan.png" width="100"><center></td>
+        <td><center><img src="report/images/image005_ella.jpg" width="100"><center></td>
         <td><center><img src="report/images/image006_keane.jpeg" width="100"><center></td>
     </tr>
     <tr>
