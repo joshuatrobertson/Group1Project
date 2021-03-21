@@ -19,17 +19,17 @@ Lockdown Minds [Tentative]
 <table style="width:100%">
     <tr>
         <td><center><img src="report/images/image002_alan.jpg" width="100"></center></td>
-        <td><center><img src="report/images/image003_efan.png" width="100"><center></td>
-        <td><center><img src="report/images/image004_josh.jpg" width="100"><center></td>
-        <td><center><img src="report/images/image005_ella.jpg" width="100"><center></td>
-        <td><center><img src="report/images/image006_keane.jpeg" width="100"><center></td>
+        <td><center><img src="report/images/image003_efan.png" width="100"></center></td>
+        <td><center><img src="report/images/image004_josh.jpg" width="100"></center></td>
+        <td><center><img src="report/images/image005_ella.jpg" width="100"></center></td>
+        <td><center><img src="report/images/image006_keane.jpeg" width="100"></center></td>
     </tr>
     <tr>
-        <td colspan="1"><center>Alan (Team Role)</center></td>
-        <td colspan="1"><center>Efan (Team Role)</center></td>
-        <td colspan="1"><center>Joshua (Developer - Frontend)</center></td>
-        <td colspan="1"><center>Ella (Team Role)</center></td>
-        <td colspan="1"><center>Keane Fernandes (DevOps / Product Owner)</center></td>
+        <td colspan="1"><center>Alan (Backend)</center></td>
+        <td colspan="1"><center>Efan (Backend)</center></td>
+        <td colspan="1"><center>Joshua (Frontend)</center></td>
+        <td colspan="1"><center>Ella (Frontend)</center></td>
+        <td colspan="1"><center>Keane (DevOps)</center></td>
     </tr>
 </table>
 
