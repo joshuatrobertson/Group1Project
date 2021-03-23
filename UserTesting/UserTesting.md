@@ -1,6 +1,6 @@
 # End User Testing
 
-## Round 1 of end user testing
+## Testing Round 1
 
 
 ### The Process
@@ -20,3 +20,6 @@
 
 As of Tuesday, 23/03/21 we have discussed the responses. We plan to rework the prototype based on the responses from our test participants, and then conduct a second round of end user testing. 
 
+__
+
+## Testing Round 2
