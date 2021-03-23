@@ -1,10 +1,5 @@
 
 
-### ***Main document used for standups is 'Meetings/README.md'*
-
-___
-
-
 <h1 align="center">
 <center>
 <img src="report/images/image001_logo.png" alt="drawing" width="150"/>
