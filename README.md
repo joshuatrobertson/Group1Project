@@ -1,6 +1,6 @@
 
 
-## *Main document used for standups is 'Meetings/README.md'*
+### ***Main document used for standups is 'Meetings/README.md'*
 
 ___
 
@@ -58,3 +58,36 @@ In the project we propose (placeholder), a single page application where the use
 - As a user I want to be able to see the history of my recent games
 - As a user I want to be able to measure the difference in scores between the distraction and non-distraction versions of the game
 - As a user I want to be able to compare my scores against past users of the game
+
+
+
+# Project Structure
+
+## Meetings
+
+- README.md documents all of our standups. 
+
+
+## UserTesting
+
+- 'UserTesting.md' documents the end user testing process and explains the structure of the UserTesting directory.
+- 'EndUserSurvey_(1).pdf' is the survey that was sent out to end user testing participants during the first round of end user testing.
+- 'SurveryWrittenResponses_1.xlsm' is a record of test participants' individual, written responses to the survey questions.
+- 'SurveryGraphicalResponses_1.docx' contains screenshots of graphically-represented responses to survey questions that did not collect a written answer.
+
+
+## paper_prototype 
+
+- 'old_idea/project 1.pptx' is the prototype we created for our initial idea (Sustainadress).
+- 'paper_prorotype.xd' is the prototype for our current idea (Focus on Lock).
+- 'prototype_document.docx' is documentation for the current prototype and the thought process behind it.
+
+
+## report/images
+
+Contains profile photos of each group member.
+
+
+## site
+
+Contains our site. 
