@@ -13,11 +13,10 @@
 ### The (Preliminary) Results
 
 - For written responses to the survey please see 'SurveryWrittenResponses_1.xlsm'.
-- For graphical responses to the survey, please see 'GraphicalDataForTesting_1'.
+- For graphical responses to the survey, please see 'SurveryGraphicalResponses_1.docx'.
 
 
-
-### Plans for further end user testing
+### Plans for further end user testing
 
 As of Tuesday, 23/03/21 we have discussed the responses. We plan to rework the prototype based on the responses from our test participants, and then conduct a second round of end user testing. 
 
