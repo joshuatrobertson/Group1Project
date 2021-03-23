@@ -24,7 +24,27 @@ ___
 
 ## 2. Meeting minutes (Recent first)
 
-The next stand up is on 22/03/21 at 12:00.
+The next stand up is on 24/03/21 at 12:00.
+
+
+### Week 8 (23/03/21, 13:15 - 13:30)  
+
+### Attendees
+- Joshua Robertson
+- Alan Cen
+- Efan Haynes
+- Ella Gryf-Lowczowska
+- Keane Fernandes
+
+### Agenda Items
+
+| Item                  | Notes                          |
+| --------------------- | ------------------------------ |
+| End user testing | Created GitHub folder for end user testing data |
+
+___
+
+
 
 ### Week 7 (21/03/21, 12:00 - 12:30)  
 
