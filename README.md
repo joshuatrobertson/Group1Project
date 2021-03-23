@@ -1,6 +1,6 @@
 
 
-## **Main document used for standups is 'Meetings/README.md'**
+## *Main document used for standups is 'Meetings/README.md'*
 
 ___
 
