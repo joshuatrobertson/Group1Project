@@ -1,4 +1,5 @@
 
+
 <h1 align="center">
 <center>
 <img src="report/images/image001_logo.png" alt="drawing" width="150"/>
@@ -18,18 +19,18 @@ Lockdown Minds [Tentative]
 
 <table style="width:100%">
     <tr>
-        <td><center><img src="report/images/image002_alan.png" width="100"></center></td>
-        <td><center><img src="report/images/image002_alan.png" width="100"><center></td>
-        <td><center><img src="report/images/image002_alan.png" width="100"><center></td>
-        <td><center><img src="report/images/image002_alan.png" width="100"><center></td>
-        <td><center><img src="report/images/image006_keane.jpeg" width="100"><center></td>
+        <td><center><img src="report/images/image002_alan.jpg" width="100"></center></td>
+        <td><center><img src="report/images/image003_efan.png" width="100"></center></td>
+        <td><center><img src="report/images/image004_josh.jpg" width="100"></center></td>
+        <td><center><img src="report/images/image005_ella.jpg" width="100"></center></td>
+        <td><center><img src="report/images/image006_keane.jpeg" width="100"></center></td>
     </tr>
     <tr>
-        <td colspan="1"><center>Alan (Team Role)</center></td>
-        <td colspan="1"><center>Efan (Team Role)</center></td>
-        <td colspan="1"><center>Joshua (Team Role)</center></td>
-        <td colspan="1"><center>Ella (Team Role)</center></td>
-        <td colspan="1"><center>Keane Fernandes (DevOps / Product Owner)</center></td>
+        <td colspan="1"><center>Alan (Backend)</center></td>
+        <td colspan="1"><center>Efan (Backend)</center></td>
+        <td colspan="1"><center>Joshua (Frontend)</center></td>
+        <td colspan="1"><center>Ella (Frontend)</center></td>
+        <td colspan="1"><center>Keane (DevOps)</center></td>
     </tr>
 </table>
 
@@ -52,3 +53,36 @@ In the project we propose (placeholder), a single page application where the use
 - As a user I want to be able to see the history of my recent games
 - As a user I want to be able to measure the difference in scores between the distraction and non-distraction versions of the game
 - As a user I want to be able to compare my scores against past users of the game
+
+
+
+# Project Structure
+
+## Meetings
+
+- README.md documents all of our standups. 
+
+
+## UserTesting
+
+- 'UserTesting.md' documents the end user testing process and explains the structure of the UserTesting directory.
+- 'EndUserSurvey_(1).pdf' is the survey that was sent out to end user testing participants during the first round of end user testing.
+- 'SurveryWrittenResponses_1.xlsm' is a record of test participants' individual, written responses to the survey questions.
+- 'SurveryGraphicalResponses_1.docx' contains screenshots of graphically-represented responses to survey questions that did not collect a written answer.
+
+
+## paper_prototype 
+
+- 'old_idea/project 1.pptx' is the prototype we created for our initial idea (Sustainadress).
+- 'paper_prorotype.xd' is the prototype for our current idea (Focus on Lock).
+- 'prototype_document.docx' is documentation for the current prototype and the thought process behind it.
+
+
+## report/images
+
+Contains profile photos of each group member.
+
+
+## site
+
+Contains our site. 

@@ -18,12 +18,88 @@ This table keeps changing with every meeting.
 | Integrate Github with Jira | Josh, Keane | 15.03.21 |
 | Create paper prototype     | Ella, Josh  | 14.03.21 |
 | Document prototyping       | Ella, Josh  | 14.03.21 |
+| First round of end user testing | Everyone | 17.03.21 |
 
 ___
 
 ## 2. Meeting minutes (Recent first)
 
-The next stand up is on 19/03/21 at 12:00.
+The next stand up is on 24/03/21 at 12:00.
+
+
+### Week 8 (23/03/21, 13:15 - 13:30)  
+
+### Attendees
+- Joshua Robertson
+- Alan Cen
+- Efan Haynes
+- Ella Gryf-Lowczowska
+- Keane Fernandes
+
+### Agenda Items
+
+| Item                  | Notes                          |
+| --------------------- | ------------------------------ |
+| End user testing | Created GitHub folder for end user testing data |
+
+___
+
+
+
+### Week 7 (21/03/21, 12:00 - 12:30)  
+
+### Attendees
+- Joshua Robertson
+- Alan Cen
+- Efan Haynes
+- Ella Gryf-Lowczowska
+- Keane Fernandes
+
+### Agenda Items
+
+| Item                  | Notes                          |
+| --------------------- | ------------------------------ |
+| Scoping | Decided that we will rescope and reevaluate at the end of every week during our sprints |
+
+___
+
+
+### Week 7 (19/03/21, 12:00 - 12:30)  
+
+### Attendees
+- Joshua Robertson
+- Alan Cen
+- Efan Haynes
+- Ella Gryf-Lowczowska
+- Keane Fernandes
+
+### Agenda Items
+
+| Item                  | Notes                          |
+| --------------------- | ------------------------------ |
+| User surveys | - For our UX / UI, consider making the game happen inside a phone screen, where some of the disctractions involve incoming message notifications |
+
+___
+
+
+### Week 7 (18/03/21, 10:20 - 10:40)  
+
+### Attendees
+- Joshua Robertson
+- Alan Cen
+- Efan Haynes
+- Ella Gryf-Lowczowska
+- Keane Fernandes
+
+### Agenda Items
+
+| Item                  | Notes                          |
+| --------------------- | ------------------------------ |
+| This is the scoping workshop session  | Refer to Week slides |
+| Primary Objectives | - Build a basic, fully tested game that works <br> - Strike a good balance between work and play
+| Secondary Objectives | - User authentication 
+___
+
 
 ### Week 7 (17/03/21, 12:00 - 12:30)  
 
