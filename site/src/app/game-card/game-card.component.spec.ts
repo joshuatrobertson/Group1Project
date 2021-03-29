@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { RadarChartComponent } from './radar-chart.component';
+import { GameCardComponent } from './game-card.component';
 
-describe('RadarChartComponent', () => {
-  let component: RadarChartComponent;
-  let fixture: ComponentFixture<RadarChartComponent>;
+describe('GameCardComponent', () => {
+  let component: GameCardComponent;
+  let fixture: ComponentFixture<GameCardComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ RadarChartComponent ]
+      declarations: [ GameCardComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(RadarChartComponent);
+    fixture = TestBed.createComponent(GameCardComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
