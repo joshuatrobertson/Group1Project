@@ -10,14 +10,26 @@ import { RestartGameComponent } from './restart-game/restart-game.component';
 })
 export class AppComponent implements OnInit {
 
+  // Images pulled from site. The number * 2 represents playing cards for the user
   cardImages = [
     'pDGNBK9A0sk',
     'fYDrhbVlV1E',
-    'qoXgaF27zBc',
-    'b9drVB7xIOI',
-    'TQ-q5WAVHj0'
+    // 'qoXgaF27zBc',
+    // 'b9drVB7xIOI',
+    // 'TQ-q5WAVHj0'
   ];
 
+  // Add a time component
+  time = 0;
+  interval;
+  display;
+  timerStart = false;
+  userSecondGame = false;
+
+  // Keep track of the users first and second round times
+  userFirstTime = 0;
+  userSecondTime = 0;
+  returnTime;
 
 
   cards: CardData[] = [];
@@ -33,6 +45,7 @@ export class AppComponent implements OnInit {
       .sort((a, b) => a[0] - b[0])
       .map(a => a[1]);
   }
+
 
 
   constructor(private dialog: MatDialog) {
@@ -77,9 +90,32 @@ export class AppComponent implements OnInit {
     }
   }
 
+  startTimer(): void {
+    console.log('=====>');
+    if (this.timerStart === false) {
+      this.interval = setInterval(() => {
+        if (this.time === 0) {
+          this.time++;
+        } else {
+          this.time++;
+        }
+        this.display = this.transform( this.time);
+      }, 1000);
+    }
+    this.timerStart = true;
+  }
   transform(value: number): string {
     const minutes: number = Math.floor(value / 60);
     return minutes + ':' + (value - minutes * 60);
+  }
+
+  pauseTimer(): void {
+    clearInterval(this.interval);
+  }
+
+  resetTimer(): void {
+    this.timerStart = false;
+    this.time = 0;
   }
 
   checkForCardMatch(): void {
@@ -95,10 +131,24 @@ export class AppComponent implements OnInit {
         this.matchedCount++;
 
         if (this.matchedCount === this.cardImages.length) {
+          // Stop timer and assign the times for each run
+          clearInterval(this.interval);
+          if (this.userSecondGame === false) {
+            this.userFirstTime = this.time;
+            this.userSecondGame = true;
+          }
+          else {
+            this.userSecondTime = this.time;
+            this.displayTimes();
+          }
+
+
+
           const dialogRef = this.dialog.open(RestartGameComponent, {
             disableClose: true
-        });
+          });
           dialogRef.afterClosed().subscribe(() => {
+            this.resetTimer();
             this.restart();
           });
         }
@@ -110,6 +160,10 @@ export class AppComponent implements OnInit {
   restart(): void {
     this.matchedCount = 0;
     this.setupCards();
+  }
+
+  displayTimes(): void {
+    this.returnTime = ('The first time was: ' + this.userFirstTime + '\nThe second time was: ' + this.userSecondTime);
   }
 
 }
