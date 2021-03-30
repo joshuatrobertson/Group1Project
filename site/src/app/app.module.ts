@@ -7,12 +7,14 @@ import {MatToolbarModule} from '@angular/material/toolbar';
 import {RestartGameComponent} from './restart-game/restart-game.component';
 import {MatDialogModule} from '@angular/material/dialog';
 import {GameCardComponent} from './game-card/game-card.component';
+import { EndGameComponent } from './end-game/end-game.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     RestartGameComponent,
-    GameCardComponent
+    GameCardComponent,
+    EndGameComponent
   ],
   imports: [
     BrowserModule,
