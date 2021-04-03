@@ -4,27 +4,61 @@
 
 This table keeps changing with every meeting. 
 
-| Item                       | Responsible | Due by    |
-| -------------------------- | ----------- | --------- |
-| Research game APIs         | Efan, Alan  | 18.03.21  |
-| Create skeleton for report | Keane       | 21.03.21  |
-| Draft data model           | Everyone    | tentative |
-
+| Item             | Responsible | Due by    |
+| ---------------- | ----------- | --------- |
+| Draft data model | Everyone    | tentative |
 
 ### Done
 
-| Item                       | Responsible | Done On  |
-| -------------------------- | ----------- | -------- |
-| Integrate Github with Jira | Josh, Keane | 15.03.21 |
-| Create paper prototype     | Ella, Josh  | 14.03.21 |
-| Document prototyping       | Ella, Josh  | 14.03.21 |
-| First round of end user testing | Everyone | 17.03.21 |
+| Item                            | Responsible | Done On  |
+| ------------------------------- | ----------- | -------- |
+| Research game APIs              | Efan, Alan  | 18.03.21 |
+| Create skeleton for report      | Keane       | 05.04.21 |
+| Integrate Github with Jira      | Josh, Keane | 15.03.21 |
+| Create paper prototype          | Ella, Josh  | 14.03.21 |
+| Document prototyping            | Ella, Josh  | 14.03.21 |
+| First round of end user testing | Everyone    | 17.03.21 |
 
 ___
 
 ## 2. Meeting minutes (Recent first)
 
-The next stand up is on 24/03/21 at 12:00.
+The next stand up is on 05/04/21 at 12:00.
+
+### Week 8 (31/03/21, 16:15 - 16:30)  - Feedback session with Allison / Marceli
+
+### Attendees
+- Joshua Robertson
+- Alan Cen
+- Efan Haynes
+- Ella Gryf-Lowczowska
+- Keane Fernandes
+
+### Agenda Items
+
+| Item         | Notes                                                                                                                                                                                                        |
+| ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Jira         | Consider using github issues instead? More transparent for the examiners to follow timeline of project. <br> If we do use Jira, need to upload screenshots, extra work, quick decision required next standup |
+| Github pages | Marceli suggested that we use Github pages (free) to host a live version of our website, discuss more on the next standup.                                                                                   |
+
+___
+
+### Week 8 (31/03/21, 12:00 - 12:30)  
+
+### Attendees
+- Joshua Robertson
+- Alan Cen
+- Efan Haynes
+- Ella Gryf-Lowczowska
+- Keane Fernandes
+
+### Agenda Items
+
+| Item                             | Notes                                                                                |
+| -------------------------------- | ------------------------------------------------------------------------------------ |
+| Card matching game as first game | Good tutorial to set one up, easy to implement                                       |
+| Baseline website                 | Baseline required where everyone can pull from, Josh to push card game to dev branch |
+___
 
 
 ### Week 8 (23/03/21, 13:15 - 13:30)  
@@ -38,12 +72,11 @@ The next stand up is on 24/03/21 at 12:00.
 
 ### Agenda Items
 
-| Item                  | Notes                          |
-| --------------------- | ------------------------------ |
+| Item             | Notes                                           |
+| ---------------- | ----------------------------------------------- |
 | End user testing | Created GitHub folder for end user testing data |
 
 ___
-
 
 
 ### Week 7 (21/03/21, 12:00 - 12:30)  
@@ -57,8 +90,8 @@ ___
 
 ### Agenda Items
 
-| Item                  | Notes                          |
-| --------------------- | ------------------------------ |
+| Item    | Notes                                                                                   |
+| ------- | --------------------------------------------------------------------------------------- |
 | Scoping | Decided that we will rescope and reevaluate at the end of every week during our sprints |
 
 ___
@@ -75,8 +108,8 @@ ___
 
 ### Agenda Items
 
-| Item                  | Notes                          |
-| --------------------- | ------------------------------ |
+| Item         | Notes                                                                                                                                            |
+| ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------ |
 | User surveys | - For our UX / UI, consider making the game happen inside a phone screen, where some of the disctractions involve incoming message notifications |
 
 ___
@@ -93,11 +126,11 @@ ___
 
 ### Agenda Items
 
-| Item                  | Notes                          |
-| --------------------- | ------------------------------ |
-| This is the scoping workshop session  | Refer to Week slides |
-| Primary Objectives | - Build a basic, fully tested game that works <br> - Strike a good balance between work and play
-| Secondary Objectives | - User authentication 
+| Item                                 | Notes                                                                                            |
+| ------------------------------------ | ------------------------------------------------------------------------------------------------ |
+| This is the scoping workshop session | Refer to Week slides                                                                             |
+| Primary Objectives                   | - Build a basic, fully tested game that works <br> - Strike a good balance between work and play |
+| Secondary Objectives                 | - User authentication                                                                            |
 ___
 
 
@@ -168,7 +201,7 @@ ___
 | --------------------------------------------------------------------------- | ----- |
 | Decided to create a simple math game for starters before pulling a game API |
 | Need to research on game APIs                                               |
-Mainly updates to task tracker
+| Mainly updates to task tracker                                              |
 
 ___
 
