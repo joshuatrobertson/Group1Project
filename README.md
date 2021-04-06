@@ -31,32 +31,23 @@ Lockdown Minds [Tentative]
 
 # Introduction
 ## Abstract
-___________________________________________________________________________________________________
 In this project, we propose **Lockdown Minds**, a single page application where the user can choose 
 between many simple brain training tasks. These games are then subjected to increasing levels of 
 distracting stimuli, making it harder to successfully complete these. This is meant to represent 
 the difficulty of staying focused during lockdown.
 
 ## Repository Structure
-___________________________________________________________________________________________________
 ## Project Objectives
-___________________________________________________________________________________________________
 ## Objectives
-___________________________________________________________________________________________________
 ## Video
-___________________________________________________________________________________________________
 
 # Background and Motivation
 ## Literature Review
-___________________________________________________________________________________________________
 ## Current Industry Review
-___________________________________________________________________________________________________
 ## Problem Definition
-___________________________________________________________________________________________________
 
 # System Implementation
 ## System Design Overview
-___________________________________________________________________________________________________
 ### Back End (MongoDB) 
 ### Middle Tier (Express, Node, RESTful API)
 ### Front End (Angular)
@@ -64,38 +55,25 @@ ________________________________________________________________________________
 
 # UX Design
 ## Prototyping
-___________________________________________________________________________________________________
 ## Users and Stakeholders
-___________________________________________________________________________________________________
 ## UX Approach (Heuristics & Design Methods)
-___________________________________________________________________________________________________
 ## User Group Definition
-___________________________________________________________________________________________________
 ## Wireframes/Interaction Flow Diagrams
-___________________________________________________________________________________________________
 
 # Project Management
 Team meetings were held three days a week from Week 1 to Week 7. This [log](meetings/README.md) 
 provides a top level summary of all of our standups.
 ## Agile Methodology
-___________________________________________________________________________________________________
 ## Team Contributions
-___________________________________________________________________________________________________
 ## Sprints
-___________________________________________________________________________________________________
 This is the link to the [sprints](https://github.com/joshuatrobertson/Group1Project/projects).
 ## CI/CD Pipeline
-___________________________________________________________________________________________________
 
 # Evaluation
 ## Design Evaluation
-___________________________________________________________________________________________________
 ## Unit Testing
-___________________________________________________________________________________________________
 ## Functional Testing
-___________________________________________________________________________________________________
 ## User Acceptance Testing
-___________________________________________________________________________________________________
 - 'UserTesting.md' documents the end user testing process and explains the structure of the UserTesting directory.
 - 'EndUserSurvey_(1).pdf' is the survey that was sent out to end user testing participants during the first round of end user testing.
 - 'SurveryWrittenResponses_1.xlsm' is a record of test participants' individual, written responses to the survey questions.
@@ -103,15 +81,12 @@ ________________________________________________________________________________
 
 # Conclusion
 ## Evaluation
-___________________________________________________________________________________________________
 ### Working practices
 ### Project Objectives
 ### Remote Working (COVID)
 
 ## Social / Ethical Implications
-___________________________________________________________________________________________________
 ## Future Work
-___________________________________________________________________________________________________
 
 # Project Idea
 
@@ -133,7 +108,6 @@ In the project we propose Sustainadress, a single page application where the use
 - 'old_idea/project 1.pptx' is the prototype we created for our initial idea (Sustainadress).
 - 'paper_prorotype.xd' is the prototype for our current idea (Focus on Lock).
 - 'prototype_document.docx' is documentation for the current prototype and the thought process behind it.
-
 
 ## report/images
 
