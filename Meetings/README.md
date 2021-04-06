@@ -7,8 +7,8 @@ This table keeps changing with every meeting.
 | Item             | Responsible | Due by    |
 | ---------------- | ----------- | --------- |
 | Draft data model | Everyone    | tentative |
-| Improve/finish prototype | Ella, Josh | |
-| Begin frontend | Ella, Josh | Monday 12th |
+| Improve/finish prototype | Ella, Josh | 12/04 |
+| Begin frontend | Ella, Josh | 12/04 |
 
 ### Done
 
