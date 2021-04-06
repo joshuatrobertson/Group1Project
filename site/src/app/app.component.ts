@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { MatDialog } from '@angular/material/dialog';
 import { CardData } from './card-data.model';
 import { RestartGameComponent } from './restart-game/restart-game.component';
+import {EndGameComponent} from './end-game/end-game.component';
 
 @Component({
   selector: 'app-root',
@@ -10,14 +11,26 @@ import { RestartGameComponent } from './restart-game/restart-game.component';
 })
 export class AppComponent implements OnInit {
 
+  // Images pulled from site. The number (* 2) represents playing cards for the user
   cardImages = [
     'pDGNBK9A0sk',
     'fYDrhbVlV1E',
-    'qoXgaF27zBc',
-    'b9drVB7xIOI',
-    'TQ-q5WAVHj0'
+    //'qoXgaF27zBc',
+    // 'b9drVB7xIOI',
+    // 'TQ-q5WAVHj0'
   ];
 
+  // Add a time component
+  time = 0;
+  interval;
+  display;
+  timerStart = false;
+  userSecondGame = false;
+
+  // Keep track of the users first and second round times
+  userFirstTime = 0;
+  userSecondTime = 0;
+  returnTime;
 
 
   cards: CardData[] = [];
@@ -35,12 +48,17 @@ export class AppComponent implements OnInit {
   }
 
 
+
   constructor(private dialog: MatDialog) {
 
   }
 
   ngOnInit(): void {
+  }
+
+  startGame(): void {
     this.setupCards();
+    this.startTimer();
   }
 
   setupCards(): void {
@@ -62,6 +80,7 @@ export class AppComponent implements OnInit {
   cardClicked(index: number): void {
     const cardInfo = this.cards[index];
 
+
     if (cardInfo.state === 'default' && this.flippedCards.length < 2) {
       cardInfo.state = 'flipped';
       this.flippedCards.push(cardInfo);
@@ -73,13 +92,35 @@ export class AppComponent implements OnInit {
     } else if (cardInfo.state === 'flipped') {
       cardInfo.state = 'default';
       this.flippedCards.pop();
-
     }
   }
 
+  startTimer(): void {
+    console.log('=====>');
+    if (this.timerStart === false) {
+      this.interval = setInterval(() => {
+        if (this.time === 0) {
+          this.time++;
+        } else {
+          this.time++;
+        }
+        this.display = this.transform( this.time);
+      }, 1000);
+    }
+    this.timerStart = true;
+  }
   transform(value: number): string {
     const minutes: number = Math.floor(value / 60);
     return minutes + ':' + (value - minutes * 60);
+  }
+
+  pauseTimer(): void {
+    clearInterval(this.interval);
+  }
+
+  resetTimer(): void {
+    this.timerStart = false;
+    this.time = 0;
   }
 
   checkForCardMatch(): void {
@@ -91,14 +132,34 @@ export class AppComponent implements OnInit {
 
       this.flippedCards = [];
 
+      let dialogRef;
       if (nextState === 'matched') {
         this.matchedCount++;
 
         if (this.matchedCount === this.cardImages.length) {
-          const dialogRef = this.dialog.open(RestartGameComponent, {
-            disableClose: true
-        });
+          dialogRef = this.dialog;
+
+          if (this.userSecondGame === true) {
+            dialogRef = this.dialog.open(EndGameComponent, {
+              disableClose: true
+            });
+          } else {
+            dialogRef = this.dialog.open(RestartGameComponent, {
+              disableClose: true
+            });
+          }
+          // Stop timer and assign the times for each run
+          clearInterval(this.interval);
+          if (this.userSecondGame === false) {
+            this.userFirstTime = this.time;
+            this.userSecondGame = true;
+          } else {
+            this.userSecondTime = this.time;
+            this.displayTimes();
+          }
+
           dialogRef.afterClosed().subscribe(() => {
+            this.resetTimer();
             this.restart();
           });
         }
@@ -110,6 +171,11 @@ export class AppComponent implements OnInit {
   restart(): void {
     this.matchedCount = 0;
     this.setupCards();
+    this.startTimer();
+  }
+
+  displayTimes(): void {
+    this.returnTime = ('The first time was: ' + this.userFirstTime + '\nThe second time was: ' + this.userSecondTime);
   }
 
 }
