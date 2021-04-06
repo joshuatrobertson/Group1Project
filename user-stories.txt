@@ -4,3 +4,19 @@ As a user I want to be able to see the landing page for the website
 As a user I want to be able to see the history of my recent games
 As a user I want to be able to measure the difference in scores between the distraction and non-distraction versions of the game
 As a user I want to be able to compare my scores against past users of the game
+
+
+
+Tuesday 06.04.21:
+
+BACKEND USER STORIES - 
+1)	I want to compare my score against my previous score.
+2)	I want to compare my score against other players.
+3)	I want to compare my score without distraction to my score with distraction.
+
+
+FRONTEND USER STORIES - 
+
+1)	I want to have a seamless user experience; I want to understand the flow of the game.
+2)	I want to experience proper, relevant distractions.
+3)	I want my scores displayed in a nice way – e.g. graph. 
