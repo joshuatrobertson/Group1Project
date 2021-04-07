@@ -32,6 +32,9 @@ export class AppComponent implements OnInit {
   userSecondTime = 0;
   returnTime;
 
+  // Used to hide button after use
+  clicked = false;
+
 
   cards: CardData[] = [];
 

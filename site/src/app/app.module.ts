@@ -8,13 +8,15 @@ import {RestartGameComponent} from './restart-game/restart-game.component';
 import {MatDialogModule} from '@angular/material/dialog';
 import {GameCardComponent} from './game-card/game-card.component';
 import { EndGameComponent } from './end-game/end-game.component';
+import { NewsItemComponent } from './news-item/news-item.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     RestartGameComponent,
     GameCardComponent,
-    EndGameComponent
+    EndGameComponent,
+    NewsItemComponent
   ],
   imports: [
     BrowserModule,
