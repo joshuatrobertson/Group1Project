@@ -61,7 +61,7 @@ the difficulty of staying focused during lockdown.
 ## Wireframes/Interaction Flow Diagrams
 
 # Project Management
-Team meetings were held three days a week from Week 1 to Week 7. This [log](meetings/README.md) 
+Team meetings were held three days a week from Week 1 to Week 7. This [log](Meetings/README.md) 
 provides a top level summary of all of our standups.
 ## Agile Methodology
 ## Team Contributions
@@ -71,6 +71,7 @@ This is the link to the [sprints](https://github.com/joshuatrobertson/Group1Proj
 
 # Evaluation
 ## Design Evaluation
+
 ## Unit Testing
 ## Functional Testing
 ## User Acceptance Testing
