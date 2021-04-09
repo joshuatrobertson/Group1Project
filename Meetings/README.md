@@ -20,12 +20,33 @@ This table keeps changing with every meeting.
 | Create paper prototype          | Ella, Josh  | 14.03.21 |
 | Document prototyping            | Ella, Josh  | 14.03.21 |
 | First round of end user testing | Everyone    | 17.03.21 |
+| Data Model: database schema | Alan        | 08.04.21  |
 
 ___
 
 ## 2. Meeting minutes (Recent first)
 
-The next stand up is on 09/04/21 at 10:00.
+The next stand up is on 12/04/21 at 10:00.
+
+
+### Week 9 (09/04/21, 10:00 - 10:30)
+
+### Attendees
+- Joshua Robertson
+- Alan Cen
+- Efan Haynes
+- Ella Gryf-Lowczowska
+- Keane Fernandes
+
+| Item         | Notes                                                                                                                                                                                                        |
+| ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Databasel | Alan has done the database schema and the code for the DB itself  |
+| API | Efan working on API to link database and frontend  |
+| Frontend  | Josh working on randomising news sources  |
+| Frontend | Ella to work on CSS & linking news sources to frontend/site   |
+| Report    | Ella to write up prototyping & end user testing process   |
+| Site  | Keane working on Dockerfile   |
+
 
 ### Week 9 (08/04/21, 10:00 - 10:30)
 
