@@ -1,6 +1,9 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
+import {ChartsModule} from 'ng2-charts';
+import {AppRoutingModule} from './app-routing.module';
+
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatToolbarModule} from '@angular/material/toolbar';
@@ -8,19 +11,23 @@ import {RestartGameComponent} from './restart-game/restart-game.component';
 import {MatDialogModule} from '@angular/material/dialog';
 import {GameCardComponent} from './game-card/game-card.component';
 import { EndGameComponent } from './end-game/end-game.component';
+import { BarChartComponent } from './bar-chart/bar-chart.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     RestartGameComponent,
     GameCardComponent,
-    EndGameComponent
+    EndGameComponent,
+    BarChartComponent
   ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
     MatToolbarModule,
-    MatDialogModule
+    MatDialogModule,
+    AppRoutingModule,
+    ChartsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
