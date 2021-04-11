@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { DataService } from '../data.service';
 
 @Component({
   selector: 'app-bar-chart',
@@ -6,8 +7,6 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./bar-chart.component.css']
 })
 export class BarChartComponent implements OnInit {
-
-  constructor() { }
 
   public barChartOptions = {
     scaleShowVerticalLines: false,
@@ -21,7 +20,31 @@ export class BarChartComponent implements OnInit {
     {data: [28, 48, 40, 19, 86, 27, 90], label: 'Series B'}
   ];
 
-  ngOnInit(): void {
+  stats: any = [];
+  currentdata = null;
+  currentIndex = -1;
+  title = '';
+
+  constructor(private dataService: DataService) { }
+
+  // ngOnInit(): void {
+  // }
+
+  ngOnInit() {
+    this.retrieveData();
+  }
+
+  retrieveData() {
+    this.dataService.getAll().subscribe(
+      data => {
+        this.stats = data;
+        // now let's update the fields
+        this.barChartLabels = this.stats.barChartLabels;
+        this.barChartData = this.stats.barChartData;
+      },
+      error => {
+        console.log(error);
+      });
   }
 
 }

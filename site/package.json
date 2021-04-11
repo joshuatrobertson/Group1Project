@@ -26,7 +26,7 @@
     "zone.js": "~0.11.3",
     "ejs": "^2.6.1",
     "mongoose": "^5.4.10",
-    "ng2-charts":  "~2.4.2",
+    "ng2-charts": "~2.4.2",
     "chart.js": "~2.9.3",
     "bootstrap": "^4.6.0"
   },
