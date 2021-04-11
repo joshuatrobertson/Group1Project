@@ -1,5 +1,5 @@
 {
-  "barChartLabels":["1006", "1007", "1008", "1009", "1010", "1011", "1012"],
-  "barChartData":[{"data": [65, 59, 80, 81, 56, 55, 40], "label": "Series A"}, {"data": [28, 48, 40, 19, 86, 27, 90], "label": "Series B"}]
+  "barChartLabels":["1006", "1007", "1008", "1009", "1010"],
+  "barChartData":[{"data": [65, 59, 80, 81, 56], "label": "Series A"}, {"data": [28, 48, 40, 19, 86], "label": "Series B"}]
 }
 

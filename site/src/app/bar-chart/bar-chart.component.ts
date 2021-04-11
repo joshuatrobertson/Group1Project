@@ -39,8 +39,9 @@ export class BarChartComponent implements OnInit {
       data => {
         this.stats = data;
         // now let's update the fields
-        this.barChartLabels = this.stats.barChartLabels;
-        this.barChartData = this.stats.barChartData;
+        this.barChartLabels = this.stats.timeofplay;
+        this.barChartData = [{data: this.stats.timewithoutdistraction, label: 'timewithoutdistraction'},
+          {data: this.stats.timewithdistraction, label: 'timewithdistraction'}];
       },
       error => {
         console.log(error);
