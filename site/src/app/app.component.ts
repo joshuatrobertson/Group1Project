@@ -2,14 +2,14 @@ import { Component, OnInit } from '@angular/core';
 import { MatDialog } from '@angular/material/dialog';
 import { CardData } from './card-data.model';
 import { RestartGameComponent } from './restart-game/restart-game.component';
-import {EndGameComponent} from './end-game/end-game.component';
+import { EndGameComponent } from './end-game/end-game.component';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent implements OnInit {
+export class AppComponent {
 
   // Images pulled from site. The number (* 2) represents playing cards for the user
   cardImages = [
@@ -40,12 +40,14 @@ export class AppComponent implements OnInit {
   // Used to hide button after use
   clicked = false;
 
-
   cards: CardData[] = [];
 
   flippedCards: CardData[] = [];
 
   matchedCount = 0;
+
+  // Begin animations
+  beginAnimations = false;
 
 
 
@@ -55,13 +57,7 @@ export class AppComponent implements OnInit {
       .map(a => a[1]);
   }
 
-
-
   constructor(private dialog: MatDialog) {
-
-  }
-
-  ngOnInit(): void {
   }
 
   startGame(): void {
@@ -109,6 +105,10 @@ export class AppComponent implements OnInit {
           this.time++;
         } else {
           this.time++;
+        }
+        // Get a random number between 3 and 7 (seconds) and display the news item if reached
+        if (this.time > this.getRandomNumber(3, 7) && this.userSecondGame === true) {
+          this.beginAnimations = true;
         }
         this.display = this.transform( this.time);
       }, 1000);
@@ -182,6 +182,10 @@ export class AppComponent implements OnInit {
 
   displayTimes(): void {
     this.returnTime = ('The first time was: ' + this.userFirstTime + '\nThe second time was: ' + this.userSecondTime);
+  }
+
+  getRandomNumber(min, max): any {
+    return Math.random() * (max - min) + min;
   }
 
 }

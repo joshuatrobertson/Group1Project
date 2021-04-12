@@ -2,13 +2,15 @@
 Lockdown Minds
 </mat-toolbar>
 <div class="main-screen">
+  <div class="news-item">
+    <app-news-api></app-news-api>
+  </div>
   <div class="card-screen">
     <p class="text-center" [hidden]="clicked">Click Start game to begin!</p>
     <button type="button" [hidden]="clicked" (click)="startGame(); clicked = true;" class="btn btn-primary">Start game</button>
     <p>{{returnTime}}</p>
     <div class="grid p-16">
-      <app-game-card *ngFor="let c of cards; let idx=index" [data]="c" (cardClicked)="cardClicked(idx)">
-      </app-game-card>
+      <app-game-card *ngFor="let c of cards; let idx=index" [data]="c" (cardClicked)="cardClicked(idx)"></app-game-card>
     </div>
   </div>
 </div>
