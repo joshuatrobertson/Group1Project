@@ -2,7 +2,7 @@
 Lockdown Minds
 </mat-toolbar>
 <div class="main-screen">
-  <div class="news-item">
+  <div class="news-item" [hidden]="!beginAnimations">
     <app-news-api></app-news-api>
   </div>
   <div class="card-screen">
