@@ -15,9 +15,10 @@ export class AppComponent implements OnInit {
   cardImages = [
     'pDGNBK9A0sk',
     'fYDrhbVlV1E',
-    //'qoXgaF27zBc',
-    // 'b9drVB7xIOI',
-    // 'TQ-q5WAVHj0'
+    'qoXgaF27zBc',
+    'b9drVB7xIOI',
+    'TQ-q5WAVHj0',
+    'wRU27yGfSLQ'
   ];
 
   // Add a time component
