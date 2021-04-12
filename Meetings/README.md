@@ -20,14 +20,86 @@ This table keeps changing with every meeting.
 | Create paper prototype          | Ella, Josh  | 14.03.21 |
 | Document prototyping            | Ella, Josh  | 14.03.21 |
 | First round of end user testing | Everyone    | 17.03.21 |
+| Data Model: database schema | Alan        | 08.04.21  |
 
 ___
 
 ## 2. Meeting minutes (Recent first)
 
-The next stand up is on 05/04/21 at 12:00.
+The next stand up is on 12/04/21 at 10:00.
 
-### Week 8 (31/03/21, 16:15 - 16:30)  - Feedback session with Allison / Marceli
+
+### Week 9 (09/04/21, 10:00 - 10:30)
+
+### Attendees
+- Joshua Robertson
+- Alan Cen
+- Efan Haynes
+- Ella Gryf-Lowczowska
+- Keane Fernandes
+
+| Item         | Notes                                                                                                                                                                                                        |
+| ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Databasel | Alan has done the database schema and the code for the DB itself  |
+| API | Efan working on API to link database and frontend  |
+| Frontend  | Josh working on randomising news sources  |
+| Frontend | Ella to work on CSS & linking news sources to frontend/site   |
+| Report    | Ella to write up prototyping & end user testing process   |
+| Site  | Keane working on Dockerfile   |
+
+
+### Week 9 (08/04/21, 10:00 - 10:30)
+
+### Attendees
+- Joshua Robertson
+- Alan Cen
+- Efan Haynes
+- Ella Gryf-Lowczowska
+- Keane Fernandes
+
+### Agenda Items
+
+| Item         | Notes                                                                                                                                                                                                        |
+| ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Data Model | Database schema model done  |
+| Frontend | - News sources now being pulled <br> - Decision needed on whether to move across screen or flash, depending on complexity of implementation  |
+___
+
+### Week 9 (06/04/21, 10:00 - 10:30)
+
+### Attendees
+- Joshua Robertson
+- Alan Cen
+- Efan Haynes
+- Ella Gryf-Lowczowska
+- Keane Fernandes
+
+### Agenda Items
+
+| Item         | Notes                                                                                                                                                                                                        |
+| ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Data Model | Alan to draft database schema  |
+| API | Efan to figure out API to link database and frontend  |
+| Frontend | Josh to check out oulling randomised news sources  |
+___
+
+### Week 9 (05/04/21, 10:00 - 10:30)
+
+### Attendees
+- Joshua Robertson
+- Alan Cen
+- Efan Haynes
+- Ella Gryf-Lowczowska
+- Keane Fernandes
+
+### Agenda Items
+
+| Item         | Notes                                                                                                                                                                                                        |
+| ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Jira         | Decided to use GitHub pages instead, Jira introduces unnecessary overhead  |
+___
+
+### Week 9 (31/03/21, 16:15 - 16:30)  - Feedback session with Allison / Marceli
 
 ### Attendees
 - Joshua Robertson
@@ -45,7 +117,7 @@ The next stand up is on 05/04/21 at 12:00.
 
 ___
 
-### Week 8 (31/03/21, 12:00 - 12:30)  
+### Week 8 (29/03/21, 12:00 - 12:30)  
 
 ### Attendees
 - Joshua Robertson
