@@ -74,9 +74,7 @@ export class AppComponent implements OnInit {
 
       this.cards.push({ ...cardData });
       this.cards.push({ ...cardData });
-
     });
-
     this.cards = this.shuffleArray(this.cards);
   }
 
