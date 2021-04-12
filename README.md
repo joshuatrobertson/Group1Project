@@ -2,7 +2,7 @@
 <center>
 <img src="report/images/image001_logo.png" alt="drawing" width="150"/>
 <br>
-Lockdown Minds [Tentative]
+DistractAbility
 </h1>
 
 <h4 align="center">A distraction-infested memory game to highlight the negative implications of coronavirus restrictions on people's attentional abilities.</h4>
@@ -31,10 +31,7 @@ Lockdown Minds [Tentative]
 
 # Introduction
 ## Abstract
-In this project, we propose **Lockdown Minds**, a single page application where the user can choose 
-between many simple brain training tasks. These games are then subjected to increasing levels of 
-distracting stimuli, making it harder to successfully complete these. This is meant to represent 
-the difficulty of staying focused during lockdown.
+In this project, we propose **DistractAbility**, a single page application where the user plays two rounds of a simple brain training task, each within a time limit of two minutes. The first round is played without distraction while the second round is permeated with increasing levels of distracting stimuli, making it harder to successfully complete the task. This is meant to represent the difficulty of staying focused during lockdown.
 
 ## Repository Structure
 ## Project Objectives
