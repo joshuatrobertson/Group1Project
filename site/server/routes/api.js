@@ -3,7 +3,7 @@ const router = express.Router();
 const Player = require('../../models/player');
 const data = require('./data.json')
 const playercommands = require('./player');
-const playcommands = require('.play');
+const playcommands = require('./play');
 
 router.use('/player', playercommands);
 router.use('/play', playcommands);
