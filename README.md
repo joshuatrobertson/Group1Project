@@ -60,7 +60,8 @@ In this project we propose **DistractAbility**, a single page application design
   From the literature, it is clear that many people feel more distracted and believe their attentional abilities have diminished since the onset of the pandemic. But since it is always possible for individuals to develop a negative view of themselves and their abilities which does not reflect reality, we also quantify the actual impact of the pandemic on people’s attention. The proper, reliable way of assessing the actual impact would be to have conducted mass psychometric testing before and after the onset of the pandemic. We were not able to find any examples in the literature of such a study being conducted, so we have chosen productivity as our metric for assessing the actual impact of people’s perceived attentional difficulties. We found sufficient evidence to conclude that, for many, perceived attentional difficulties have translated into reduced productivity. This finding informed the design of our application in two major ways. First, the user’s scores for each of the two rounds are presented to the user side-by-side at the end of the second round only, in order to highlight the contrast between their score without distraction and their score with distraction – the latter of which can be expected to be lower if the distractions affected their ability to complete the game. Secondly, the evidence that this finding holds for a large number of people led us to build statistics into our application; now the user is able to compare their scores to the average scores of other users.
 
 
-*People believe they are more easily distracted*
+
+**People believe they are more easily distracted**
 
   From February to March of 2020 there was a three-hundred per cent increase in people searching “how to get your brain to focus”, a one-hundred per cent increase in “how to focus better”, and a sixty per cent rise in “how to increase focus” (Manavis, 2020). In response to a recent survey by S&P Global Market Intelligence, fifty-five per cent of respondents reported feeling both less productive and less engaged when WFH (Lawson, 2020). Penn Medicine, The Irish Times, and professional psychiatrists such as Jessi Gold, M.D., M.S. have all noted the phenomenon of “pandemic brain fog” (Messinger, 2020; Keogh, 2020; Gold et al, 2020). Meanwhile columns and opinion pieces in The New York Times abound with examples of people feeling uncharacteristically “scatterbrained,” citing the stressors of the pandemic and working from home as the cause of their disrupted attention, memory, breathing and sleeping (Purtill, 2020). 
 
@@ -71,7 +72,8 @@ In this project we propose **DistractAbility**, a single page application design
   There are additional reasons not to assume that the data represents swathes of the global population not beset by increased difficulties in concentrating. Note that the study was conducted between April and May of 2020. As will be expanded upon in the following section, Forbes found that the first few months of the pandemic saw the phenomenon of “panic productivity” which Forbes and analysts at S&P Global Market Intelligence all found “evaporating” as the pandemic wore on (Brower, 2021; Lawson, 2020). It is thus reasonable to speculate that the study participants’ perceived stress and feelings of communication overload may have increased alongside the global trend since the conclusion of the dairy study. Clearly, there is ample evidence demonstrating the extent to which many individuals believe their attentional abilities have diminished since the onset of the pandemic. But how far have these perceived difficulties actually impacted people?
 
 
-*Impact of attentional difficulties on productivity*
+
+**Impact of attentional difficulties on productivity**
 
   One might assume that people working or studying from home would be more productive, without factors such as a tiring commute or the need to move between different locations for meetings, lectures and the like during the working day. Indeed, much of the literature claims the world of work has been “revolutionised”  by the pandemic in light of skyrocketing productivity since employees began WFH (Waters, 2020). On the other hand, the Bank of England’s chief economist, Andy Haldane, says there is no evidence that WFH has boosted productivity in the United Kingdom nor that it will do in the long run (Elliot, 2020). The literature is truly divided and it is astonishing how apparently contradictory the statistics are. Thankfully, a recent Forbes analysis of productivity reports since the onset of the pandemic brings clarity: overall and by this point in the pandemic productivity is negatively impacted by WFH in the context of COVID-19. We will now briefly review the literature in support of increased productivity, then we will use Forbes’ report to explain why such reports are generally misleading and provide evidence for decreased productivity. 
 
@@ -80,7 +82,8 @@ In this project we propose **DistractAbility**, a single page application design
   A survey of 996 employers based in Great Britain and Western Europe, conducted by Willis Towers Watson in April 2020, found no significant change in employee productivity since the onset of the pandemic (Franklin, 2020). Similarly though to the Deloitte report, this survey was conducted in April 2020. As we shall now go on to explain, Forbes finds that these early reports of increased or stable productivity explained the initial spike in productivity that was short-lived as the pandemic wore on.
 
 
-*Productivity is Down*
+
+**Productivity is Down**
 
   In January 2021, Forbes published their analysis of productivity reports since the onset of the pandemic (Brower, 2021). It was found that many of the reports of increased productivity were early in the pandemic and can be seen as evidence of initial “panic productivity” that quickly faded as the duration of the pandemic grew. Analysts at S&P Global Market Intelligence concur that by September 2020,  early productivity gains were already “evaporating” (Lawson, 2020). 
 
@@ -95,14 +98,16 @@ In this project we propose **DistractAbility**, a single page application design
   Admittedly, correlation is not necessarily causation. People may feel that their attention has been negatively impacted by the pandemic while their reduced productivity is due to other factors, for instance, insufficient technical infrastructure to WFH to the same standard as when they worked out of the house. Still, the trend is sufficiently pronounced for us to conclude that, at least for many, perceived attentional difficulties brought on by the Coronavirus pandemic does have real, negative implications on their productivity. In fact, research by Russo et al, which examined the predictors of wellbeing and productivity due to governmental coronavirus restrictions on workplaces, then found that boredom and distractions were related to lower productivity (Russo et al, 2021). This study was comprehensive; it was a longitudinal study, meaning the authors collected initial data and then returned at a later date to obtain comparison data. A complimentary study by Ralph et al, which surveyed over 2,000 software developers from across the world, found not only that the pandemic has had a negative effect on both wellbeing and productivity, but importantly, that the two areas of productivity and wellbeing were closely related (Ralph et al, 2020). Ralph et al also found that that women were expected to devote more time to housework and childcare than men during lockdown. This finding is supported by Feng & Savani’s study of gender differences on perceived productivity and job satisfaction for couples where both parents worked and had been forced to remote-work since the start of the pandemic; the authors found no significant differences in perceptions prior to lockdown, but after lockdown women reported lower levels of perceived productivity and job satisfaction (Feng & Savani, 2020). A report by Tap’d Solutions similarly found that fear of the pandemic and home ergonomics were correlated to lower wellbeing and productivity and that the demographic groups of women, parents and disabled workers may be disproportionately affected by recent work changes (Tap’d, 2020).
 
 
-*Relevance to our Application*
+
+**Relevance to our Application**
 
   The evidence in the literature that many individuals feel less able to focus in the context of the Coronavirus pandemic, and that this has had real, negative impacts on people’s productivity, is undoubtedly a serious problem with globally significant implications for the worldwide economy and citizen wellbeing. 
 
 
+
 ### Literature Review Bibliography 
 
-*Primary Sources*
+**Primary Sources**
 
 N. Biddle and M. Gray, "Tracking outcomes during the COVID-19 pandemic (October 2020) – Reconvergence", ANU Centre for Social Research and Methods, pp. 1-15, 2020. Available: https://csrm.cass.anu.edu.au/sites/default/files/docs/2020/11/Tracking_wellbeing_outcomes_during_the_COVID-19_pandemic_October_2020_PDF.pdf. [Accessed 14 April 2021].
 
@@ -151,7 +156,8 @@ D. Russo, P. Hanel, S. Altnickel and N. van Berkel, "Predictors of Well-being an
 R. Waters, "The work-from-home revolution is only just beginning," The Financial Times, 2020. Available: https://www.ft.com/content/829208c1-2f2c-488f-9b92-95fe234c32af [Accessed:  13- Apr- 2021].
 
 
-*Secondary Sources*
+
+**Secondary Sources**
 
 T. A.,  Ghebreyesus. WHO Director‐General's opening remarks at the media briefing on COVID‐19. Geneva, Switzerland: World Health Organization, 2020. Available: https://www.who.int/dg/speeches/detail/who-director-general-s-opening-remarks-at-the-media-briefing-on-covid-19-11-march-2020 [Accessed: 12-Apr-2021].
 
@@ -162,7 +168,12 @@ WHO, "Severe Acute Respiratory Syndrome (SARS)", Who.int, 2020. [Online]. Availa
 
 
 
+
+
 ## Current Industry Review
+
+
+
 ## Problem Definition
 
 
