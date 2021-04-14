@@ -13,15 +13,15 @@ export class AppComponent {
 
   // Images pulled from site. The number (* 2) represents playing cards for the user
   cardImages = [
-    'pDGNBK9A0sk',
-    'fYDrhbVlV1E',
-    'qoXgaF27zBc',
-    'b9drVB7xIOI',
-    'TQ-q5WAVHj0',
-    'wRU27yGfSLQ',
-    'vNYia2IeqYs',
-    'ts1zXzsD7xc',
-    'Mi2urK1OKR0',
+    //'pDGNBK9A0sk',
+   // 'fYDrhbVlV1E',
+  //  'qoXgaF27zBc',
+    //'b9drVB7xIOI',
+   // 'TQ-q5WAVHj0',
+   // 'wRU27yGfSLQ',
+    //'vNYia2IeqYs',
+    //'ts1zXzsD7xc',
+    //'Mi2urK1OKR0',
     'bXfQLglc81U'
   ];
 
@@ -48,6 +48,7 @@ export class AppComponent {
 
   // Begin animations
   beginAnimations = false;
+  beginAnimations2 = false;
 
 
 
@@ -107,8 +108,11 @@ export class AppComponent {
           this.time++;
         }
         // Get a random number between 3 and 7 (seconds) and display the news item if reached
-        if (this.time > this.getRandomNumber(3, 7) && this.userSecondGame === true) {
+        if (this.time > this.getRandomNumber(1, 3) && this.userSecondGame === true) {
           this.beginAnimations = true;
+        }
+        if (this.time > this.getRandomNumber(4,6) && this.userSecondGame === true) {
+          this.beginAnimations2 = true;
         }
         this.display = this.transform( this.time);
       }, 1000);

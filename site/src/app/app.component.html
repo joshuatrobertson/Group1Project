@@ -5,6 +5,9 @@ Lockdown Minds
   <div class="news-item" [hidden]="!beginAnimations">
     <app-news-api></app-news-api>
   </div>
+  <div class="news-item" [hidden]="!beginAnimations2">
+    <app-news-api></app-news-api>
+  </div>
   <div class="card-screen">
     <p class="text-center" [hidden]="clicked">Click Start game to begin!</p>
     <button type="button" [hidden]="clicked" (click)="startGame(); clicked = true;" class="btn btn-primary">Start game</button>

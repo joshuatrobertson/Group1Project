@@ -3,16 +3,19 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { HttpClientModule } from '@angular/common/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MatToolbarModule } from '@angular/material/toolbar';
 import { RestartGameComponent } from './restart-game/restart-game.component';
-import { MatDialogModule } from '@angular/material/dialog';
 import { GameCardComponent } from './game-card/game-card.component';
 import { EndGameComponent } from './end-game/end-game.component';
 import { NewsApiComponent } from './news-api/news-api.component';
 import { NewsApiService } from './news-api.service';
+import { RouterModule } from '@angular/router';
+import { MatButtonModule } from '@angular/material/button';
+import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatCardModule } from '@angular/material/card';
 import { MatIconModule } from '@angular/material/icon';
-import { RouterModule } from '@angular/router';
+import { MatDialogModule } from '@angular/material/dialog';
+import { FormsModule } from '@angular/forms';
+
 
 @NgModule({
   declarations: [
@@ -25,8 +28,10 @@ import { RouterModule } from '@angular/router';
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
+    FormsModule,
     HttpClientModule,
     MatToolbarModule,
+    MatButtonModule,
     MatDialogModule,
     MatCardModule,
     MatIconModule,

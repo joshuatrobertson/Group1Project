@@ -4,7 +4,7 @@ import { NewsApiService } from '../news-api.service';
 @Component({
   selector: 'app-news-api',
   templateUrl: './news-api.component.html',
-  styleUrls: []
+  styleUrls: ['./news-api.component.scss']
 })
 export class NewsApiComponent {
 
@@ -29,6 +29,5 @@ export class NewsApiComponent {
   randomNumber(maxNumber): number {
     return Math.floor(Math.random() * maxNumber);
   }
-
 
 }
