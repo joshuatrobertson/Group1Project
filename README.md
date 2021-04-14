@@ -83,7 +83,7 @@ In this project we propose **DistractAbility**, a single page application design
 
 
 
-**Productivity is Down**
+**Productivity is down**
 
   In January 2021, Forbes published their analysis of productivity reports since the onset of the pandemic (Brower, 2021). It was found that many of the reports of increased productivity were early in the pandemic and can be seen as evidence of initial “panic productivity” that quickly faded as the duration of the pandemic grew. Analysts at S&P Global Market Intelligence concur that by September 2020,  early productivity gains were already “evaporating” (Lawson, 2020). 
 
@@ -99,7 +99,7 @@ In this project we propose **DistractAbility**, a single page application design
 
 
 
-**Relevance to our Application**
+**Relevance to our application**
 
   The evidence in the literature that many individuals feel less able to focus in the context of the Coronavirus pandemic, and that this has had real, negative impacts on people’s productivity, is undoubtedly a serious problem with globally significant implications for the worldwide economy and citizen wellbeing. 
 
