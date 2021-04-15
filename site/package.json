@@ -22,11 +22,14 @@
     "@angular/platform-browser-dynamic": "~11.2.7",
     "@angular/router": "~11.2.7",
     "angular-cli-ghpages": "^1.0.0-rc.1",
+    "bootstrap": "^4.6.0",
+    "chart.js": "^2.9.3",
+    "ejs": "^2.6.1",
+    "mongoose": "^5.4.10",
+    "ng2-charts": "^2.3.0",
     "rxjs": "~6.6.0",
     "tslib": "^2.0.0",
-    "zone.js": "~0.11.3",
-    "ejs": "^2.6.1",
-    "mongoose": "^5.4.10"
+    "zone.js": "~0.11.3"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^0.1102.6",

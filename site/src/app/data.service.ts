@@ -10,10 +10,16 @@ import { map, filter, switchMap } from 'rxjs/operators';
 export class DataService {
 
   private REST_API_SERVER = "http://localhost:3000/api";
+  private EFAN_ID = "http://localhost:3000/api/play/607344a09c88d4001c80ce45";
 
   constructor(private httpClient: HttpClient) { }
 
   public getAll(){
     return this.httpClient.get(this.REST_API_SERVER)
   }
+
+  public getPlays(){
+    return this.httpClient.get(this.EFAN_ID)
+  }
+
 }
