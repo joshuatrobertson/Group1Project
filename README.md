@@ -101,7 +101,11 @@ In this project we propose **DistractAbility**, a single page application design
 
 **Relevance to our application**
 
-&nbsp;&nbsp; The evidence in the literature that many individuals feel less able to focus in the context of the Coronavirus pandemic, and that this has had real, negative impacts on people’s productivity, is undoubtedly a serious problem with globally significant implications for the worldwide economy and citizen wellbeing. 
+&nbsp;&nbsp; The evidence in the literature that many individuals feel less able to focus in the context of the Coronavirus pandemic, and that this has negatively impacted people’s productivity, is undoubtedly a serious problem with globally significant implications for the worldwide economy and citizen wellbeing. As mentioned, this has informed the design of our application in two major ways. 
+
+&nbsp;&nbsp; First, the structure of our application. We believe that the implications of greater distractibility for stress levels and general wellbeing will be reflected in the user’s experience of playing the game with built-in distractions. But to highlight the actual impact of distraction on productivity, above and beyond the unpleasant feelings associated with attentional difficulties, we have designed the game such that the user plays two rounds of a brain training task, the first without any distractions and the second with engineered distractions. The user’s scores for the two rounds are presented to them only at the end of the second round, and are presented side-by-side, to highlight the actual impact of greater distractibility on productivity. Given the evidence in the literature that greater distractibility in the context of COVID-19 has had real, negative consequences for people’s productivity, if our application is well-designed the average user’s score for the second round can be expected to be lower than their score for the first round. 
+
+&nbsp;&nbsp;  Second, the evidence in the literature that this problem is widespread lead us to build statistics into our application. The user is able to compare their scores for each round against the average score for each round of all other users of our application. Hopefully this will impress upon the user how consequential distractions really are for work or study. 
 
 
 
