@@ -143,7 +143,7 @@ In this project we propose **DistractAbility**, a single page application design
 
 *Social media and streaming services*
 
-<td><center><img src="report/images/image007_screentime.png" width="500"></center></td>
+<td><center><img src="report/images/image007_screentime.png" width="400"></center></td>
 
 *The bar chart displays the average daily use (in house) of computer games (red) and social media (blue) by children and adolescents in September 2019 (before lockdown; lighter colours) and April 2020 (during lockdown; darker colours) on school days (left) and days with no school (weekends, holidays, lockdown; right). Source: Spitzer, 2021.*
 
