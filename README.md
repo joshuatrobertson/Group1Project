@@ -108,10 +108,44 @@ In this project we propose **DistractAbility**, a single page application design
 &nbsp;&nbsp;  Second, the evidence in the literature that this problem is widespread lead us to build statistics into our application. The user is able to compare their scores for each round against the average score for each round of all other users of our application. Hopefully this will impress upon the user how consequential distractions really are for work or study. 
 
 
+### Why are people finding it harder to focus? ### 
+
+&nbsp;&nbsp; It is clear from the literature reviewed above that people have generally found it harder to direct and/or sustain attention in the context of the Coronavirus pandemic and resultant restrictions. Here we examine the possible causes of these heightened attentional difficulties, with the aim of making the distractions present in the second round of our application as relevant as possible. 
+
+&nbsp;&nbsp; There are two main themes in the literature that seeks to explain why people have found it harder to focus since the onset of the pandemic. We have categorised these themes as change and continuity; ‘change’ being the novel forces affecting people’s attention that exist as a direct result of the pandemic, and ‘continuity’ being continuity’ factors which the pandemic may have worsened, but that nonetheless existed prior to and independently of COVID-19.
+
+
+### Background ###
+
+**Attention is a limited cognitive resource** 
+
+&nbsp;&nbsp; Cognitive psychologist and Nobel Prize winner Daniel Kahneman  was among the first to propose that attention is a limited cognitive resource and that some cognitive processes require more attention than others (Kahneman, 1973). This is particularly the case for activities involving the conscious control of cognitive processes, such as reading or writing academic papers, which involve attention and mental energy – what Kahneman calls “System 2” thinking. The idea that attention is a finite capacity is also at the centre of theories proposing that conscious and controlled cognitive processes are carried out in working memory, which is thought to only be capable of processing a limited about of new information (Baddeley, 2012). In working memory, attention is thought to like the adjudicator of cognitive resource allocation and action execution. 
+
+**Emotion and attention**
+
+&nbsp;&nbsp; Professor Beatrice Pudelko of TÉLUQ University uses neuroscience to explain why the pandemic has exerted such pressure on our attentional capacities. Pudelko  explains that the amygdala is a region in the brain that is rapidly activated in the face of threatening stimuli (Pudelko, 2020). In humans, the amygdala activates quickly and automatically in response to social stimuli loaded with negative emotions, causing emotionally-charged changes to our perceptions that we are highly sensitive to and unable to ignore (Compton, 2003). Evidence implies that the networks connecting the amygdala and the prefrontal cortex, where working memory happens, play an important role in discriminating between relevant and irrelevant information for the activity at hand (Pessoa & Adolphs, 2010). For instance, emotional stimuli were found to interfere with tasks involving working memory, and the greater the cognitive load associated with the task, the greater the impact on working memory of the same emotional stimuli (Lavie, 2005). Research on anxiety by Michael Eysenck et al similarly demonstrated that when people are anxious, they prefer to focus their attention on stimuli associated with the threat and unrelated to the task at hand, regardless of whether the stimuli are internal or external (Eysenck et al, 2007). There has also been research showing that feelings of mental fatigue increase when the subject is performing a task while trying not to respond to outside demands. Some have even suggested that mental fatigue is a particular emotion that both tells us our mental resources are being depleted, and in turn acts as a negative emotional stimuli affecting concentration in itself (Kurzban et al, 2013). Evidently, negative emotional stimuli, especially anxiety-producing stimuli, wreak havoc with our attention and ability to complete tasks that require the use of working memory.
+
+
+### Change ###
+
+&nbsp;&nbsp; In light of the research demonstrating the impact of negative emotional stimuli on cognition, it is hardly surprising that in the context of 24-hour news coverage of the dangers of the pandemic, the ever-rising death toll and job and economic insecurity, employees and students alike are struggling to direct and sustain attention on their work. Indeed, Penn Medicine reported that stress from the pandemic can cause one’s emotions to become overblown and in turn reduce the effectiveness with which the parts of the brain in charge of executive functioning communicate with the parts of the brain that regulate emotion (Messinger, 2020), making it harder to concentrate. 
+
+&nbsp;&nbsp; Similarly, the Irish Times similarly found that brain “fog” is a big part of the pandemic experience for many and attributes this to the finding that, since the start of the pandemic, 39 per cent of Irish workers are struggling with everyday life, over 90 per cent are experiencing a rise in anxiety levels, 30 per cent are suffering from loneliness and isolation, and one in 10 have sought help for mental wellbeing issues (Keogh, 2020). To explain the link between the negative emotional stimuli provided by COVID-19 and attention, the Irish Times interviewed Dr Christian Jarrett, psychologist and deputy editor of Psyche magazine. Dr Jarrett concurs with the literature reviewed in the ‘Background’ section of this report that attention is a finite resource: “When we’re working on a problem, especially an unfamiliar one, we depend on our working memory, which is very limited.” The extreme novelty of Coronavirus and the resultant restrictions means we can draw less on our stored experience and instead must draw on our limited capacity for working memory. Essentially the intrinsic cognitive load of much of what we do has increased. Moreover, concurring with the literature on the implications of negative emotional stimuli on information processing, Dr Jarrett says, “What’s happening now is that disruptions to life caused by the pandemic are forcing you to draw on your limited working memory capacity more often, at a time when – if you’re more stressed and your anxiety levels are raised or you’re juggling multiple tasks and commitments – you have diminished working memory capacity. It’s the worst of both worlds and another reason why you’re feeling mentally drained.”
+
+&nbsp;&nbsp; Dr Amy Arnsten, a Professor of Neuroscience and a Professor of Psychology at Yale University, also concurs with the theory that negative emotional stimuli disrupt attention (Arnsten, 2020). Arnsten explains that, in the face of immediate danger, the prefrontal cortex – integral to working memory and the ability to focus – essentially shuts down to make way for the more primitive parts of the brain that can respond quickly. The pandemic presents us with danger that is ongoing but not acute, meaning we cannot deal with the immediate danger and move on. Instead, we are cutting off the part of our brain that helps us think beyond the primitive for extended periods of time – and this affects our concentration. In fact, Arnsten says that even ambiently knowing that the situation is not improving can lead to an inability to focus as well as an overall lack of motivation. Arnsten explains that an often forgotten part of our flight or fight response to danger is to “freeze”, which can feel a lot like mental paralysis. According to Arnsten, “losing the ability to have really motivated, guided behaviour can be linked to all these primitive reflexes.” 
+
+&nbsp;&nbsp; In sum, one major drain on attentional capacities – one that we categorise as ‘change’ – is the torrent of negative emotional stimuli associated with the Coronavirus pandemic. To reflect this in our application, we use an API to pull in current news articles with which we populate the screen while the user is attempting to complete the task.
+
+
+### Continuity ###
+
+
 
 ### Literature Review Bibliography 
 
 **Primary Sources**
+
+&nbsp; D. Arnsten, Ph.D., The Brain's Response to Stress - How Our Brains May Be Altered During the COVID-19 Pandemic. Yale School Of Medicine, 2020. Available: https://www.youtube.com/watch?v=TsQUeNuvIDY. [Accessed 15 April 2021].
 
 &nbsp; N. Biddle and M. Gray, "Tracking outcomes during the COVID-19 pandemic (October 2020) – Reconvergence", ANU Centre for Social Research and Methods, pp. 1-15, 2020. Available: https://csrm.cass.anu.edu.au/sites/default/files/docs/2020/11/Tracking_wellbeing_outcomes_during_the_COVID-19_pandemic_October_2020_PDF.pdf. [Accessed 14 April 2021].
 
@@ -163,9 +197,25 @@ In this project we propose **DistractAbility**, a single page application design
 
 **Secondary Sources**
 
+&nbsp; A. Baddeley, "Working Memory: Theories, Models, and Controversies", Annual Review of Psychology, vol. 63, pp. 1-29, 2012. Available: https://www.annualreviews.org/doi/10.1146/annurev-psych-120710-100422. [Accessed 15 April 2021].
+
+&nbsp; R. Compton, "The Interface Between Emotion and Attention: A Review of Evidence from Psychology and Neuroscience", Behavioral and Cognitive Neuroscience Reviews, vol. 2, no. 2, pp. 115-129, 2003. Available: https://journals.sagepub.com/doi/10.1177/1534582303002002003. [Accessed 15 April 2021].
+
+&nbsp; M. Eysenck, N. Derakshan, R. Santos and M. Calvo, "Anxiety and cognitive performance: Attentional control theory.", Emotion: American Psychological Association, vol. 7, no. 2, pp. 336-353, 2007. Available: https://psycnet.apa.org/buy/2007-06782-011. [Accessed 15 April 2021].
+
 &nbsp; T. A.,  Ghebreyesus. WHO Director‐General's opening remarks at the media briefing on COVID‐19. Geneva, Switzerland: World Health Organization, 2020. Available: https://www.who.int/dg/speeches/detail/who-director-general-s-opening-remarks-at-the-media-briefing-on-covid-19-11-march-2020 [Accessed: 12-Apr-2021].
 
 &nbsp; C. Hirsch, "Europe’s coronavirus lockdown measures compared", Politico, 2020. Available: https://www.politico.eu/article/europes-coronavirus-lockdown-measures-compared/  [Accessed: 12-Apr-2021].
+
+&nbsp; D. Kahneman, Attention and Effort. Prentice-Hall, 1973.
+
+&nbsp; R. Kurzban, A. Duckworth, J. Kable and J. Myers, "An opportunity cost model of subjective effort and task performance", Behavioral and Brain Sciences, vol. 36, no. 6, pp. 661-679, 2013. Available: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3856320/. [Accessed 15 April 2021].
+
+&nbsp; N. Lavie, "Distracted and confused?: Selective attention under load", Trends in Cognitive Sciences, vol. 9, no. 2, pp. 75-82, 2005. Available: https://www.cell.com/trends/cognitive-sciences/fulltext/S1364-6613(04)00316-X?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS136466130400316X%3Fshowall%3Dtrue. [Accessed 15 April 2021].
+
+&nbsp; L. Pessoa and R. Adolphs, "Emotion processing and the amygdala: from a 'low road' to 'many roads' of evaluating biological significance", Nature Reviews Neuroscience, vol. 11, no. 11, pp. 773-782, 2010. Available: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3025529/ D.O.I: 10.1038/nrn2920 [Accessed 15 April 2021].
+
+&nbsp; B. Pudelko, "Having trouble concentrating during the coronavirus pandemic? Neuroscience explains why", The Conversation, 2020. Available: https://theconversation.com/having-trouble-concentrating-during-the-coronavirus-pandemic-neuroscience-explains-why-139185 [Accessed 15 April 2021].
 
 &nbsp; WHO, "Severe Acute Respiratory Syndrome (SARS)", Who.int, 2020. [Online]. Available: https://www.who.int/health-topics/severe-acute-respiratory-syndrome#tab=tab_1. [Accessed: 12- Apr- 2021].
 
