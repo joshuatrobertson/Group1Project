@@ -115,18 +115,17 @@ In this project we propose **DistractAbility**, a single page application design
 &nbsp;&nbsp; There are two main themes in the literature that seeks to explain why people have found it harder to focus since the onset of the pandemic. We have categorised these themes as change and continuity; ‘change’ being the novel forces affecting people’s attention that exist as a direct result of the pandemic, and ‘continuity’ being continuity’ factors which the pandemic may have worsened, but that nonetheless existed prior to and independently of COVID-19.
 
 
-### Background ###
+**Background**
 
-**Attention is a limited cognitive resource** 
+*Attention is a limited cognitive resource**
 
 &nbsp;&nbsp; Cognitive psychologist and Nobel Prize winner Daniel Kahneman  was among the first to propose that attention is a limited cognitive resource and that some cognitive processes require more attention than others (Kahneman, 1973). This is particularly the case for activities involving the conscious control of cognitive processes, such as reading or writing academic papers, which involve attention and mental energy – what Kahneman calls “System 2” thinking. The idea that attention is a finite capacity is also at the centre of theories proposing that conscious and controlled cognitive processes are carried out in working memory, which is thought to only be capable of processing a limited about of new information (Baddeley, 2012). In working memory, attention is thought to like the adjudicator of cognitive resource allocation and action execution. 
 
-**Emotion and attention**
+*Emotion and attention*
 
 &nbsp;&nbsp; Professor Beatrice Pudelko of TÉLUQ University uses neuroscience to explain why the pandemic has exerted such pressure on our attentional capacities. Pudelko  explains that the amygdala is a region in the brain that is rapidly activated in the face of threatening stimuli (Pudelko, 2020). In humans, the amygdala activates quickly and automatically in response to social stimuli loaded with negative emotions, causing emotionally-charged changes to our perceptions that we are highly sensitive to and unable to ignore (Compton, 2003). Evidence implies that the networks connecting the amygdala and the prefrontal cortex, where working memory happens, play an important role in discriminating between relevant and irrelevant information for the activity at hand (Pessoa & Adolphs, 2010). For instance, emotional stimuli were found to interfere with tasks involving working memory, and the greater the cognitive load associated with the task, the greater the impact on working memory of the same emotional stimuli (Lavie, 2005). Research on anxiety by Michael Eysenck et al similarly demonstrated that when people are anxious, they prefer to focus their attention on stimuli associated with the threat and unrelated to the task at hand, regardless of whether the stimuli are internal or external (Eysenck et al, 2007). There has also been research showing that feelings of mental fatigue increase when the subject is performing a task while trying not to respond to outside demands. Some have even suggested that mental fatigue is a particular emotion that both tells us our mental resources are being depleted, and in turn acts as a negative emotional stimuli affecting concentration in itself (Kurzban et al, 2013). Evidently, negative emotional stimuli, especially anxiety-producing stimuli, wreak havoc with our attention and ability to complete tasks that require the use of working memory.
 
-
-### Change ###
+**Change**
 
 &nbsp;&nbsp; In light of the research demonstrating the impact of negative emotional stimuli on cognition, it is hardly surprising that in the context of 24-hour news coverage of the dangers of the pandemic, the ever-rising death toll and job and economic insecurity, employees and students alike are struggling to direct and sustain attention on their work. Indeed, Penn Medicine reported that stress from the pandemic can cause one’s emotions to become overblown and in turn reduce the effectiveness with which the parts of the brain in charge of executive functioning communicate with the parts of the brain that regulate emotion (Messinger, 2020), making it harder to concentrate. 
 
@@ -137,7 +136,7 @@ In this project we propose **DistractAbility**, a single page application design
 &nbsp;&nbsp; In sum, one major drain on attentional capacities – one that we categorise as ‘change’ – is the torrent of negative emotional stimuli associated with the Coronavirus pandemic. To reflect this in our application, we use an API to pull in current news articles with which we populate the screen while the user is attempting to complete the task.
 
 
-### Continuity ###
+**Continuity**
 
 
 
