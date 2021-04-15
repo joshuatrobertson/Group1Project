@@ -159,6 +159,11 @@ In this project we propose **DistractAbility**, a single page application design
 
 *Media Multitasking*
 
+&nbsp;&nbsp; Media multitasking may be described as using two or more forms of electronic media simultaneously, or simply the use of electronic media with other forms of nonmedia (Ziegler et al, 2015). Many assume that with enough exposure and diligence, people can eventually become effective media multitaskers, but this assumption is hotly disputed in academia. In the early 2000s, Prensky published a ground-breaking paper in which he introduced the term “digital natives” to refer to the generations who have grown up immersed in technology from a young age, as opposed to “digital immigrants” who were largely born before the advent of the internet (Prensky, 2001). Prensky argued that “digital natives” can effectively media multitask due to early habituation to many different media technologies. Kirschner and Bruyckere are among the many critics who argue that Prensky’s view is a fallacy (Kirschner & Bruyckere, 2017). Researchers in Kirschner and Bruyckere’s camp contend that there is no performance benefit to multitasking as there are significant cognitive demands to switching between tasks regardless of technological immersion. Carrier et al also found that both learning and academic performance measured by GPA are negatively impacted by media multitasking (Carrier et al, 2015).
+
+&nbsp;&nbsp; Prensky’s paper was published in 2001, before the invention of Facebook, Instagram or Twitter in 2004, 2006 and 2010 respectively. In a more recent study of media multitasking, researchers divided students into three groups and asked them to read a passage. One group had no distractions, one group received an instant message before they started reading, and a third group received instant messages as they read. When tested on the material, each group fared equally well, but the third group took the longest to complete the task (Bowman et al, 2010). More recently still, researchers found that device‐based “multitasking” correlates with significant declines in academic performance (Chen & Yan, 2016). There is much more evidence in the literature demonstrating the deleterious effects of media-multitasking on attention, but perhaps most concerning is the finding that, despite the evidence, many people have a “significant sense of overconfidence” in their ability to media multitask effectively (Kirschner & Bruyckere, 2017). Was et al similarly found that students are often unaware of the detrimental effects of media multitasking (Was et al, 2019). Evidently, media multitasking is often detrimental to attention. 
+
+&nbsp;&nbsp; Many individuals often media multitasked prior to the pandemic, but COVID-19 and social distancing has undeniably exacerbated the practice. For instance, previously a student would have turned up to a lecture and when it was time for questions the speaker would pause, take questions, and then resume lecturing once questions had been asked and answered. In the current situation of remote learning these things tend to happen concurrently rather than consecutively. Now, with lectures taking place via Microsoft Teams, it is common for the lecturer to continue speaking all the while there is a constant string of notifications as students post their questions to the chat box and teaching assistants answer them while the main lecture continues full speed ahead. This is a form of media multitasking. Given the evidence above, it is reasonable to conclude that one of the reasons people have found it harder to focus in the context of the present situation is that the pandemic has intensified the already-problematic phenomenon of media multitasking. 
 
 
 
@@ -186,9 +191,15 @@ In this project we propose **DistractAbility**, a single page application design
 
 &nbsp; N. Bloom et al, "Staff Working Paper No. 900", Bank of England, 2020. Available: https://www.citethisforme.com/ [Accessed 14 April 2021].
 
+&nbsp; L. Bowman, L. Levine, B. Waite and M. Gendron, "Can students really multitask? An experimental study of instant messaging while reading", Computers & Education, vol. 54, no. 4, pp. 927-931, 2010. D.O.I: 10.1016/j.compedu.2009.09.024 [Accessed 15 April 2021].
+
 &nbsp; T. Brower, "Think Productivity With Work From Home Is Improving? Think Again. Here’s What You Must Know", Forbes, 2021. Available: https://www.forbes.com/sites/tracybrower/2021/01/17/think-productivity-with-work-from-home-is-improving-think-again-heres-what-you-must-know/?sh=162ef3ab2d67 [Accessed: 11- Apr- 2021].
 
 &nbsp; M. Brückle, “Because of Corona, Netflix and YouTube decrease image quality in order to ease the load on communication networks” (2020) Available: https://www.buffed.de/Netflix-Firma-259629/News/Streaming-Qualitaet-Corona-1345982/. [Accessed: 11- Apr- 2021].
+
+&nbsp; L. Carrier, L. Rosen, N. Cheever and A. Lim, "Causes, effects, and practicalities of everyday multitasking", Developmental Review, vol. 35, pp. 64-78, 2015. D.O.I: 10.1016/j.dr.2014.12.005 [Accessed 15 April 2021].
+
+&nbsp; Q. Chen and Z. Yan, "Does multitasking with mobile phones affect learning? A review", Computers in Human Behavior, vol. 54, pp. 34-42, 2016. Available: www.sciencedirect.com/science/article/abs/pii/S0747563215300595#:~:text=Studies%20conducted%20in%20the%20laboratory,Carrillo%20%26%20Subrahmanyam%2C%202014. [Accessed 15 April 2021].
 
 &nbsp; E. Cummins, "Shirking from home", Vox, 2020. Available: https://www.vox.com/the-highlight/21317485/work-from-home-coronavirus-covid-19-zoom-distraction-animal-crossing [Accessed: 15- Apr- 2021].
 
@@ -205,6 +216,8 @@ In this project we propose **DistractAbility**, a single page application design
 &nbsp; J. Gold, M.D., M.S., "The ‘Covid Cloud’ Is Real", 2020. [Online]. Available: https://www.instyle.com/lifestyle/covid-cloud-concentration-memory-issues. [Accessed: 11- Apr- 2021].
 
 &nbsp; O. Keogh, "Pandemic-induced ‘brain fog’ is result of cognitive overload", The Irish Times, 2020. Available: https://www.irishtimes.com/business/work/pandemic-induced-brain-fog-is-result-of-cognitive-overload-1.4436434 [Accessed: 11-Apr-2021].
+
+&nbsp; P. Kirschner and P. De Bruyckere, "The myths of the digital native and the multitasker", Teaching and Teacher Education, vol. 67, pp. 135-142, 2017. D.O.I: 10.1016/j.tate.2017.06.001 [Accessed 15 April 2021].
 
 &nbsp; P. Kirschner and A. Karpinski, "Facebook® and academic performance", Computers in Human Behavior, vol. 26, no. 6, pp. 1237-1245, 2010. D.O.I: 10.1016/j.chb.2010.03.024 [Accessed 15 April 2021].
 
@@ -224,6 +237,8 @@ In this project we propose **DistractAbility**, a single page application design
 
 &nbsp; S. Newman, S. Zella and R. Heys, "Coronavirus and the effects on UK productivity measures", Office for National Statistics, 2020. Available: https://www.ons.gov.uk/economy/economicoutputandproductivity/productivitymeasures/articles/coronavirusandtheeffectsonukproductivitymeasures/2020-05-19  [Accessed: 11- Apr- 2021].
 
+&nbsp; M. Prensky, “Digital natives, digital immigrants,” NCB University Press, 2001. 9(5), 1–6.
+
 &nbsp; C. Purtill, "Feeling Scatterbrained? Here’s Why (Published 2020)", Nytimes.com, 2021. [Online]. Available: https://www.nytimes.com/2020/04/09/us/quarantine-mental-health-gender.html. [Accessed: 11- Apr- 2021].
 
 &nbsp; A. Rajan, "TV watching and online streaming surge during lockdown", BBC News, 2020. Available: https://www.bbc.co.uk/news/entertainment-arts-53637305 [Accessed: 11- Apr- 2021].
@@ -242,6 +257,9 @@ In this project we propose **DistractAbility**, a single page application design
 
 &nbsp; R. Waters, "The work-from-home revolution is only just beginning," The Financial Times, 2020. Available: https://www.ft.com/content/829208c1-2f2c-488f-9b92-95fe234c32af [Accessed:  13- Apr- 2021].
 
+&nbsp; C. Was, R. Hollis and J. Dunlosky, "Do students understand the detrimental effects of mind wandering during online learning?", Computers & Education, vol. 135, pp. 113-122, 2019. D.O.I: 10.1016/j.compedu.2019.02.020 [Accessed 15 April 2021].
+
+&nbsp; D. Ziegler, J. Mishra, A. Gazzaley, "The acute and chronic impact of technology on our brain", The Wiley Handbook of Psychology, Technology, and Society, pp. 3-19, 2015. Available: https://onlinelibrary.wiley.com/doi/book/10.1002/9781118771952. [Accessed 15 April 2021].
 
 
 **Secondary Sources**
