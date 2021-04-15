@@ -145,6 +145,8 @@ In this project we propose **DistractAbility**, a single page application design
 
 <td><center><img src="report/images/image007_screentime.png" width="500"></center></td>
 
+*The bar chart displays the average daily use (in house) of computer games (red) and social media (blue) by children and adolescents in September 2019 (before lockdown; lighter colours) and April 2020 (during lockdown; darker colours) on school days (left) and days with no school (weekends, holidays, lockdown; right). Source: Spitzer, 2021.*
+
 *Media Multitasking*
 
 
@@ -207,6 +209,8 @@ In this project we propose **DistractAbility**, a single page application design
 &nbsp; P. Ralph et al., "Pandemic programming", Empirical Software Engineering, vol. 25, no. 6, pp. 4927-4961, 2020. Available: https://link.springer.com/article/10.1007/s10664-020-09875-y. [Accessed 14 April 2021].
 
 &nbsp; D. Russo, P. Hanel, S. Altnickel and N. van Berkel, "Predictors of Well-being and Productivity among Software Professionals during the COVID-19 Pandemic -- A Longitudinal Study", Cornell University: Empirical Software Engineering, 24 January, 2021. Available: https://arxiv.org/abs/2007.12580. [Accessed 14 April 2021].
+
+&nbsp; M. Spitzer, "Open schools! Weighing the effects of viruses and lockdowns on children", Trends in Neuroscience and Education, vol. 22, p. 100151, 2021. Available: https://www.sciencedirect.com/science/article/pii/S221194932100003X?casa_token=EIciUbdXZuwAAAAA:HNtdsJNu_k_I6VuivjCQpuFP9twTTstyR_mUAvzUXpwLsEjblb-C2bEK1GNeNvAaZCfyjHsAW50#bib0096. [Accessed 15 April 2021].
 
 &nbsp; "Tap'd Resilience White-paper: Building Resilience in your Organisation, your Leaders and your Teams", Tap'd Solutions, 2020. [Online]. Available: https://tapdsolutions.com/wp-content/uploads/2020/11/TAP_Resilience_WhitePaper_2020.pdf.  [Accessed: 14- Apr- 2021].
 
