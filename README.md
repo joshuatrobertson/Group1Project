@@ -204,6 +204,8 @@ In this project we propose **DistractAbility**, a single page application design
 
 &nbsp; Q. Chen and Z. Yan, "Does multitasking with mobile phones affect learning? A review", Computers in Human Behavior, vol. 54, pp. 34-42, 2016. Available: www.sciencedirect.com/science/article/abs/pii/S0747563215300595#:~:text=Studies%20conducted%20in%20the%20laboratory,Carrillo%20%26%20Subrahmanyam%2C%202014. [Accessed 15 April 2021].
 
+&nbsp; S. Cooper, "Physical activity is good for your concentration – here’s why", The Conversation, 2021. Available: https://theconversation.com/physical-activity-is-good-for-your-concentration-heres-why-151143. [Accessed: 15- Apr- 2021].
+
 &nbsp; E. Cummins, "Shirking from home", Vox, 2020. Available: https://www.vox.com/the-highlight/21317485/work-from-home-coronavirus-covid-19-zoom-distraction-animal-crossing [Accessed: 15- Apr- 2021].
 
 &nbsp; Deloitte, "Working during lockdown: The impact of COVID-19 on productivity and wellbeing", Deloitte United Kingdom, 2020. [Online]. Available: https://www2.deloitte.com/uk/en/pages/consulting/articles/working-during-lockdown-impact-of-covid-19-on-productivity-and-wellbeing.html. [Accessed: 13- Apr- 2021].
@@ -263,6 +265,9 @@ In this project we propose **DistractAbility**, a single page application design
 &nbsp; C. Was, R. Hollis and J. Dunlosky, "Do students understand the detrimental effects of mind wandering during online learning?", Computers & Education, vol. 135, pp. 113-122, 2019. D.O.I: 10.1016/j.compedu.2019.02.020 [Accessed 15 April 2021].
 
 &nbsp; D. Ziegler, J. Mishra, A. Gazzaley, "The acute and chronic impact of technology on our brain", The Wiley Handbook of Psychology, Technology, and Society, pp. 3-19, 2015. Available: https://onlinelibrary.wiley.com/doi/book/10.1002/9781118771952. [Accessed 15 April 2021].
+
+- Author Unknown - 
+&nbsp; "Exercise can boost your memory and thinking skills", Healthbeat. Harvard Medical School, 2021. Available: https://www.health.harvard.edu/mind-and-mood/exercise-can-boost-your-memory-and-thinking-skills. [Accessed: 15- Apr- 2021].
 
 
 **Secondary Sources**
