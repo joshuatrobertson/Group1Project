@@ -14,6 +14,7 @@ import {MatDialogModule} from '@angular/material/dialog';
 import {GameCardComponent} from './game-card/game-card.component';
 import { EndGameComponent } from './end-game/end-game.component';
 import {RadarChartComponent} from './radar-chart/radar-chart.component';
+import { BarChartComponent } from './bar-chart/bar-chart.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import {RadarChartComponent} from './radar-chart/radar-chart.component';
     RestartGameComponent,
     GameCardComponent,
     EndGameComponent,
-    RadarChartComponent
+    RadarChartComponent,
+    BarChartComponent
   ],
   imports: [
     BrowserModule,

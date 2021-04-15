@@ -33,7 +33,8 @@ export class RadarChartComponent implements OnInit {
           this.stats = data;
           // now let's update the fields
           this.radarChartLabels = this.stats.radarChartLabels;
-          this.radarChartData = this.stats.radarChartData;
+          this.radarChartData = [{data: [500, 200, 30, 12], label: '1117'},
+          {data: [90, 150, 200, 45], label: '2018'}];
         },
         error => {
           console.log(error);
