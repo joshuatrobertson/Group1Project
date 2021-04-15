@@ -143,9 +143,9 @@ In this project we propose **DistractAbility**, a single page application design
 
 *Social media and streaming services*
 
-&nbsp;&nbsp; The negative impacts of social media and streaming services on attention have been well-documented. Research shows that digital devices physically stimulate the human brain in the same way as drugs such as cocaine and heroin (Selwyn & Aagaard, 2020).   Receiving a “Like” on Facebook apparently triggers a burst of dopamine – a kind of chemical reward in the brain. These intense jolts of dopamine are thought to rewire our brains over time and establish reward‐driven “seeking” behaviours that prompt repetitive use of social media and digital devices at the expense of attentional capacity. In support of this theory, Kirschner and Karpinski found a negative association between Facebook use and grade-point-average (GPA) (Kirschner & Karpinski, 2010).  Feng et al then found that high‐frequency users of Facebook for entertainment purposes are associated with higher distraction rates as well as lower GPAs (Feng et al, 2019).  Additionally, Facebook use was found to be increasingly detrimental to academic performance and attention as usage expands, regardless of what Facebook is used for.
+&nbsp;&nbsp; The negative impacts of social media and streaming services on attention have been well-documented. Research shows that digital devices physically stimulate the human brain in the same way as drugs such as cocaine and heroin (Selwyn & Aagaard, 2020). Receiving a “Like” on Facebook apparently triggers a burst of dopamine – a kind of chemical reward in the brain. These intense jolts of dopamine are thought to rewire our brains over time and establish reward‐driven “seeking” behaviours that prompt repetitive use of social media and digital devices at the expense of attentional capacity. In support of this theory, Kirschner and Karpinski found a negative association between Facebook use and grade-point-average (GPA) (Kirschner & Karpinski, 2010). Feng et al then found that high‐frequency users of Facebook for entertainment purposes are associated with higher distraction rates as well as lower GPAs (Feng et al, 2019). Additionally, Facebook use was found to be increasingly detrimental to academic performance and attention as usage expands, regardless of what Facebook is used for.
 
-&nbsp;&nbsp; The restrictions introduced to slow the spread of Coronavirus have undoubtedly increased the influence of social media and streaming services in the daily lives of people of all ages and walks of life. Globally, Netflix saw 15.8 million new subscribers in the first quarter of 2020, and daytime streaming rose 4 per cent between March and April.  It is of note that on March 20th 2020, Netflix and YouTube were asked by the European commission to decrease the rate of data transfer through their in order to prevent the breakdown of the internet.  According to BBC News, the use of video streaming services increased by 71 % compared to 2019.  Social media usage also exploded as people lost countless hours to ‘doomscrolling’ – mindlessly refreshing feeds in search of new information about the pandemic or politics.  And it was not just adults, newly WFH, whose screentime increased. One German study revealed that during the first lockdown in spring 2020, children and adolescents aged 10 - 17 increased their daily screen time spent playing computer games and using social media from about four to seven hours (Spitzer, 2021). They additionally spent more time watching videos and using streaming services such as Netflix (see Figure 1 below).
+&nbsp;&nbsp; The restrictions introduced to slow the spread of Coronavirus have undoubtedly increased the influence of social media and streaming services in the daily lives of people of all ages and walks of life. Globally, Netflix saw 15.8 million new subscribers in the first quarter of 2020, and daytime streaming rose 4 per cent between March and April. It is of note that on March 20th 2020, Netflix and YouTube were asked by the European commission to decrease the rate of data transfer through their in order to prevent the breakdown of the internet. According to BBC News, the use of video streaming services increased by 71% compared to 2019. Social media usage also exploded as people lost countless hours to ‘doomscrolling’ – mindlessly refreshing feeds in search of new information about the pandemic or politics. And it was not just adults, newly WFH, whose screentime increased. One German study revealed that during the first lockdown in spring 2020, children and adolescents aged 10 - 17 increased their daily screen time spent playing computer games and using social media from about four to seven hours (Spitzer, 2021). They additionally spent more time watching videos and using streaming services such as Netflix (see Figure 1 below).
 
 
 <td><center><img src="report/images/image007_screentime.png" width="400"></center></td>
@@ -171,6 +171,8 @@ In this project we propose **DistractAbility**, a single page application design
 
 **Primary Sources**
 
+&nbsp; J. Alexander, "Netflix adds 15 million subscribers as people stream more than ever, but warns about tough road ahead", The Verge, 2020. [Online]. Available: https://www.theverge.com/2020/4/21/21229587/netflix-earnings-coronavirus-pandemic-streaming-entertainment. [Accessed: 11- Apr- 2021].
+
 &nbsp; D. Arnsten, Ph.D., The Brain's Response to Stress - How Our Brains May Be Altered During the COVID-19 Pandemic. Yale School Of Medicine, 2020. Available: https://www.youtube.com/watch?v=TsQUeNuvIDY. [Accessed 15 April 2021].
 
 &nbsp; N. Biddle and M. Gray, "Tracking outcomes during the COVID-19 pandemic (October 2020) – Reconvergence", ANU Centre for Social Research and Methods, pp. 1-15, 2020. Available: https://csrm.cass.anu.edu.au/sites/default/files/docs/2020/11/Tracking_wellbeing_outcomes_during_the_COVID-19_pandemic_October_2020_PDF.pdf. [Accessed 14 April 2021].
@@ -181,9 +183,13 @@ In this project we propose **DistractAbility**, a single page application design
 
 &nbsp; T. Brower, "Think Productivity With Work From Home Is Improving? Think Again. Here’s What You Must Know", Forbes, 2021. Available: https://www.forbes.com/sites/tracybrower/2021/01/17/think-productivity-with-work-from-home-is-improving-think-again-heres-what-you-must-know/?sh=162ef3ab2d67 [Accessed: 11- Apr- 2021].
 
+&nbsp; M. Brückle, “Because of Corona, Netflix and YouTube decrease image quality in order to ease the load on communication networks” (2020) Available: https://www.buffed.de/Netflix-Firma-259629/News/Streaming-Qualitaet-Corona-1345982/. [Accessed: 11- Apr- 2021].
+
 &nbsp; Deloitte, "Working during lockdown: The impact of COVID-19 on productivity and wellbeing", Deloitte United Kingdom, 2020. [Online]. Available: https://www2.deloitte.com/uk/en/pages/consulting/articles/working-during-lockdown-impact-of-covid-19-on-productivity-and-wellbeing.html. [Accessed: 13- Apr- 2021].
 
 &nbsp; L. Elliot, "Working from home is proving to be a revolution in our way of life", The. Guardian, 2020. Available: https://www.theguardian.com/business/2020/oct/26/working-from-home-is-proving-to-be-a-revolution-in-our-way-of-life [Accessed:  13- Apr- 2021].
+
+&nbsp; S. Feng, Y. Wong, L. Wong and L. Hossain, "The Internet and Facebook Usage on Academic Distraction of College Students", Computers & Education, vol. 134, pp. 41-49, 2019. D.O.I: 10.1016/j.compedu.2019.02.005 [Accessed 15 April 2021].
 
 &nbsp; Z. Feng and K. Savani, "Covid-19 created a gender gap in perceived work productivity and job satisfaction: implications for dual-career parents working from home", Emerald Insight: Gender Management, 7 September, 2020. ISSN: 1754-2413. Available: https://www.emerald.com/insight/content/doi/10.1108/GM-07-2020-0202/full/html. [Accessed 14 April 2021].
 
@@ -192,6 +198,8 @@ In this project we propose **DistractAbility**, a single page application design
 &nbsp; J. Gold, M.D., M.S., "The ‘Covid Cloud’ Is Real", 2020. [Online]. Available: https://www.instyle.com/lifestyle/covid-cloud-concentration-memory-issues. [Accessed: 11- Apr- 2021].
 
 &nbsp; O. Keogh, "Pandemic-induced ‘brain fog’ is result of cognitive overload", The Irish Times, 2020. Available: https://www.irishtimes.com/business/work/pandemic-induced-brain-fog-is-result-of-cognitive-overload-1.4436434 [Accessed: 11-Apr-2021].
+
+&nbsp; P. Kirschner and A. Karpinski, "Facebook® and academic performance", Computers in Human Behavior, vol. 26, no. 6, pp. 1237-1245, 2010. D.O.I: 10.1016/j.chb.2010.03.024 [Accessed 15 April 2021].
 
 &nbsp; S. Künn, C. Seel and D. Zegners, "Cognitive performance in the home office—What professional chess can tell us", IZA World of Labor, 2020. Available: https://wol.iza.org/opinions/cognitive-performance-in-the-home-office?utm_source=Adestra&utm_medium=email&utm_content=Cognitive%20performance%20in%20the%20home%20office%E2%80%94What%20professional%20chess%20can%20tell%20us&utm_campaign=IZA%20WoL%20Sept%20monthly%20newsletter [Accessed: 11- Apr- 2021].
 
@@ -211,9 +219,15 @@ In this project we propose **DistractAbility**, a single page application design
 
 &nbsp; C. Purtill, "Feeling Scatterbrained? Here’s Why (Published 2020)", Nytimes.com, 2021. [Online]. Available: https://www.nytimes.com/2020/04/09/us/quarantine-mental-health-gender.html. [Accessed: 11- Apr- 2021].
 
+&nbsp; A. Rajan, "TV watching and online streaming surge during lockdown", BBC News, 2020. Available: https://www.bbc.co.uk/news/entertainment-arts-53637305 [Accessed: 11- Apr- 2021].
+
 &nbsp; P. Ralph et al., "Pandemic programming", Empirical Software Engineering, vol. 25, no. 6, pp. 4927-4961, 2020. Available: https://link.springer.com/article/10.1007/s10664-020-09875-y. [Accessed 14 April 2021].
 
 &nbsp; D. Russo, P. Hanel, S. Altnickel and N. van Berkel, "Predictors of Well-being and Productivity among Software Professionals during the COVID-19 Pandemic -- A Longitudinal Study", Cornell University: Empirical Software Engineering, 24 January, 2021. Available: https://arxiv.org/abs/2007.12580. [Accessed 14 April 2021].
+
+&nbsp; K. Schwab, "‘Doomscrolling’ can break your brain. It can also be a force for good", Fast Company, 2020. [Online]. Available: https://www.fastcompany.com/90514867/doomscrolling-can-break-your-brain-it-can-also-be-a-force-for-good. [Accessed: 11- Apr- 2021].
+
+&nbsp; N. Selwyn and J. Aagaard, "Banning mobile phones from classrooms—An opportunity to advance understandings of technology addiction, distraction and cyberbullying", British Journal of Educational Technology, vol. 52, no. 1, pp. 8-19, 2020. Available: https://bera-journals.onlinelibrary.wiley.com/doi/full/10.1111/bjet.12943?saml_referrer. [Accessed 15 April 2021].
 
 &nbsp; M. Spitzer, "Open schools! Weighing the effects of viruses and lockdowns on children", Trends in Neuroscience and Education, vol. 22, p. 100151, 2021. Available: https://www.sciencedirect.com/science/article/pii/S221194932100003X?casa_token=EIciUbdXZuwAAAAA:HNtdsJNu_k_I6VuivjCQpuFP9twTTstyR_mUAvzUXpwLsEjblb-C2bEK1GNeNvAaZCfyjHsAW50#bib0096. [Accessed 15 April 2021].
 
