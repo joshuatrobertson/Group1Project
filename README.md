@@ -138,6 +138,19 @@ In this project we propose **DistractAbility**, a single page application design
 
 **Continuity**
 
+&nbsp;&nbsp; We categorise as ‘continuity’ things that inhibit our attention that the pandemic may have made more pronounced in our lives, but which were nonetheless features of modern life before the outbreak of Coronavirus. According to the literature, the three major, pre-existing forces acting on our attention are social media, media multitasking, and inactivity.
+
+
+*Social media and streaming services*
+
+
+
+*Media Multitasking*
+
+
+
+
+*Inactivity*
 
 
 **Relevance for our application**
