@@ -143,7 +143,7 @@ In this project we propose **DistractAbility**, a single page application design
 
 *Social media and streaming services*
 
-
+<td><center><img src="report/images/image007_screentime.png" width="500"></center></td>
 
 *Media Multitasking*
 
