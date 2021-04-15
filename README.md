@@ -117,7 +117,7 @@ In this project we propose **DistractAbility**, a single page application design
 
 **Background**
 
-*Attention is a limited cognitive resource**
+*Attention is a limited cognitive resource*
 
 &nbsp;&nbsp; Cognitive psychologist and Nobel Prize winner Daniel Kahneman  was among the first to propose that attention is a limited cognitive resource and that some cognitive processes require more attention than others (Kahneman, 1973). This is particularly the case for activities involving the conscious control of cognitive processes, such as reading or writing academic papers, which involve attention and mental energy – what Kahneman calls “System 2” thinking. The idea that attention is a finite capacity is also at the centre of theories proposing that conscious and controlled cognitive processes are carried out in working memory, which is thought to only be capable of processing a limited about of new information (Baddeley, 2012). In working memory, attention is thought to like the adjudicator of cognitive resource allocation and action execution. 
 
