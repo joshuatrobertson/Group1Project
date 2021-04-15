@@ -152,6 +152,11 @@ In this project we propose **DistractAbility**, a single page application design
 
 *Fig. 1: This bar chart displays the average daily use (in house) of computer games (red) and social media (blue) by children and adolescents in September 2019 (before lockdown; lighter colours) and April 2020 (during lockdown; darker colours) on school days (left) and days with no school (weekends, holidays, lockdown; right). Source: Spitzer, 2021.*
 
+&nbsp;&nbsp; Interestingly, the pandemic seems not only to have increased the frequency of people’s use of social media and streaming services, but also the potency of the attraction, i.e. the pull on people’s attention. In Shirking from Home, interviewee Rosen admits that in the context of our unprecedented social isolation, “When you get a [notification] from someone that says they’re following you on Instagram, when you crave connection, you immediately go there,” Rosen says (Cummins, 2020).
+
+&nbsp;&nbsp; On account of the heightened extent to which social media has proved a distraction in the context of the pandemic, we have built sound into our application. In the second round the user will hear social media notification sounds as they attempt to complete the brain training task.  
+
+
 *Media Multitasking*
 
 
@@ -184,6 +189,8 @@ In this project we propose **DistractAbility**, a single page application design
 &nbsp; T. Brower, "Think Productivity With Work From Home Is Improving? Think Again. Here’s What You Must Know", Forbes, 2021. Available: https://www.forbes.com/sites/tracybrower/2021/01/17/think-productivity-with-work-from-home-is-improving-think-again-heres-what-you-must-know/?sh=162ef3ab2d67 [Accessed: 11- Apr- 2021].
 
 &nbsp; M. Brückle, “Because of Corona, Netflix and YouTube decrease image quality in order to ease the load on communication networks” (2020) Available: https://www.buffed.de/Netflix-Firma-259629/News/Streaming-Qualitaet-Corona-1345982/. [Accessed: 11- Apr- 2021].
+
+&nbsp; E. Cummins, "Shirking from home", Vox, 2020. Available: https://www.vox.com/the-highlight/21317485/work-from-home-coronavirus-covid-19-zoom-distraction-animal-crossing [Accessed: 15- Apr- 2021].
 
 &nbsp; Deloitte, "Working during lockdown: The impact of COVID-19 on productivity and wellbeing", Deloitte United Kingdom, 2020. [Online]. Available: https://www2.deloitte.com/uk/en/pages/consulting/articles/working-during-lockdown-impact-of-covid-19-on-productivity-and-wellbeing.html. [Accessed: 13- Apr- 2021].
 
