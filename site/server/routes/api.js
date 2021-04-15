@@ -1,19 +1,12 @@
 const express = require('express');
 const router = express.Router();
 const Player = require('../../models/player');
-const data = require('./data.json')
 const playercommands = require('./player');
 const playcommands = require('./play');
 
 router.use('/player', playercommands);
 router.use('/play', playcommands);
 
-
-//GET api listing.
-router.get('/', (req, res) => {
-  res.header("Content-Type",'application/json');
-  res.send(JSON.stringify(data));
-});
 /*
 //Add a player to the database
 router.post('/', async (req, res) => {
@@ -49,7 +42,5 @@ router.get('/:playerId', async (req, res) => {
   }
 });
 */
-
-
 
 module.exports = router;
