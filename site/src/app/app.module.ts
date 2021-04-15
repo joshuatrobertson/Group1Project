@@ -13,7 +13,6 @@ import {RestartGameComponent} from './restart-game/restart-game.component';
 import {MatDialogModule} from '@angular/material/dialog';
 import {GameCardComponent} from './game-card/game-card.component';
 import { EndGameComponent } from './end-game/end-game.component';
-import {RadarChartComponent} from './radar-chart/radar-chart.component';
 import { BarChartComponent } from './bar-chart/bar-chart.component';
 
 @NgModule({
@@ -22,7 +21,6 @@ import { BarChartComponent } from './bar-chart/bar-chart.component';
     RestartGameComponent,
     GameCardComponent,
     EndGameComponent,
-    RadarChartComponent,
     BarChartComponent
   ],
   imports: [
