@@ -170,8 +170,7 @@ In this project we propose **DistractAbility**, a single page application design
 
 *Inactivity*
 
-
-
+&nbsp;&nbsp; Finally, there is much in the literature about how physical activity improves concentration (Cooper, 2021; *Harvard Medical School*, 2021). It therefore stands to reason that with gyms closed and people stuck in their homes for months on end, the increase in physical inactivity has presumably also contributed to widespread attentional difficulties since the onset of the pandemic.  
 
 
 **Relevance for our application**
