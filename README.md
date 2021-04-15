@@ -174,6 +174,8 @@ In this project we propose **DistractAbility**, a single page application design
 
 &nbsp;&nbsp; To represent the implications of negative emotional stimuli connected to the pandemic, we use an API to pull in current affairs articles and have these moving about the screen while the user is attempting to complete the task at hand. We also try to distract the user by playing the BBC News theme song. To represent the influence of social media and streaming services on attention, through the game we play social media notification sounds and sound clips from TV series such as *Tiger King*, which were popular during the lockdown period.  We seek to reflect the impact on concentration of media-multitasking by playing the notification sounds of common workplace media, such as the incoming video-chat ringtone for Microsoft Teams. Finally, we believe that inactivity is best exemplified by the fact that the user is presumably sitting down, or at least fairly sedentary, while using our application.
 
+&nbsp;&nbsp; There is a larger volume of literature in the ‘continuity’ camp, however, this is likely for the simple reason that these forces on our attention have existed and been studied for years while COVID-19 is only a year old. Overall it is fair to say that the factors for change and continuity have both had a significant impact on our attention, both individually and in tandem – for instance, using social media to ‘doomscroll’ for news about the pandemic. We have thus included a fairly equal weighting of distractions associated with 'change', i.e. pulling in news from an API, and those associated with 'continuity', such as social media notification sound effects and *Tiger King* sound bites.
+
 
 
 
