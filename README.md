@@ -43,6 +43,10 @@ DistractAbility
 
 ## Literature Review
 
+&nbsp;&nbsp; In this literature review, we will first cover the field related to the problem of greater attentional difficulties in the context of COVID-19. We will then review the literature on serious play and outline the kind of play that we believe best fits our project.
+
+## Literature Review: The Problem 
+
 ### Context ###
 
 &nbsp;&nbsp; By December 2019, the outbreak of a SARS-associated coronavirus (designated  COVID‐19, short for coronavirus 2019) had spread from Wuhan, China across the globe and was declared a pandemic by the World Health Organization (WHO) in March 2020 (WHO, 2020; Ghebreyesus, 2020). In that month nineteen European countries entered national lockdowns, most of which remained in place for several months (Hirsch, 2021). As is now common experience, these lockdowns entailed closure of schools, universities and all non-essential shops and services; employees were advised to work from home (WFH) wherever possible, with many of those unable to WFH put on temporary income schemes such as the British Furlough scheme or out of work entirely; and most countries also saw a ban on all non-essential movement (Hirsch, 2021). All of a sudden countless individuals had to quickly adapt to entirely new ways of working or studying remotely and juggle this with childcare, personal relationships, household chores, and family demands in general. This was experienced in the context of personal loss or the constant possibility of loss or ill-health, difficulty accessing standard medical care, extreme social isolation, job insecurity and joblessness, economic hardship, and heightened global social injustices and social unrest. We can surely expect that people have found it more difficult to concentrate in these unprecedented times. 
@@ -177,6 +181,8 @@ DistractAbility
 
 &nbsp;&nbsp; In summary, to represent the implications of negative emotional stimuli connected to the pandemic, we use an API to pull in current affairs articles and have these moving about the screen while the user is attempting to complete the task at hand. We also try to distract the user by playing the BBC News theme song. To represent the influence of social media and streaming services on attention, throughout the second round of the game we play social media notification sounds and sound clips from TV series such as *Tiger King*, which were popular during the lockdown period.  We seek to reflect the impact on concentration of media multitasking by playing the notification sounds of common workplace media, such as the incoming video-chat ringtone for Microsoft Teams. Finally, we believe that inactivity is best exemplified by the fact that the user is presumably sitting down, or at least fairly sedentary, while using our application.
 
+
+## Literature Review: Serious Play
 
 
 
