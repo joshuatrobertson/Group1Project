@@ -363,7 +363,7 @@ This is the link to the [sprints](https://github.com/joshuatrobertson/Group1Proj
 
 ### Accessibility
 
-&nbsp;&nbsp; The accessibiltiy of the game itself is poor insofar as the card game in its current state is inaccessible for blind or visually impaired individuals. However, the accessibility of the distractions implemented in the second round of our game is fairly good by our assessment. 
+&nbsp;&nbsp; The accessibiltiy of the card game that is the crux of our application is poor, insofar as the card game in its current state is inaccessible for blind or visually impaired individuals. However, the accessibility of the distractions implemented in the second round of our game is fairly good by our assessment. 
 
 &nbsp;&nbsp; **The game itself.** Our card game in its current state is inaccessible for visually impaired individuals, as it requires the user to be sighted in order to play. Future work on this application might therefore be to implement an auditory description of the game at every state. For instance, for each card the user flips, our application might give an auditory description of the card and its coordinates on the screen.
 
