@@ -5,7 +5,7 @@
 DistractAbility
 </h1>
 
-<h4 align="center">A distraction-infested memory game to highlight the attentional difficulties people have experienced since the onset of the Coronavirus pandemic.</h4>
+<h4 align="center">A distraction-infested memory game to highlight the problem that many people have experienced heightened attentional difficulties since the onset of the Coronavirus pandemic.</h4>
 
 <p align="center">
   <a href="https://badge.fury.io/js/%40angular%2Fcore"><img src="https://badge.fury.io/js/%40angular%2Fcore.svg" alt="npm version" 	height="18"></a>
