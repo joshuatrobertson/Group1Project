@@ -54,6 +54,12 @@ export class AppComponent {
   beginSound2 = false;
   beginSound3 = false;
 
+  // Store the sounds to be randomised
+  longSounds = ['childrenFighting.wav', 'construction.wav', 'busyStreet.wav', ];
+  shortSounds = ['dogBark.wav', 'facebookCall.mp3', 'facebookNotif.mp3', 'icecream.wav', 'iphoneGlass.mp3', 'iphoneNotification.mp3',
+    'joeExotic2.mp3', 'joeExotic3.mp3', 'messengerNotif.mp3', 'myNamesJoeExotic.mp3', 'seagul.m4a', 'twitterNotif.mp3',
+    'vibration.mp3', 'whatsappIncoming.mp3', 'whatsappNotif.mp3'];
+
 
   shuffleArray(anArray: any[]): any[] {
     return anArray.map(a => [Math.random(), a])
@@ -133,7 +139,11 @@ export class AppComponent {
         }
         if (this.time > this.getRandomNumber(18, 24) && this.userSecondGame === true) {
           this.beginAnimations2 = true;
-          this.playAudio('construction.wav');
+          if (this.beginSound3 === true) {
+            this.playAudio('construction.wav');
+            this.beginSound3 = false;
+          }
+
         }
         if (this.time > this.getRandomNumber(27, 36) && this.userSecondGame === true) {
           this.beginAnimations3 = true;
