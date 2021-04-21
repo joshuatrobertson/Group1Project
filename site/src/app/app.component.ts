@@ -14,15 +14,15 @@ export class AppComponent {
   // Images pulled from site. The number (* 2) represents playing cards for the user
   cardImages = [
     'pDGNBK9A0sk',
-    //'fYDrhbVlV1E',
+    // 'fYDrhbVlV1E',
     // 'qoXgaF27zBc',
    // 'b9drVB7xIOI',
    // 'TQ-q5WAVHj0',
-    //'wRU27yGfSLQ',
+    // 'wRU27yGfSLQ',
    // 'vNYia2IeqYs',
    // 'ts1zXzsD7xc',
    // 'Mi2urK1OKR0',
-    //'bXfQLglc81U'
+    // 'bXfQLglc81U'
   ];
 
   // Add a time component
@@ -51,11 +51,11 @@ export class AppComponent {
   beginAnimations2 = false;
   beginAnimations3 = false;
   beginSound = true;
-  beginSound2 = false;
-  beginSound3 = false;
+  beginSound2 = true;
+  beginSound3 = true;
 
   // Store the sounds to be randomised
-  longSounds = ['childrenFighting.wav', 'construction.wav', 'busyStreet.wav', ];
+  longSounds = ['childrenFighting.wav', 'construction.wav', 'busyStreet.wav'];
   shortSounds = ['dogBark.wav', 'facebookCall.mp3', 'facebookNotif.mp3', 'icecream.wav', 'iphoneGlass.mp3', 'iphoneNotification.mp3',
     'joeExotic2.mp3', 'joeExotic3.mp3', 'messengerNotif.mp3', 'myNamesJoeExotic.mp3', 'seagul.m4a', 'twitterNotif.mp3',
     'vibration.mp3', 'whatsappIncoming.mp3', 'whatsappNotif.mp3'];
@@ -107,11 +107,22 @@ export class AppComponent {
     }
   }
 
-  playAudio(audioSource) {
-    console.log("Audio called");
+  playAudio(audioSource): void {
+    console.log('Audio called');
     const audio = new Audio('../assets/sounds/' + audioSource);
     audio.load();
     audio.play();
+  }
+
+  // Play a random sound every 15 seconds
+  playRandomSound(): void {
+    let audio;
+    for (let i = 0; i < 1; i++) {
+      audio = this.shortSounds[Math.floor(Math.random() * this.shortSounds.length)];
+      if (this.time % 15 === 0) {
+        this.playAudio(audio);
+      }
+    }
   }
 
   startTimer(): void {
@@ -125,29 +136,30 @@ export class AppComponent {
         }
         if (this.time > 5 && this.userSecondGame === true) {
           if (this.beginSound === true) {
-            this.playAudio('teams_call.mp3');
+            this.playAudio('teamsCall.mp3');
             this.beginSound = false;
           }
         }
         // Get a random number between 3 and 7 (seconds) and display the news item if reached
-        if (this.time > this.getRandomNumber(15, 20) && this.userSecondGame === true) {
+        if (this.time > this.getRandomNumber(10, 15) && this.userSecondGame === true) {
           if (this.beginSound2 === true) {
-            this.playAudio('construction.wav');
+            // Pick a random long sound to play
+            this.playAudio(this.longSounds[Math.floor(Math.random() * this.longSounds.length)]);
             this.beginSound2 = false;
           }
           this.beginAnimations = true;
         }
         if (this.time > this.getRandomNumber(18, 24) && this.userSecondGame === true) {
           this.beginAnimations2 = true;
-          if (this.beginSound3 === true) {
-            this.playAudio('construction.wav');
-            this.beginSound3 = false;
-          }
-
         }
         if (this.time > this.getRandomNumber(27, 36) && this.userSecondGame === true) {
           this.beginAnimations3 = true;
         }
+        if (this.time > 10 && this.userSecondGame === true) {
+          this.playRandomSound();
+        }
+
+
         this.display = this.transform( this.time);
       }, 1000);
     }
@@ -222,7 +234,7 @@ export class AppComponent {
     this.returnTime = ('The first time was: ' + this.userFirstTime + '\nThe second time was: ' + this.userSecondTime);
   }
 
-  getRandomNumber(min, max): any {
+  getRandomNumber(min, max): number {
     return Math.random() * (max - min) + min;
   }
 
