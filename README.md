@@ -315,6 +315,24 @@ DistractAbility
 ## Current Industry Review
 
 
+### Games that highlight the consequences of distraction
+
+&nbsp;&nbsp; In 2019, the servicing and repair company Kwik Fit released an interactive game called Driven to Distraction, that assesses how using a mobile phone affects motorists’ concentration and reaction times (Alan, 2019; Kwik Fit, 2021). Our team were not in fact aware of this application until after the prototyping stage, however of all applications currently on the market, Driven to Distraction certainly bears the most similarity to our own application, in terms of both its core objectives and the trajectory of the game itself. 
+
+&nbsp;&nbsp; Driven to Distraction is a fun and interactive game, with a colourful, cartoon-style user interface, yet its core objective is to highlight the impact of mobile phone distraction on road safety. This is clearly well within the scope of ‘serious play.’ It is also very similar to our application, which is similarly interactive and (hopefully) fun but at core meant to highlight the extent to which productivity is impacted by the distractions that have typically arisen or been more pronounced since the onset of the pandemic. 
+
+&nbsp;&nbsp; The structure of Driven to Distraction is also very similar to the trajectory of our game. Driven to Distraction puts drivers in a virtual car and asks them to react to a stop sign, first without any distractions and then again while answering driving-related questions on a mock mobile phone screen. This is clearly similar to our application, which first has the user play the memory game without distractions and then again with distractions. 
+
+
+### Bibliography
+
+&nbsp; M. Allan, "Online game highlights dangerous distraction of mobile phones", Car News, 2019. Available: https://inews.co.uk/essentials/lifestyle/cars/car-news/online-game-highlights-dangerous-distraction-of-mobile-phones-323539 [Accessed: 20- Apr- 2021].
+
+&nbsp; A. Borges, "29 Free Mobile Games to Distract You When Your Anxiety Is Too Much", Self: Mental Health, 2020. Available: https://www.self.com/story/free-mobile-games. [Accessed: 20- Apr- 2021].
+
+&nbsp; Mind, "Games and puzzles", Mind.org.uk, 2021. [Online]. Available: https://www.mind.org.uk/need-urgent-help/how-can-i-distract-myself/games-and-puzzles/. [Accessed: 20- Apr- 2021].
+
+
 
 ## Problem Definition
 
