@@ -31,7 +31,8 @@ DistractAbility
 
 # Introduction
 ## Abstract
-In this project, we propose **DistractAbility**, a single page application where the user plays two rounds of a simple brain training task, each within a time limit of two minutes. The first round is played without distraction while the second round is permeated with increasing levels of distracting stimuli, making it harder to successfully complete the task. This is meant to represent the difficulty of staying focused during lockdown.
+In this project we propose **DistractAbility**, a single page application designed to highlight the problem of the deleterious effects of lockdown and general coronavirus restrictions on people’s attentional abilities, and the negative consequences entailed by this increased susceptibility to distraction, for instance on people's quality of work or study. To highlight this important issue in a way that is fun and interactive, we have designed a brain-training game with a twist. The user of our application plays two rounds of a simple brain training task, each round within a time limit of two minutes. The first round is played without distraction while the second round is permeated with increasing levels of distracting stimuli, making it harder to successfully complete the task. At the end, the user is shown their scores for each round. If the presence of distractions affected the user's ability to focus on correctly completing the mind games, the second score can be expected to be lower than the first.
+
 
 ## Repository Structure
 ## Project Objectives
