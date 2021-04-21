@@ -194,10 +194,15 @@ export class AppComponent {
 
         if (this.matchedCount === this.cardImages.length) {
           dialogRef = this.dialog;
+          this.beginAnimations = false;
+          this.beginAnimations2 = false;
+          this.beginAnimations3 = false;
+          this.beginSound = true;
+          this.beginSound2 = true;
+          this.beginSound3 = true;
 
           if (this.userSecondGame === true) {
             dialogRef = this.dialog.open(EndGameComponent, {
-              disableClose: true
             });
           } else {
             dialogRef = this.dialog.open(RestartGameComponent, {
@@ -211,6 +216,7 @@ export class AppComponent {
             this.userSecondGame = true;
           } else {
             this.userSecondTime = this.time;
+            this.userSecondGame = false;
             this.displayTimes();
           }
 
