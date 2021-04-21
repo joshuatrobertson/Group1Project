@@ -13,16 +13,16 @@ export class AppComponent {
 
   // Images pulled from site. The number (* 2) represents playing cards for the user
   cardImages = [
-    //'pDGNBK9A0sk',
-   // 'fYDrhbVlV1E',
-  //  'qoXgaF27zBc',
-    //'b9drVB7xIOI',
+    'pDGNBK9A0sk',
+    //'fYDrhbVlV1E',
+    // 'qoXgaF27zBc',
+   // 'b9drVB7xIOI',
    // 'TQ-q5WAVHj0',
-   // 'wRU27yGfSLQ',
-    //'vNYia2IeqYs',
-    //'ts1zXzsD7xc',
-    //'Mi2urK1OKR0',
-    'bXfQLglc81U'
+    //'wRU27yGfSLQ',
+   // 'vNYia2IeqYs',
+   // 'ts1zXzsD7xc',
+   // 'Mi2urK1OKR0',
+    //'bXfQLglc81U'
   ];
 
   // Add a time component
@@ -46,10 +46,13 @@ export class AppComponent {
 
   matchedCount = 0;
 
-  // Begin animations
+  // Used to begin animations and sound after a period of time
   beginAnimations = false;
   beginAnimations2 = false;
-
+  beginAnimations3 = false;
+  beginSound = true;
+  beginSound2 = false;
+  beginSound3 = false;
 
 
   shuffleArray(anArray: any[]): any[] {
@@ -98,8 +101,15 @@ export class AppComponent {
     }
   }
 
+  playAudio(audioSource) {
+    console.log("Audio called");
+    const audio = new Audio('../assets/sounds/' + audioSource);
+    audio.load();
+    audio.play();
+  }
+
   startTimer(): void {
-    console.log('=====>');
+    console.log('Timer started');
     if (this.timerStart === false) {
       this.interval = setInterval(() => {
         if (this.time === 0) {
@@ -107,12 +117,26 @@ export class AppComponent {
         } else {
           this.time++;
         }
+        if (this.time > 5 && this.userSecondGame === true) {
+          if (this.beginSound === true) {
+            this.playAudio('teams_call.mp3');
+            this.beginSound = false;
+          }
+        }
         // Get a random number between 3 and 7 (seconds) and display the news item if reached
-        if (this.time > this.getRandomNumber(1, 3) && this.userSecondGame === true) {
+        if (this.time > this.getRandomNumber(15, 20) && this.userSecondGame === true) {
+          if (this.beginSound2 === true) {
+            this.playAudio('construction.wav');
+            this.beginSound2 = false;
+          }
           this.beginAnimations = true;
         }
-        if (this.time > this.getRandomNumber(4,6) && this.userSecondGame === true) {
+        if (this.time > this.getRandomNumber(18, 24) && this.userSecondGame === true) {
           this.beginAnimations2 = true;
+          this.playAudio('construction.wav');
+        }
+        if (this.time > this.getRandomNumber(27, 36) && this.userSecondGame === true) {
+          this.beginAnimations3 = true;
         }
         this.display = this.transform( this.time);
       }, 1000);
