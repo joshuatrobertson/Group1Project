@@ -315,13 +315,31 @@ DistractAbility
 ## Current Industry Review
 
 
+&nbsp;&nbsp; When searching for applications that relate to the serious problem of distraction, we found several themes into which the market can be categorised. Most similar to our application, *DistractAbility*, are games that highlight the consequences of distraction. Then there are applications that are designed to be a distraction, for example, to distract the user from anxiety or stress. Finally, there are countless applications on the market that are designed to limit distractions, for instance social media and content blockers. Such applications are often marketed as a great way for individuals to boost their productivity. While the first two categories fall within the scope of serious play, the final category does not due to the lack of a play aspect.
+
 ### Games that highlight the consequences of distraction
 
 &nbsp;&nbsp; In 2019, the servicing and repair company Kwik Fit released an interactive game called *Driven to Distraction*, that assesses how using a mobile phone affects motorists’ concentration and reaction times (Alan, 2019; Kwik Fit, 2021). Our team were not in fact aware of this application until after the prototyping stage, however of all applications currently on the market, *Driven to Distraction* certainly bears the most similarity to our own application, in terms of both its core objectives and the trajectory of the game itself. 
 
-&nbsp;&nbsp; *Driven to Distraction* is a fun and interactive game, with a colourful, cartoon-style user interface, yet its core objective is to highlight the impact of mobile phone distraction on road safety. This is clearly well within the scope of ‘serious play.’ It is also very similar to our application, which is similarly interactive and (hopefully) fun but at core meant to highlight the extent to which productivity is impacted by the distractions that have typically arisen or been more pronounced since the onset of the pandemic. 
+&nbsp;&nbsp; *Driven to Distraction* is a fun and interactive game, with a colourful, cartoon-style user interface, yet its core objective is to highlight the impact of mobile phone distraction on road safety. This is clearly well within the scope of ‘serious play.’ This is also very similar to our interactive and (hopefully) fun application, which at core is meant to highlight the extent to which productivity is impacted by the distractions that have typically arisen or been more pronounced since the onset of the pandemic. 
 
-&nbsp;&nbsp; The structure of *Driven to Distraction* is also very similar to the trajectory of our game. *Driven to Distraction* puts drivers in a virtual car and asks them to react to a stop sign, first without any distractions and then again while answering driving-related questions on a mock mobile phone screen. This is clearly similar to our application, which first has the user play the memory game without distractions and then again with distractions. 
+&nbsp;&nbsp; The structure of *Driven to Distraction* is also very similar to the trajectory of our own application. *Driven to Distraction* puts drivers in a virtual car and asks them to react to a stop sign, first without any distractions and then again while answering driving-related questions on a mock mobile phone screen. This is clearly akin to our application *DistractAbility*, which first has the user play the memory game without distractions and then again with distractions. 
+
+&nbsp;&nbsp; *Driven to Distraction* is the only applications of its kind that we were able to find on the market as present.
+
+### Applications as a distraction from anxiety
+
+&nbsp;&nbsp; Many organisations, among them mental health charity *Mind*, have publicly endorsed a range of games and puzzles that are *designed to distract* the user. The theory is that playing such games can be a powerful way for the user to distract themselves from internal anxiety and/or external stressors in their lives (Mind, 2021). Writing for the Mental Health section of Self in October 2020, Anna Borges opens up about “embracing the power of the mindless mobile game” since the onset of the pandemic, as she found such games to be “unexpected anxiety coping mechanisms” amongst the stressors of COVID-19 (Borges, 2020). Included in Borges’ recommended games are: *Candy Crush Saga*; *2048*, a slide-and-combine number game; a simple dot-connecting game *Two Dots*; *Solitaire*; and many others, including braining-training games such as *Numberzilla*.
+
+&nbsp;&nbsp; Such applications arguably do fall within the scope of serious play. They tend to use a fun and interactive game of some sort (play) to help individuals to take their mind off anxiety, stress or panic (an undoubtedly serious problem). The difference here is that, whereas our own application and games such as *Driven to Distraction* use play to highlight the impact of a serious problem – arguably with the second-order objective of provoking behaviour change – applications in this category are designed to directly address, or fix, the problem rather than emphasise its relevance. 
+
+### Applications that boost productivity by limiting distractions
+
+
+
+
+
+
 
 
 ### Bibliography
@@ -330,7 +348,18 @@ DistractAbility
 
 &nbsp; A. Borges, "29 Free Mobile Games to Distract You When Your Anxiety Is Too Much", Self: Mental Health, 2020. Available: https://www.self.com/story/free-mobile-games. [Accessed: 20- Apr- 2021].
 
+Cold Turkey. Cold Turkey Software, Inc., 2021. Available: https://getcoldturkey.com/. [Accessed: 22- Apr- 2021].
+
+Freedom. Freedom.to, 2021. Available: https://freedom.to/. [Accessed: 15- Apr- 2021].
+
+Forest. Seekrtech, 2021. Available: https://www.forestapp.cc/. [Accessed: 22- Apr- 2021].
+
 &nbsp; Mind, "Games and puzzles", Mind.org.uk, 2021. [Online]. Available: https://www.mind.org.uk/need-urgent-help/how-can-i-distract-myself/games-and-puzzles/. [Accessed: 20- Apr- 2021].
+
+Seekrtech, 2021. Available: https://seekrtech.com/en/. [Accessed: 22- Apr- 2021].
+
+Serene. Venture Harbour Ltd, 2021. Available: https://zapier.com/blog/stay-focused-avoid-distractions/#serene. [Accessed: 22- Apr- 2021].
+
 
 
 
