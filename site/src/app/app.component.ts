@@ -3,12 +3,15 @@ import { MatDialog } from '@angular/material/dialog';
 import { CardData } from './card-data.model';
 import { RestartGameComponent } from './restart-game/restart-game.component';
 import {EndGameComponent} from './end-game/end-game.component';
+import {DataService} from './data.service';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
+
+
 export class AppComponent implements OnInit {
 
   // Images pulled from site. The number (* 2) represents playing cards for the user
@@ -49,7 +52,7 @@ export class AppComponent implements OnInit {
 
 
 
-  constructor(private dialog: MatDialog) {
+  constructor(private dataService: DataService, private dialog: MatDialog) {
 
   }
 
@@ -155,6 +158,8 @@ export class AppComponent implements OnInit {
             this.userSecondGame = true;
           } else {
             this.userSecondTime = this.time;
+            let myObj = {"username": "efan haynes", "time1": this.userFirstTime, "time2": this.userSecondTime};
+            this.dataService.postPlay(myObj);
             this.displayTimes();
           }
 
@@ -173,6 +178,8 @@ export class AppComponent implements OnInit {
     this.setupCards();
     this.startTimer();
   }
+
+
 
   displayTimes(): void {
     this.returnTime = ('The first time was: ' + this.userFirstTime + '\nThe second time was: ' + this.userSecondTime);

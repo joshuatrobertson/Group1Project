@@ -22,4 +22,8 @@ export class DataService {
     return this.httpClient.get(this.EFAN_ID)
   }
 
+  public postPlay(payload){
+    return this.httpClient.post(`${this.REST_API_SERVER}/plays`, payload)
+  }
+
 }

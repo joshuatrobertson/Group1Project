@@ -4,9 +4,8 @@ const Play = require('../../models/play');
 const Player = require('../../models/player');
 
 router.post('/', async (req, res) => {
-  const player = await Player.find({username: 'efan haynes'})
   const play = new Play({
-    player: player[0]._id,
+    player: req.body.username,
     timewithoutdistraction: req.body.time1,
     timewithdistraction: req.body.time2
     });
@@ -26,9 +25,5 @@ router.get('/:playerId', async (req, res) => {
     res.json({message : err});
   }
 });
-
-
-
-
 
 module.exports = router;
