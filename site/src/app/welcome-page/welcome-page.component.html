@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>DistractAbility: Welcome</title>
+  <link rel="stylesheet" href="style.css" type="text/css">
+  <link rel="script" href="script.js" type="application/javascript">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Monofett&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+</head>
+<body>
+<section class="topLine">
+  <header>
+    <a title="logo"><img src="logo.png" class="logo"></a>
+    <div class="topButtons">
+      <!---App Info pop-up window--->
+      <button data-modal-target="#appInfo">App Info</button>
+      <div class="appInfo" id="appInfo">
+        <div class="appInfoHeader">
+          <div class="appInfoTitle">Welcome to DistractAbility!</div>
+          <button data-close-button class="closeButton">&times;</button>
+        </div>
+        <div class="appInfoBody">
+          <p>DistractAbility highlights the negative impacts of the Coronavirus pandemic on people’s ability to find focus.</p>
+          <p>Login with your email to be taken to the first round of the game.</p>
+        </div>
+      </div>
+      <div id="appInfoOverlay"></div>
+      <!---Developer Info pop-up window--->
+      <button data-modal-target="#devInfo">Developer Info</button>
+      <div class="devInfo" id="devInfo">
+        <div class="devInfoHeader">
+          <div class="devInfoTitle">Meet the developers!</div>
+          <button data-close-button class="closeButton">&times;</button>
+        </div>
+        <div class="devInfoBody">
+          <p>Alan Cen</p>
+          <p>Efan Haynes</p>
+          <p>Keane Fernandez</p>
+          <p>Josh Robertson</p>
+          <p>Ella Gryf-Lowczowska</p>
+        </div>
+      </div>
+      <div id="devInfoOverlay"></div>
+      <!---Developer Contact pop-up window--->
+      <button data-modal-target="#contact">Developer Contact</button>
+      <div class="contact" id="contact">
+        <div class="contactHeader">
+          <div class="contactTitle">Developer Contacts</div>
+          <button data-close-button class="closeButton">&times;</button>
+        </div>
+        <div class="contactBody">
+          <p>mj20448@bristol.ac.uk</p>
+          <p>eh17538@bristol.ac.uk</p>
+          <p>kf13056@bristol.ac.uk</p>
+          <p>hi20003@bristol.ac.uk</p>
+          <p>eg16914@bristol.ac.uk</p>
+        </div>
+      </div>
+      <div id="contactOverlay"></div>
+    </div>
+  </header>
+</section>
+<!---Content: title, login and card-back image--->
+<div class="content">
+  <div class="card">
+    <a><img src="card1.png" class="card"></a>
+  </div>
+  <h1>DistractAbility.</h1>
+  <div class="loginPrompt">
+    <form>
+      <p>Please enter your email:</p>
+      <label for="email"></label><input type="text" id="email"/><br/>
+      <input id="loginButton" type="button" value="Login" onclick="saveEmail();"/>
+
+      <h4 id="storeEmail">tmp storing email</h4>
+
+    </form>
+  </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
