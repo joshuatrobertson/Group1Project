@@ -158,8 +158,14 @@ export class AppComponent implements OnInit {
             this.userSecondGame = true;
           } else {
             this.userSecondTime = this.time;
-            let myObj = {"username": "efan haynes", "time1": this.userFirstTime, "time2": this.userSecondTime};
-            this.dataService.postPlay(myObj);
+            let ob = {"username": "efan haynes", "time1": this.userFirstTime, "time2": this.userSecondTime};
+            this.dataService.postPlay(ob).subscribe((res:any) => {​​​​​
+            let body = res.body;
+            console.log('response body', body);
+            }​​​​​, (error) => {​​​​​
+              console.log('Failed with post');
+              console.error(error);
+            }​​​​​);
             this.displayTimes();
           }
 

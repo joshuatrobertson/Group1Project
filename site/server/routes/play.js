@@ -4,8 +4,10 @@ const Play = require('../../models/play');
 const Player = require('../../models/player');
 
 router.post('/', async (req, res) => {
+  console.log("whatever");
+  const player = await Player.find({username: req.body.username})
   const play = new Play({
-    player: req.body.username,
+    player: player[0]._id,
     timewithoutdistraction: req.body.time1,
     timewithdistraction: req.body.time2
     });
