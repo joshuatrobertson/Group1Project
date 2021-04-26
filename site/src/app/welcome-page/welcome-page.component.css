@@ -4,7 +4,6 @@
   top: 20px;
   left: 20px;
 }
-
 .card {
   height: 600px;
   width: auto;
@@ -12,12 +11,10 @@
   right: 100px;
   top: 80px;
 }
-
 html {
   background: rgb(5,123,249);
   background: linear-gradient(90deg, rgba(5,123,249,1) 32%, rgba(226,155,237,1) 100%);
 }
-
 h1 {
   color: gold;
   font-size: 5.8em;
@@ -26,7 +23,6 @@ h1 {
   left: 100px;
   font-family: 'Zen Dots', cursive;
 }
-
 .topLine {
   position: relative;
   width: 80%;
@@ -88,9 +84,8 @@ h1 {
   width: 500px;
 }
 
-
 /* Source: https://www.youtube.com/watch?v=MBaw_6cPmAw */
-.appInfo {
+.modal {
   position: fixed;
   top: 50%;
   left: 50%;
@@ -103,9 +98,10 @@ h1 {
   width: 500px;
   max-width: 80%;
 }
-.appInfo.active {
+.modal.active {
   transform: translate(-50%, -50%) scale(1);
 }
+
 .appInfoHeader {
   padding: 10px 15px;
   display: flex;
@@ -118,7 +114,7 @@ h1 {
   font-size: 1.5em;
   font-family: 'Zen Dots', cursive;
 }
-.appInfoHeader .close-button {
+.appInfoHeader .closeButton {
   cursor: pointer;
   border: none;
   outline: none;
@@ -131,41 +127,8 @@ h1 {
   font-size: 1.2rem;
   font-family: 'Montserrat', sans-serif;
 }
-#appInfoOverlay {
-  position: fixed;
-  opacity: 0;
-  transition: 200ms ease-in-out;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: rgba(0, 0, 0, .5);
-  pointer-events: none;
-}
-
-#appInfoOverlay.active {
-  opacity: 1;
-  pointer-events: all;
-}
 
 
-/* Source: https://www.youtube.com/watch?v=MBaw_6cPmAw */
-.devInfo {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%) scale(0);
-  transition: 200ms ease-in-out;
-  border: 3px solid gold;
-  border-radius: 10px;
-  z-index: 10;
-  background-color: floralwhite;
-  width: 500px;
-  max-width: 80%;
-}
-.devInfo.active {
-  transform: translate(-50%, -50%) scale(1);
-}
 .devInfoHeader {
   padding: 10px 15px;
   display: flex;
@@ -178,7 +141,7 @@ h1 {
   font-size: 1.5em;
   font-family: 'Zen Dots', cursive;
 }
-.devInfoHeader .devCloseButton {
+.devInfoHeader .closeButton {
   cursor: pointer;
   border: none;
   outline: none;
@@ -186,46 +149,12 @@ h1 {
   font-size: 2.5rem;
   font-family: 'Monofett', cursive;
 }
-
 .devInfoBody {
   padding: 10px 10px;
   font-size: 1.2rem;
   font-family: 'Montserrat', sans-serif;
 }
-#devInfoOverlay {
-  position: fixed;
-  opacity: 0;
-  transition: 200ms ease-in-out;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: rgba(0, 0, 0, .5);
-  pointer-events: none;
-}
 
-#devInfoOverlay.active {
-  opacity: 1;
-  pointer-events: all;
-}
-
-
-.contact {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%) scale(0);
-  transition: 200ms ease-in-out;
-  border: 3px solid gold;
-  border-radius: 10px;
-  z-index: 10;
-  background-color: floralwhite;
-  width: 500px;
-  max-width: 80%;
-}
-.contact.active {
-  transform: translate(-50%, -50%) scale(1);
-}
 .contactHeader {
   padding: 10px 15px;
   display: flex;
@@ -238,7 +167,7 @@ h1 {
   font-size: 1.5em;
   font-family: 'Zen Dots', cursive;
 }
-.contactHeader .contactCloseButton {
+.contactHeader .closeButton {
   cursor: pointer;
   border: none;
   outline: none;
@@ -246,13 +175,13 @@ h1 {
   font-size: 2.5rem;
   font-family: 'Monofett', cursive;
 }
-
 .contactBody {
   padding: 10px 10px;
   font-size: 1.2rem;
   font-family: 'Montserrat', sans-serif;
 }
-#contactOverlay {
+
+#overlay {
   position: fixed;
   opacity: 0;
   transition: 200ms ease-in-out;
@@ -263,10 +192,8 @@ h1 {
   background-color: rgba(0, 0, 0, .5);
   pointer-events: none;
 }
-
-#contactOverlay.active {
+#overlay.active {
   opacity: 1;
   pointer-events: all;
 }
-
 

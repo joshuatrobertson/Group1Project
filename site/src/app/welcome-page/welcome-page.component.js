@@ -4,28 +4,22 @@ function saveEmail(){
   //emailAddress = emailAddress.value;
 }
 
-
 /* Pop-up functionality */
-const openModal = document.querySelectorAll('[data-modal-target]')
-const closeModal = document.querySelectorAll('[data-close-button]')
-const appInfoOverlay = document.getElementById('appInfoOverlay')
-const devInfoOverlay = document.getElementById('devInfoOverlay')
-const contactOverlay = document.getElementById('contactOverlay')
+const openModal = document.querySelectorAll('[data-modal-target]');
+const closeModal = document.querySelectorAll('[data-close-button]');
+const overlay = document.getElementById('overlay');
+
 
 function openTheModal(modal) {
   if (modal == null) return
   modal.classList.add('active')
-  appInfoOverlay.classList.add('active')
-  devInfoOverlay.classList.add('active')
-  contactOverlay.classList.add('active')
+  overlay.classList.add('active')
 }
 
 function closeTheModal(modal) {
   if (modal == null) return
   modal.classList.remove('active')
-  appInfoOverlay.classList.remove('active')
-  devInfoOverlay.classList.remove('active')
-  contactOverlay.classList.remove('active')
+  overlay.classList.remove('active')
 }
 
 openModal.forEach(button => {
@@ -37,29 +31,16 @@ openModal.forEach(button => {
 
 closeModal.forEach(button => {
   button.addEventListener('click', () => {
-    const modal = button.closest('.appInfo')
+    const modal = button.closest('.modal')
     closeTheModal(modal)
   })
 })
 
-appInfoOverlay.addEventListener('click', () => {
-  const modals = document.querySelectorAll('.appInfo.active')
+overlay.addEventListener('click', () => {
+  const modals = document.querySelectorAll('.modal.active')
   modals.forEach(modal => {
     closeTheModal(modal)
   })
 })
 
-devInfoOverlay.addEventListener('click', () => {
-  const modals = document.querySelectorAll('.appInfo.active')
-  modals.forEach(modal => {
-    closeTheModal(modal)
-  })
-})
-
-contactOverlay.addEventListener('click', () => {
-  const modals = document.querySelectorAll('.appInfo.active')
-  modals.forEach(modal => {
-    closeTheModal(modal)
-  })
-})
 
