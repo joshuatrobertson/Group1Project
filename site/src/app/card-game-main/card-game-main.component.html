@@ -1,0 +1,31 @@
+<div class="main-screen">
+  <div class="news-item" [hidden]="!beginAnimations">
+    <app-news-api></app-news-api>
+  </div>
+  <div class="news-item-right" [hidden]="!beginAnimations">
+    <app-news-api></app-news-api>
+  </div>
+  <div class="news-item" [hidden]="!beginAnimations2">
+    <app-news-api></app-news-api>
+  </div>
+  <div class="news-item" [hidden]="!beginAnimations3">
+    <app-news-api></app-news-api>
+  </div>
+  <div class="card-screen">
+    <p class="text-center" [hidden]="clicked">Click Start game to begin!</p>
+      <button type="button" [hidden]="clicked" (click)="startGame(); clicked = true;" class="btn btn-primary">Start game</button>
+    <p></p>
+    <div class="grid p-16">
+      <app-game-card *ngFor="let c of cards; let idx=index" [data]="c" (cardClicked)="cardClicked(idx)"></app-game-card>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <ul class="nav nav-tabs">
+    <li class="nav-item">
+      <a class="nav-link" routerLink="/bar-chart">See your times!</a>
+    </li>
+  </ul>
+  <div>
+  </div>
+</div>
