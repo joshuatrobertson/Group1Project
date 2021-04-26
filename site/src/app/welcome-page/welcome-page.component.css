@@ -84,6 +84,9 @@ h1 {
   border: none;
   background: none;
 }
+.inputField {
+  width: 500px;
+}
 
 
 /* Source: https://www.youtube.com/watch?v=MBaw_6cPmAw */
@@ -265,3 +268,5 @@ h1 {
   opacity: 1;
   pointer-events: all;
 }
+
+

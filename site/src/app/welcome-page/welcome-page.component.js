@@ -1,12 +1,9 @@
 /* Login: save email */
 function saveEmail(){
   let emailAddress = document.getElementById('email');
-
-  /* Delete later !!!!!! */
-  let storeEmail = document.getElementById('storeEmail');
-  storeEmail.innerHTML = emailAddress.value;
-
+  //emailAddress = emailAddress.value;
 }
+
 
 /* Pop-up functionality */
 const openModal = document.querySelectorAll('[data-modal-target]')
@@ -36,32 +33,33 @@ openModal.forEach(button => {
     const modal = document.querySelector(button.dataset.modalTarget)
     openTheModal(modal)
   })
-});
+})
 
 closeModal.forEach(button => {
   button.addEventListener('click', () => {
     const modal = button.closest('.appInfo')
     closeTheModal(modal)
   })
-});
+})
 
 appInfoOverlay.addEventListener('click', () => {
   const modals = document.querySelectorAll('.appInfo.active')
   modals.forEach(modal => {
     closeTheModal(modal)
   })
-});
+})
 
 devInfoOverlay.addEventListener('click', () => {
   const modals = document.querySelectorAll('.appInfo.active')
   modals.forEach(modal => {
     closeTheModal(modal)
   })
-});
+})
 
 contactOverlay.addEventListener('click', () => {
   const modals = document.querySelectorAll('.appInfo.active')
   modals.forEach(modal => {
     closeTheModal(modal)
   })
-});
+})
+
