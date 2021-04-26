@@ -65,9 +65,9 @@
 <!---Content: title, login and card-back image--->
 <div class="content">
   <div class="card">
-    <a><img src="card1.png" class="card" alt="card-back"></a>
+    <a><img [hidden]="emailClicked" src="assets/card1.png" class="card" alt="card-back"></a>
   </div>
-  <h1>DistractAbility.</h1>
+  <h1 [hidden]="emailClicked">DistractAbility.</h1>
   <div class="loginPrompt">
     <form [hidden]="emailClicked">
       Please enter your email:
