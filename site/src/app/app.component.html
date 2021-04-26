@@ -1,35 +1,81 @@
-<mat-toolbar color="primary" class="text-center">
-DistractAbility
-</mat-toolbar>
-<div class="main-screen">
-  <div class="news-item" [hidden]="!beginAnimations">
-    <app-news-api></app-news-api>
-  </div>
-  <div class="news-item-right" [hidden]="!beginAnimations">
-    <app-news-api></app-news-api>
-  </div>
-  <div class="news-item" [hidden]="!beginAnimations2">
-    <app-news-api></app-news-api>
-  </div>
-  <div class="news-item" [hidden]="!beginAnimations3">
-    <app-news-api></app-news-api>
-  </div>
-  <div class="card-screen">
-    <p class="text-center" [hidden]="clicked">Click Start game to begin!</p>
-    <button type="button" [hidden]="clicked" (click)="startGame(); clicked = true;" class="btn btn-primary">Start game</button>
-    <p></p>
-    <div class="grid p-16">
-      <app-game-card *ngFor="let c of cards; let idx=index" [data]="c" (cardClicked)="cardClicked(idx)"></app-game-card>
+<router-outlet></router-outlet>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>DistractAbility: Welcome</title>
+  <link rel="stylesheet" href="../styles.css" type="text/css">
+  <link rel="script" href="welcome-page.component.js" type="application/javascript">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Monofett&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+</head>
+<body>
+<section class="topLine">
+  <header>
+    <a title="logo"><img src="../assets/logo.png" class="logo" alt="logo"></a>
+    <div class="topButtons">
+      <!---App Info pop-up window--->
+      <button data-modal-target="#appInfo">App Info</button>
+      <div class="modal" id="appInfo">
+        <div class="appInfoHeader">
+          <div class="appInfoTitle">Welcome to DistractAbility!</div>
+          <button data-close-button="#appClose" class="closeButton">&times;</button>
+        </div>
+        <div class="appInfoBody">
+          <p>DistractAbility highlights the negative impacts of the Coronavirus pandemic on people’s ability to find focus.</p>
+          <p>Login with your email to be taken to the first round of the game.</p>
+        </div>
+      </div>
+      <!---Developer Info pop-up window--->
+      <button data-modal-target="#devInfo">Developer Info</button>
+      <div class="modal" id="devInfo">
+        <div class="devInfoHeader">
+          <div class="devInfoTitle">Meet the developers!</div>
+          <button data-close-button="#devClose" class="closeButton">&times;</button>
+        </div>
+        <div class="devInfoBody">
+          <p>Alan Cen</p>
+          <p>Efan Haynes</p>
+          <p>Keane Fernandez</p>
+          <p>Josh Robertson</p>
+          <p>Ella Gryf-Lowczowska</p>
+        </div>
+      </div>
+      <!---Developer Contact pop-up window--->
+      <button data-modal-target="#contact">Developer Contact</button>
+      <div class="modal" id="contact">
+        <div class="contactHeader">
+          <div class="contactTitle">Developer Contacts</div>
+          <button data-close-button="#contactClose" class="closeButton">&times;</button>
+        </div>
+        <div class="contactBody">
+          <p>Alan - mj20448@bristol.ac.uk</p>
+          <p>Efan - eh17538@bristol.ac.uk</p>
+          <p>Keane - kf13056@bristol.ac.uk</p>
+          <p>Josh - hi20003@bristol.ac.uk</p>
+          <p>Ella - eg16914@bristol.ac.uk</p>
+        </div>
+      </div>
+      <div id="overlay"></div>
     </div>
+  </header>
+</section>
+<!---Content: title, login and card-back image--->
+<div class="content">
+  <div class="card">
+    <a><img src="card1.png" class="card" alt="card-back"></a>
+  </div>
+  <h1>DistractAbility.</h1>
+  <div class="loginPrompt">
+    <form>
+      Please enter your email:
+      <br><label for="email"></label><input type="text" id="email" class="inputField"/><br/>
+      <input id="loginButton" type="button" value="Login" onclick="saveEmail();"/>
+    </form>
   </div>
 </div>
-<div class="container">
-    <ul class="nav nav-tabs">
-        <li class="nav-item">
-            <a class="nav-link" routerLink="/bar-chart">See your times!</a>
-        </li>
-    </ul>
-    <div>
-        <router-outlet></router-outlet>
-    </div>
-</div>
+<script src="welcome-page.component.js"></script>
+</body>
+</html>
