@@ -2,11 +2,15 @@
 
 ## 1. Task tracker
 
-This table keeps changing with every meeting. From the start of the easter break (Week 6), we've moved to Github Projects and documented weeks work based on sprints.
+This `Todo` table keeps changing with every meeting. As tasks in the todo table are finished, they are moved to the `Done` table. 
 
-| Item                       | Responsible | Due by     |
-| -------------------------- | ----------- | ---------- |
-| Migrated to weekly sprints | Everyone    | 12.04.2021 |
+From the start of the easter break (Week 6), we've moved the tasks to Github Projects and documented them based on weekly sprints.
+
+### Todo
+
+| Item                                             | Responsible | Due by     |
+| ------------------------------------------------ | ----------- | ---------- |
+| Tasks migrated to weekly sprints on Projects tab | Everyone    | 12.04.2021 |
 
 
 ### Done
@@ -26,11 +30,25 @@ This table keeps changing with every meeting. From the start of the easter break
 
 ___
 
-## 2. Meeting minutes (Recent first)
+## 2. Meeting minutes (Most recent first)
 
-The next stand up is on 12/04/21 at 10:00.
+The next stand up is on 28/04/21 at 10:00.
 
-### Week 11 (22/04/21, 10:00 - 10:30)
+### Week 11 (27/04/21, 10:00 - 10:30)
+
+### Attendees
+- Joshua Robertson
+- Alan Cen
+- Efan Haynes
+- Ella Gryf-Lowczowska
+- Keane Fernandes
+
+| Item        | Notes                                                                                                                     |
+| ----------- | ------------------------------------------------------------------------------------------------------------------------- |
+| Testing     | Ella to get on second round of User Testing                                                                               |
+| Integration | First prototype of backend is completed, have to integrate into repo to produce an MVP, will do this in the 1pm SEGP slot |
+
+### Week 11 (26/04/21, 10:00 - 10:30)
 
 ### Attendees
 - Joshua Robertson
