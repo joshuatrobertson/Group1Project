@@ -158,7 +158,7 @@ export class AppComponent implements OnInit {
             this.userSecondGame = true;
           } else {
             this.userSecondTime = this.time;
-            let ob = {"username": "efan haynes", "time1": this.userFirstTime, "time2": this.userSecondTime};
+            let ob = {"email": "efanhaynes@gmail.com", "time1": this.userFirstTime, "time2": this.userSecondTime};
             this.dataService.postPlay(ob).subscribe((res:any) => {​​​​​
             let body = res.body;
             console.log('response body', body);
