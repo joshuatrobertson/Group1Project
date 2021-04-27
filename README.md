@@ -1,6 +1,6 @@
 <h1 align="center">
 <center>
-<img src="report/images/image001_logo.png" alt="drawing" width="150"/>
+<img src="Report/00-Introduction/images/image001_logo.png" alt="drawing" width="150"/>
 <br>
 DistractAbility
 </h1>
