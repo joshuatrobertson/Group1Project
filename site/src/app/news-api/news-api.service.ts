@@ -20,7 +20,7 @@ export class NewsApiService {
   initSources(): any {
     return this.http.get('https://newsapi.org/v2/sources?language=en&apiKey=' + this.apiKey);
   }
-  initArticles(){
+  initArticles(): any {
     return this.http.get('https://newsapi.org/v2/top-headlines?sources=' + this.getRandomNewsSource() + '&apiKey=' + this.apiKey);
   }
 
