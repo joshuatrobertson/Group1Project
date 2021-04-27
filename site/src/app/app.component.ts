@@ -2,7 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import { MatDialog } from '@angular/material/dialog';
 import { CardData } from './card-data.model';
 import { RestartGameComponent } from './restart-game/restart-game.component';
-import { EndGameComponent } from './end-game/end-game.component';
+import {EndGameComponent} from './end-game/end-game.component';
+import {DataService} from './data.service';
 
 @Component({
   selector: 'app-root',
@@ -67,8 +68,10 @@ export class AppComponent {
       .map(a => a[1]);
   }
 
-  constructor(private dialog: MatDialog) {
+
+  constructor(private dataService: DataService, private dialog: MatDialog) {
   }
+
 
   startGame(): void {
     this.setupCards();
@@ -217,6 +220,14 @@ export class AppComponent {
           } else {
             this.userSecondTime = this.time;
             this.userSecondGame = false;
+            let ob = {"email": "efanhaynes@gmail.com", "time1": this.userFirstTime, "time2": this.userSecondTime};
+            this.dataService.postPlay(ob).subscribe((res:any) => {​​​​​
+            let body = res.body;
+            console.log('response body', body);
+            }​​​​​, (error) => {​​​​​
+              console.log('Failed with post');
+              console.error(error);
+            }​​​​​);
             this.displayTimes();
           }
 
@@ -235,6 +246,8 @@ export class AppComponent {
     this.setupCards();
     this.startTimer();
   }
+
+
 
   displayTimes(): void {
     this.returnTime = ('The first time was: ' + this.userFirstTime + '\nThe second time was: ' + this.userSecondTime);
