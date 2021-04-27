@@ -3,7 +3,7 @@ var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
 
 var PlayerSchema = new Schema({
-  email: { type: String, required: [true, 'Please enter your email.'] },
+  email: { type: String, required: [true, 'Please enter your email.'], unique: true},
   birthday: Date
 });
 
