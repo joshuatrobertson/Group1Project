@@ -4,10 +4,10 @@
 1. [Literature Review](#literature-review)  
    a. [The Problem](#literature-review-the-problem)  
    b. [Serious Play](#literature-review-serious-play)  
-   c. [Bibliography: The Problem](#bibliography-the-problem)
-   d. [Bibliography: Serious Play](#bibliography-serious-play)
+   c. [Bibliography: The Problem](#bibliography-the-problem)  
+   d. [Bibliography: Serious Play](#bibliography-serious-play)  
 2. [Current Industry Review](#current-industry-review)  
-   a. [Bibliography: Current Industry Review](#bibliography-current-industry-review)
+   a. [Bibliography: Current Industry Review](#bibliography-current-industry-review)  
 
 ## Literature Review
 
@@ -279,10 +279,9 @@
 
 
 
+[Back to the top](#table-of-contents)
 
 ## Current Industry Review
-
-
 
 &nbsp;&nbsp; When searching for applications that relate to the serious problem of distraction, we found several themes into which the market can be categorised. Most similar to our application, *DistractAbility*, are games that highlight the consequences of distraction. Then there are applications that are designed to be a distraction, for example, to distract the user from anxiety or stress. Finally, there are countless applications on the market that are designed to limit distractions, for instance social media and content blockers. Such applications are often marketed as a great way for individuals to boost their productivity. While the first two categories fall within the scope of serious play, the final category does not due to the lack of a play aspect.
 
@@ -328,3 +327,8 @@
 &nbsp; Seekrtech, 2021. Available: https://seekrtech.com/en/. [Accessed: 22- Apr- 2021].
 
 &nbsp; Serene. Venture Harbour Ltd, 2021. Available: https://zapier.com/blog/stay-focused-avoid-distractions/#serene. [Accessed: 22- Apr- 2021].
+
+
+[Back to the top](#table-of-contents)
+[Back to Report Landing Page](../README.md)
+[Next Section: System Implementation](#)
