@@ -1,29 +1,34 @@
 [&#8592; Back to Report Landing Page](../README.md)
 # Sprints and Project Management
 ## Communication
-Apart from Microsoft Teams, we used Discord for our general day to day communication. The Discord server was further split into channels to 
-further streamline topics of discussion. The animation below provides a quick overview of our Discord server.
 
-![Alt Text](images/001_discord.gif)
+### Communication Channels
+Microsoft Teams was the primary tool for our daily standups and we used Discord for our general day to day communication. The Discord server was split into channels to further streamline topics of discussion. The graphic below provides a quick overview of our Discord server.
 
-Weeks 1 to 5 were used to absorb the content delivered in the technical and design workshops. It gave the members the necessary information to decide on their roles in the project. 
+<p align="center">
+  <img src="images/001_discord.gif" width="750"/>
+</p>
 
-## Agile Methodology
-Our team decided to adopt the scrum approach of the agile working methodologies. The 
-The nature of the project brief dictated a feature driven developement approach for our team. 
-Our team decided to adopt scrum framework for our project. During the scoping of our project, we devised 6 main user stories that were essential to deliver our minumum viable product (MVP). 
-These user stories were then further broken down into features t
+### Weeks 1 - 5
+We used this time to absorb the content delivered in the technical and design workshops and implement the walkthroughs on our own machines. This gave the us the necessary information to decide on which roles we would undertake during our sprints. Therefore, our communication during these five weeks were just limited to the Tuesday and Thursday SEGP timeslots. 
 
-Weeks 1 to 5 were used to absorb the content delivered in the technical and design workshops. It gave the members the necessary information to decide on their roles in the project.
+### Weeks 6 - 10
+From Week 6 onwards, we held standups on Mondays, Wednesdays and Fridays at 10:00 AM. In addition, we used the design and technical workshops on Mondays and Thursdays to further discuss how we would go about integrating the week's material into our repository. 
 
-From Week 6 onwards, we used Mondays, Wednesdays and Fridays at 10:00 AM to hold standups and discuss the current status of our project. In addition, we used the SEGP time slots on Mondays and Thursdays to discuss material relevant to the workshop and think about ways to integrate it into our project. 
+The [meeting logs](../../Meetings/README.md) provide a top level summary of all of our standups.
 
-This [log](../../Meetings/README.md) provides a top level summary of all of our standups.
+## Agile Working
+Given the feature driven, modular nature of the project brief, we decided it to adopt the scrum methodology of the agile workflow.
 
-## Sprints
-Initially, we setup a Jira account account help document our sprints. However, the added overhead was turning out cumbersome and we decided to use GitHub projects to help document our sprints based on the suggestion of Marceli. This is the link to the [sprints](https://github.com/keane-fernandes/Group1Project/projects).
+### Step 1: Project Vision and Scoping
 
-## User stories
+Find the results of our scoping workshop and put it in here.
+
+Enter a high level overview and timeline here. Highlight critical points in the project here.
+
+### Step 2: User Story Creation
+
+Show the user stories implemented in each sprint.
 
 | User Story                                                                                          | Sprint                                                                  |
 | :-------------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------- |
@@ -33,11 +38,33 @@ Initially, we setup a Jira account account help document our sprints. However, t
 | As a user I want to be able to see the history of my recent games                                   | [Sprint 4](https://github.com/keane-fernandes/Group1Project/projects/5) |
 | As a user I want to be able to compare my scores against past users of the game                     | [Sprint 5](https://github.com/keane-fernandes/Group1Project/projects/6) |
 
+### Step 3: Sprint Planning and Execution
+Initially, we setup a Jira account account help document our sprints. However, the added overhead was turning out cumbersome and we decided to use GitHub projects to help document our sprints based on the suggestion of Marceli. This is the link to the [sprints](https://github.com/keane-fernandes/Group1Project/projects).
+
+### Step 4: Review and Repeat!
+
+
+
 
 ## CI/CD Pipeline
+### Git 
+
+### Docker
+
+Talk about how both of these tools streamlined our workflow (maybe with the help of an image?)
 
 ## Team Contributions
+Discussion of team roles.
 
+Fill this in in a standup.
+
+| Team Member          | Contribution                                                            |
+| :------------------- | :---------------------------------------------------------------------- |
+| Joshua Robertson     |  |
+| Alan Cen             |  |
+| Ella Gryf-Lowczowska |  |
+| Efan Haynes          |  |
+| Keane Fernandes      |  |
 
 <p align="center">
   <b>Navigation:</b><br>
@@ -45,15 +72,3 @@ Initially, we setup a Jira account account help document our sprints. However, t
   <a href="#sprints-and-project-management">&#8593; Back to the top</a> |
   <a href="../05-Evaluation/README.md">&#8594; Next Section: Evaluation</a> 
 </p>
-
-
-
----
-# Mark Scheme
-Group working methods used (for instance did your team choose a particular style of agile? what communication channels did you use?) 
-
-Discussion of team roles (specialisation is ok!). A summary of individual contributions (note: this is for reference, your team will all receive the same grade!). 
-
-Documentation of your sprints, including both high level overview, timeline, and selected highlights that were critical points in the project (remember to show the users stories implemented in each sprint). We expect a summary of meeting logs (including for instance apologies for absence etc) 
-
-Team use of Git, how your team used continuous integration / continuous deployment. Streamlining of workflow throughout. 
