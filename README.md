@@ -34,39 +34,39 @@ DistractAbility
 &nbsp;&nbsp; In this project we propose **DistractAbility**, a single page application designed to highlight the problem of the deleterious effects of lockdown and general coronavirus restrictions on people’s attentional abilities, and the negative consequences entailed by this increased susceptibility to distraction, for instance on people's quality of work or study. To highlight this important issue in a way that is fun and interactive, we have designed a brain-training game with a twist. The user of our application plays two rounds of a simple brain training task, each round within a time limit of two minutes. The first round is played without distraction while the second round is permeated with increasing levels of distracting stimuli, making it harder to successfully complete the task. At the end, the user is shown their scores for each round. If the presence of distractions affected the user's ability to focus on correctly completing the mind games, the second score can be expected to be lower than the first.
 
 ## Repository Structure
-📦Report
- ┣ 📂00-Introduction
- ┃ ┣ 📂images
- ┃ ┃ ┣ 📜.DS_Store
- ┃ ┃ ┣ 📜image001_logo.png
- ┃ ┃ ┣ 📜image002_alan.jpg
- ┃ ┃ ┣ 📜image003_efan.png
- ┃ ┃ ┣ 📜image004_josh.jpg
- ┃ ┃ ┣ 📜image005_ella.jpg
- ┃ ┃ ┗ 📜image006_keane.jpeg
- ┃ ┗ 📜.DS_Store
- ┣ 📂01-Background
- ┃ ┣ 📂images
- ┃ ┃ ┗ 📜001_screentime.png
- ┃ ┣ 📜.DS_Store
- ┃ ┗ 📜README.md
- ┣ 📂02-System-Implementation
- ┃ ┣ 📂images
- ┃ ┗ 📜README.md
- ┣ 📂03-UX-Design
- ┃ ┣ 📂images
- ┃ ┗ 📜README.md
- ┣ 📂04-PM-Sprints
- ┃ ┣ 📂images
- ┃ ┗ 📜README.md
- ┣ 📂05-Evaluation
- ┃ ┣ 📂images
- ┃ ┗ 📜README.md
- ┣ 📂06-Conclusion
- ┃ ┣ 📂images
- ┃ ┗ 📜README.md
- ┣ 📜.DS_Store
- ┗ 📜README.md
+Report
+ ┣ 00-Introduction
+ ┃ ┣ images
+ ┃ ┃ ┣ .DS_Store
+ ┃ ┃ ┣ image001_logo.png
+ ┃ ┃ ┣ image002_alan.jpg
+ ┃ ┃ ┣ image003_efan.png
+ ┃ ┃ ┣ image004_josh.jpg
+ ┃ ┃ ┣ image005_ella.jpg
+ ┃ ┃ ┗ image006_keane.jpeg
+ ┃ ┗ .DS_Store
+ ┣ 01-Background
+ ┃ ┣ images
+ ┃ ┃ ┗ 001_screentime.png
+ ┃ ┣ .DS_Store
+ ┃ ┗ README.md
+ ┣ 02-System-Implementation
+ ┃ ┣ images
+ ┃ ┗ README.md
+ ┣ 03-UX-Design
+ ┃ ┣ images
+ ┃ ┗ README.md
+ ┣ 04-PM-Sprints
+ ┃ ┣ images
+ ┃ ┗ README.md
+ ┣ 05-Evaluation
+ ┃ ┣ images
+ ┃ ┗ README.md
+ ┣ 06-Conclusion
+ ┃ ┣ images
+ ┃ ┗ README.md
+ ┣ .DS_Store
+ ┗ README.md
 
 
 
