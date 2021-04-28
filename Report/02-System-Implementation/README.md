@@ -8,7 +8,7 @@
 
 <p align="center">
   <b>Navigation:</b><br>
-  <a href="../01-Background/README.md">&#8592; Previous Section: Backround and Motivation</a> |
+  <a href="../01-Background/README.md">&#8592; Previous Section: Background and Motivation</a> |
   <a href="#system-implementation">&#8593; Back to the top</a> |
   <a href=".../03-UX-Design/README.md">&#8594; Next Section: UX Design</a> 
 </p>

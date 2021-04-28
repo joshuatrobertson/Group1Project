@@ -329,14 +329,11 @@
 
 &nbsp; Serene. Venture Harbour Ltd, 2021. Available: https://zapier.com/blog/stay-focused-avoid-distractions/#serene. [Accessed: 22- Apr- 2021].
 
-
 [&#8592; Back to Report Landing Page](../README.md)
-[&#8592; Back to Report Landing Page](../../README.md)
-[&#8592; Back to Report Landing Page](#conclusion)
 
 <p align="center">
   <b>Navigation:</b><br>
-  <a href="../05-Evaluation/README.md">&#8592; Previous Section: Evaluation</a> |
-  <a href="#conclusion">&#8593; Back to the top</a> |
-  <a href="../../README.md">&#8594; Main Repo Page</a> 
+  <a href="../README.md">&#8592; Back to Report Landing Page</a> |
+  <a href="#background-and-motivation">&#8593; Back to the top</a> |
+  <a href="../02-System-Implementation/README.md">&#8594; Next Section: System Implementation</a> 
 </p>
