@@ -1,10 +1,18 @@
 [&#8592; Back to Report Landing Page](../README.md)
 # Sprints and Project Management
+## Communication
+Apart from Microsoft Teams, we used Discord for our general day to day communication. The Discord server was further split into channels to 
+further streamline topics of discussion. The animation below provides a quick overview of our Discord server.
+
+![Alt Text](images/001_discord.gif)
+
+Weeks 1 to 5 were used to absorb the content delivered in the technical and design workshops. It gave the members the necessary information to decide on their roles in the project. 
+
 ## Agile Methodology
-Our team decided to adopt a combination of the scrum and kanban methodology for our project. During the scoping on our project, we devised 6 main user stories that were essential to deliver our minumum viable product (MVP).
-
-
-
+Our team decided to adopt the scrum approach of the agile working methodologies. The 
+The nature of the project brief dictated a feature driven developement approach for our team. 
+Our team decided to adopt scrum framework for our project. During the scoping of our project, we devised 6 main user stories that were essential to deliver our minumum viable product (MVP). 
+These user stories were then further broken down into features t
 
 Weeks 1 to 5 were used to absorb the content delivered in the technical and design workshops. It gave the members the necessary information to decide on their roles in the project.
 
@@ -16,8 +24,6 @@ This [log](../../Meetings/README.md) provides a top level summary of all of our 
 Initially, we setup a Jira account account help document our sprints. However, the added overhead was turning out cumbersome and we decided to use GitHub projects to help document our sprints based on the suggestion of Marceli. This is the link to the [sprints](https://github.com/keane-fernandes/Group1Project/projects).
 
 ## User stories
-
-
 
 | User Story                                                                                          | Sprint                                                                  |
 | :-------------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------- |
