@@ -35,10 +35,10 @@ DistractAbility
 
 ## Repository Structure
  📦 Repository
- |--- 📂 [Meetings](Meetings/README.md) &#8594; [ Daily standup logs. ]
- |--- 📂 [Report](Report/README.md) &#8594; [ MEAN Stack SPA Documentation. ]
- |--- 📂 [Source](https://github.com/keane-fernandes/Group1Project/tree/keane-documentation/Source) &#8594; [ Source files for Technical / Design Activities. ]
- |--- 📂[site](https://github.com/keane-fernandes/Group1Project/tree/keane-documentation/site) &#8594; [ The MEAN Stack SPA. ]
+ |--- 📂 [Meetings](Meetings/README.md) &#8594; [ Daily standup logs. ]  
+ |--- 📂 [Report](Report/README.md) &#8594; [ MEAN Stack SPA Documentation. ]  
+ |--- 📂 [Source](https://github.com/keane-fernandes/Group1Project/tree/keane-documentation/Source) &#8594; [ Source files for Technical / Design Activities. ]  
+ |--- 📂[site](https://github.com/keane-fernandes/Group1Project/tree/keane-documentation/site) &#8594; [ The MEAN Stack SPA. ]  
 
 
 
