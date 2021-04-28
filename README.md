@@ -53,7 +53,6 @@ DistractAbility
 ## Video
 ![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
 
-
 ## Repository Structure
 Find your way around our repository by clicking on the links in our repository skeleton below &#8595;
 
