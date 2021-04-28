@@ -17,3 +17,11 @@
 
 
 ## Future Work
+
+
+<p align="center">
+  <b>Navigation:</b><br>
+  <a href="../05-Evaluation/README.md">&#8592; Previous Section: Evaluation</a> |
+  <a href="#conclusion">&#8593; Back to the top</a> |
+  <a href="../../README.md">&#8594; Main Repo Page</a> 
+</p>

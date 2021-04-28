@@ -1,5 +1,5 @@
 [&#8592; Back to Report Landing Page](../README.md)
-# Project Management
+# Sprints and Project Management
 ## Agile Methodology
 Our team decided to adopt a combination of the scrum and kanban methodology for our project. During the scoping on our project, we devised 6 main user stories that were essential to deliver our minumum viable product (MVP).
 
@@ -33,12 +33,14 @@ Initially, we setup a Jira account account help document our sprints. However, t
 ## Team Contributions
 
 
-<p style="text-align:left;">
-    [This text is left aligned](#agile-methodology)
-    <span style="float:right;">
-        This text is right aligned(#agile-methodology)
-    </span>
+<p align="center">
+  <b>Navigation:</b><br>
+  <a href="../03-UX-Design/README.md">&#8592; Previous Section: UX Design</a> |
+  <a href="#sprints-and-project-management">&#8593; Back to the top</a> |
+  <a href="../05-Evaluation/README.md">&#8594; Next Section: Evaluation</a> 
 </p>
+
+
 
 ---
 # Mark Scheme
