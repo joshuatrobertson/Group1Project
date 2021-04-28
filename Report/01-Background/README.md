@@ -1,4 +1,4 @@
-[Back to Report Landing Page](../README.md)
+[&#8592; Back to Report Landing Page](../README.md)
 # Background and Motivation
 
 ## Table of Contents
