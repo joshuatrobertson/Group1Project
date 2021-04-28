@@ -1,10 +1,10 @@
 # Background and Motivation
 
 ## Table of Contents
-1. [Literature Review](#Literature-Review)
-   a. [The Problem](#the-problem)
-   b. Serious Play
-2. Current Industry Review
+1. [Literature Review](#Literature-Review)  
+   a. [The Problem](#the-problem)  
+   b. Serious Play  
+2. Current Industry Review  
    a. 
 
 
@@ -15,6 +15,7 @@
 
 <a name="the-problem" >
 </a>
+
 ## Literature Review: The Problem
 ### Context ###
 
