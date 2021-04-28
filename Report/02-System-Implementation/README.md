@@ -4,6 +4,7 @@
 ### Back End (MongoDB) 
 ### Middle Tier (Express, Node, RESTful API)
 ### Front End (Angular)
+### Continuous Deployment (Docker)
 ### Additional Components (think User Authentication)
 
 <p align="center">
