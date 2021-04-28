@@ -32,9 +32,13 @@ Initially, we setup a Jira account account help document our sprints. However, t
 
 ## Team Contributions
 
-<span class="right">[&#8592; Back to Report Landing Page](../README.md)</span><span class="left">[&#8592; Back to Report Landing Page](../README.md)</span>
 
-
+<p style="text-align:left;">
+    [This text is left aligned](#agile-methodology)
+    <span style="float:right;">
+        This text is right aligned(#agile-methodology)
+    </span>
+</p>
 
 ---
 # Mark Scheme
