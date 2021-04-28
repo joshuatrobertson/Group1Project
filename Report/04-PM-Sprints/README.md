@@ -1,3 +1,4 @@
+[&#8592; Back to Report Landing Page](../README.md)
 # Project Management
 ## Agile Methodology
 Our team decided to adopt a combination of the scrum and kanban methodology for our project. During the scoping on our project, we devised 6 main user stories that were essential to deliver our minumum viable product (MVP).
