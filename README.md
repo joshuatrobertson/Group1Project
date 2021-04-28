@@ -48,20 +48,23 @@ DistractAbility
 | :------------------ | ---------- |
 | User Authentication | Incomplete |
 
-
-
-## Video
+# Video
 ![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
 
-## Repository Structure
-Find your way around our repository by clicking on the links in our repository skeleton below &#8595;
+# Documentation
+
+Here is our [full project documentation](Report/README.md).
+
+# Repository Structure
+Find your way around our repository using the links in our repository skeleton below:
 
  📦 Repository  
- &nbsp;|--- 📂[ site](https://github.com/keane-fernandes/Group1Project/tree/keane-documentation/site) &#8594; [ The MEAN stack SPA. ]  
+ &nbsp;|  
+ &nbsp;|--- 📂 [Site](https://github.com/keane-fernandes/Group1Project/tree/keane-documentation/site) &#8594; [ The MEAN stack SPA. ]  
  &nbsp;|  
  &nbsp;|--- 📂 [Report](Report/README.md) &#8594; [ MEAN stack SPA documentation. ]  
  &nbsp;|  
  &nbsp;|--- 📂 [Source](https://github.com/keane-fernandes/Group1Project/tree/keane-documentation/Source) &#8594; [ Source files for technical and design activities. ]  
  &nbsp;|  
  &nbsp;|--- 📂 [Meetings](Meetings/README.md) &#8594; [ Daily standup logs. ]  
- &nbsp;|  
+
