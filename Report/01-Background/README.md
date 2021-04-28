@@ -1,20 +1,17 @@
 # Background and Motivation
 
 ## Table of Contents
-1. [Literature Review](#Literature-Review)  
-   a. [The Problem](#the-problem)  
-   b. Serious Play  
-2. Current Industry Review  
-   a. 
-
-
+1. [Literature Review](#literature-review)  
+   a. [The Problem](#literature-review-the-problem)  
+   b. [Serious Play](#literature-review-serious-play)  
+   c. [Bibliography: The Problem](#bibliography-the-problem)
+   d. [Bibliography: Serious Play](#bibliography-serious-play)
+2. [Current Industry Review](#current-industry-review)  
+   a. [Bibliography: Current Industry Review](#bibliography-current-industry-review)
 
 ## Literature Review
 
 &nbsp;&nbsp; In this literature review, we will first cover the field related to the problem of greater attentional difficulties in the context of COVID-19. We will then review the literature on serious play and outline the kind of play that we believe best fits our project.
-
-<a name="the-problem" >
-</a>
 
 ## Literature Review: The Problem
 ### Context ###
@@ -148,6 +145,9 @@
 
 &nbsp;&nbsp; In summary, to represent the implications of negative emotional stimuli connected to the pandemic, we use an API to pull in current affairs articles and have these moving about the screen while the user is attempting to complete the task at hand. We also try to distract the user by playing the BBC News theme song. To represent the influence of social media and streaming services on attention, throughout the second round of the game we play social media notification sounds and sound clips from TV series such as *Tiger King*, which were popular during the lockdown period.  We seek to reflect the impact on concentration of media multitasking by playing the notification sounds of common workplace media, such as the incoming video-chat ringtone for Microsoft Teams. Finally, we believe that inactivity is best exemplified by the fact that the user is presumably sitting down, or at least fairly sedentary, while using our application.
 
+
+<a name="serious-play" >
+</a>
 
 ## Literature Review: Serious Play
 
@@ -283,6 +283,7 @@
 ## Current Industry Review
 
 
+
 &nbsp;&nbsp; When searching for applications that relate to the serious problem of distraction, we found several themes into which the market can be categorised. Most similar to our application, *DistractAbility*, are games that highlight the consequences of distraction. Then there are applications that are designed to be a distraction, for example, to distract the user from anxiety or stress. Finally, there are countless applications on the market that are designed to limit distractions, for instance social media and content blockers. Such applications are often marketed as a great way for individuals to boost their productivity. While the first two categories fall within the scope of serious play, the final category does not due to the lack of a play aspect.
 
 ### Games that highlight the consequences of distraction
@@ -310,7 +311,7 @@
 &nbsp;&nbsp; That being the case, *Forest* app, for Android, iOS and Chrome, is perhaps an exception as it is more on the side of serious play than the other applications in this category (Seekrtech, 2021). First, *Forest* is colourful, interactive and, by our own assessment, fun. Users of *Forest* plant a virtual tree whenever they start a session of focus and as they focus on their work the tree grows. The user earns points every time they make it to the end of the scheduled focus session without using their phone for an unproductive purpose, but if the user leaves the app before the end of the session then the tree dies. From personal experience the point system itself is fairly effective motivation to keep earning more points. Moreover, the *Forest* app brilliantly incorporates external motivation through its partnership with the real-tree-planting organization *Trees for the Future*. When users of Forest accrue enough points from planting virtual trees they earn virtual coins, which can then be spent planting real trees through selecting the option to do so in-app, and Forest then uses the money to place planting orders with *Trees for the Future*. If we were to continue with our application *DistractAblity* after university we would certainly consider building in similar kinds of external motivation. 
 
 
-### Bibliography
+### Bibliography: Current Industry Review
 
 &nbsp; M. Allan, "Online game highlights dangerous distraction of mobile phones", Car News, 2019. Available: https://inews.co.uk/essentials/lifestyle/cars/car-news/online-game-highlights-dangerous-distraction-of-mobile-phones-323539 [Accessed: 20- Apr- 2021].
 
