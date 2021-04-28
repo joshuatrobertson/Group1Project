@@ -1,11 +1,21 @@
 # Background and Motivation
 
+## Table of Contents
+1. [Literature Review](#Literature-Review)
+   a. [The Problem](#the-problem)
+   b. Serious Play
+2. Current Industry Review
+   a. 
+
+
+
 ## Literature Review
 
 &nbsp;&nbsp; In this literature review, we will first cover the field related to the problem of greater attentional difficulties in the context of COVID-19. We will then review the literature on serious play and outline the kind of play that we believe best fits our project.
 
-## Literature Review: The Problem 
-
+<a name="the-problem" >
+</a>
+## Literature Review: The Problem
 ### Context ###
 
 &nbsp;&nbsp; By December 2019, the outbreak of a SARS-associated coronavirus (designated  COVID‐19, short for coronavirus 2019) had spread from Wuhan, China across the globe and was declared a pandemic by the World Health Organization (WHO) in March 2020 (WHO, 2020; Ghebreyesus, 2020). In that month nineteen European countries entered national lockdowns, most of which remained in place for several months (Hirsch, 2021). As is now common experience, these lockdowns entailed closure of schools, universities and all non-essential shops and services; employees were advised to work from home (WFH) wherever possible, with many of those unable to WFH put on temporary income schemes such as the British Furlough scheme or out of work entirely. Most countries also saw a ban on all non-essential movement (Hirsch, 2021). All of a sudden countless individuals had to quickly adapt to entirely new ways of working or studying remotely and juggle this with childcare, personal relationships, household chores, and family demands in general. This was experienced in the context of personal loss or the constant possibility of loss or ill-health, difficulty accessing standard medical care, extreme social isolation, job insecurity and joblessness, economic hardship, and heightened global social injustices and social unrest. We can surely expect that people have found it more difficult to concentrate in these unprecedented times. 
@@ -44,8 +54,6 @@
 
 &nbsp;&nbsp; A survey of 996 employers based in Great Britain and Western Europe, conducted by Willis Towers Watson in April 2020, found no significant change in employee productivity since the onset of the pandemic (Franklin, 2020). Similarly though to the Deloitte report, this survey was conducted in April 2020. As we shall now go on to explain, Forbes finds that these early reports of increased or stable productivity explained the initial spike in productivity that was short-lived as the pandemic wore on.
 
-
-
 **Productivity is down**
 
 &nbsp;&nbsp; In January 2021, Forbes published their analysis of productivity reports since the onset of the pandemic (Brower, 2021). It was found that many of the reports of increased productivity were early in the pandemic and can be seen as evidence of initial “panic productivity” that quickly faded as the duration of the pandemic grew. Analysts at S&P Global Market Intelligence concur that by September 2020,  early productivity gains were already “evaporating” (Lawson, 2020). 
@@ -59,8 +67,6 @@
 &nbsp;&nbsp; Researchers at The Australian National University (ANU) reveal that Australians have lost 167 hours' worth of work between March and October due to the pandemic. This equates to over $5,000 each, and $47 billion for the economy as a whole (Biddle & Gray, 2020). In December 2020 the National Bureau of Economic Research (NBER) published their analysis of the impact of Covid-19 on productivity in the United Kingdom (Bloom et al, 2020). The authors found that the pandemic reduced total factor productivity (TFP) in the private sector by approximately 5% in 2020 Q4. The authors also predict a 1% reduction in TFP the medium term and additional long-term negative impacts of the pandemic on productivity. Their report was later published by the Bank of England (Bloom et al, 2020, BoE). Then in early 2021, McKinsey found that the pandemic had a generally negative impact on short-term accumulation of physical capital, which they see as a crucial element that typically drives growth in productivity (Mischke et al, 2021).
 
 &nbsp;&nbsp; Admittedly, correlation is not necessarily causation. People may feel that their attention has been negatively impacted by the pandemic while their reduced productivity is due to other factors, for instance, insufficient technical infrastructure to WFH to the same standard as when they worked out of the house. Still, the trend is sufficiently pronounced for us to conclude that, at least for many, perceived attentional difficulties brought on by the Coronavirus pandemic does have real, negative implications on their productivity. In fact, research by Russo et al, which examined the predictors of wellbeing and productivity due to governmental coronavirus restrictions on workplaces, then found that boredom and distractions were related to lower productivity (Russo et al, 2021). This study was comprehensive; it was a longitudinal study, meaning the authors collected initial data and then returned at a later date to obtain comparison data. A complimentary study by Ralph et al, which surveyed over 2,000 software developers from across the world, found not only that the pandemic has had a negative effect on both wellbeing and productivity, but importantly, that the two areas of productivity and wellbeing were closely related (Ralph et al, 2020). Ralph et al also found that that women were expected to devote more time to housework and childcare than men during lockdown. This finding is supported by Feng & Savani’s study of gender differences on perceived productivity and job satisfaction for couples where both parents worked and had been forced to remote-work since the start of the pandemic; the authors found no significant differences in perceptions prior to lockdown, but after lockdown women reported lower levels of perceived productivity and job satisfaction (Feng & Savani, 2020). A report by Tap’d Solutions similarly found that fear of the pandemic and home ergonomics were correlated to lower wellbeing and productivity and that the demographic groups of women, parents and disabled workers may be disproportionately affected by recent work changes (Tap’d, 2020).
-
-
 
 **Relevance to our application**
 
