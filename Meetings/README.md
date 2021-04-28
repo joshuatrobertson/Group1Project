@@ -2,9 +2,9 @@
 
 ## 1. Task tracker
 
-This `Todo` table keeps changing with every meeting. As tasks in the todo table are finished, they are moved to the `Done` table. 
+This `Todo` table keeps changing with every meeting. As tasks in the `Todo` table are completed, they are moved to the `Done` table. 
 
-From the start of the easter break (Week 6), we've moved the tasks to Github Projects and documented them based on weekly sprints.
+From the start of the easter break (Week 6), we've moved the tasks to Github Projects and documented team tasks there based on weekly sprints.
 
 ### Todo
 
