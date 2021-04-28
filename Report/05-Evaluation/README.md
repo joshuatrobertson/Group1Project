@@ -22,13 +22,8 @@ In the project we propose Sustainadress, a single page application where the use
 - 'SurveryWrittenResponses_1.xlsm' is a record of test participants' individual, written responses to the survey questions.
 - 'SurveryGraphicalResponses_1.docx' contains screenshots of graphically-represented responses to survey questions that did not collect a written answer.
 
-
-[&#8592; Back to Report Landing Page](../README.md)
-[&#8592; Back to Report Landing Page](../06-Conclusion/README.md)
-[&#8592; Back to Report Landing Page](#evaluation)
-
 <p align="center">
-  <b>Navigation:</b><br>
+  <b>Navigation</b><br>
   <a href="(../04-PM-Sprints/README.md">&#8592; Previous Section: Sprints and Project Management</a> |
   <a href="#evaluation">&#8593; Back to the top</a> |
   <a href="../06-Conclusion/README.md">&#8594; Next Section: Conclusion</a> 
