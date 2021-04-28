@@ -58,6 +58,10 @@ Find your way around our repository by clicking on the links in our repository s
 
  📦 Repository  
  &nbsp;|--- 📂[ site](https://github.com/keane-fernandes/Group1Project/tree/keane-documentation/site) &#8594; [ The MEAN stack SPA. ]  
+ &nbsp;|  
  &nbsp;|--- 📂 [Report](Report/README.md) &#8594; [ MEAN stack SPA documentation. ]  
+ &nbsp;|  
  &nbsp;|--- 📂 [Source](https://github.com/keane-fernandes/Group1Project/tree/keane-documentation/Source) &#8594; [ Source files for technical and design activities. ]  
+ &nbsp;|  
  &nbsp;|--- 📂 [Meetings](Meetings/README.md) &#8594; [ Daily standup logs. ]  
+ &nbsp;|  
