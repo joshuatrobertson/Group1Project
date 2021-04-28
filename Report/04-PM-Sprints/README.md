@@ -32,6 +32,8 @@ Initially, we setup a Jira account account help document our sprints. However, t
 
 ## Team Contributions
 
+<span class="right">[&#8592; Back to Report Landing Page](../README.md)</span><span class="left">[&#8592; Back to Report Landing Page](../README.md)</span>
+
 
 
 ---
