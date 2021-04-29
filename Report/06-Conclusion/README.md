@@ -9,7 +9,7 @@
 
 ### Accessibility
 
-&nbsp;&nbsp; As stated, the crux of our application is a card game with two rounds. The accessibiltiy of the card game itself is poor, insofar as the card game in its current state is inaccessible for blind or visually impaired individuals. However, the accessibility of the distractions implemented in the second round of our game is fairly good by our assessment. 
+&nbsp;&nbsp; As stated, the crux of our application is a card game with two rounds. The card game itself is not universally accessible, for instance in its current state the game is inaccessible for blind or visually impaired individuals. However, the accessibility of the distractions implemented in the second round of our game is much better by our assessment. 
 
 &nbsp;&nbsp; **The game itself.** Our card game in its current state is inaccessible for visually impaired individuals, as it requires the user to be sighted in order to play. Future work on this application might therefore be to implement an auditory description of the game at every state. For instance, for each card the user flips, our application might give an auditory description of the card and its coordinates on the screen.
 
