@@ -13,13 +13,11 @@
 }
 
 .main-screen {
-  margin: 0;
-  position: relative;
+  margin: auto;
 }
 
 .card-screen {
   margin: auto;
-  width: 650px;
 }
 
 .news-item {
@@ -61,7 +59,6 @@ h1 {
 }
 .topLine {
   position: relative;
-  width: 80%;
   min-height: 100vh;
   padding: 100px;
   display: flex;

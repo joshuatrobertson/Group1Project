@@ -61,6 +61,29 @@
       <div id="overlay"></div>
     </div>
   </header>
+  <div class="main-screen">
+    <div class="news-item" [hidden]="!beginAnimations">
+      <app-news-api></app-news-api>
+    </div>
+    <div class="news-item-right" [hidden]="!beginAnimations">
+      <app-news-api></app-news-api>
+    </div>
+    <div class="news-item" [hidden]="!beginAnimations2">
+      <app-news-api></app-news-api>
+    </div>
+    <div class="news-item" [hidden]="!beginAnimations3">
+      <app-news-api></app-news-api>
+    </div>
+    <div class="card-screen">
+      <p></p>
+      <div class="grid p-16">
+        <app-game-card *ngFor="let c of cards; let idx=index" [data]="c" (cardClicked)="cardClicked(idx)"></app-game-card>
+      </div>
+    </div>
+  </div>
+</section>
+<section>
+
 </section>
 <!---Content: title, login and card-back image--->
 <div class="content">
@@ -72,10 +95,9 @@
     <form [hidden]="emailClicked">
       Please enter your email:
       <br><label for="email"></label><input type="text" id="email" class="inputField"/><br/>
-      <button id ="loginButton" type="button" [hidden]="emailClicked" onclick="saveEmail();" (click)="emailClicked = true;" class="btn btn-primary">Login</button>
+      <button id ="loginButton" type="button" [hidden]="emailClicked" onclick="saveEmail();" (click)="emailClicked = true; startGame()" class="btn btn-primary">Login and start game</button>
     </form>
   </div>
-  <app-card-game-main [hidden]="!emailClicked"></app-card-game-main>
 </div>
 <script src="welcome-page.component.js"></script>
 </body>
