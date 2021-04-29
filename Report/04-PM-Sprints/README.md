@@ -18,7 +18,7 @@ From Week 6 onwards, we held standups on Mondays, Wednesdays and Fridays at 10:0
 The [meeting logs](../../Meetings/README.md) provide a top level summary of all of our standups.
 
 ## Agile Working
-Given the feature driven, modular nature of the project brief, we decided it to adopt the scrum methodology of the agile workflow.
+Given the feature driven, modular nature of the project brief, we decided it to adopt the scrum methodology of the agile workflow for our project.
 
 ### Step 1: Project Vision and Scoping
 
