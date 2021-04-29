@@ -14,14 +14,14 @@ export class AppComponent {
 
   // Images pulled from site. The number (* 2) represents playing cards for the user
   cardImages = [
-    'pDGNBK9A0sk',
-    'fYDrhbVlV1E',
-    'qoXgaF27zBc',
-   'b9drVB7xIOI',
-   'TQ-q5WAVHj0',
-    'wRU27yGfSLQ',
-   'vNYia2IeqYs',
-   'ts1zXzsD7xc',
+    //'pDGNBK9A0sk',
+    //'fYDrhbVlV1E',
+    //'qoXgaF27zBc',
+   //'b9drVB7xIOI',
+   //'TQ-q5WAVHj0',
+    //'wRU27yGfSLQ',
+   //'vNYia2IeqYs',
+   //'ts1zXzsD7xc',
    'Mi2urK1OKR0',
     'bXfQLglc81U'
   ];
@@ -61,23 +61,22 @@ export class AppComponent {
     'joeExotic2.mp3', 'joeExotic3.mp3', 'messengerNotif.mp3', 'myNamesJoeExotic.mp3', 'seagul.m4a', 'twitterNotif.mp3',
     'vibration.mp3', 'whatsappIncoming.mp3', 'whatsappNotif.mp3'];
 
-
+  // Shuffle the cards
   shuffleArray(anArray: any[]): any[] {
     return anArray.map(a => [Math.random(), a])
       .sort((a, b) => a[0] - b[0])
       .map(a => a[1]);
   }
 
-
   constructor(private dataService: DataService, private dialog: MatDialog) {
   }
-
 
   startGame(): void {
     this.setupCards();
     this.startTimer();
   }
 
+  // Set up the cards on the screen
   setupCards(): void {
     this.cards = [];
     this.cardImages.forEach((image) => {
@@ -110,6 +109,7 @@ export class AppComponent {
     }
   }
 
+  // Play an audio source
   playAudio(audioSource): void {
     console.log('Audio called');
     const audio = new Audio('../assets/sounds/' + audioSource);
@@ -128,6 +128,7 @@ export class AppComponent {
     }
   }
 
+  // Function to log the time in seconds
   startTimer(): void {
     console.log('Timer started');
     if (this.timerStart === false) {
@@ -182,6 +183,7 @@ export class AppComponent {
     this.time = 0;
   }
 
+  // Function to see if the two turned cards match eachother
   checkForCardMatch(): void {
     setTimeout(() => {
       const cardOne = this.flippedCards[0];
@@ -246,8 +248,6 @@ export class AppComponent {
     this.setupCards();
     this.startTimer();
   }
-
-
 
   displayTimes(): void {
     this.returnTime = ('The first time was: ' + this.userFirstTime + '\nThe second time was: ' + this.userSecondTime);
