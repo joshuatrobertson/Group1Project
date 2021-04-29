@@ -18,17 +18,39 @@ From Week 6 onwards, we held standups on Mondays, Wednesdays and Fridays at 10:0
 The [meeting logs](../../Meetings/README.md) provide a top level summary of all of our standups.
 
 ## Agile Working
-Given the feature driven, modular nature of the project brief, we decided it to adopt the scrum methodology of the agile workflow for our project.
+### Choice of Methodology
+Given the feature-centric, modular nature of the project brief, we decided to adopt the **scrum methodology** of the agile workflow for our project.
 
-### Step 1: Project Vision and Scoping
+The three methodologies we considered for our project were:
+1. Scrum (Subset of agile)
+2. Kanban (Subset of agile)
+3. Waterfall
+
+We made our decision based on several factors that were critical to deliver this project in the leanest and most efficient manner given the tight time schedule. A summary of these factors are presented below:
+
+| | Waterfall | Scrum | Kanban  |
+| ------------- | ------------- | ------------- | ------------- |
+Workflow | Linear sequential model  | Short, iterative sprints |Continuous flow  |
+Software Developement Lifecycle | Divided into phases  | Every sprint is essentially an SDLC, perfect for short, time critical projects  | Suits a ticket-based or inventory based project  |
+Planning | Rigid and extensive documentation required before the start of the project | A backlog of tasks and user stories that can be implemented flexibly with sprints  | Task laid out in a backlog and are completed iteratively over time, similar to Scrum  |
+Change Management | Mostly tedious because of all of the preplanned schedules  | Changes can be introduced flexibly even late in the cycle because of the short-lived nature of sprints  | Similar to Scrum |
+Stakeholder Collaboration  | After the requirements specification from the stakeholders and clients, there is no collaboration until delivery of the first prototype of the product  | Maximum customer collaboration and intervention possible due to continous delivery at the end of each sprint  | More customer-driven as compared to Waterfall, but lesser compared to Scrum |
+Issue Identification  | Due to the lack of iterative review, issues become apparent upon delivery to the client | Issues are identified during sprints and can be rectified immediately  | Similar to Scrum |
+Scheduling | Given that meticulous planning is mandatory at the start if the project, this is a massive disadvantage to inexperienced teams as they are unable to estimate the effort required  | The short lived nature of sprints provide invaluable insight into the abilities of team members early in the project, making scheduling a lot more accurate | Irrelevant |
+Team Size  | Suitable for big teams  | Teams between 3-10 members  | Inconsequential |
+
+### Implementation of Scrum
+
+#### Step 1: Project Vision and Scoping
+
 
 Find the results of our scoping workshop and put it in here.
 
 Enter a high level overview and timeline here. Highlight critical points in the project here.
 
-### Step 2: User Story Creation
+#### Step 2: User Story Creation
 
-Show the user stories implemented in each sprint.
+A key step in the scrum workflow is the ideation of the user stories necessary to deliver a minimum viable product (MVP). We believe that the following user stories
 
 | User Story                                                                                          | Sprint                                                                  |
 | :-------------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------- |
@@ -38,7 +60,7 @@ Show the user stories implemented in each sprint.
 | As a user I want to be able to see the history of my recent games                                   | [Sprint 4](https://github.com/keane-fernandes/Group1Project/projects/5) |
 | As a user I want to be able to compare my scores against past users of the game                     | [Sprint 5](https://github.com/keane-fernandes/Group1Project/projects/6) |
 
-### Step 3: Sprint Planning and Execution
+#### Step 3: Sprint Planning and Execution
 Initially, we setup a Jira account account help document our sprints. However, the added overhead was turning out cumbersome and we decided to use GitHub projects to help document our sprints based on the suggestion of Marceli. This is the link to the [sprints](https://github.com/keane-fernandes/Group1Project/projects).
 
 ### Step 4: Review and Repeat!
@@ -47,9 +69,33 @@ Initially, we setup a Jira account account help document our sprints. However, t
 
 
 ## CI/CD Pipeline
-### Git 
+### Continuous integration
+Our team achieved continuous integration by adopting a fairly standard git worflow consisting of **production**, **staging**, **dev** and **feature** branches. 
+
+The **dev** branch was essentially a working master branch where all of the team members would merge their feature branches. 
+
+In the event of a new feature to be added, the relevant team member would perform the following standard workflow:
+1. Branch off of the most recent commit on the **dev** branch into a new **feature-branch**. 
+2. Perform the neccessary code commits and the tests needed to implement the feature. 
+3. Conduct a review of this newly written code with the rest of the team at the next daily standup. 
+4. Merge commit into the **dev** branch and repeat with the next feature.
+
+At the end of each sprint, depending on if we collectively agreed that the current version of our product on the **dev** branch could be deployed as a fully functional product, would then be merged into **staging**.
+
+The **staging** branch, as the name suggests, was used to stage potential releases of our web application. Our product would be manually tested here to ensure that it worked as expected after which it would be merged into **production** as a release. 
+
+For the sake of completeness, it is important to mention that the **production** branch was reserved for fully tested and stable working releases of our web application. 
+
+<p align="center">
+  <img src="images/002_git.png" width="750"/>
+</p>
+
+<p align="center">
+*Figure XX : Continuous integration using git.*
+</p>
 
 ### Docker
+Docker compose script was imperative for continuous deployment.
 
 Talk about how both of these tools streamlined our workflow (maybe with the help of an image?)
 
@@ -65,6 +111,13 @@ Fill this in in a standup.
 | Ella Gryf-Lowczowska |  |
 | Efan Haynes          |  |
 | Keane Fernandes      |  |
+
+
+### Bibliography: Sprints and Project Management
+
+&nbsp; V. Driessen, "Sucessful Git Branching Model", DevOps, 2019. Available: https://nvie.com/posts/a-successful-git-branching-model/ [Accessed: 20- Apr- 2021].
+
+---
 
 <p align="center">
   <b>Navigation:</b><br>
