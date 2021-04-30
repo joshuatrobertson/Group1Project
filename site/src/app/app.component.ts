@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { MatDialog } from '@angular/material/dialog';
-import { CardData } from './card-game-main/card-data.model';
+import { CardData } from './card-data.model';
 import { RestartGameComponent } from './restart-game/restart-game.component';
 import {EndGameComponent} from './end-game/end-game.component';
 import {DataService} from './data.service';
@@ -17,14 +17,14 @@ export class AppComponent {
 
 // Images pulled from site. The number (* 2) represents playing cards for the user
   cardImages = [
-    //'pDGNBK9A0sk',
-    //'fYDrhbVlV1E',
-    //'qoXgaF27zBc',
-   //'b9drVB7xIOI',
-   //'TQ-q5WAVHj0',
-    //'wRU27yGfSLQ',
-   //'vNYia2IeqYs',
-   //'ts1zXzsD7xc',
+    'pDGNBK9A0sk',
+    'fYDrhbVlV1E',
+    'qoXgaF27zBc',
+   'b9drVB7xIOI',
+   'TQ-q5WAVHj0',
+    'wRU27yGfSLQ',
+   'vNYia2IeqYs',
+   'ts1zXzsD7xc',
    'Mi2urK1OKR0',
     'bXfQLglc81U'
   ];
