@@ -7,7 +7,7 @@ Microsoft Teams was the primary tool for our daily standups and we used Discord 
 
 <p align="center">
   <img src="images/001_discord.gif" width="750"/>
-  <em>Figure XX : Team discord server.</em>
+  <center><em>Figure XX : Team discord server.</em></center>
 </p>
 
 ### Weeks 1 - 5
@@ -20,31 +20,33 @@ The [meeting logs](../../Meetings/README.md) provide a top level summary of all 
 
 ## Agile Working
 ### Choice of Methodology
-This was one of the 
+This first development decision we encountered as a team was to decide on an aprropriate workflow methodology that best fit our experience and the requirements laid out in the brief.
 
-Given the feature-centric, modular nature of the project brief, we decided to adopt the **scrum methodology** of the agile workflow for our project.
-
-The three methodologies we considered for our project were:
+The rationale and thought process behind this decision has been outlined below.
+ 
+The three potential frameworks we considered for our project were:
 1. Scrum (subset of agile)
 2. Kanban (subset of agile)
-3. Waterfall
+3. Waterfall model
 
-We made our decision based on several factors that were critical to deliver this project in the leanest and most efficient manner given the tight time schedule. A summary of these factors are presented below:
+The next logical step was to evaluate these frameworks against a set of factors critical to delivering our web application in the leanest and most efficient manner given the tight time schedule. A summary of these factors are presented below:
 
-|                                 | Waterfall                                                                                                                                                                         | Scrum                                                                                                                                                       | Kanban                                                                               |
-| ------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ |
-| Workflow                        | Linear sequential model                                                                                                                                                           | Short, iterative sprints                                                                                                                                    | Continuous flow                                                                      |
-| Software Developement Lifecycle | Divided into phases                                                                                                                                                               | Every sprint is essentially an SDLC, perfect for short, time critical projects                                                                              | Suits a ticket-based or inventory based project                                      |
-| Planning                        | Rigid and extensive documentation required before the start of the project                                                                                                        | A backlog of tasks and user stories that can be implemented flexibly with sprints                                                                           | Task laid out in a backlog and are completed iteratively over time, similar to Scrum |
-| Change Management               | Mostly tedious because of all of the preplanned schedules                                                                                                                         | Changes can be introduced flexibly even late in the cycle because of the short-lived nature of sprints                                                      | Similar to Scrum                                                                     |
-| Stakeholder Collaboration       | After the requirements specification from the stakeholders and clients, there is no collaboration until delivery of the first prototype of the product                            | Maximum customer collaboration and intervention possible due to continous delivery at the end of each sprint                                                | More customer-driven as compared to Waterfall, but lesser compared to Scrum          |
-| Issue Identification            | Due to the lack of iterative review, issues become apparent upon delivery to the client                                                                                           | Issues are identified during sprints and can be rectified immediately                                                                                       | Similar to Scrum                                                                     |
-| Scheduling                      | Given that meticulous planning is mandatory at the start if the project, this is a massive disadvantage to inexperienced teams as they are unable to estimate the effort required | The short lived nature of sprints provide invaluable insight into the abilities of team members early in the project, making scheduling a lot more accurate | Irrelevant                                                                           |
-| Team Size                       | Suitable for big teams                                                                                                                                                            | Teams between 3-10 members                                                                                                                                  | Inconsequential                                                                      |
+| Evaluation Criteria             | Waterfall                                                                                                                                                                         | Scrum                                                                                                                                                                          | Kanban                                                                                 |
+| ------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------- |
+| Workflow                        | Linear sequential model                                                                                                                                                           | Short, iterative sprints                                                                                                                                                       | Continuous flow                                                                        |
+| Software Developement Lifecycle | Divided into concrete phases with little to no room for maneuverability                                                                                                           | Every sprint is essentially a development lifecycle making it a suitable choice for short, time critical projects                                                              | Suits a ticket-based or inventory based project (think warehousing, IT support)        |
+| Planning                        | Extensive documentation required before the start of the project                                                                                                                  | A backlog of tasks and user stories required that can be accomplished using scoping workshops                                                                                  | Tasks laid out in a backlog and are completed continuously over time, similar to Scrum |
+| Change Management               | Tedious because of all of the preplanned schedules                                                                                                                                | Changes can be introduced flexibly, even late in the cycle, because of the short-lived nature of sprints                                                                       | Similar to Scrum                                                                       |
+| Stakeholder Collaboration       | After the requirements specification from the client, there is no collaboration until delivery of the first prototype of the product                                              | Maximum client collaboration and intervention possible due to continuous delivery at the end of each sprint                                                                    | More client-driven as compared to Waterfall, but lesser compared to Scrum              |
+| Issue Identification            | Due to the lack of iterative review, issues become apparent upon delivery of the first prototype to the client                                                                    | Issues are identified during sprint reviews and can be rectified immediately                                                                                                   | Similar to Scrum                                                                       |
+| Scheduling                      | Given that meticulous planning is mandatory at the start if the project, this is a massive disadvantage to inexperienced teams as they are unable to estimate the effort required | The short lived nature of sprints provide invaluable insight into the abilities of team members early in the project, making scheduling a lot more accurate for future sprints | Irrelevant                                                                             |
+| Team Size                       | Suitable for big teams                                                                                                                                                            | Suitable for teams with 3-10 members                                                                                                                                           | Team size is inconsequential                                                           |
 
 <p align="center">
   <center><em> Table XX : Potential team workflows categorised by decision criteria.</em></center>
 </p>
+
+Based on the data we collected and the feature-centric, modular nature of the project brief, we decided to adopt the **scrum methodology** of the agile workflow for our project. Given our inexperience as software developers, the planning complexity demanded by the Waterfall model made it a poor choice for this project. Moreover, the relatively short development lifecycle of the Scrum framework had the potential to provide us with invaluable insight into the weaknesses in our workflows. The idea was to then identify these weakness early on in the project, learn from them and correct them in time for the next sprint. 
 
 ### Implementation of Scrum
 
@@ -58,7 +60,7 @@ Enter a high level overview and timeline here. Highlight critical points in the 
 
 A key step in the scrum workflow is the ideation of the user stories necessary to deliver a minimum viable product (MVP). We believe that the following user stories were essential to do so:
 
-| User Story                                                                                                            | Sprints                                                                  |
+| User Story                                                                                                            | Sprints                                                                 |
 | :-------------------------------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------- |
 | User Story 1: As a user, I want to click on new game to be able to start and play a new game.                         | [Sprint 1](https://github.com/keane-fernandes/Group1Project/projects/1) |
 | User Story 2: As a user, I want to click on information so that I can find out about the reasoning behind the project | [Sprint 2](https://github.com/keane-fernandes/Group1Project/projects/3) |
@@ -79,6 +81,8 @@ Essentially, the way we approached our sprints were as follows:
 3. During the week, daily standups would happen on Teams and verbal communication pertaining to issues/solutions would occur on the Discord server.
 4. At the end of the week, the team would reconvene for a review of how the week's work went.
 
+
+##### Sprint 1: 
 
 ## CI/CD Pipeline
 ### Continuous Integration with GitHub
@@ -104,13 +108,11 @@ For the sake of completeness, it is important to mention that the **production**
 </p>
 
 ### Continuous Deployment with Docker
-####
+Docker in 100 seconds video on YouTube.
 
 Docker compose script was imperative for continuous deployment.
 
 Talk about how both of these tools streamlined our workflow (maybe with the help of an image?)
-
-
 
 ## Team Contributions
 Discussion of team roles.
@@ -133,14 +135,6 @@ Fill this in in a standup.
 &nbsp; S. Paradkar, "A beginner's guide to everything DevOps", DevOps, 2020. Available: https://opensource.com/article/20/2/devops-beginners [Accessed: 20- Apr- 2021].
 
 &nbsp; Guru99, "What is Waterfall Model in SDLC? Advantages & Disadvantages", Waterfall, 2018. Available: https://www.guru99.com/what-is-sdlc-or-waterfall-model.html [Accessed: 22- Apr- 2021].
-
-&nbsp; V. Driessen, "Sucessful Git Branching Model", DevOps, 2019. Available: https://blog.codegiant.io/agile-vs-scrum-801d2e9521a7 [Accessed: 22- Apr- 2021].
-
-&nbsp; V. Driessen, "Sucessful Git Branching Model", DevOps, 2019. Available: https://nvie.com/posts/a-successful-git-branching-model/ [Accessed: 25- Apr- 2021].
-
-&nbsp; V. Driessen, "Sucessful Git Branching Model", DevOps, 2019. Available: https://nvie.com/posts/a-successful-git-branching-model/ [Accessed: 27- Apr- 2021].
-
-&nbsp; V. Driessen, "Sucessful Git Branching Model", DevOps, 2019. Available: https://nvie.com/posts/a-successful-git-branching-model/ [Accessed: 28- Apr- 2021].
 
 ---
 
