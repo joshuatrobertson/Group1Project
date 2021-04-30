@@ -19,6 +19,7 @@ import { MatCardModule } from '@angular/material/card';
 import { MatIconModule } from '@angular/material/icon';
 import { MatDialogModule } from '@angular/material/dialog';
 import { FormsModule } from '@angular/forms';
+import { LineChartComponent } from './line-chart/line-chart.component';
 
 
 @NgModule({
@@ -29,7 +30,8 @@ import { FormsModule } from '@angular/forms';
     EndGameComponent,
     NewsApiComponent,
     EndGameComponent,
-    BarChartComponent
+    BarChartComponent,
+    LineChartComponent
   ],
   imports: [
     BrowserModule,
