@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { MatDialog } from '@angular/material/dialog';
-import { CardData } from './card-data.model';
+import { CardData } from './card-game-main/card-data.model';
 import { RestartGameComponent } from './restart-game/restart-game.component';
 import {EndGameComponent} from './end-game/end-game.component';
 import {DataService} from './data.service';
