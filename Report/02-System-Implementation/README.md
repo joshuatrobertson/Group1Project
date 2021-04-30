@@ -11,7 +11,27 @@ The frontend was implemented by adapting a card game which can be found at https
 
 ##### Measuring the Users Score
 
-As we planned to have two rounds, one with and one without distractions we needed a way to quantitatively differentiate between rounds. For this, we decided to use time to completion as a metric of user score. To implement this a function called `startTimer()` was created, which used JavaScripts built in `setInterval()` to calculate the time in seconds and the users first and second round score was placed into seperate variables to be picked up by the backend.
+As we planned to have two rounds, one with and one without distractions we needed a way to quantitatively differentiate between rounds. For this, we decided to use time to completion as a metric of user score. To implement this a function called `startTimer()`, which can be seen below, was created, which used JavaScripts built in `setInterval()` to calculate the time in seconds and the users first and second round score was placed into seperate variables to be picked up by the backend.
+
+```js
+startTimer(): void {
+    console.log('Timer started');
+    if (this.timerStart === false) {
+      this.interval = setInterval(() => {
+        if (this.time === 0) {
+          this.time++;
+        } else {
+          this.time++;
+        }
+        this.display = this.transform( this.time);
+      }, 1000);
+    }
+  }
+  transform(value: number): string {
+    const minutes: number = Math.floor(value / 60);
+    return minutes + ':' + (value - minutes * 60);
+  }
+ ```
 
 ##### Distractions
 For the distraction elements of the game we decided to go with both visual and auditory distractions following feedback from the user survey. Having more than one distraction also aligns with the literature review, in that attention is a finite resource and the brain can only devote attention to a limited number of stimuli.
