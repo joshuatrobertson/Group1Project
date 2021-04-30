@@ -18,11 +18,11 @@ For the distraction elements of the game we decided to go with both visual and a
 
 ###### Visual Distractions
 For the visual distractions, we decided to go with current news to align with what people might encounter during lockdown. To implement this, a new component 'news-api' was created an angular card was created using News API [News API, 2021] to pull contempory articles. The card pulls an image, title and description which is placed inside of an angular card. For the articles, we randomly chose from the 3 most recent sources using the function getRandomNumber()
-'''js
+```js
 getRandomNumber(min, max): number {
    return Math.random() * (max - min) + min;
  }
-'''
+ ```
  to add some randomness between users and picked what we deemed the most contentious or attention grabbing news sources. An example of the news card can be seen below.
 
 
