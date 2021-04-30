@@ -11,7 +11,7 @@ import { GameCardComponent } from './game-card/game-card.component';
 import { EndGameComponent } from './end-game/end-game.component';
 import { BarChartComponent } from './bar-chart/bar-chart.component';
 import { NewsApiComponent } from './news-api/news-api.component';
-import { NewsApiService } from './news-api.service';
+import { NewsApiService } from './news-api/news-api.service';
 import { RouterModule } from '@angular/router';
 import { MatButtonModule } from '@angular/material/button';
 import { MatToolbarModule } from '@angular/material/toolbar';
@@ -19,6 +19,7 @@ import { MatCardModule } from '@angular/material/card';
 import { MatIconModule } from '@angular/material/icon';
 import { MatDialogModule } from '@angular/material/dialog';
 import { FormsModule } from '@angular/forms';
+import { CardGameMainComponent } from './card-game-main/card-game-main.component';
 
 
 @NgModule({
@@ -29,7 +30,8 @@ import { FormsModule } from '@angular/forms';
     EndGameComponent,
     NewsApiComponent,
     EndGameComponent,
-    BarChartComponent
+    BarChartComponent,
+    CardGameMainComponent
   ],
   imports: [
     BrowserModule,

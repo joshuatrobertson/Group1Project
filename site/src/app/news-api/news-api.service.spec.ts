@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { NewsApiComponent } from './news-api/news-api.component';
+import { NewsApiComponent } from './news-api.component';
 
 describe('NewsItemComponent', () => {
   let component: NewsApiComponent;

@@ -13,13 +13,11 @@
 }
 
 .main-screen {
-  margin: 0;
-  position: relative;
+  margin: auto;
 }
 
 .card-screen {
   margin: auto;
-  width: 650px;
 }
 
 .news-item {
@@ -33,4 +31,204 @@
   height: 300px;
 float: top;
 }
+
+.logo {
+  height: 150px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+.card {
+  height: 600px;
+  width: auto;
+  position: absolute;
+  right: 100px;
+  top: 80px;
+}
+html {
+  background: rgb(5,123,249);
+  background: linear-gradient(90deg, rgba(5,123,249,1) 32%, rgba(226,155,237,1) 100%);
+}
+h1 {
+  color: gold;
+  font-size: 5.8em;
+  position: absolute;
+  top: 200px;
+  left: 100px;
+  font-family: 'Zen Dots', cursive;
+}
+.topLine {
+  position: relative;
+  min-height: 100vh;
+  padding: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.topLine header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.topButtons {
+  position: relative;
+  display: flex;
+}
+.topButtons button {
+  cursor: pointer;
+  display: inline-block;
+  color: #ffd700;
+  font-weight: 500;
+  font-family: 'Monofett', cursive;
+  font-size: 2em;
+  margin-right: 40px;
+  border: none;
+  background: none;
+}
+
+/* Source: https://www.youtube.com/watch?v=d_kH92CVbXQ */
+.loginPrompt {
+  color: gold;
+  font-size: 2em;
+  position: absolute;
+  top: 400px;
+  padding-left: 100px;
+  font-family: 'Zen Dots', cursive;
+}
+
+#loginButton {
+  cursor: pointer;
+  position: relative;
+  display: inline-block;
+  color: #ffd700;
+  font-weight: 500;
+  font-family: 'Monofett', cursive;
+  font-size: 2em;
+  margin-right: 40px;
+  border: none;
+  background: none;
+}
+.inputField {
+  width: 500px;
+}
+
+/* Source: https://www.youtube.com/watch?v=MBaw_6cPmAw */
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  transition: 200ms ease-in-out;
+  border: 3px solid gold;
+  border-radius: 10px;
+  z-index: 10;
+  background-color: floralwhite;
+  width: 500px;
+  max-width: 80%;
+}
+.modal.active {
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.appInfoHeader {
+  padding: 10px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid gold;
+}
+.appInfoHeader .appInfoTitle {
+  padding: 5px 5px;
+  font-size: 1.5em;
+  font-family: 'Zen Dots', cursive;
+}
+.appInfoHeader .closeButton {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 2.5rem;
+  font-family: 'Monofett', cursive;
+}
+.appInfoBody {
+  padding: 10px 10px;
+  font-size: 1.2rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+.devInfoHeader {
+  padding: 10px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid gold;
+}
+.devInfoHeader .devInfoTitle {
+  padding: 5px 5px;
+  font-size: 1.5em;
+  font-family: 'Zen Dots', cursive;
+}
+.devInfoHeader .closeButton {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 2.5rem;
+  font-family: 'Monofett', cursive;
+}
+.devInfoBody {
+  padding: 10px 10px;
+  font-size: 1.2rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.contactHeader {
+  padding: 10px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid gold;
+}
+.contactHeader .contactTitle {
+  padding: 5px 5px;
+  font-size: 1.5em;
+  font-family: 'Zen Dots', cursive;
+}
+.contactHeader .closeButton {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 2.5rem;
+  font-family: 'Monofett', cursive;
+}
+.contactBody {
+  padding: 10px 10px;
+  font-size: 1.2rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#overlay {
+  position: fixed;
+  opacity: 0;
+  transition: 200ms ease-in-out;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, .5);
+  pointer-events: none;
+}
+#overlay.active {
+  opacity: 1;
+  pointer-events: all;
+}
+
+
 
