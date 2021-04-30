@@ -19,8 +19,6 @@ import { MatCardModule } from '@angular/material/card';
 import { MatIconModule } from '@angular/material/icon';
 import { MatDialogModule } from '@angular/material/dialog';
 import { FormsModule } from '@angular/forms';
-import { CardGameMainComponent } from './card-game-main/card-game-main.component';
-
 
 @NgModule({
   declarations: [
@@ -30,8 +28,7 @@ import { CardGameMainComponent } from './card-game-main/card-game-main.component
     EndGameComponent,
     NewsApiComponent,
     EndGameComponent,
-    BarChartComponent,
-    CardGameMainComponent
+    BarChartComponent
   ],
   imports: [
     BrowserModule,

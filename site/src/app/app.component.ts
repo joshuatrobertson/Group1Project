@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {CardData} from './card-game-main/card-data.model';
+import {CardData} from './game-card/card-data.model';
 import {MatDialog} from '@angular/material/dialog';
 import {EndGameComponent} from './end-game/end-game.component';
 import {RestartGameComponent} from './restart-game/restart-game.component';
