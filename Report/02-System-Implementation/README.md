@@ -11,13 +11,19 @@ The frontend was implemented by adapting a card game which can be found at https
 
 ##### Measuring the Users Score
 
-As we planned to have two rounds, one with and one without distractions we needed a way to quantitatively differentiate between rounds. For this, we decided to use time to completion as a metric of user score. To implement this a function called startTimer() was created, which used JavaScripts built in setInterval() to calculate the time in seconds and the users first and second round score was placed into seperate variables to be picked up by the backend.
+As we planned to have two rounds, one with and one without distractions we needed a way to quantitatively differentiate between rounds. For this, we decided to use time to completion as a metric of user score. To implement this a function called `startTimer()` was created, which used JavaScripts built in `setInterval()` to calculate the time in seconds and the users first and second round score was placed into seperate variables to be picked up by the backend.
 
 ##### Distractions
 For the distraction elements of the game we decided to go with both visual and auditory distractions following feedback from the user survey. Having more than one distraction also aligns with the literature review, in that attention is a finite resource and the brain can only devote attention to a limited number of stimuli.
 
 ###### Visual Distractions
-For the visual distractions, we decided to go with current news to align with what people might encounter during lockdown. To implement this, a new component 'news-api' was created an angular card was created using News API [News API, 2021] to pull contempory articles. The card pulls an image, title and description which is placed inside of an angular card. For the articles, we randomly chose from the 3 most recent sources to add some randomness between users and picked what we deemed the most contentious or attention grabbing news sources. An example of the news card can be seen below.
+For the visual distractions, we decided to go with current news to align with what people might encounter during lockdown. To implement this, a new component 'news-api' was created an angular card was created using News API [News API, 2021] to pull contempory articles. The card pulls an image, title and description which is placed inside of an angular card. For the articles, we randomly chose from the 3 most recent sources using the function getRandomNumber()
+'''js
+getRandomNumber(min, max): number {
+   return Math.random() * (max - min) + min;
+ }
+'''
+ to add some randomness between users and picked what we deemed the most contentious or attention grabbing news sources. An example of the news card can be seen below.
 
 
 <p align="center">
@@ -49,13 +55,21 @@ For the auditory distractions we decided to gather several sounds we found distr
   <td>GameCardComponent</td>
   <td>A card game using angulars built in animations and mat-card. </td>
   <td>An issue that we encountered was that the game could be completed too quickly and therefore did not give enough time for the user to become distracted.</td>
-  <td>To solve this, we edited the css and images to be of a smaller size and to still fit within the users sceen</td>
+  <td>To solve this, we edited the css and images to be of a smaller size and to still fit within the users sceen.</td>
 </tr>
 <tr>
   <td>NewsApiComponent</td>
   <td>An angular card using [News API](https://news-api.org) to pull contemporary news articles </td>
-  <td>The site would sporadically stop displaying the cards</td>
-  <td>After some time, we realised that the loss of functionality was due to exceeding our API limit of 1000 requests per day, therefore we created a new account so that we could swap out the key when our limit was reached.</td>
+  <td>
+  The site would sporadically stop displaying the cards.
+  <br></br>
+  The component always displayed the same news source.
+  </td>
+  <td>
+  After some time, we realised that the loss of functionality was due to exceeding our API limit of 1000 requests per day, therefore we created a new account so that we could swap out the key when our limit was reached.
+  <br></br>
+  To allow for a random news source to be chosen each time, we decided on which sources would be the most distracting and then created an array of these for which one was randomly chosen on intialisation of the component.
+  </td>
 </tr>
 <tr>
   <td>EndGameComponent</td>
@@ -67,6 +81,15 @@ For the auditory distractions we decided to gather several sounds we found distr
   <td>RestartGameComponent</td>
   <td>A component that creates a dialog between rounds</td>
   <td>The implementation of this was relatively straightforward and therefore we did not run into any issues. </td>
+  <td>N/A</td>
+</tr>
+<tr>
+  <td>AppComponent</td>
+  <td>The main component which contained most of the game logic</td>
+  <td>
+  When playing a sound, once it began it would continuously play.
+
+  </td>
   <td>N/A</td>
 </tr>
 </table>
