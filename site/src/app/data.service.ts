@@ -1,5 +1,5 @@
 import { Injectable, OnInit } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
+import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Observable, throwError } from 'rxjs';
 import { catchError, retry } from 'rxjs/operators';
 import { map, filter, switchMap } from 'rxjs/operators';
@@ -20,6 +20,11 @@ export class DataService {
 
   public getPlays(){
     return this.httpClient.get(this.EFAN_ID)
+  }
+
+  public postPlay(payload){
+    let httpHeaders = new HttpHeaders({​​​​​'Content-Type' : 'application/json'}​​​​​);
+    return this.httpClient.post(`${this.REST_API_SERVER}/play`, payload, {​​​​​headers: httpHeaders, observe: 'response'}​​​​​)
   }
 
 }

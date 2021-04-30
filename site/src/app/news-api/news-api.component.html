@@ -1,13 +1,13 @@
 <mat-card class="news">
   <mat-card-header>
-    <div mat-card-avatar [ngStyle]="{'background-image': 'url(../assets/images/'+ mArticles[singleArticle].source.id +'.png)'}" class="example-header-image"></div>
-    <mat-card-title class="title">{{mArticles[singleArticle].title}}</mat-card-title>
-    <mat-card-subtitle>{{mArticles[singleArticle].source.name}}</mat-card-subtitle>
+    <div mat-card-avatar [ngStyle]="{'background-image': 'url(../assets/images/'+ articleArray[singleArticle].source.id +'.png)'}" class="example-header-image"></div>
+    <mat-card-title class="title">{{articleArray[singleArticle].title}}</mat-card-title>
+    <mat-card-subtitle>{{articleArray[singleArticle].source.name}}</mat-card-subtitle>
   </mat-card-header>
-  <img mat-card-image class="img-article" src={{mArticles[singleArticle].urlToImage}} alt="">
+  <img mat-card-image class="img-article" src={{articleArray[singleArticle].urlToImage}} alt="">
   <mat-card-content>
     <p>
-      {{mArticles[singleArticle].description}}
+      {{articleArray[singleArticle].description}}
     </p>
   </mat-card-content>
   <mat-card-actions class="action-buttons">
@@ -15,6 +15,6 @@
       {{randomNumber(30)}}</button>
     <button mat-flat-button color="accent"><mat-icon>comment</mat-icon> Comments</button>
     <button mat-flat-button color="accent"><mat-icon>share</mat-icon> Share</button>
-    <a mat-icon-button color="accent" href={{mArticles[singleArticle].url}} target="_blank" ><mat-icon>visibility</mat-icon> Click for more</a>
+    <a mat-icon-button color="accent" href={{articleArray[singleArticle].url}} target="_blank" ><mat-icon>visibility</mat-icon> Click for more</a>
   </mat-card-actions>
 </mat-card>

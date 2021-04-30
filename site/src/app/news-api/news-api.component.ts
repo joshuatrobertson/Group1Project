@@ -8,24 +8,25 @@ import {NewsApiService} from './news-api.service';
 })
 export class NewsApiComponent {
 
-  mArticles: Array<any>;
-  mSources: Array<any>;
+  articleArray: Array<any>;
+  sourcesArray: Array<any>;
   singleArticle;
 
   getRandomArticle(): any {
-    return (this.mArticles)[1];
+    return (this.articleArray)[1];
   }
 
   constructor(private newsapi: NewsApiService){
     console.log('app component constructor called');
     // load articles
-    this.newsapi.initArticles().subscribe(data => this.mArticles = data['articles']);
+    this.newsapi.initArticles().subscribe(data => this.articleArray = data['articles']);
     // load news sources
-    this.newsapi.initSources().subscribe(data => this.mSources = data['sources']);
+    this.newsapi.initSources().subscribe(data => this.sourcesArray = data['sources']);
     // Fetch a random article
     this.singleArticle = this.randomNumber(5);
   }
 
+  // Return a random number between - and 'maxNumber'
   randomNumber(maxNumber): number {
     return Math.floor(Math.random() * maxNumber);
   }

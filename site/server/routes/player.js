@@ -7,7 +7,7 @@ const Player = require('../../models/player');
 //Add a player to the database
 router.post('/', async (req, res) => {
   const player = new Player({
-    username: req.body.username,
+    email: req.body.email,
     birthday: req.body.birthday
     });
   try{
