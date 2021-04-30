@@ -48,26 +48,26 @@ For the auditory distractions we decided to gather several sounds we found distr
 <tr>
   <td>GameCardComponent</td>
   <td>A card game using angulars built in animations and mat-card. </td>
-  <td>1. The game did not display enough cards</td>
-  <td>1. Edited the css and images to be of a smaller size</td>
+  <td>An issue that we encountered was that the game could be completed too quickly and therefore did not give enough time for the user to become distracted.</td>
+  <td>To solve this, we edited the css and images to be of a smaller size and to still fit within the users sceen</td>
 </tr>
 <tr>
   <td>NewsApiComponent</td>
   <td>An angular card using [News API](https://news-api.org) to pull contemporary news articles </td>
   <td>The site would sporadically stop displaying the cards</td>
-  <td>After some time, we realised that the loss of Functionality was due to exceeding our API limit, therefore we created a new account so that we could swap out the key when our limit was reached.</td>
+  <td>After some time, we realised that the loss of functionality was due to exceeding our API limit of 1000 requests per day, therefore we created a new account so that we could swap out the key when our limit was reached.</td>
 </tr>
 <tr>
   <td>EndGameComponent</td>
-  <td>Issue 3</td>
-  <td>Issue 2</td>
-  <td>Solution 3</td>
+  <td>A component used to link to the users final scores and allow them to play again</td>
+  <td>The dialog would not dissapear and allow the user to see their scores</td>
+  <td>This was a relatively simple fix and involved allowing the dialog to be closed by using `[mat-dialog-close]="true"`</td>
 </tr>
 <tr>
   <td>RestartGameComponent</td>
-  <td>Issue 3</td>
-  <td>Issue 2</td>
-  <td>Solution 3</td>
+  <td>A component that creates a dialog between rounds</td>
+  <td>The implementation of this was relatively straightforward and therefore we did not run into any issues. </td>
+  <td>N/A</td>
 </tr>
 </table>
 
