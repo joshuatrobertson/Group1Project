@@ -14,7 +14,7 @@ export class EndGameComponent implements OnInit {
   }
 
   clickButtonChart= function () {
-    this.router.navigateByUrl('/bar-chart');
+    this.router.navigate(['/bar-chart']);
   };
 
   clickButtonHome= function () {
