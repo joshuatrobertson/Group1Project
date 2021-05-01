@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {Router} from '@angular/router';
 
 @Component({
   selector: 'app-end-game',
@@ -7,9 +8,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class EndGameComponent implements OnInit {
 
-  constructor() { }
+  constructor(private router: Router) { }
 
   ngOnInit(): void {
   }
+
+  clickButtonChart= function () {
+    this.router.navigateByUrl('/bar-chart');
+  };
+
+  clickButtonHome= function () {
+    this.router.navigateByUrl('/');
+  };
+
 
 }

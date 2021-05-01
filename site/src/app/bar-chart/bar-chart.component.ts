@@ -31,6 +31,10 @@ export class BarChartComponent implements OnInit {
     this.retrieveData();
   }
 
+  clickButtonHome= function () {
+    this.router.navigateByUrl('/');
+  };
+
   retrieveData() {
     this.dataService.getPlays().subscribe(
         data => {

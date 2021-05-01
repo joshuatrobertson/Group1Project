@@ -231,7 +231,7 @@ export class AppComponent {
           this.beginSound3 = true;
 
           if (this.userSecondGame === true) {
-            dialogRef = this.dialog.open(EndGameComponent, {
+            dialogRef = this.dialog.open(EndGameComponent, { height:'500px',width:'500px'
             });
           } else {
             dialogRef = this.dialog.open(RestartGameComponent, {
