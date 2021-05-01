@@ -27,15 +27,16 @@ export class BarChartComponent implements OnInit {
 
   constructor(private dataService: DataService) { }
 
-  ngOnInit() {
+  ngOnInit(): void {
     this.retrieveData();
   }
 
-  retrieveData() {
+
+  retrieveData(): void {
     this.dataService.getPlays().subscribe(
         data => {
           this.stats = data;
-          let avgTimes: Array<number> = [0,0];
+          let avgTimes: Array<number> = [0, 0];
           let length = this.stats.length;
           let j = 0;
           for (let i = 0; i < length; i++) {

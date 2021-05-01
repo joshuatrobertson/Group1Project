@@ -13,15 +13,16 @@
 }
 
 .main-screen {
-  float: left;
-}
-
-.news-main {
-  float: bottom;
+  margin: auto;
 }
 
 .card-screen {
   margin: auto;
+}
+
+.news-main {
+  magin: auto;
+  position: fixed;
 }
 
 .news-item {

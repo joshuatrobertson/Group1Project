@@ -6,7 +6,11 @@ import { HttpClient  } from '@angular/common/http';
 })
 export class NewsApiService {
 
+<<<<<<< HEAD
   apiKey = '0c1958f0e7e64edf9ba43bf573fbd608';
+=======
+  apiKey = 'c38b81bdd64049d89af65487f8cdb8b7';
+>>>>>>> faf845dbc216f66723c5e74052973d878dd27ea0
   // backup key
   //apiKey = '28cabbff7add46febde4eb4e84536f71';
 

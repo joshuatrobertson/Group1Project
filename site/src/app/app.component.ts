@@ -22,6 +22,7 @@ export class AppComponent implements OnInit {
 
 // Images pulled from site. The number (* 2) represents playing cards for the user
   cardImages = [
+<<<<<<< HEAD
     'pDGNBK9A0sk',
     'fYDrhbVlV1E',
     'qoXgaF27zBc',
@@ -31,8 +32,21 @@ export class AppComponent implements OnInit {
    'vNYia2IeqYs',
    'ts1zXzsD7xc',
    'Mi2urK1OKR0',
+=======
+    // 'pDGNBK9A0sk',
+    // 'fYDrhbVlV1E',
+    // 'qoXgaF27zBc',
+   // 'b9drVB7xIOI',
+   // 'TQ-q5WAVHj0',
+    // 'wRU27yGfSLQ',
+   // 'vNYia2IeqYs',
+   // 'ts1zXzsD7xc',
+   // 'Mi2urK1OKR0',
+>>>>>>> faf845dbc216f66723c5e74052973d878dd27ea0
     'bXfQLglc81U'
   ];
+
+  longAudio;
 
   // Add a time component
   time = 0;
@@ -59,6 +73,7 @@ export class AppComponent implements OnInit {
   beginAnimations = false;
   beginAnimations2 = false;
   beginAnimations3 = false;
+  beginAnimations4 = false;
   beginSound = true;
   beginSound2 = true;
   beginSound3 = true;
@@ -100,13 +115,23 @@ export class AppComponent implements OnInit {
     this.playerEmail = document.getElementById('email');
     this.playerEmail = this.playerEmail.value;
     const ob = {email: this.playerEmail};
+<<<<<<< HEAD
     this.dataService.postPlayer(ob).subscribe((res: any) => {
+=======
+    this.dataService.postPlayer(ob).subscribe((res: any) => {​​​​​
+>>>>>>> faf845dbc216f66723c5e74052973d878dd27ea0
       const body = res.body;
       console.log('response body', body);
       }, (error) => {
       console.log('Failed with post');
       console.error(error);
+<<<<<<< HEAD
     });
+=======
+    }​​​​​);
+    this.dataService.setMessage(this.playerEmail);
+    console.log(this.playerEmail);
+>>>>>>> faf845dbc216f66723c5e74052973d878dd27ea0
   }
 
   // Set up the cards on the screen
@@ -143,11 +168,25 @@ export class AppComponent implements OnInit {
   }
 
   // Play an audio source
+  playLongAudio(audioSource): void {
+    console.log('Long audio called');
+    this.longAudio = new Audio('../assets/sounds/' + audioSource);
+    this.longAudio.load();
+    this.longAudio.play();
+  }
+
+  // Play an audio source
   playAudio(audioSource): void {
     console.log('Audio called');
     const audio = new Audio('../assets/sounds/' + audioSource);
     audio.load();
     audio.play();
+  }
+
+  // Mute the audio after the game ends
+  muteAudio(): void {
+    this.longAudio.pause();
+    this.longAudio.currentTime = 0;
   }
 
   // Play a random sound every 15 seconds
@@ -181,7 +220,7 @@ export class AppComponent implements OnInit {
         if (this.time > this.getRandomNumber(10, 15) && this.userSecondGame === true) {
           if (this.beginSound2 === true) {
             // Pick a random long sound to play
-            this.playAudio(this.longSounds[Math.floor(Math.random() * this.longSounds.length)]);
+            this.playLongAudio(this.longSounds[Math.floor(Math.random() * this.longSounds.length)]);
             this.beginSound2 = false;
           }
           this.beginAnimations = true;
@@ -191,6 +230,9 @@ export class AppComponent implements OnInit {
         }
         if (this.time > this.getRandomNumber(27, 36) && this.userSecondGame === true) {
           this.beginAnimations3 = true;
+        }
+        if (this.time > this.getRandomNumber(40, 50) && this.userSecondGame === true) {
+          this.beginAnimations4 = true;
         }
         if (this.time > 10 && this.userSecondGame === true) {
           this.playRandomSound();
@@ -235,12 +277,14 @@ export class AppComponent implements OnInit {
           this.beginAnimations = false;
           this.beginAnimations2 = false;
           this.beginAnimations3 = false;
+          this.beginAnimations4 = false;
+
           this.beginSound = true;
           this.beginSound2 = true;
           this.beginSound3 = true;
 
           if (this.userSecondGame === true) {
-            dialogRef = this.dialog.open(EndGameComponent, {
+            dialogRef = this.dialog.open(EndGameComponent, { height: '500px', width: '500px'
             });
           } else {
             dialogRef = this.dialog.open(RestartGameComponent, {
@@ -253,17 +297,26 @@ export class AppComponent implements OnInit {
             this.userFirstTime = this.time;
             this.userSecondGame = true;
           } else {
+            this.muteAudio();
             this.userSecondTime = this.time;
             this.userSecondGame = false;
             const ob = {email: this.playerEmail, time1: this.userFirstTime, time2: this.userSecondTime};
+<<<<<<< HEAD
             this.dataService.postPlay(ob).subscribe((res: any) => {
+=======
+            this.dataService.postPlay(ob).subscribe((res: any) => {​​​​​
+>>>>>>> faf845dbc216f66723c5e74052973d878dd27ea0
             const body = res.body;
             console.log('response body', body);
             }, (error) => {
               console.log('Failed with post');
               console.error(error);
+<<<<<<< HEAD
             });
             this.displayTimes();
+=======
+            }​​​​​);
+>>>>>>> faf845dbc216f66723c5e74052973d878dd27ea0
           }
 
           dialogRef.afterClosed().subscribe(() => {

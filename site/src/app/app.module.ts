@@ -19,7 +19,11 @@ import { MatCardModule } from '@angular/material/card';
 import { MatIconModule } from '@angular/material/icon';
 import { MatDialogModule } from '@angular/material/dialog';
 import { FormsModule } from '@angular/forms';
+<<<<<<< HEAD
 import { ModalComponent } from './modal/modal.component';
+=======
+import { LineChartComponent } from './line-chart/line-chart.component';
+>>>>>>> faf845dbc216f66723c5e74052973d878dd27ea0
 
 @NgModule({
   declarations: [
@@ -30,7 +34,11 @@ import { ModalComponent } from './modal/modal.component';
     NewsApiComponent,
     EndGameComponent,
     BarChartComponent,
+<<<<<<< HEAD
     ModalComponent
+=======
+    LineChartComponent
+>>>>>>> faf845dbc216f66723c5e74052973d878dd27ea0
   ],
   imports: [
     BrowserModule,

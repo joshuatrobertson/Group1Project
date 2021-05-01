@@ -18,9 +18,11 @@ router.post('/', async (req, res) => {
   }
 });
 
-router.get('/:playerId', async (req, res) => {
+router.get('/:playerEmail', async (req, res) => {
   try {
-    const plays = await Play.find({player: req.params.playerId})
+    const player = await Player.find({email: req.params.playerEmail})
+    const playerId = player[0]._id;
+    const plays = await Play.find({player: playerId})
     res.json(plays);
   } catch (err) {
     res.json({message : err});

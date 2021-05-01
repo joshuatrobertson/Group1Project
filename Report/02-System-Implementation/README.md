@@ -84,11 +84,15 @@ For the auditory distractions we decided to gather several sounds we found distr
   The site would sporadically stop displaying the cards.
   <br></br>
   The component always displayed the same news source.
+  <br></br>
+  The news card moved out of of the window and caused the window to expand unnecessarily along with the animation looking dull and unnatural.
   </td>
   <td>
   After some time, we realised that the loss of functionality was due to exceeding our API limit of 1000 requests per day, therefore we created a new account so that we could swap out the key when our limit was reached.
   <br></br>
   To allow for a random news source to be chosen each time, we decided on which sources would be the most distracting and then created an array of these for which one was randomly chosen on intialisation of the component.
+  <br></br>
+  Initially, to animate the cards we used translate to place the div in a random position on the screen and animate to a new, randomly created position. Although giving an element of randomness, due to the movements being stiffed it made the animations look rigid and dull. To correct this, we instead created an svg path and used motion and offset paths to animate, giving a more natural and smooth effect to the animation and also set the css for the parent div to `position: fixed;`to stop the animations extending the screen.
   </td>
 </tr>
 <tr>
