@@ -19,6 +19,7 @@ import { MatCardModule } from '@angular/material/card';
 import { MatIconModule } from '@angular/material/icon';
 import { MatDialogModule } from '@angular/material/dialog';
 import { FormsModule } from '@angular/forms';
+import { ModalComponent } from './modal/modal.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { FormsModule } from '@angular/forms';
     EndGameComponent,
     NewsApiComponent,
     EndGameComponent,
-    BarChartComponent
+    BarChartComponent,
+    ModalComponent
   ],
   imports: [
     BrowserModule,
@@ -50,3 +52,4 @@ import { FormsModule } from '@angular/forms';
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+export { ModalComponent };
