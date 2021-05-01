@@ -13,7 +13,11 @@
 }
 
 .main-screen {
-  margin: auto;
+  float: left;
+}
+
+.news-main {
+  float: bottom;
 }
 
 .card-screen {
@@ -24,6 +28,7 @@
   width: 300px;
   height: 300px;
   position: absolute;
+  float: left;
 }
 
 .news-item-right {

@@ -11,7 +11,19 @@
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
 </head>
 <body>
+<div class="news-main">
+  <div class="news-item-right" [hidden]="!beginAnimations">
+    <app-news-api></app-news-api>
+  </div>
+  <div class="news-item" [hidden]="!beginAnimations2">
+    <app-news-api></app-news-api>
+  </div>
+  <div class="news-item" [hidden]="!beginAnimations3">
+    <app-news-api></app-news-api>
+  </div>
+</div>
 <section class="topLine">
+
   <header>
     <a title="logo"><img src="../assets/logo.png" class="logo" alt="logo"></a>
     <div class="topButtons">
@@ -61,18 +73,6 @@
     </div>
   </header>
   <div class="main-screen">
-    <div class="news-item" [hidden]="!beginAnimations">
-      <app-news-api></app-news-api>
-    </div>
-    <div class="news-item-right" [hidden]="!beginAnimations">
-      <app-news-api></app-news-api>
-    </div>
-    <div class="news-item" [hidden]="!beginAnimations2">
-      <app-news-api></app-news-api>
-    </div>
-    <div class="news-item" [hidden]="!beginAnimations3">
-      <app-news-api></app-news-api>
-    </div>
     <div class="card-screen">
       <p></p>
       <div class="grid p-16">

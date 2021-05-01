@@ -19,15 +19,15 @@ export class AppComponent {
 
 // Images pulled from site. The number (* 2) represents playing cards for the user
   cardImages = [
-    'pDGNBK9A0sk',
-    'fYDrhbVlV1E',
-    'qoXgaF27zBc',
-   'b9drVB7xIOI',
-   'TQ-q5WAVHj0',
-    'wRU27yGfSLQ',
-   'vNYia2IeqYs',
-   'ts1zXzsD7xc',
-   'Mi2urK1OKR0',
+    //'pDGNBK9A0sk',
+    //'fYDrhbVlV1E',
+    //'qoXgaF27zBc',
+   //'b9drVB7xIOI',
+   //'TQ-q5WAVHj0',
+    //'wRU27yGfSLQ',
+   //'vNYia2IeqYs',
+   //'ts1zXzsD7xc',
+   //'Mi2urK1OKR0',
     'bXfQLglc81U'
   ];
 
