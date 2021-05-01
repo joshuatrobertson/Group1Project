@@ -14,6 +14,8 @@ export class AppComponent {
 
   emailClicked = false;
 
+  playerEmail;
+
 
 // Images pulled from site. The number (* 2) represents playing cards for the user
   cardImages = [
@@ -77,6 +79,11 @@ export class AppComponent {
   startGame(): void {
     this.setupCards();
     this.startTimer();
+  }
+
+  saveEmail(): void {
+    this.playerEmail = document.getElementById('email');
+    console.log(this.playerEmail);
   }
 
   // Set up the cards on the screen
