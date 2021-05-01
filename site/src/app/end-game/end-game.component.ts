@@ -13,8 +13,12 @@ export class EndGameComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  clickButtonChart= function () {
+  clickButtonBarChart= function () {
     this.router.navigate(['/bar-chart']);
+  };
+
+  clickButtonLineChart= function () {
+    this.router.navigate(['/line-chart']);
   };
 
   clickButtonHome= function () {
