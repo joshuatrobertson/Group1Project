@@ -97,7 +97,7 @@
     <form [hidden]="emailClicked">
       Please enter your email:
       <br><label for="email"></label><input type="text" id="email" class="inputField"/><br/>
-      <button id ="loginButton" type="button" [hidden]="emailClicked" onclick="saveEmail();" (click)="emailClicked = true; startGame()" class="btn btn-primary">Login and start game</button>
+      <button id ="loginButton" type="button" [hidden]="emailClicked"  (click)="emailClicked = true; saveEmail(); startGame()" class="btn btn-primary">Login and start game</button>
     </form>
   </div>
 </div>
