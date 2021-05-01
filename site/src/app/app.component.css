@@ -13,11 +13,7 @@
 }
 
 .main-screen {
-  float: left;
-}
-
-.news-main {
-  float: bottom;
+  margin: auto;
 }
 
 .card-screen {

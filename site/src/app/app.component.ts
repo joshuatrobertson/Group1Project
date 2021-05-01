@@ -56,6 +56,7 @@ export class AppComponent {
   beginAnimations = false;
   beginAnimations2 = false;
   beginAnimations3 = false;
+  beginAnimations4 = false;
   beginSound = true;
   beginSound2 = true;
   beginSound3 = true;
@@ -177,6 +178,9 @@ export class AppComponent {
         if (this.time > this.getRandomNumber(27, 36) && this.userSecondGame === true) {
           this.beginAnimations3 = true;
         }
+        if (this.time > this.getRandomNumber(40, 50) && this.userSecondGame === true) {
+          this.beginAnimations4 = true;
+        }
         if (this.time > 10 && this.userSecondGame === true) {
           this.playRandomSound();
         }
@@ -220,6 +224,8 @@ export class AppComponent {
           this.beginAnimations = false;
           this.beginAnimations2 = false;
           this.beginAnimations3 = false;
+          this.beginAnimations4 = false;
+
           this.beginSound = true;
           this.beginSound2 = true;
           this.beginSound3 = true;

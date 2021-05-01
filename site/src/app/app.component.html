@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <title>DistractAbility: Welcome</title>
   <link rel="stylesheet" href="app.component.css" type="text/css">
+  <link rel="script" href="welcome-page.component.js" type="application/javascript">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Monofett&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet">
@@ -21,9 +22,11 @@
   <div class="news-item" [hidden]="!beginAnimations3">
     <app-news-api></app-news-api>
   </div>
+  <div class="news-item-right" [hidden]="!beginAnimations4">
+    <app-news-api></app-news-api>
+  </div>
 </div>
 <section class="topLine">
-
   <header>
     <a title="logo"><img src="../assets/logo.png" class="logo" alt="logo"></a>
     <div class="topButtons">
@@ -94,10 +97,10 @@
     <form [hidden]="emailClicked">
       Please enter your email:
       <br><label for="email"></label><input type="text" id="email" class="inputField"/><br/>
-      <button id ="loginButton" type="button" [hidden]="emailClicked"  (click)="emailClicked = true; saveEmail(); startGame()" class="btn btn-primary">Login and start game</button>
+      <button id ="loginButton" type="button" [hidden]="emailClicked" onclick="saveEmail();" (click)="emailClicked = true; startGame()" class="btn btn-primary">Login and start game</button>
     </form>
   </div>
 </div>
-
+<script src="welcome-page.component.js"></script>
 </body>
 </html>
