@@ -83,7 +83,15 @@ export class AppComponent {
 
   saveEmail(): void {
     this.playerEmail = document.getElementById('email');
-    console.log(this.playerEmail);
+    this.playerEmail = this.playerEmail.value;
+    let ob = {"email": this.playerEmail};
+    this.dataService.postPlayer(ob).subscribe((res:any) => {​​​​​
+      let body = res.body;
+      console.log('response body', body);
+      }​​​​​, (error) => {​​​​​
+      console.log('Failed with post');
+      console.error(error);
+    }​​​​​);
   }
 
   // Set up the cards on the screen
@@ -232,7 +240,7 @@ export class AppComponent {
           } else {
             this.userSecondTime = this.time;
             this.userSecondGame = false;
-            let ob = {"email": "efanhaynes@gmail.com", "time1": this.userFirstTime, "time2": this.userSecondTime};
+            let ob = {"email": this.playerEmail, "time1": this.userFirstTime, "time2": this.userSecondTime};
             this.dataService.postPlay(ob).subscribe((res:any) => {​​​​​
             let body = res.body;
             console.log('response body', body);
