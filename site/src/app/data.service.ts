@@ -20,8 +20,8 @@ export class DataService {
     console.log(this.message);
   }
 
-  public getAll(){
-    return this.httpClient.get(this.REST_API_SERVER)
+  public getOtherPlays(){
+    return this.httpClient.get(`${this.REST_API_SERVER}/play/other/${this.message}`)
   }
 
   public getPlays(){
@@ -29,11 +29,13 @@ export class DataService {
   }
 
   public postPlay(payload){
+    console.log("we hereplay");
     let httpHeaders = new HttpHeaders({​​​​​'Content-Type' : 'application/json'}​​​​​);
     return this.httpClient.post(`${this.REST_API_SERVER}/play`, payload, {​​​​​headers: httpHeaders, observe: 'response'}​​​​​)
   }
 
   public postPlayer(payload){
+    console.log("we hereplayer");
     let httpHeaders = new HttpHeaders({​​​​​'Content-Type' : 'application/json'}​​​​​);
     return this.httpClient.post(`${this.REST_API_SERVER}/player`, payload, {​​​​​headers: httpHeaders, observe: 'response'}​​​​​)
   }
