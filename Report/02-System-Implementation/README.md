@@ -92,7 +92,7 @@ For the auditory distractions we decided to gather several sounds we found distr
   <br></br>
   To allow for a random news source to be chosen each time, we decided on which sources would be the most distracting and then created an array of these for which one was randomly chosen on intialisation of the component.
   <br></br>
-  Initially, to animate the cards we used translate to place the div in a random position on the screen and animate to a new, randomly created position. Although giving an element of randomness, due to the movements being stiffed it made the animations look rigid and dull. To correct this, we instead created an svg path and used motion and offset paths to animate, giving a more natural and smooth effect to the animation.
+  Initially, to animate the cards we used translate to place the div in a random position on the screen and animate to a new, randomly created position. Although giving an element of randomness, due to the movements being stiffed it made the animations look rigid and dull. To correct this, we instead created an svg path and used motion and offset paths to animate, giving a more natural and smooth effect to the animation and also set the css for the parent div to `position: fixed;`to stop the animations extending the screen.
   </td>
 </tr>
 <tr>
