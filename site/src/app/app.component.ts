@@ -93,6 +93,8 @@ export class AppComponent {
       console.log('Failed with post');
       console.error(error);
     }​​​​​);
+    this.dataService.setMessage(this.playerEmail);
+    console.log(this.playerEmail);
   }
 
   // Set up the cards on the screen

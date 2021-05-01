@@ -11,15 +11,21 @@ export class DataService {
 
   private REST_API_SERVER = "http://localhost:3000/api";
   private EFAN_ID = "http://localhost:3000/api/play/607344a09c88d4001c80ce45";
+  message:string
 
   constructor(private httpClient: HttpClient) { }
+
+  setMessage(data){
+    this.message=data;
+    console.log(this.message);
+  }
 
   public getAll(){
     return this.httpClient.get(this.REST_API_SERVER)
   }
 
   public getPlays(){
-    return this.httpClient.get(this.EFAN_ID)
+    return this.httpClient.get(`${this.REST_API_SERVER}/play/${this.message}`)
   }
 
   public postPlay(payload){

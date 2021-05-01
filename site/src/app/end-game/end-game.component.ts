@@ -20,6 +20,4 @@ export class EndGameComponent implements OnInit {
   clickButtonHome= function () {
     this.router.navigateByUrl('/');
   };
-
-
 }
