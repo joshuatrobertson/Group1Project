@@ -22,6 +22,6 @@ export class EndGameComponent implements OnInit {
   };
 
   clickButtonHome= function () {
-    this.router.navigateByUrl('/');
+    this.router.navigateByUrl('/home');
   };
 }
