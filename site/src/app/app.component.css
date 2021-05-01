@@ -34,7 +34,7 @@
 .news-item-right {
   width: 300px;
   height: 300px;
-float: top;
+  float: top;
 }
 
 .logo {
@@ -64,6 +64,7 @@ h1 {
 }
 .topLine {
   position: relative;
+  width: 80%;
   min-height: 100vh;
   padding: 100px;
   display: flex;
@@ -122,14 +123,6 @@ h1 {
   width: 500px;
 }
 
-/* Source: https://www.youtube.com/watch?v=MBaw_6cPmAw */
-.appInfoHeader {
-  padding: 10px 15px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  border-bottom: 2px solid gold;
-}
 .modalTitle {
   padding: 5px 5px;
   font-size: 1.5em;
@@ -140,59 +133,15 @@ h1 {
   font-size: 1.2rem;
   font-family: 'Montserrat', sans-serif;
 }
-
-
-.devInfoHeader {
-  padding: 10px 15px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  border-bottom: 2px solid gold;
-}
-.modalTitle {
-  padding: 5px 5px;
-  font-size: 1.5em;
-  font-family: 'Zen Dots', cursive;
-}
 .devInfoBody {
   padding: 10px 10px;
   font-size: 1.2rem;
   font-family: 'Montserrat', sans-serif;
 }
-
-.contactHeader {
-  padding: 10px 15px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  border-bottom: 2px solid gold;
-}
-.modalTitle {
-  padding: 5px 5px;
-  font-size: 1.5em;
-  font-family: 'Zen Dots', cursive;
-}
-
 .devContactBody {
   padding: 10px 10px;
   font-size: 1.2rem;
   font-family: 'Montserrat', sans-serif;
-}
-
-#overlay {
-  position: fixed;
-  opacity: 0;
-  transition: 200ms ease-in-out;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: rgba(0, 0, 0, .5);
-  pointer-events: none;
-}
-#overlay.active {
-  opacity: 1;
-  pointer-events: all;
 }
 
 

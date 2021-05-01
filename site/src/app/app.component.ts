@@ -11,6 +11,7 @@ import { ModalService } from './modal';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
+
 export class AppComponent implements OnInit {
 
   bodyText: string;
@@ -18,7 +19,6 @@ export class AppComponent implements OnInit {
   emailClicked = false;
 
   playerEmail;
-
 
 // Images pulled from site. The number (* 2) represents playing cards for the user
   cardImages = [

@@ -28,47 +28,49 @@
 <section class="topLine">
   <header>
     <a title="logo"><img src="../assets/logo.png" class="logo" alt="logo"></a>
-
-
-    <button (click)="openModal('custom-modal-1')">App Info</button>
-    <button (click)="openModal('custom-modal-2')">Developer Info</button>
-    <button (click)="openModal('custom-modal-3')">Developer Contact</button>
-
-    <jw-modal id="custom-modal-1">
-      <div class="modalTitle">App Info</div>
-      <div class="appInfoBody">
-        <p>DistractAbility highlights the negative impacts of the Coronavirus pandemic on people’s ability to find focus.</p>
-        <p>Login with your email to be taken to the first round of the game.</p>
-      </div>
-      <button (click)="closeModal('custom-modal-1');">Close</button>
-    </jw-modal>
-
-    <jw-modal id="custom-modal-2">
-      <div class="modalTitle">Developer Info</div>
-      <div class="devInfoBody">
-        <p>Alan Cen</p>
-        <p>Efan Haynes</p>
-        <p>Keane Fernandez</p>
-        <p>Josh Robertson</p>
-        <p>Ella Gryf-Lowczowska</p>
-      </div>
-      <button (click)="closeModal('custom-modal-2');">Close</button>
-    </jw-modal>
-
-    <jw-modal id="custom-modal-3">
-      <div class="modalTitle">Developer Contact</div>
-      <div class="devContactBody">
-        <p>Alan - mj20448@bristol.ac.uk</p>
-        <p>Efan - eh17538@bristol.ac.uk</p>
-        <p>Keane - kf13056@bristol.ac.uk</p>
-        <p>Josh - hi20003@bristol.ac.uk</p>
-        <p>Ella - eg16914@bristol.ac.uk</p>
-      </div>
-      <button (click)="closeModal('custom-modal-3');">Close</button>
-    </jw-modal>
-
-
+    <!---Popups: Buttons to open the popups (i.e. modals)--->
+    <div id="modals" class="topButtons">
+      <button (click)="openModal('custom-modal-1')">App Info</button>
+      <button (click)="openModal('custom-modal-2')">Developer Info</button>
+      <button (click)="openModal('custom-modal-3')">Developer Contact</button>
+      <!---Popup: Basic application info--->
+      <jw-modal id="custom-modal-1">
+        <div class="modalTitle">App Info</div>
+        <div class="appInfoBody">
+          <p>DistractAbility highlights the negative impacts of the Coronavirus pandemic on people’s ability to find focus.</p>
+          <p>Login with your email to be taken to the first round of the game.</p>
+        </div>
+        <button (click)="closeModal('custom-modal-1');">Close</button>
+      </jw-modal>
+      <!---Popup: Developer Names--->
+      <jw-modal id="custom-modal-2">
+        <div class="modalTitle">Developer Info</div>
+        <div class="devInfoBody">
+          <p>Alan Cen</p>
+          <p>Efan Haynes</p>
+          <p>Keane Fernandez</p>
+          <p>Josh Robertson</p>
+          <p>Ella Gryf-Lowczowska</p>
+        </div>
+        <button (click)="closeModal('custom-modal-2');">Close</button>
+      </jw-modal>
+      <!---Popup: Contact Info for Developers--->
+      <jw-modal id="custom-modal-3">
+        <div class="modalTitle">Developer Contact</div>
+        <div class="devContactBody">
+          <p>Alan - mj20448@bristol.ac.uk</p>
+          <p>Efan - eh17538@bristol.ac.uk</p>
+          <p>Keane - kf13056@bristol.ac.uk</p>
+          <p>Josh - hi20003@bristol.ac.uk</p>
+          <p>Ella - eg16914@bristol.ac.uk</p>
+        </div>
+        <button (click)="closeModal('custom-modal-3');">Close</button>
+      </jw-modal>
+    </div>
   </header>
+</section>
+<section>
+  <!---Main Screen: Card game.--->
   <div class="main-screen">
     <div class="card-screen">
       <p></p>
@@ -77,9 +79,6 @@
       </div>
     </div>
   </div>
-</section>
-<section>
-
 </section>
 <!---Content: title, login and card-back image--->
 <div class="content">
@@ -98,12 +97,3 @@
 </body>
 </html>
 
-<!-- credits for modal popups -->
-<div class="credits">
-  <p>
-    <a href="https://jasonwatmore.com/post/2019/07/12/angular-8-custom-modal-window-dialog-box" target="_top">Angular 8 - Custom Modal Window / Dialog Box</a>
-  </p>
-  <p>
-    <a href="http://jasonwatmore.com" target="_top">JasonWatmore.com</a>
-  </p>
-</div>
