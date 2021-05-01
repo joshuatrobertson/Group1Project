@@ -19,17 +19,19 @@ export class AppComponent {
 
 // Images pulled from site. The number (* 2) represents playing cards for the user
   cardImages = [
-    //'pDGNBK9A0sk',
-    //'fYDrhbVlV1E',
-    //'qoXgaF27zBc',
-   //'b9drVB7xIOI',
-   //'TQ-q5WAVHj0',
-    //'wRU27yGfSLQ',
-   //'vNYia2IeqYs',
-   //'ts1zXzsD7xc',
-   //'Mi2urK1OKR0',
+    // 'pDGNBK9A0sk',
+    // 'fYDrhbVlV1E',
+    // 'qoXgaF27zBc',
+   // 'b9drVB7xIOI',
+   // 'TQ-q5WAVHj0',
+    // 'wRU27yGfSLQ',
+   // 'vNYia2IeqYs',
+   // 'ts1zXzsD7xc',
+   // 'Mi2urK1OKR0',
     'bXfQLglc81U'
   ];
+
+  longAudio;
 
   // Add a time component
   time = 0;
@@ -85,9 +87,9 @@ export class AppComponent {
   saveEmail(): void {
     this.playerEmail = document.getElementById('email');
     this.playerEmail = this.playerEmail.value;
-    let ob = {"email": this.playerEmail};
-    this.dataService.postPlayer(ob).subscribe((res:any) => {​​​​​
-      let body = res.body;
+    const ob = {email: this.playerEmail};
+    this.dataService.postPlayer(ob).subscribe((res: any) => {​​​​​
+      const body = res.body;
       console.log('response body', body);
       }​​​​​, (error) => {​​​​​
       console.log('Failed with post');
@@ -131,11 +133,25 @@ export class AppComponent {
   }
 
   // Play an audio source
+  playLongAudio(audioSource): void {
+    console.log('Long audio called');
+    this.longAudio = new Audio('../assets/sounds/' + audioSource);
+    this.longAudio.load();
+    this.longAudio.play();
+  }
+
+  // Play an audio source
   playAudio(audioSource): void {
     console.log('Audio called');
     const audio = new Audio('../assets/sounds/' + audioSource);
     audio.load();
     audio.play();
+  }
+
+  // Mute the audio after the game ends
+  muteAudio(): void {
+    this.longAudio.pause();
+    this.longAudio.currentTime = 0;
   }
 
   // Play a random sound every 15 seconds
@@ -169,7 +185,7 @@ export class AppComponent {
         if (this.time > this.getRandomNumber(10, 15) && this.userSecondGame === true) {
           if (this.beginSound2 === true) {
             // Pick a random long sound to play
-            this.playAudio(this.longSounds[Math.floor(Math.random() * this.longSounds.length)]);
+            this.playLongAudio(this.longSounds[Math.floor(Math.random() * this.longSounds.length)]);
             this.beginSound2 = false;
           }
           this.beginAnimations = true;
@@ -233,7 +249,7 @@ export class AppComponent {
           this.beginSound3 = true;
 
           if (this.userSecondGame === true) {
-            dialogRef = this.dialog.open(EndGameComponent, { height:'500px',width:'500px'
+            dialogRef = this.dialog.open(EndGameComponent, { height: '500px', width: '500px'
             });
           } else {
             dialogRef = this.dialog.open(RestartGameComponent, {
@@ -246,17 +262,17 @@ export class AppComponent {
             this.userFirstTime = this.time;
             this.userSecondGame = true;
           } else {
+            this.muteAudio();
             this.userSecondTime = this.time;
             this.userSecondGame = false;
-            let ob = {"email": this.playerEmail, "time1": this.userFirstTime, "time2": this.userSecondTime};
-            this.dataService.postPlay(ob).subscribe((res:any) => {​​​​​
-            let body = res.body;
+            const ob = {email: this.playerEmail, time1: this.userFirstTime, time2: this.userSecondTime};
+            this.dataService.postPlay(ob).subscribe((res: any) => {​​​​​
+            const body = res.body;
             console.log('response body', body);
             }​​​​​, (error) => {​​​​​
               console.log('Failed with post');
               console.error(error);
             }​​​​​);
-            this.displayTimes();
           }
 
           dialogRef.afterClosed().subscribe(() => {
