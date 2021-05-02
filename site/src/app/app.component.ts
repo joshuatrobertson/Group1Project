@@ -87,9 +87,9 @@ export class AppComponent {
   saveEmail(): void {
     this.playerEmail = document.getElementById('email');
     this.playerEmail = this.playerEmail.value;
-    const ob = {email: this.playerEmail};
+    let ob = {"email": this.playerEmail};
     this.dataService.postPlayer(ob).subscribe((res: any) => {​​​​​
-      const body = res.body;
+      let body = res.body;
       console.log('response body', body);
       }​​​​​, (error) => {​​​​​
       console.log('Failed with post');
@@ -262,17 +262,17 @@ export class AppComponent {
             this.userFirstTime = this.time;
             this.userSecondGame = true;
           } else {
-            this.muteAudio();
             this.userSecondTime = this.time;
             this.userSecondGame = false;
-            const ob = {email: this.playerEmail, time1: this.userFirstTime, time2: this.userSecondTime};
+            let ob = {"email": this.playerEmail, "time1": this.userFirstTime, "time2": this.userSecondTime};
             this.dataService.postPlay(ob).subscribe((res: any) => {​​​​​
-            const body = res.body;
+            let body = res.body;
             console.log('response body', body);
             }​​​​​, (error) => {​​​​​
               console.log('Failed with post');
               console.error(error);
             }​​​​​);
+            this.muteAudio();
           }
 
           dialogRef.afterClosed().subscribe(() => {
