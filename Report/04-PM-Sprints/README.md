@@ -63,16 +63,16 @@ Enter a high level overview and timeline here. Highlight critical points in the 
 A key step in the scrum workflow is the ideation of the user stories necessary to deliver a minimum viable product (MVP). We believe that the following user stories were essential to do so:
 
 
-| User Story                                                                                                                   | Sub tasks |
-| :--------------------------------------------------------------------------------------------------------------------------- | --------- |
-| **User Story 1**: As a user, I want to be able to type out the web address and arrive on the welcome page of the website.    | |
-| **User Story 2**: As a user, I want to compare my score against the global average score.                                    | |
-| **User Story 3**: As a user, I want to compare my score against my previous score.                                           | |
-| **User Story 4**: As a user, I want to be able to click on new game and be redirected to the first round of the game.        | |
-| **User Story 5**: As a user, I want to have a seamless user experience, with an uninterrupted game flow.                     | |
-| **User Story 6**: As a user, I want to play the game with distractions in the form of news headlines on the screen.          | |
-| **User Story 7**: As a user, I want to play the game with distractions in the form of notification sounds in the background. | |
-| **User Story 8**: As a user, I want to login to the game with my email.                                                      | |
+| User Story                                                                                                                   |
+| :--------------------------------------------------------------------------------------------------------------------------- |
+| **User Story 1**: As a user, I want to be able to type out the web address and arrive on the welcome page of the website.    |
+| **User Story 2**: As a user, I want to compare my score against the global average score.                                    |
+| **User Story 3**: As a user, I want to compare my score against my previous score.                                           |
+| **User Story 4**: As a user, I want to be able to click on new game and be redirected to the first round of the game.        |
+| **User Story 5**: As a user, I want to have a seamless user experience, with an uninterrupted game flow.                     |
+| **User Story 6**: As a user, I want to play the game with distractions in the form of news headlines on the screen.          |
+| **User Story 7**: As a user, I want to play the game with distractions in the form of notification sounds in the background. |
+| **User Story 8**: As a user, I want to login to the game with my email.                                                      |
 
 <p align="center">
   <center><em> Table XX : User stories essential for our minimum viable product.</em></center>
@@ -87,21 +87,53 @@ Essentially, the way we approached our sprints were as follows:
 3. During the week, daily standups would happen on MS Teams and verbal communication pertaining to issues/solutions would occur on the Discord server.
 4. At the end of the week, the team would reconvene for a review of how the week's work went. Merge commits int the dev branch were made if the feature was deemed complete by all team members. If the user story implementation was incomplete, it would simply get carried forward to the next week.
 
-Here is an overview of our sprints:
-
 ##### Sprint 1: Trial Run (05/04 - 11/04)
-The purpose of this sprint was to setup development environments on all team members' workstations and to practice the continuous integration process (push / pull workflow ) using Github.
+
+##### Goals
+1. The purpose of this sprint was to setup development environments on all team members' workstations and to practice the continuous integration process (push / pull workflow ) using Github.
+
+2. Implement 
 
 We setup a Jira account account to help document our sprints. However, the added overhead was turning out cumbersome and we decided to use [GitHub projects](https://github.com/keane-fernandes/Group1Project/projects) to document our sprints based on the suggestion of Marceli.
+
+##### User Stories
+
+
+
+##### Review
 
 
 ##### Sprint 2: Development 1 (12/04 - 18/04)
 
+##### Goals
+
+##### User Stories
+
+##### Review
+
 ##### Sprint 3: Development 2 (19/04 - 25/04)
+
+##### Goals
+
+##### User Stories
+
+##### Review
 
 ##### Sprint 4: Bugs, Fixes and Documentation (26/04 - 02/05) 
 
+##### Goals
+
+##### User Stories
+
+##### Review
+
 ##### Sprint 5: Documentation (03/05 - 07/05)
+
+##### Goals
+
+##### User Stories
+
+##### Review
 
 
 ## CI/CD Pipeline
