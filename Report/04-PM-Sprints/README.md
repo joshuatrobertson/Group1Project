@@ -87,20 +87,20 @@ Essentially, the way we approached our sprints were as follows:
 3. During the week, daily standups would happen on MS Teams and verbal communication pertaining to issues/solutions would occur on the Discord server.
 4. At the end of the week, the team would reconvene for a review of how the week's work went. Merge commits int the dev branch were made if the feature was deemed complete by all team members. If the user story implementation was incomplete, it would simply get carried forward to the next week.
 
-##### Sprint 1: Trial Run (05/04 - 11/04)
+##### [Sprint 1: Trial Run (05/04 - 11/04)]
 
 ##### Goals
-1. The purpose of this sprint was to setup development environments on all team members' workstations and to practice the continuous integration process (push / pull workflow ) using Github.
+The purpose of this sprint was to setup development environments on all team members' workstations and to practice the continuous integration process (push / pull workflow ) using our own feature branches.
 
-2. Implement 
-
-We setup a Jira account account to help document our sprints. However, the added overhead was turning out cumbersome and we decided to use [GitHub projects](https://github.com/keane-fernandes/Group1Project/projects) to document our sprints based on the suggestion of Marceli.
+Setup a Jira account account to setup our kanban board and document our sprints. However, the added overhead was turning out cumbersome, and we decided to use [GitHub projects](https://github.com/keane-fernandes/Group1Project/projects) to document our sprints based on the suggestion of Marceli.
 
 ##### User Stories
 
 
 
 ##### Review
+Since this was our first week
+
 
 
 ##### Sprint 2: Development 1 (12/04 - 18/04)
