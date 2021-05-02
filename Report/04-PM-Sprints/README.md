@@ -63,16 +63,16 @@ Enter a high level overview and timeline here. Highlight critical points in the 
 A key step in the scrum workflow is the ideation of the user stories necessary to deliver a minimum viable product (MVP). We believe that the following user stories were essential to do so:
 
 
-| User Story                                                                                                                   |
-| :--------------------------------------------------------------------------------------------------------------------------- |
-| **User Story 1**: As a user, I want to be able to type out the web address and arrive on the welcome page of the website.    |
-| **User Story 2**: As a user, I want to compare my score against the global average score.                                    |
-| **User Story 3**: As a user, I want to compare my score against my previous score.                                           |
-| **User Story 4**: As a user, I want to be able to click on new game and be redirected to the first round of the game.        |
-| **User Story 5**: As a user, I want to have a seamless user experience, with an uninterrupted game flow.                     |
-| **User Story 6**: As a user, I want to play the game with distractions in the form of news headlines on the screen.          |
-| **User Story 7**: As a user, I want to play the game with distractions in the form of notification sounds in the background. |
-| **User Story 8**: As a user, I want to login to the game with my email.                                                      |
+| Code | User Story                                                                                                                   |
+| ---- | :--------------------------------------------------------------------------------------------------------------------------- |
+| **UT1** | **User Story 1**: As a user, I want to be able to type out the web address and arrive on the welcome page of the website.    |
+| **UT1** | **User Story 2**: As a user, I want to compare my score against other users of the game.                                    |
+| **UT1** | **User Story 3**: As a user, I want to compare my score against my previous score.                                           |
+|      | **User Story 4**: As a user, I want to be able to click on new game and be directed to the first round of the game.        |
+|      | **User Story 5**: As a user, I want to have a seamless user experience, with an uninterrupted game flow.                     |
+|      | **User Story 6**: As a user, I want to play the game with distractions in the form of news headlines on the screen.          |
+|      | **User Story 7**: As a user, I want to play the game with distractions in the form of notification sounds in the background. |
+|      | **User Story 8**: As a user, I want to login to the game with my email.                                                      |
 
 <p align="center">
   <center><em> Table XX : User stories essential for our minimum viable product.</em></center>
@@ -104,6 +104,8 @@ We setup a Jira account account to help document our sprints. However, the added
 
 
 ##### Sprint 2: Development 1 (12/04 - 18/04)
+
+
 
 ##### Goals
 
