@@ -7,7 +7,7 @@ Microsoft Teams was the primary tool for our daily standups and we used Discord 
 
 <p align="center">
   <img src="images/001_discord.gif" width="600"/>
-  <center><em>Figure XX : Team discord server.</em></center>
+  <em>Figure XX : Team discord server.</em>
 </p>
 
 ### Weeks 1 - 5
