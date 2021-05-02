@@ -16,9 +16,16 @@
   <a title="logo"><img src="../assets/logo.png" class="logo" alt="logo"></a>
   <!---Buttons to open popups below--->
   <div class="popupButtons">
-    <button (click)="openModal('custom-modal-1')">App Info</button>
-    <button (click)="openModal('custom-modal-2')">Developer Info</button>
-    <button (click)="openModal('custom-modal-3')">Developer Contact</button>
+    <div class="popupButtonBody">
+      <button class="btn btn-primary" (click)="openModal('custom-modal-1')">App Info</button>
+    </div>
+    <div class="popupButtonBody">
+      <button class="btn btn-primary" (click)="openModal('custom-modal-2')">Developer Info</button>
+
+    </div>
+    <div class="popupButtonBody">
+      <button class="btn btn-primary" (click)="openModal('custom-modal-3')">Developer Contact</button>
+    </div>
   </div>
   <!---App Info pop-up window--->
   <jw-modal id="custom-modal-1">

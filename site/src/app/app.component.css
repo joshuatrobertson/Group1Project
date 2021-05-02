@@ -81,6 +81,10 @@ h1 {
   cursor: pointer;
 }
 
+.popupButtonBody {
+  padding: 2px;
+}
+
 .modalTitle {
   padding: 5px 5px;
   font-size: 1.5em;

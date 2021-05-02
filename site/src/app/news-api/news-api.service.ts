@@ -6,9 +6,9 @@ import { HttpClient  } from '@angular/common/http';
 })
 export class NewsApiService {
 
-  // apiKey = '1a566dd2a11c4173b47ada5f97e6940a';
+  apiKey = '1a566dd2a11c4173b47ada5f97e6940a';
   // backup key
-  apiKey = '28cabbff7add46febde4eb4e84536f71';
+ // apiKey = '28cabbff7add46febde4eb4e84536f71';
 
   newsSources: Array<string> = ['entertainment-weekly', 'mtv-news', 'mtv-news-uk', 'next-big-future', 'reddit-r-all', 'vice-news'];
 
