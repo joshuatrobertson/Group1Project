@@ -50,37 +50,31 @@ Based on the data we collected and the feature-centric, modular nature of the pr
 
 The Kanban element in this workflow would be one master board on  which all of our backlog exists. The Scrum aspect in this workflow would be the fact that our work would be split into week long sprints where we work to accomplish the tasks set out at the start of the sprint. The idea behind this hybrid approach is that the iterative nature of scrum would help us reflect on our abilities and rescope our project if necessary. Moreover, the relatively short development lifecycle of the Scrum framework had the potential to provide us with invaluable insight into the weaknesses in our workflows. The idea was to then identify these weakness early in the project, learn from them, and rectify them in time for the next sprint. 
 
-### Implementation
-
-#### Step 1: Project Vision and Scoping
+### Project Vision and Scoping
 
 Given the tight schedule and open-endedness othe project, we had to scope our project to ensure that we could deliver a minimum viable product that conformed to the primary objectives of the brief.
 
-| Primary Obejctives | Status |
-| :--------- | :----- |
-| Build a fully functional web application using the MEAN stack |
-| **UT002** | - [ ] Mercury |
-| **UT003** | |
-| **UT004** | |
-| **UT005** | |
-| **UT006** | |
-| **UT007** | |
-| **UT008** | |
+| Primary Objectives                                                                                                           |       Status       |
+| :--------------------------------------------------------------------------------------------------------------------------- | :----------------: |
+| Build a basic, functioning protoype of a single page application using the MEAN stack                                        | :white_check_mark: |
+| Ensure that the web application strikes the right balance between serious and play                                           | :white_check_mark: |
+| Coninuous integration using Github and Docker is to be used throughout the project                                           | :white_check_mark: |
+| The web application shall be a card matching game with two rounds consisting of a normal round and a round with distractions | :white_check_mark: |
+| The user of the application will be able to compare their scores after both rounds                                           | :white_check_mark: |
+                  
 
-| Primary Obejctives | Status |
-| :--------- | :----- |
-| Build a fully functional web application using the MEAN stack |
-| **UT002** | |
-| **UT003** | |
-| **UT004** | |
-| **UT005** | |
-| **UT006** | |
-| **UT007** | |
-| **UT008** | |
+| Secoondary Objectives                                                    |       Status       |
+| :----------------------------------------------------------------------- | :----------------: |
+| The application will be publicly served using containers on Github pages | :white_check_mark: |
+| The application will support user authentication using passwords.        |        :x:         |
+
+
+
 
 Enter a high level overview and timeline here. Highlight critical points in the project here.
 
-#### Step 2: User Story Creation
+
+### User Story Creation
 
 A key step in the scrum workflow is the ideation of the user stories necessary to deliver a minimum viable product (MVP). We believe that the following user stories were essential to do so:
 
@@ -101,7 +95,7 @@ A key step in the scrum workflow is the ideation of the user stories necessary t
 </p>
 
 
-#### Step 3: Sprint!
+### Sprints
 The standups and meeting logs for our sprints can be found [here](../../Meetings/README.md).
 
 Essentially, the way we approached our sprints were as follows:
@@ -110,64 +104,69 @@ Essentially, the way we approached our sprints were as follows:
 3. During the week, daily standups would happen on MS Teams and verbal communication pertaining to issues/solutions would occur on the Discord server.
 4. At the end of the week, the team would reconvene for a review of how the week's work went. Merge commits into the **dev** branch were made if the feature was deemed complete by all team members. If the user story implementation was incomplete, it would simply get carried forward to the next week.
 
-##### Sprint 1: Trial Run (05/04 - 11/04)
+#### Sprint 1: Trial Run (05/04 - 11/04)
 
-###### Plan
+##### Plan
 1. Setup development environments on all team members' workstations and practice the continuous integration process (push / pull workflow) using our own feature branches.
 2. Setup Jira to setup our scrum environment and document our sprints.
 3. Create the first page of our web application (UT001).
 4. Create a first instance of the game on our website (UT004).
 5. Create a first draft of our data model and implement this in MongoDB (UT002, UT003).
 
-###### Outcomes and Review
+##### Outcomes and Review
 1. The use of Jira added unnecessary overhead to the project and was turning out cumbersome. We decided to use [GitHub projects](https://github.com/keane-fernandes/Group1Project/projects/1) to document our sprints based on the suggestion of Marceli.
 2. All members were familiarised with the github workflow to ensure continuous integration.
 3. A first prototype for our card matching game was merged into the **dev** branch.
 4. All members were able to build and serve the website on their local machines.
    
-##### Sprint 2: Development A (12/04 - 18/04)
+#### Sprint 2: Development A (12/04 - 18/04)
 
-###### Plan
+##### Plan
 1. Setup docker, ensure docker-compose script is able to spin up containers and serve our web application.
 2. Update the base game so that there is now a round two, where distractions in the form of news article move across the screen as you play (UT006).
-3. Setup the Express framework so that our front end can talk to our database (UT002, UT003, UT008).
+3. Add distractions in the form of sounds to our most current version of the game based on feedback from our user surveys and background research (UT007).
+4. Setup the Express framework so that our front end can talk to our database (UT002, UT003, UT008).
 
-###### Outcomes and Review
+##### Outcomes and Review
 1. Docker gave us some problems initially wherein our NodeJS container would keep restarting. This was fixed using this [shell script](../../site/wait-for.sh) and now deployment is possible through docker containers.
 2. The application of the overlay to the game screen proved quite challenging. However, it worked out in the end as game now has news article distractions pop up on the screen which is being pulled by an [external news API](https://newsapi.org).
-3. The Express module is still a work in progress and will carried forward into the next sprint.
+3. The Express module was still a work in progress and was carried forward into the next sprint.
 
-##### Sprint 3: Development B (19/04 - 25/04)
+#### Sprint 3: Development B (19/04 - 25/04)
+Based on the momentum and feedback from the devlopment activities of last week's sprint we were coming closer to achieving a fully functional MVP.
+##### Plan
+1. Add navigation buttons on the website based on UI design workshops.
+2. Create the welcome page of our web application (UT001).
+3. Continue work on the API and ensures that it interfaces well with our front end and back end (UT002, UT003, UT008).
 
-###### Plan
-1. Based on feedback 
-2. Setup Jira to setup our scrum environment and document our sprints.
-3. Create the first page of our web application (UT001).
+##### Outcomes and Review
+1. The welcome page had been successfully created, although we did not been merge into **dev**. The merge will be performed on the next sprint after it is more thoroughly tested for robustness.
+2. The navigation buttons had also been successfully added, and further work was required on the backend to ensure that the buttons were fully functional.
+3. We had a first working prototype of our API with more robustness testing to be performed in the next sprint.
+   
+#### Sprint 4: Bugs, Fixes and Documentation (26/04 - 02/05) 
 
-###### Outcomes and Review
-1. The use of Jira added unnecessary overhead to the project and was turning out cumbersome. We decided to use [GitHub projects](https://github.com/keane-fernandes/Group1Project/projects) to document our sprints based on the suggestion of Marceli.
+##### Plan
+1. Integrate welcome page, front end , back end and API. 
+2. Initiate the project documentation process on Github.
+3. Finalize the API.
+4. Merge all features of the previous sprint and the work of this sprint into dev (welcome page, navigation buttons and API).
+5. If all goes to plan, we have an MVP by the end of the week.
 
-##### Sprint 4: Bugs, Fixes and Documentation (26/04 - 02/05) 
+##### Outcomes and Review
+1. The welcome page along with the navigation buttons were written in javascript, which caused a lot of issue during integration with the rest of the application. This was recitified by rewriting the components using TypeScript and remerging in dev.
+2. The API was finalised, review and merged into dev.
+3. The application was then tested using `ng serve` and `docker-compose up`, and worked as expected. At this point, we had a functioning minimum viable product.
+4. The project documentation was successfully inititated, with the report template and navigation links fully setup on GitHub.
 
-###### Plan
-1. Create 
-2. Setup Jira to setup our scrum environment and document our sprints.
-3. Create the first page of our web application (UT001).
+#### Sprint 5: Deployment and Documentation (03/05 - 07/05)
 
-###### Outcomes
+##### Plan
+1. Look at avenues to publicly serve our application using GitHub pages.
+2. Finish up documentation, with submission on Thursday evening at the very latest.
 
-###### Review
-
-##### Sprint 5: Deployment and Documentation (03/05 - 07/05)
-
-###### Goals
-1. Setup development environments on all team members' workstations and practice the continuous integration process (push / pull workflow) using our own feature branches.
-2. Setup Jira to setup our scrum environment and document our sprints.
-3. Create the first page of our web application (UT001).
-###### Outcomes
-
-###### Review
-
+##### Outcomes and Review
+1. 
 
 ## CI/CD Pipeline
 ### Continuous Integration with GitHub
@@ -198,7 +197,6 @@ Docker in 100 seconds video on YouTube.
 Docker compose script was imperative for continuous deployment.
 
 Talk about how both of these tools streamlined our workflow (maybe with the help of an image?)
-
 ## Team Contributions
 Discussion of team roles.
 
