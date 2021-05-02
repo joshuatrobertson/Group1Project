@@ -45,8 +45,6 @@ float: top;
   left: 20px;
 }
 .card {
-  height: 500px;
-  width: auto;
   position: absolute;
   right: 100px;
   top: 80px;
