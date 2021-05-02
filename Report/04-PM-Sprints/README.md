@@ -7,8 +7,8 @@ Microsoft Teams was the primary tool for our daily standups and we used Discord 
 
 <p align="center">
   <img src="images/001_discord.gif" width="600"/>
-  <em>Figure XX : Team discord server.</em>
 </p>
+<center><em>Figure XX : Team discord server.</em></center>
 
 ### Weeks 1 - 5
 We used this time to absorb the content delivered in the technical and design workshops and implement the walkthroughs on our own machines. This gave the us the necessary information to decide on which roles we would undertake during our sprints. Therefore, our communication during these five weeks was just limited to the Tuesday and Thursday SEGP workshop timeslots. 
