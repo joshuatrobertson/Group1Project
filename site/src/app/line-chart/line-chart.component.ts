@@ -20,34 +20,33 @@ export class LineChartComponent implements OnInit {
     {data: [28, 48, 40, 19, 86, 27, 90], label: 'Series B'}
   ];
 
+  stats: any = [];
+  currentdata = null;
+  currentIndex = -1;
+  title = '';
+
   constructor(private dataService: DataService) { }
 
   ngOnInit() {
     this.retrieveData();
   }
 
-  retrieveData() {
+  retrieveData(): void {
     this.dataService.getPlays().subscribe(
       data => {
-        // this.stats = data;
+        this.stats = data;
 
-        var timewithoutdistraction: Array<number> = [10];
-        timewithoutdistraction.push(30);
-        timewithoutdistraction.push(40);
-        timewithoutdistraction.push(20);
-        timewithoutdistraction.push(50);
+        let length = this.stats.length;
 
-        var timewithdistraction: Array<number> = [20];
-        timewithdistraction.push(50);
-        timewithdistraction.push(65);
-        timewithdistraction.push(25);
-        timewithdistraction.push(60);
+        let timewithoutdistraction: Array<number> = [this.stats[0].timewithoutdistraction];
+        let timewithdistraction: Array<number> = [this.stats[0].timewithdistraction];
+        let timeofplay: Array<string> = [this.stats[0].timeofplay];
 
-        var timeofplay: Array<string> = ['1'];
-        timeofplay.push('2');
-        timeofplay.push('3');
-        timeofplay.push('4');
-        timeofplay.push('5');
+        for (let i = 1; i < length; i++) {
+          timewithoutdistraction.push(this.stats[i].timewithoutdistraction);
+          timewithdistraction.push(this.stats[i].timewithdistraction);
+          timeofplay.push(this.stats[i].timeofplay);
+        }
 
         this.lineChartLabels = timeofplay;
         this.lineChartData = [
