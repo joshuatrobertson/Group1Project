@@ -12,6 +12,48 @@
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
 </head>
 <body>
+<header class="header">
+  <a title="logo"><img src="../assets/logo.png" class="logo" alt="logo"></a>
+  <!---Buttons to open popups below--->
+  <div class="popupButtons">
+    <button (click)="openModal('custom-modal-1')">App Info</button>
+    <button (click)="openModal('custom-modal-2')">Developer Info</button>
+    <button (click)="openModal('custom-modal-3')">Developer Contact</button>
+  </div>
+  <!---App Info pop-up window--->
+  <jw-modal id="custom-modal-1">
+    <div class="modalTitle">Welcome to DistractAbility!</div>
+    <div class="modalBody">
+      <p>DistractAbility highlights the negative impacts of the Coronavirus pandemic on people’s ability to find focus.</p>
+      <p>Login with your email to be taken to the first round of the game.</p>
+    </div>
+    <button (click)="closeModal('custom-modal-1');">Close</button>
+  </jw-modal>
+  <!---Developer Info pop-up window--->
+  <jw-modal id="custom-modal-2">
+    <div class="modalTitle">Developer Info</div>
+    <div class="modalBody">
+      <p>Alan Cen</p>
+      <p>Efan Haynes</p>
+      <p>Keane Fernandez</p>
+      <p>Josh Robertson</p>
+      <p>Ella Gryf-Lowczowska</p>
+    </div>
+    <button (click)="closeModal('custom-modal-2');">Close</button>
+  </jw-modal>
+  <!---Developer Contact pop-up window--->
+  <jw-modal id="custom-modal-3">
+    <div class="modalTitle">Developer Contact</div>
+    <div class="modalBody">
+      <p>Alan - mj20448@bristol.ac.uk</p>
+      <p>Efan - eh17538@bristol.ac.uk</p>
+      <p>Keane - kf13056@bristol.ac.uk</p>
+      <p>Josh - hi20003@bristol.ac.uk</p>
+      <p>Ella - eg16914@bristol.ac.uk</p>
+    </div>
+    <button (click)="closeModal('custom-modal-3');">Close</button>
+  </jw-modal>
+</header>
 <div class="news-main">
   <div class="news-item-right" [hidden]="!beginAnimations">
     <app-news-api></app-news-api>
@@ -26,55 +68,8 @@
     <app-news-api></app-news-api>
   </div>
 </div>
+<!---Header with logo--->
 <section class="topLine">
-  <header>
-    <a title="logo"><img src="../assets/logo.png" class="logo" alt="logo"></a>
-    <div class="topButtons">
-      <!---App Info pop-up window--->
-      <button data-modal-target="#appInfo">App Info</button>
-      <div class="modal" id="appInfo">
-        <div class="appInfoHeader">
-          <div class="appInfoTitle">Welcome to DistractAbility!</div>
-          <button data-close-button="#appClose" class="closeButton">&times;</button>
-        </div>
-        <div class="appInfoBody">
-          <p>DistractAbility highlights the negative impacts of the Coronavirus pandemic on people’s ability to find focus.</p>
-          <p>Login with your email to be taken to the first round of the game.</p>
-        </div>
-      </div>
-      <!---Developer Info pop-up window--->
-      <button data-modal-target="#devInfo">Developer Info</button>
-      <div class="modal" id="devInfo">
-        <div class="devInfoHeader">
-          <div class="devInfoTitle">Meet the developers!</div>
-          <button data-close-button="#devClose" class="closeButton">&times;</button>
-        </div>
-        <div class="devInfoBody">
-          <p>Alan Cen</p>
-          <p>Efan Haynes</p>
-          <p>Keane Fernandez</p>
-          <p>Josh Robertson</p>
-          <p>Ella Gryf-Lowczowska</p>
-        </div>
-      </div>
-      <!---Developer Contact pop-up window--->
-      <button data-modal-target="#contact">Developer Contact</button>
-      <div class="modal" id="contact">
-        <div class="contactHeader">
-          <div class="contactTitle">Developer Contacts</div>
-          <button data-close-button="#contactClose" class="closeButton">&times;</button>
-        </div>
-        <div class="contactBody">
-          <p>Alan - mj20448@bristol.ac.uk</p>
-          <p>Efan - eh17538@bristol.ac.uk</p>
-          <p>Keane - kf13056@bristol.ac.uk</p>
-          <p>Josh - hi20003@bristol.ac.uk</p>
-          <p>Ella - eg16914@bristol.ac.uk</p>
-        </div>
-      </div>
-      <div id="overlay"></div>
-    </div>
-  </header>
   <div class="main-screen">
     <div class="card-screen">
       <p></p>
@@ -83,9 +78,6 @@
       </div>
     </div>
   </div>
-</section>
-<section>
-
 </section>
 <!---Content: title, login and card-back image--->
 <div class="content">

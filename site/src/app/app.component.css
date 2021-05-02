@@ -63,39 +63,35 @@ h1 {
   left: 100px;
   font-family: 'Zen Dots', cursive;
 }
-.topLine {
-  position: relative;
-  min-height: 100vh;
-  padding: 100px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.topLine header {
-  position: absolute;
+
+
+.header {
   top: 0;
   left: 0;
   width: 100%;
-  padding: 20px 100px;
+  padding: 30px 30px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.topButtons {
+
+.popupButtons {
   position: relative;
   display: flex;
-}
-.topButtons button {
   cursor: pointer;
-  display: inline-block;
-  color: #ffd700;
-  font-weight: 500;
-  font-family: 'Monofett', cursive;
-  font-size: 2em;
-  margin-right: 40px;
-  border: none;
-  background: none;
 }
+
+.modalTitle {
+  padding: 5px 5px;
+  font-size: 1.5em;
+  font-family: 'Zen Dots', cursive;
+}
+.modalBody {
+  padding: 10px 10px;
+  font-size: 1.2rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
 
 /* Source: https://www.youtube.com/watch?v=d_kH92CVbXQ */
 .loginPrompt {

@@ -1,9 +1,10 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, ViewEncapsulation, OnInit } from '@angular/core';
 import { MatDialog } from '@angular/material/dialog';
 import { CardData } from './card-data.model';
 import { RestartGameComponent } from './restart-game/restart-game.component';
 import {EndGameComponent} from './end-game/end-game.component';
 import {DataService} from './data.service';
+import { ModalService } from './modal';
 
 @Component({
   selector: 'app-root',
@@ -12,22 +13,21 @@ import {DataService} from './data.service';
 })
 export class AppComponent {
 
+  bodyText: string;
   emailClicked = false;
-
   playerEmail;
-
 
 // Images pulled from site. The number (* 2) represents playing cards for the user
   cardImages = [
-    // 'pDGNBK9A0sk',
-    // 'fYDrhbVlV1E',
-    // 'qoXgaF27zBc',
-   // 'b9drVB7xIOI',
-   // 'TQ-q5WAVHj0',
-    // 'wRU27yGfSLQ',
-   // 'vNYia2IeqYs',
-   // 'ts1zXzsD7xc',
-   // 'Mi2urK1OKR0',
+    'pDGNBK9A0sk',
+    'fYDrhbVlV1E',
+    'qoXgaF27zBc',
+   'b9drVB7xIOI',
+   'TQ-q5WAVHj0',
+    'wRU27yGfSLQ',
+   'vNYia2IeqYs',
+    'ts1zXzsD7xc',
+    'Mi2urK1OKR0',
     'bXfQLglc81U'
   ];
 
@@ -76,7 +76,15 @@ export class AppComponent {
       .map(a => a[1]);
   }
 
-  constructor(private dataService: DataService, private dialog: MatDialog) {
+  constructor(private dataService: DataService, private dialog: MatDialog, private modalService: ModalService) {
+  }
+
+  openModal(id: string): void {
+    this.modalService.open(id);
+  }
+
+  closeModal(id: string): void {
+    this.modalService.close(id);
   }
 
   startGame(): void {
@@ -87,14 +95,14 @@ export class AppComponent {
   saveEmail(): void {
     this.playerEmail = document.getElementById('email');
     this.playerEmail = this.playerEmail.value;
-    let ob = {"email": this.playerEmail};
-    this.dataService.postPlayer(ob).subscribe((res: any) => {​​​​​
-      let body = res.body;
+    const ob = {email: this.playerEmail};
+    this.dataService.postPlayer(ob).subscribe((res: any) => {
+      const body = res.body;
       console.log('response body', body);
-      }​​​​​, (error) => {​​​​​
+      }, (error) => {
       console.log('Failed with post');
       console.error(error);
-    }​​​​​);
+    });
     this.dataService.setMessage(this.playerEmail);
     console.log(this.playerEmail);
   }
@@ -264,15 +272,15 @@ export class AppComponent {
           } else {
             this.userSecondTime = this.time;
             this.userSecondGame = false;
-            let ob = {"email": this.playerEmail, "time1": this.userFirstTime, "time2": this.userSecondTime};
-            this.dataService.postPlay(ob).subscribe((res: any) => {​​​​​
-            let body = res.body;
+            const ob = {email: this.playerEmail, time1: this.userFirstTime, time2: this.userSecondTime};
+            this.dataService.postPlay(ob).subscribe((res: any) => {
+            const body = res.body;
             console.log('response body', body);
-            }​​​​​, (error) => {​​​​​
+            }, (error) => {
               console.log('Failed with post');
               console.error(error);
-            }​​​​​);
-            //this.muteAudio();
+            });
+            /*this.muteAudio();*/
           }
 
           dialogRef.afterClosed().subscribe(() => {

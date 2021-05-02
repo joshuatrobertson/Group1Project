@@ -20,6 +20,8 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatDialogModule } from '@angular/material/dialog';
 import { FormsModule } from '@angular/forms';
 import { LineChartComponent } from './line-chart/line-chart.component';
+import { ModalComponent } from './modal/modal.component';
+import { ModalModule } from './modal';
 
 @NgModule({
   declarations: [
@@ -46,7 +48,8 @@ import { LineChartComponent } from './line-chart/line-chart.component';
     MatDialogModule,
     HttpClientModule,
     AppRoutingModule,
-    ChartsModule
+    ChartsModule,
+    ModalModule
   ],
   providers: [NewsApiService, DataService],
   bootstrap: [AppComponent]
