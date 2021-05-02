@@ -272,7 +272,7 @@ export class AppComponent {
               console.log('Failed with post');
               console.error(error);
             }​​​​​);
-            this.muteAudio();
+            //this.muteAudio();
           }
 
           dialogRef.afterClosed().subscribe(() => {
