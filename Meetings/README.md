@@ -31,6 +31,7 @@ From the start of the easter break (Week 6), we've moved the tasks to Github Pro
 ___
 
 ## 2. Meeting minutes (Most recent first)
+This section contains all of our meeting minutes since the start of this group project.
 
 The next stand up is on 28/04/21 at 10:00.
 

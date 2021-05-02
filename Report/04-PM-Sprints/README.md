@@ -46,15 +46,37 @@ The next logical step was to evaluate these frameworks against a set of factors 
   <center><em> Table XX : Potential team workflows categorised by decision criteria.</em></center>
 </p>
 
-Based on the data we collected and the feature-centric, modular nature of the project brief, we decided to adopt the **scrum methodology** of the agile workflow for our project. Given our inexperience as software developers, the planning complexity demanded by the Waterfall model made it a poor choice for this project. Moreover, the relatively short development lifecycle of the Scrum framework had the potential to provide us with invaluable insight into the weaknesses in our workflows. The idea was to then identify these weakness early in the project, learn from them, and rectify them in time for the next sprint. 
+Based on the data we collected and the feature-centric, modular nature of the project brief, we decided to adopt a hybrid of the **scrum** and **kanban** methodologies. Given our inexperience as software developers, the planning complexity demanded by the Waterfall model made it a poor choice for this project. 
 
-### Implementation of Scrum
+The Kanban element in this workflow would be one master board on  which all of our backlog exists. The Scrum aspect in this workflow would be the fact that our work would be split into week long sprints where we work to accomplish the tasks set out at the start of the sprint. The idea behind this hybrid approach is that the iterative nature of scrum would help us reflect on our abilities and rescope our project if necessary. Moreover, the relatively short development lifecycle of the Scrum framework had the potential to provide us with invaluable insight into the weaknesses in our workflows. The idea was to then identify these weakness early in the project, learn from them, and rectify them in time for the next sprint. 
+
+### Implementation
 
 #### Step 1: Project Vision and Scoping
 
 Given the tight schedule and open-endedness othe project, we had to scope our project to ensure that we could deliver a minimum viable product that conformed to the primary objectives of the brief.
 
-Insert primary objectives here.
+| Primary Obejctives | Status |
+| :--------- | :----- |
+| Build a fully functional web application using the MEAN stack |
+| **UT002** | - [ ] Mercury |
+| **UT003** | |
+| **UT004** | |
+| **UT005** | |
+| **UT006** | |
+| **UT007** | |
+| **UT008** | |
+
+| Primary Obejctives | Status |
+| :--------- | :----- |
+| Build a fully functional web application using the MEAN stack |
+| **UT002** | |
+| **UT003** | |
+| **UT004** | |
+| **UT005** | |
+| **UT006** | |
+| **UT007** | |
+| **UT008** | |
 
 Enter a high level overview and timeline here. Highlight critical points in the project here.
 
@@ -63,79 +85,88 @@ Enter a high level overview and timeline here. Highlight critical points in the 
 A key step in the scrum workflow is the ideation of the user stories necessary to deliver a minimum viable product (MVP). We believe that the following user stories were essential to do so:
 
 
-| Code | User Story                                                                                                                   |
-| ---- | :--------------------------------------------------------------------------------------------------------------------------- |
-| **UT1** | **User Story 1**: As a user, I want to be able to type out the web address and arrive on the welcome page of the website.    |
-| **UT1** | **User Story 2**: As a user, I want to compare my score against other users of the game.                                    |
-| **UT1** | **User Story 3**: As a user, I want to compare my score against my previous score.                                           |
-|      | **User Story 4**: As a user, I want to be able to click on new game and be directed to the first round of the game.        |
-|      | **User Story 5**: As a user, I want to have a seamless user experience, with an uninterrupted game flow.                     |
-|      | **User Story 6**: As a user, I want to play the game with distractions in the form of news headlines on the screen.          |
-|      | **User Story 7**: As a user, I want to play the game with distractions in the form of notification sounds in the background. |
-|      | **User Story 8**: As a user, I want to login to the game with my email.                                                      |
+| Code      | User Story                                                                                              |
+| --------- | :------------------------------------------------------------------------------------------------------ |
+| **UT001** | As a user, I want to be able to type out the web address and arrive on the welcome page of the website. |
+| **UT002** | As a user, I want to compare my score against other users of the game.                                  |
+| **UT003** | As a user, I want to compare my score against my previous score.                                        |
+| **UT004** | As a user, I want to be able to click on new game and be directed to the first round of the game.       |
+| **UT005** | As a user, I want to have a seamless user experience, with an uninterrupted game flow.                  |
+| **UT006** | As a user, I want to play the game with distractions in the form of news headlines on the screen.       |
+| **UT007** | As a user, I want to play the game with distractions in the form of sounds.                             |
+| **UT008** | As a user, I want to login to the game with my email.                                                   |
 
 <p align="center">
   <center><em> Table XX : User stories essential for our minimum viable product.</em></center>
 </p>
 
+
 #### Step 3: Sprint!
-Initially, we setup a Jira account account to help document our sprints. However, the added overhead was turning out cumbersome and we decided to use [GitHub projects](https://github.com/keane-fernandes/Group1Project/projects) to document our sprints based on the suggestion of Marceli. 
+The standups and meeting logs for our sprints can be found [here](../../Meetings/README.md).
 
 Essentially, the way we approached our sprints were as follows:
 1. At the start of the week, the team would pick user stories and break that down into smaller subtasks and categorise them into front end, back end or devops tasks.
-2. Every member would assume repsonsibility of these subtasks based on their expertise and role in the team and branch off to work (pun absolutely intended).
+2. Every member would assume repsonsibility of these subtasks based on their expertise and role in the team, and branch off to work (pun absolutely intended).
 3. During the week, daily standups would happen on MS Teams and verbal communication pertaining to issues/solutions would occur on the Discord server.
-4. At the end of the week, the team would reconvene for a review of how the week's work went. Merge commits int the dev branch were made if the feature was deemed complete by all team members. If the user story implementation was incomplete, it would simply get carried forward to the next week.
+4. At the end of the week, the team would reconvene for a review of how the week's work went. Merge commits into the **dev** branch were made if the feature was deemed complete by all team members. If the user story implementation was incomplete, it would simply get carried forward to the next week.
 
-##### [Sprint 1: Trial Run (05/04 - 11/04)]
+##### Sprint 1: Trial Run (05/04 - 11/04)
 
-##### Goals
-The purpose of this sprint was to setup development environments on all team members' workstations and to practice the continuous integration process (push / pull workflow ) using our own feature branches.
+###### Plan
+1. Setup development environments on all team members' workstations and practice the continuous integration process (push / pull workflow) using our own feature branches.
+2. Setup Jira to setup our scrum environment and document our sprints.
+3. Create the first page of our web application (UT001).
+4. Create a first instance of the game on our website (UT004).
+5. Create a first draft of our data model and implement this in MongoDB (UT002, UT003).
 
-Setup a Jira account account to setup our kanban board and document our sprints. However, the added overhead was turning out cumbersome, and we decided to use [GitHub projects](https://github.com/keane-fernandes/Group1Project/projects) to document our sprints based on the suggestion of Marceli.
+###### Outcomes and Review
+1. The use of Jira added unnecessary overhead to the project and was turning out cumbersome. We decided to use [GitHub projects](https://github.com/keane-fernandes/Group1Project/projects/1) to document our sprints based on the suggestion of Marceli.
+2. All members were familiarised with the github workflow to ensure continuous integration.
+3. A first prototype for our card matching game was merged into the **dev** branch.
+4. All members were able to build and serve the website on their local machines.
+   
+##### Sprint 2: Development A (12/04 - 18/04)
 
-##### User Stories
+###### Plan
+1. Setup docker, ensure docker-compose script is able to spin up containers and serve our web application.
+2. Update the base game so that there is now a round two, where distractions in the form of news article move across the screen as you play (UT006).
+3. Setup the Express framework so that our front end can talk to our database (UT002, UT003, UT008).
 
+###### Outcomes and Review
+1. Docker gave us some problems initially wherein our NodeJS container would keep restarting. This was fixed using this [shell script](../../site/wait-for.sh) and now deployment is possible through docker containers.
+2. The application of the overlay to the game screen proved quite challenging. However, it worked out in the end as game now has news article distractions pop up on the screen which is being pulled by an [external news API](https://newsapi.org).
+3. The Express module is still a work in progress and will carried forward into the next sprint.
 
+##### Sprint 3: Development B (19/04 - 25/04)
 
-##### Review
-Since this was our first week
+###### Plan
+1. Based on feedback 
+2. Setup Jira to setup our scrum environment and document our sprints.
+3. Create the first page of our web application (UT001).
 
-
-
-##### Sprint 2: Development 1 (12/04 - 18/04)
-
-
-
-##### Goals
-
-##### User Stories
-
-##### Review
-
-##### Sprint 3: Development 2 (19/04 - 25/04)
-
-##### Goals
-
-##### User Stories
-
-##### Review
+###### Outcomes and Review
+1. The use of Jira added unnecessary overhead to the project and was turning out cumbersome. We decided to use [GitHub projects](https://github.com/keane-fernandes/Group1Project/projects) to document our sprints based on the suggestion of Marceli.
 
 ##### Sprint 4: Bugs, Fixes and Documentation (26/04 - 02/05) 
 
-##### Goals
+###### Plan
+1. Create 
+2. Setup Jira to setup our scrum environment and document our sprints.
+3. Create the first page of our web application (UT001).
 
-##### User Stories
+###### Outcomes
 
-##### Review
+###### Review
 
-##### Sprint 5: Documentation (03/05 - 07/05)
+##### Sprint 5: Deployment and Documentation (03/05 - 07/05)
 
-##### Goals
+###### Goals
+1. Setup development environments on all team members' workstations and practice the continuous integration process (push / pull workflow) using our own feature branches.
+2. Setup Jira to setup our scrum environment and document our sprints.
+3. Create the first page of our web application (UT001).
+###### Outcomes
 
-##### User Stories
-
-##### Review
+###### Review
 
 
 ## CI/CD Pipeline
