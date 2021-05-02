@@ -6,10 +6,9 @@ import { HttpClient  } from '@angular/common/http';
 })
 export class NewsApiService {
 
-  //apiKey = '1a566dd2a11c4173b47ada5f97e6940a';
-  // backup key
- // apiKey = '28cabbff7add46febde4eb4e84536f71';
-  apiKey = 'dc1f675523b34b66aea3c2bbd19287fb';
+  apiKey;
+
+  apiKeys: Array<string> = ['1a566dd2a11c4173b47ada5f97e6940a', '28cabbff7add46febde4eb4e84536f71', 'dc1f675523b34b66aea3c2bbd19287fb', '5f8da9d2125e467c86013bd97115f254'];
 
   newsSources: Array<string> = ['entertainment-weekly', 'mtv-news', 'mtv-news-uk', 'next-big-future', 'reddit-r-all', 'vice-news'];
 
@@ -17,8 +16,13 @@ export class NewsApiService {
     return (this.newsSources)[Math.floor(Math.random() * this.newsSources.length)];
   }
 
+  getRandomKey(): void {
+    this.apiKey = (this.apiKeys)[Math.floor(Math.random() * this.apiKeys.length)];
+  }
 
-  constructor(private http: HttpClient) { }
+  constructor(private http: HttpClient) {
+    this.getRandomKey();
+  }
   // Initialise the sources
   initSources(): any {
     return this.http.get('https://newsapi.org/v2/sources?language=en&apiKey=' + this.apiKey);
