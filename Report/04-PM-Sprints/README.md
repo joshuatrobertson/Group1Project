@@ -4,8 +4,7 @@
 ### Overview
 We spent weeks 1 - 5 (01/02 - 05/03) to absorb the content delivered in the technical and design workshops and implement the walkthroughs on our own machines. This gave us the necessary information to decide on which roles we would undertake during our sprints. Therefore, our communication during these five weeks was just limited to the Tuesday and Thursday SEGP workshop timeslots. 
 
-### Week 6 onwards
-From Week 6 onwards, we held standups on Mondays, Wednesdays, and Fridays at 10:00 AM. In addition, we used the design and technical workshops on Tuesdays and Thursdays to further discuss how we would go about integrating the week's material into our repository. 
+From week 6 onwards, we held standups on Mondays, Wednesdays, and Fridays at 10:00 AM. In addition, we used the design and technical workshops on Tuesdays and Thursdays to further discuss how we would go about integrating the week's material into our repository. 
 
 The [meeting logs](../../Meetings/README.md) provide a top-level summary of all of our standups.
 
@@ -84,7 +83,7 @@ In the waterfall methodology, all the requirements gathering, and design work is
 </div>
 
 #### Evaluation
-We then evaluated these frameworks against a set of factors critical to delivering our web application in the leanest and most efficient manner given the tight time schedule. A summary of these factors is presented below:
+We evaluated these frameworks against a set of factors critical to delivering our web application in the leanest and most efficient manner given the tight time schedule. A summary of these factors is presented below:
 
 | Evaluation Criteria             | Waterfall                                                                                                                                                                          | Scrum                                                                                                                                                                                     |
 | :------------------------------ | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -96,11 +95,11 @@ We then evaluated these frameworks against a set of factors critical to deliveri
 | Scheduling                      | Given that meticulous planning is mandatory at the start if the project, this is a massive disadvantage to inexperienced teams as they are unable to estimate the effort required. | The short-lived nature of sprints provides invaluable insight into the abilities of team members early in the project, making scheduling a lot more accurate for future sprints.          |
 | Team Size                       | Suitable for big teams.                                                                                                                                                            | Suitable for teams with 3-10 members.                                                                                                                                                     |
 
-A big advantage of the Scrum framework is its iterative nature which would help us reflect on our abilities and rescope our project if necessary every sprint. Moreover, the relatively short development lifecycle of the Scrum framework had the potential to provide us with invaluable insight into the weaknesses in our workflows. The idea would be to identify these weaknesses early in the project, learn from them, and rectify them in time for the next sprint. 
+A big advantage of the Scrum framework is its iterative nature. We believed this would help us constantly reflect on our capabilities and rescope our project if necessary, at the end of every sprint. Moreover, the relatively short development lifecycle of the Scrum framework had the potential to provide us with invaluable insight into the weaknesses in our workflows. The idea would be to identify these weaknesses early in the project, learn from them, and rectify them in time for the next sprint. 
 
-Based on this information and the feature-centric, modular nature of the project brief, we decided to adopt a slightly modified version of the **scrum** methodology. The modification here is that we left a bit of room for user stories to be carried forward into the next sprint if need be, since it was unable to estimate the effort required for certain tasks given our inexperience as software developers.
+A major factor that made the Waterfall model a poor candidate for our project was the planning complexity required at the start of the project. We believed that the lack of experience as developers would make it extremely difficult to implement this step.
 
-A major factor in eliminating use of the Waterfall model for our project was the planning complexity required at the start of the project. We believed that the lack of experience would make it extremely difficult to implement this step. 
+Based on this information and the feature-centric, modular nature of the project brief, we decided to adopt a slightly modified version of the **scrum** methodology. The modification here is that we allowed user stories to be carried forward into the next sprint if need be, since it was unable to estimate the effort required for certain tasks given our inexperience as software developers.
 
 ### Project Vision and Scoping
 
@@ -130,15 +129,15 @@ A key step in the scrum workflow is the ideation of the user stories necessary t
 
 | Code      | User Story                                                                                                                                             | Completed in                                                   |
 | --------- | :----------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------- |
-| **US001** | As a user, I want to be able to type out the web address and arrive on the welcome page of the website.                                                | [Sprint 1](#sprint-1-development-i-0504---1104)                |
-| **US002** | As a user, I want to compare my score against other users of the game.                                                                                 | [Sprint 3](#sprint-3-development-iii-1904---2504)              |
-| **US003** | As a user, I want to compare my score against my previous score.                                                                                       | [Sprint 3](#sprint-3-development-iii-1904---2504)              |
-| **US004** | As a user, I want to be able to click on new game and be directed to the first round of the game.                                                      | [Sprint 1](#sprint-1-development-i-0504---1104)                |
-| **US005** | As a user, I want to have a seamless user experience, with an uninterrupted game flow.                                                                 | [Sprint 4](#sprint-4-bugs-fixes-and-documentation-2604---0205) |
-| **US006** | As a user, I want to play the game with distractions in the form of news headlines on the screen.                                                      | [Sprint 2](#sprint-2-development-ii-1204---1804)               |
-| **US007** | As a user, I want to play the game with distractions in the form of sounds.                                                                            | [Sprint 2](#sprint-2-development-ii-1204---1804)               |
-| **US008** | As a user, I want to login to the game with my email.                                                                                                  | [Sprint 3](#sprint-3-development-iii-1904---2504)              |
-| **US009** | As a user, I want to understand what the point of the game is from within the application itself, without having to read the associated documentation. | [Sprint 4](#sprint-4-bugs-fixes-and-documentation-2604---0205) |
+| [**US001**](https://github.com/keane-fernandes/Group1Project/projects/1#card-60261136) | As a user, I want to be able to type out the web address and arrive on the welcome page of the website.                                                | [Sprint 1](#sprint-1-development-i-0504---1104)                |
+| [**US002**](https://github.com/keane-fernandes/Group1Project/projects/1#card-58447299) | As a user, I want to compare my score against other users of the game.                                                                                 | [Sprint 3](#sprint-3-development-iii-1904---2504)              |
+| [**US003**](https://github.com/keane-fernandes/Group1Project/projects/1#card-58441596) | As a user, I want to compare my score against my previous score.                                                                                       | [Sprint 3](#sprint-3-development-iii-1904---2504)              |
+| [**US004**](https://github.com/keane-fernandes/Group1Project/projects/1#card-60267219) | As a user, I want to be able to click on new game and be directed to the first round of the game.                                                      | [Sprint 1](#sprint-1-development-i-0504---1104)                |
+| [**US005**](https://github.com/keane-fernandes/Group1Project/projects/1#card-58447382) | As a user, I want to have a seamless user experience, with an uninterrupted game flow.                                                                 | [Sprint 4](#sprint-4-bugs-fixes-and-documentation-2604---0205) |
+| [**US006**](https://github.com/keane-fernandes/Group1Project/projects/1#card-58447451) | As a user, I want to play the game with distractions in the form of news headlines on the screen.                                                      | [Sprint 2](#sprint-2-development-ii-1204---1804)               |
+| [**US007**](https://github.com/keane-fernandes/Group1Project/projects/1#card-58447478) | As a user, I want to play the game with distractions in the form of sounds.                                                                            | [Sprint 2](#sprint-2-development-ii-1204---1804)               |
+| [**US008**](https://github.com/keane-fernandes/Group1Project/projects/1#card-60267265) | As a user, I want to login to the game with my email.                                                                                                  | [Sprint 3](#sprint-3-development-iii-1904---2504)              |
+| [**US009**](https://github.com/keane-fernandes/Group1Project/projects/1#card-60294371) | As a user, I want to understand what the point of the game is from within the application itself, without having to read the associated documentation. | [Sprint 4](#sprint-4-bugs-fixes-and-documentation-2604---0205) |
 
 ### Sprints
 #### Overview
@@ -157,7 +156,6 @@ Essentially, the way we approached our sprints were as follows:
 <div align="center">
   <em>Figure XX : Timeline of critical milestones in the project.</em>
 </div>
-
 
 #### Sprint 1: Development I (05/04 - 11/04)
 
