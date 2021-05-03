@@ -296,9 +296,11 @@
 
 ## Current Industry Review
 
-&nbsp;&nbsp; When searching for applications that relate to the serious problem of distraction, we found several themes into which the market can be categorised. Most similar to our application, *DistractAbility*, are games that highlight the consequences of distraction. Then there are applications that are designed to be a distraction, for example, to distract the user from anxiety or stress. Finally, there are countless applications on the market that are designed to limit distractions, for instance social media and content blockers. Such applications are often marketed as a great way for individuals to boost their productivity. While the first two categories fall within the scope of serious play, the final category does not due to the lack of a play aspect.
 
-### Games that highlight the consequences of distraction
+&nbsp;&nbsp; Here we first review games and applications that relate to the *purpose* of our application - using elements of play to highlight the serious problem of distracton. We then give a brief overview of areas of the market that relate to the *theoretical background* that underpins our project. With regards to the purpose of our application, we found three themes into which the market can be categorised. Most similar to our application, *DistractAbility*, are (1) Applications that highlight the negative consequences of distraction. Then there are (2) Applications that are designed to be a distraction, for example, to distract the user from anxiety or stress. Finally, (3) Applications that are designed to limit distractions, which are often marketed as a great way for individuals to boost their productivity. Category (1) is exactly how we understand serious play and (2) just about falls within the scope of serious play, while (3) falls outside the scope of serious play due to the lack of a play aspect across applications typically found in this category. Finally, we close with an overview of applications at market that tap into working memory. In terms of 'serious play' this final category is quite the hybrid, as is to be expected given the huge variety of purposes to which the scientific understanding of working memory may be applied. 
+
+
+### (1) Applications that highlight the consequences of distraction
 
 &nbsp;&nbsp; In 2019, the servicing and repair company Kwik Fit released an interactive game called *Driven to Distraction*, that assesses how using a mobile phone affects motorists’ concentration and reaction times (Alan, 2019; Kwik Fit, 2021). Our team were not in fact aware of this application until after the prototyping stage, however of all applications currently on the market, *Driven to Distraction* certainly bears the most similarity to our own application, in terms of both its core objectives and the trajectory of the game itself. 
 
@@ -309,22 +311,13 @@
 &nbsp;&nbsp; *Driven to Distraction* is the only applications of its kind that we were able to find on the market as present.
 
 
-### Games that tap into working memory ### 
-
-
-# **FILL THIS SECTION** #
-
-
-
-
-
-### Applications as a distraction from anxiety
+### (2) Applications as a distraction from anxiety
 
 &nbsp;&nbsp; Many organisations, among them mental health charity *Mind*, have publicly endorsed a range of games and puzzles that are *designed to distract* the user. The theory is that playing such games can be a powerful way for the user to distract themselves from internal anxiety and/or external stressors in their lives (Mind, 2021). Writing for the Mental Health section of Self in October 2020, Anna Borges opens up about “embracing the power of the mindless mobile game” since the onset of the pandemic, as she found such games to be “unexpected anxiety coping mechanisms” amongst the stressors of COVID-19 (Borges, 2020). Included in Borges’ recommended games are: *Candy Crush Saga*; *2048*, a slide-and-combine number game; a simple dot-connecting game *Two Dots*; *Solitaire*; and many others, including braining-training games such as *Numberzilla*.
 
 &nbsp;&nbsp; Such applications arguably do fall within the scope of serious play. They tend to use a fun and interactive game of some sort (play) to help individuals to take their mind off anxiety, stress or panic (an undoubtedly serious problem). The difference here is that, whereas our own application and games such as *Driven to Distraction* use play to highlight the impact of a serious problem – arguably with the second-order objective of provoking behaviour change – applications in this category are designed to directly address, or fix, the problem rather than emphasise its relevance. 
 
-### Applications that boost productivity by limiting distractions
+### (3) Applications that boost productivity by limiting distractions
 
 &nbsp;&nbsp; Applications in the category of ‘focus apps’ are often designed to: block selected websites and/or apps; allow the user to set a schedule or a timer for the period in which the given sites will be blocked; be difficult or impossible to disable during scheduled hours; and to offer encouragement. For instance, team member Ella uses *1Focus* to block social media during the working day, which covers the screen with an ‘inspirational’ quote about the benefits of not being distracted when the user tries to reach a blocked site during scheduled hours. Other such applications include the following. *Freedom* app, which can block distractions across multiple devices at once (Freedom.to, 2021). *Serene*, a dual planner and content-blocker for MacOS that apparently “gives you productivity superpowers” (Venture Harbour Ltd, 2021). Developed in Canada, *Cold Turkey Blocker* is a content blocker for MacOS and Windows that blocks given sites across the whole operating system (Cold Turkey Ltd, 2021). 
 
@@ -332,10 +325,16 @@
 
 &nbsp;&nbsp; That being the case, *Forest* app, for Android, iOS and Chrome, is perhaps an exception as it is more on the side of serious play than the other applications in this category (Seekrtech, 2021). First, *Forest* is colourful, interactive and, by our own assessment, fun. Users of *Forest* plant a virtual tree whenever they start a session of focus and as they focus on their work the tree grows. The user earns points every time they make it to the end of the scheduled focus session without using their phone for an unproductive purpose, but if the user leaves the app before the end of the session then the tree dies. From personal experience the point system itself is fairly effective motivation to keep earning more points. Moreover, the *Forest* app brilliantly incorporates external motivation through its partnership with the real-tree-planting organization *Trees for the Future*. When users of Forest accrue enough points from planting virtual trees they earn virtual coins, which can then be spent planting real trees through selecting the option to do so in-app, and Forest then uses the money to place planting orders with *Trees for the Future*. If we were to continue with our application *DistractAblity* after university we would certainly consider building in similar kinds of external motivation. 
 
+### (4) Applications that tap into working memory ###
+
+&nbsp;&nbsp; Crossword puzzles are often touted as cognitive exercise for working memory. There is not actually any evidence that regularly completing crosswords has any real impact on a person’s cognition or memory (BrainHQ, 2021). Nonetheless, the myth persists in popular culture that crossword puzzles can “improve our vocabulary, refresh our mind, and increase our concentration” (Madaan, 2018).
+
 
 ### Bibliography: Current Industry Review
 
 &nbsp; M. Allan, "Online game highlights dangerous distraction of mobile phones", Car News, 2019. Available: https://inews.co.uk/essentials/lifestyle/cars/car-news/online-game-highlights-dangerous-distraction-of-mobile-phones-323539 [Accessed: 20- Apr- 2021].
+
+&nbsp; "Brain Myth: Doing crossword puzzles can keep your brain young", BrainHQ, 2021. [Online]. Available: https://www.brainhq.com/brain-resources/cool-brain-facts-myths/brain-mythology/brain-myth-doing-crossword-puzzles-can-keep-your-brain-young/#:~:text=Brain%20Fact%3A%20Crosswords%20are%20fun,brain's%20overall%20cognition%20or%20memory&text=So%20doing%20crosswords%20might%20help,positive%20benefits%20to%20your%20brain. [Accessed: 03- May- 2021].
 
 &nbsp; A. Borges, "29 Free Mobile Games to Distract You When Your Anxiety Is Too Much", Self: Mental Health, 2020. Available: https://www.self.com/story/free-mobile-games. [Accessed: 20- Apr- 2021].
 
@@ -344,6 +343,8 @@
 &nbsp; Freedom. Freedom.to, 2021. Available: https://freedom.to/. [Accessed: 15- Apr- 2021].
 
 &nbsp; Forest. Seekrtech, 2021. Available: https://www.forestapp.cc/. [Accessed: 22- Apr- 2021].
+
+&nbsp; R. Madaan, "Here's what daily crossword puzzles do to your brain?", Wealth Words Blog, 2018. [Online]. Available: https://www.wealthwords.com/blog/what-daily-crossword-puzzles-do-to-your-brain/#:~:text=Working%20on%20crossword%20puzzles%20regularly,and%20enhance%20our%20memory%20power.&text=Solving%20a%20daily%20crossword%20puzzle,dementia%2C%20Alzheimer's%2C%20and%20more. [Accessed: 03- May- 2021].
 
 &nbsp; Mind, "Games and puzzles", Mind.org.uk, 2021. [Online]. Available: https://www.mind.org.uk/need-urgent-help/how-can-i-distract-myself/games-and-puzzles/. [Accessed: 20- Apr- 2021].
 
