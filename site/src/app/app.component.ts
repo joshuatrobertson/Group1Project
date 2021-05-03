@@ -104,7 +104,6 @@ export class AppComponent {
       console.error(error);
     }​​​​​);
     this.dataService.setMessage(this.playerEmail);
-    console.log(this.playerEmail);
   }
 
   // Set up the cards on the screen
