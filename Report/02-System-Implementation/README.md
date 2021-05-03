@@ -2,6 +2,13 @@
 # System Implementation
 ## System Design Overview
 ### Back End (MongoDB)
+<p align="center">
+  <img src="images/schemas.png" width="300"/>
+</p>
+<p align="center">
+  <em>Our data model</em>
+</p>
+Above is the entity relationship diagram of our data model. Player is in a separate table rather than in the Play table so that the whole data model conforms to normal forms. The player field in Play table is a foreign key that refers to Player table. The timewithoutdistraction and timewithdistraction record the time in seconds a player spends finishing the game in without distraction round and with distraction round respectively. In the Player table, we use email to identify players. The email field is required and unique. We also added a birthday field and an age virtual property in the Player table, but they are not used in our current minimal viable product. We made one schema per file in the ./models/ directory.
 ### Middle Tier (Express, Node, RESTful API)
 ### Front End (Angular)
 
