@@ -37,9 +37,9 @@ DistractAbility
 
 | Primary Objectives                                                                                                            |       Status       |
 | :---------------------------------------------------------------------------------------------------------------------------- | :----------------: |
-| Build a basic, functioning protoype of a single page application using the MEAN stack.                                        | :white_check_mark: |
+| Build a basic, functioning prototype of a single page application using the MEAN stack.                                        | :white_check_mark: |
 | Ensure that the web application strikes the right balance between serious and play.                                           | :white_check_mark: |
-| Coninuous integration using Github and Docker is to be used throughout the project.                                           | :white_check_mark: |
+| Continuous integration using GitHub and Docker is to be used throughout the project.                                           | :white_check_mark: |
 | The web application shall be a card matching game with two rounds consisting of a normal round and a round with distractions. | :white_check_mark: |
 | The user of the application will be able to compare their scores after both rounds.                                           | :white_check_mark: |
 

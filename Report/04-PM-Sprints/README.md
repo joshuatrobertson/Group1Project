@@ -1,15 +1,13 @@
 [&#8592; Back to Report Landing Page](../README.md)
 # Sprints and Project Management
 ## Communication
-### Weeks 1 - 5 ()
-We used this time to absorb the content delivered in the technical and design workshops and implement the walkthroughs on our own machines. This gave the us the necessary information to decide on which roles we would undertake during our sprints. Therefore, our communication during these five weeks was just limited to the Tuesday and Thursday SEGP workshop timeslots. 
+### Overview
+We spent weeks 1 - 5 (01/02 - 05/03) to absorb the content delivered in the technical and design workshops and implement the walkthroughs on our own machines. This gave us the necessary information to decide on which roles we would undertake during our sprints. Therefore, our communication during these five weeks was just limited to the Tuesday and Thursday SEGP workshop timeslots. 
 
-### Weeks 6 - 10
-From Week 6 onwards, we held standups on Mondays, Wednesdays and Fridays at 10:00 AM. In addition, we used the design and technical workshops on Tuesdays and Thursdays to further discuss how we would go about integrating the week's material into our repository. 
+### Week 6 onwards
+From Week 6 onwards, we held standups on Mondays, Wednesdays, and Fridays at 10:00 AM. In addition, we used the design and technical workshops on Tuesdays and Thursdays to further discuss how we would go about integrating the week's material into our repository. 
 
-The [meeting logs](../../Meetings/README.md) provide a top level summary of all of our standups.
-
-
+The [meeting logs](../../Meetings/README.md) provide a top-level summary of all of our standups.
 
 ### Communication Channels
 Microsoft Teams was the primary tool for our daily standups and workshops. 
@@ -25,7 +23,7 @@ We used Discord for our general day to day communication. The Discord server was
   <img src="images/001_discord.gif" width="600"/>
 </p>
 <div align="center">
-  <em>Figure XX : Team discord server.</em>
+  <em>Figure 1: Team discord server.</em>
 </div>
 
 ## Agile Working
@@ -43,7 +41,7 @@ First, let's look at an overview of these two models.
 #### Scrum
 Scrum is an agile software methodology that ditches the traditional linear, sequential approach in favour of an incremental, iterative one.
 
-Instead of extensive planning and design up front, Scrum allows for changing requirements over time by using cross-functional teams – incorporating planners, designers, developers and testers – which work on successive iterations of the product over fixed time periods (timeboxes). The work is organised in to a backlog that is prioritised in to exact priority order based on business (or user) value.
+Instead of extensive planning and design up front, Scrum allows for changing requirements over time by using cross-functional teams – incorporating planners, designers, developers and testers – which work on successive iterations of the product over fixed time periods (timeboxes). The work is organised into a backlog that is prioritised in to exact priority order based on business (or user) value.
 
 The goal of each iteration is to produce a working product, which can be demonstrated to stakeholders. Feedback can then be incorporated into the next or future iterations.
 
@@ -62,11 +60,11 @@ The goal of each iteration is to produce a working product, which can be demonst
   <img src="images/003_scrum.png" width="600"/>
 </p>
 <div align="center">
-  <em>Figure XX : The Scrum workflow.</em>
+  <em>Figure 2: The Scrum workflow.</em>
 </div>
 
 #### Waterfall 
-In the waterfall methodology, all the requirements gathering and design work is done before any coding takes place. There are stages that deal with what you need to do before a project, during a start up phase, a planning phase, an execution phase and a closing phase. They also then have a series of processes for managing work packages, exceptions, reporting, risks and issues.
+In the waterfall methodology, all the requirements gathering, and design work is done before any coding takes place. There are stages that deal with what you need to do before a project, during a start up phase, a planning phase, an execution phase, and a closing phase. They also then have a series of processes for managing work packages, exceptions, reporting, risks, and issues.
 
 ##### Pros:
 - Potential issues that would have been found during development can be researched and bottomed out during the design phase. If appropriate meaning an alternate solution is selected before any code is written.
@@ -74,35 +72,31 @@ In the waterfall methodology, all the requirements gathering and design work is 
 - The waterfall process is a linear one, therefore it is potentially easier to follow, which made it a very tempting option for us to adopt for this project.
 
 ##### Cons:
-- The level of planning required to lay out the project in phases can prove to be daunting for yonger, inexperience software development teams.
-- Problems remain unnoticed until the project nears completion, which may turn out potentailly expensive.
+- The level of planning required to lay out the project in phases can prove to be daunting for inexperienced software development teams.
+- Problems remain unnoticed until the project nears completion, which may turn out potentially expensive.
 - Changes to requirements can’t easily be incorporated with the waterfall method and there are often laborious change control procedures to go through when this happens.
   
 <p align="center">
   <img src="images/004_waterfall.png" width="600"/>
 </p>
 <div align="center">
-  <em>Figure XX : The Waterfall model.</em>
+  <em>Figure 3: The Waterfall model.</em>
 </div>
 
 #### Evaluation
-We then evaluated these frameworks against a set of factors critical to delivering our web application in the leanest and most efficient manner given the tight time schedule. A summary of these factors are presented below:
+We then evaluated these frameworks against a set of factors critical to delivering our web application in the leanest and most efficient manner given the tight time schedule. A summary of these factors is presented below:
 
 | Evaluation Criteria             | Waterfall                                                                                                                                                                          | Scrum                                                                                                                                                                                     |
 | :------------------------------ | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Software Developement Lifecycle | Divided into concrete phases with little to no room for maneuverability around the design documentation.                                                                           | Every sprint is essentially a development lifecycle making it a suitable choice for short, time critical projects.                                                                        |
+| Software Development Lifecycle | Divided into concrete phases with little to no room for maneuverability around the design documentation.                                                                           | Every sprint is essentially a development lifecycle making it a suitable choice for short, time critical projects.                                                                        |
 | Planning                        | Extensive documentation required before the start of the project.                                                                                                                  | A backlog of tasks and user stories required that can be accomplished using scoping workshops, overhead is a lot less.                                                                    |
 | Change Management               | Laborious, since this would warrant changes to be made in the design and planning documentation.                                                                                   | Changes can be introduced flexibly, even late in the cycle, because of the short-lived nature of sprints.                                                                                 |
 | Stakeholder Collaboration       | After the requirements specification from the client, there is no collaboration until delivery of the first prototype of the product.                                              | Maximum client collaboration and intervention possible due to continuous delivery at the end of each sprint, suitable for the SEGP team to provide us continuous feedback on our product. |
 | Issue Identification            | Due to the lack of iterative review, issues become apparent upon delivery of the first prototype to the client.                                                                    | Issues are identified during sprint reviews and can be rectified instantaneously.                                                                                                         |
-| Scheduling                      | Given that meticulous planning is mandatory at the start if the project, this is a massive disadvantage to inexperienced teams as they are unable to estimate the effort required. | The short lived nature of sprints provides invaluable insight into the abilities of team members early in the project, making scheduling a lot more accurate for future sprints.          |
+| Scheduling                      | Given that meticulous planning is mandatory at the start if the project, this is a massive disadvantage to inexperienced teams as they are unable to estimate the effort required. | The short-lived nature of sprints provides invaluable insight into the abilities of team members early in the project, making scheduling a lot more accurate for future sprints.          |
 | Team Size                       | Suitable for big teams.                                                                                                                                                            | Suitable for teams with 3-10 members.                                                                                                                                                     |
 
-<p align="center">
-  <center><em> Table XX : Potential team workflows categorised by decision criteria.</em></center>
-</p>
-
-A big advantage of the Scrum framework is it's iterative nature which would help us reflect on our abilities and rescope our project if necessary every sprint. Moreover, the relatively short development lifecycle of the Scrum framework had the potential to provide us with invaluable insight into the weaknesses in our workflows. The idea would be to identify these weaknesses early in the project, learn from them, and rectify them in time for the next sprint. 
+A big advantage of the Scrum framework is its iterative nature which would help us reflect on our abilities and rescope our project if necessary every sprint. Moreover, the relatively short development lifecycle of the Scrum framework had the potential to provide us with invaluable insight into the weaknesses in our workflows. The idea would be to identify these weaknesses early in the project, learn from them, and rectify them in time for the next sprint. 
 
 Based on this information and the feature-centric, modular nature of the project brief, we decided to adopt a slightly modified version of the **scrum** methodology. The modification here is that we left a bit of room for user stories to be carried forward into the next sprint if need be, since it was unable to estimate the effort required for certain tasks given our inexperience as software developers.
 
@@ -114,18 +108,18 @@ Given the tight schedule and open-endedness of the project, we had to scope our 
 
 | Primary Objectives                                                                                                            |       Status       |
 | :---------------------------------------------------------------------------------------------------------------------------- | :----------------: |
-| Build a basic, functioning protoype of a single page application using the MEAN stack.                                        | :white_check_mark: |
+| Build a basic, functioning prototype of a single page application using the MEAN stack.                                        | :white_check_mark: |
 | Ensure that the web application strikes the right balance between serious and play.                                           | :white_check_mark: |
-| Coninuous integration using Github and Docker is to be used throughout the project.                                           | :white_check_mark: |
+| Continuous integration using GitHub and Docker is to be used throughout the project.                                           | :white_check_mark: |
 | The web application shall be a card matching game with two rounds consisting of a normal round and a round with distractions. | :white_check_mark: |
 | The user of the application will be able to compare their scores after both rounds.                                           | :white_check_mark: |
 
 
 Time-permitting, these were the secondary objectives:
 
-| Secoondary Objectives                                              |       Status       |
+| Secondary Objectives                                              |       Status       |
 | :----------------------------------------------------------------- | :----------------: |
-| The application shall be statically served on Github pages.        | :white_check_mark: |
+| The application shall be statically served on GitHub pages.        | :white_check_mark: |
 | The application shall support user authentication using passwords. |        :x:         |
 
 ### User Story Creation
@@ -147,6 +141,7 @@ A key step in the scrum workflow is the ideation of the user stories necessary t
 | **US009** | As a user, I want to understand what the point of the game is from within the application itself, without having to read the associated documentation. | [Sprint 4](#sprint-4-bugs-fixes-and-documentation-2604---0205) |
 
 ### Sprints
+#### Overview
 The standups and meeting logs for our sprints can be found [here](../../Meetings/README.md).
 
 Essentially, the way we approached our sprints were as follows:
@@ -172,11 +167,11 @@ Essentially, the way we approached our sprints were as follows:
 3. Create the first page of our web application (US001).
 4. Create a first instance of the game on our website (US004).
 5. Create a first draft of our data model and implement this in MongoDB (US002, US003).
-6. Begin Javascript and API tutorials.
+6. Begin JavaScript and API tutorials.
 
 ##### Outcomes and Review
 1. The use of Jira added unnecessary overhead to the project and was turning out cumbersome. We decided to use [GitHub projects](https://github.com/keane-fernandes/Group1Project/projects/1) to document our sprints based on the suggestion of Marceli.
-2. All members were familiarised with the github workflow to ensure continuous integration.
+2. All members were familiarised with the GitHub workflow to ensure continuous integration.
 3. A first prototype for our card matching game was merged into the **dev** branch.
 4. All members were able to build and serve the website on their local machines.
 5. The team now had the required knowledge to implement design decisions keeping in mind API considerations. 
@@ -195,7 +190,7 @@ Essentially, the way we approached our sprints were as follows:
 3. The Express module was still a work in progress and was carried forward into the next sprint.
 
 #### Sprint 3: Development III (19/04 - 25/04)
-Based on the momentum and feedback from the devlopment activities of last week's sprint we were coming closer to achieving a fully functional MVP. This week's sprint was critical in devloping our API and integrating the frontend and backend.
+Based on the momentum and feedback from the development activities of last week's sprint we were coming closer to achieving a fully functional MVP. This week's sprint was critical in developing our API and integrating the frontend and backend.
 ##### Plan
 1. Add navigation buttons on the website based on UX/UI design workshops.
 2. Create the welcome page of our web application (US001).
@@ -210,36 +205,36 @@ Based on the momentum and feedback from the devlopment activities of last week's
 
 ##### Plan
 1. Finalize the API.
-2. Integrate welcome page, front end , back end and API. 
-3. Initiate the project documentation process on Github.
+2. Integrate welcome page, front end, back end and API. 
+3. Initiate the project documentation process on GitHub.
 4. Merge all features of the previous sprint and the work of this sprint into dev (welcome page, navigation buttons and API).
 5. If the above four tasks are accomplished, we should have an MVP by the end of the sprint.
 
 ##### Outcomes and Review
-1. The welcome page along with the navigation buttons were written in javascript, which caused a lot of issues during integration with the rest of the application. This was recitified by rewriting the components using TypeScript and remerging in dev.
+1. The welcome page along with the navigation buttons were written in JavaScript, which caused a lot of issues during integration with the rest of the application. This was rectified by rewriting the components using TypeScript and remerging in dev.
 2. The API was finalised, review and merged into dev.
 3. The application was then tested using `ng serve` and `docker-compose up`, and worked as expected. At this point, we had a functioning minimum viable product.
-4. The project documentation process was successfully inititated, with the report template and navigation links fully setup on GitHub.
+4. The project documentation process was successfully initiated, with the report template and navigation links fully setup on GitHub.
 
 #### Sprint 5: Deployment and Documentation (03/05 - 07/05)
 
 ##### Plan
 1. Look at avenues to publicly serve our application using GitHub pages.
 2. Finish up documentation, with submission on Thursday evening at the very latest.
-3. Fix up any last minute bugs, and merge into **master** as a release for project submission.
+3. Fix up any last-minute bugs, and merge into **master** as a release for project submission.
 
 ##### Outcomes and Review
 1. [Ongoing, UPDATE]
 
 ## CI/CD Pipeline
 ### Continuous Integration with GitHub
-Our team achieved continuous integration by adopting a fairly standard git worflow consisting of **production**, **staging**, **dev** and **feature** branches. 
+Our team achieved continuous integration by adopting a fairly standard git workflow consisting of **production**, **staging**, **dev** and **feature** branches. 
 
 The **dev** branch was essentially a working master branch where all of the team members would merge their feature branches. 
 
 In the event of a new feature to be added, the relevant team member would perform the following standard workflow:
-1. Branch off of the most recent commit on the **dev** branch into a new **feature-branch**. 
-2. Perform the neccessary code commits and the tests needed to implement the feature. 
+1. Branch off the most recent commit on the **dev** branch into a new **feature-branch**. 
+2. Perform the necessary code commits and the tests needed to implement the feature. 
 3. Conduct a review of this newly written code with the rest of the team at the next daily standup. 
 4. Merge commit into the **dev** branch and repeat with the next feature.
 
@@ -251,16 +246,15 @@ For the sake of completeness, it is important to mention that the **production**
 
 <p align="center">
   <img src="images/002_git.png" width="750"/>
-  <center><em> Figure XX : Continuous integration using git</em></center>
+  <center><em> Figure 4: Continuous integration using git.</em></center>
 </p>
 
 ### Continuous Deployment with Docker
 Docker was used for continuous deployment of our web application. 
 
 ## Team Contributions
-Discussion of team roles.
 
-Fill this in in a standup.
+Documentation contributions. [INSERT LINK HERE]
 
 | Team Member          | Contribution            |
 | :------------------- | :---------------------- |
