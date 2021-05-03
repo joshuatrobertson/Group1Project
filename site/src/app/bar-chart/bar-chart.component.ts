@@ -40,15 +40,20 @@ export class BarChartComponent implements OnInit {
       data => {
         this.stats = data;
         let avgTimes: Array<number> = [0, 0];
+        let count = 0;
         let length = this.stats.length;
         let j = 0;
         for (let i = 0; i < length; i++) {
-          avgTimes[0] = avgTimes[0] + this.stats[i].timewithoutdistraction;
-          avgTimes[1] = avgTimes[1] + this.stats[i].timewithdistraction;
+          let lengthSub = this.stats[i].length;
+          for (let ii = 0; ii < lengthSub; ii++) {
+            avgTimes[0] = avgTimes[0] + this.stats[i][ii].timewithoutdistraction;
+            avgTimes[1] = avgTimes[1] + this.stats[i][ii].timewithdistraction;
+            count++;
+          }
           j = i;
         }
-        avgTimes[0] = avgTimes[0]/length;
-        avgTimes[1] = avgTimes[1]/length;
+        avgTimes[0] = avgTimes[0]/count;
+        avgTimes[1] = avgTimes[1]/count;
         // now let's update the fields
         // this.barChartData[0].data[0] = avgTimes[0];
         // this.barChartData[1].data[0] = avgTimes[1];
