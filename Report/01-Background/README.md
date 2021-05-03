@@ -299,7 +299,7 @@
 
 &nbsp;&nbsp; When searching for applications that relate to the *purpose* of our application as well as the *theoretical background* and *core beliefs* that underpin it, we found four themes into which the market can be categorised. (1) Applications that highlight the negative consequences of distraction. (2) Applications that are designed to be a distraction, for example, to distract the user from anxiety or stress. (3) Applications designed to limit distractions, which are often marketed as effective productivity enhancers. (4) Applications that tap into working memory. 
 
-&nbsp;&nbsp; Applications in category (1) are typically exactly how we understand serious play. Applications in (2) often just about fall within the scope of serious play. Applications in (3) generally fall outside the scope of serious play due to the lack of a play aspect. Finally, in terms of 'serious play' (4) is quite the hybrid, as is to be expected given the huge variety of purposes to which the scientific understanding of working memory may be applied.
+&nbsp;&nbsp; Applications in category (1) are typically exactly how we understand serious play. Applications in (2) often just about fall within the scope of serious play. Applications in (3) generally fall outside the scope of serious play due to the lack of a play aspect. Finally, in terms of serious play (4) is quite the hybrid, as is to be expected given the huge variety of purposes to which the scientific understanding of working memory may be applied.
 
 
 
@@ -307,11 +307,11 @@
 
 &nbsp;&nbsp; In 2019, the servicing and repair company Kwik Fit released an interactive game called *Driven to Distraction*, that assesses how using a mobile phone affects motorists’ concentration and reaction times (Alan, 2019; Kwik Fit, 2021). Our team were not in fact aware of this application until after the prototyping stage, however of all applications currently on the market, *Driven to Distraction* certainly bears the most similarity to our own application, in terms of both its core objectives and the trajectory of the game itself. 
 
-&nbsp;&nbsp; *Driven to Distraction* is a fun and interactive game, with a colourful, cartoon-style user interface, yet its core objective is to highlight the impact of mobile phone distraction on road safety. This is clearly well within the scope of ‘serious play.’ This is also very similar to our interactive and (hopefully) fun application, which at core is meant to highlight the extent to which productivity is impacted by the distractions that have typically arisen or been more pronounced since the onset of the pandemic. 
+&nbsp;&nbsp; *Driven to Distraction* is a fun and interactive game, with a colourful, cartoon-style user interface, yet its core objective is to highlight the impact of mobile phone distraction on road safety. This is clearly well within the scope of serious play and thereby very similar in purpose to our interactive and (hopefully) fun application, which at core is meant to highlight the extent to which productivity is impacted by the distractions that have typically arisen or been more pronounced since the onset of the pandemic. 
 
 &nbsp;&nbsp; The structure of *Driven to Distraction* is also very similar to the trajectory of our own application. *Driven to Distraction* puts drivers in a virtual car and asks them to react to a stop sign, first without any distractions and then again while answering driving-related questions on a mock mobile phone screen. This is clearly akin to our application *DistractAbility*, which first has the user play the memory game without distractions and then again with distractions. 
 
-&nbsp;&nbsp; *Driven to Distraction* is the only applications of its kind that we were able to find on the market as present.
+&nbsp;&nbsp; *Driven to Distraction* is the only applications of its kind that we were able to find on the market at present.
 
 
 ### (2) Applications as a distraction from anxiety
@@ -329,6 +329,15 @@
 &nbsp;&nbsp; That being the case, *Forest* app, for Android, iOS and Chrome, is perhaps an exception as it is more on the side of serious play than the other applications in this category (Seekrtech, 2021). First, *Forest* is colourful, interactive and, by our own assessment, fun. Users of *Forest* plant a virtual tree whenever they start a session of focus and as they focus on their work the tree grows. The user earns points every time they make it to the end of the scheduled focus session without using their phone for an unproductive purpose, but if the user leaves the app before the end of the session then the tree dies. From personal experience the point system itself is fairly effective motivation to keep earning more points. Moreover, the *Forest* app brilliantly incorporates external motivation through its partnership with the real-tree-planting organization *Trees for the Future*. When users of Forest accrue enough points from planting virtual trees they earn virtual coins, which can then be spent planting real trees through selecting the option to do so in-app, and Forest then uses the money to place planting orders with *Trees for the Future*. If we were to continue with our application *DistractAblity* after university we would certainly consider building in similar kinds of external motivation. 
 
 ### (4) Applications that tap into working memory ###
+
+
+=> EXPLANATION
+
+=> RELEVANCE TO US: purpose, theoretical background, core beliefs
+
+=> SERIOUS PLAY
+
+
 
 &nbsp;&nbsp; Crossword puzzles are often touted as cognitive exercise for working memory. There is not actually any evidence that regularly completing crosswords has any real impact on a person’s cognition or memory (BrainHQ, 2021). Nonetheless, the myth persists in popular culture that crossword puzzles can “improve our vocabulary, refresh our mind, and increase our concentration” (Madaan, 2018).
 
