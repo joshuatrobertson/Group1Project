@@ -1,7 +1,13 @@
 [&#8592; Back to Report Landing Page](../README.md)
 # Sprints and Project Management
 ## Communication
+### Weeks 1 - 5
+We used this time to absorb the content delivered in the technical and design workshops and implement the walkthroughs on our own machines. This gave the us the necessary information to decide on which roles we would undertake during our sprints. Therefore, our communication during these five weeks was just limited to the Tuesday and Thursday SEGP workshop timeslots. 
 
+### Weeks 6 - 10
+From Week 6 onwards, we held standups on Mondays, Wednesdays and Fridays at 10:00 AM. In addition, we used the design and technical workshops on Tuesdays and Thursdays to further discuss how we would go about integrating the week's material into our repository. 
+
+The [meeting logs](../../Meetings/README.md) provide a top level summary of all of our standups.
 ### Communication Channels
 Microsoft Teams was the primary tool for our daily standups and we used Discord for our general day to day communication. The Discord server was split into channels to further streamline topics of discussion. The graphic below provides a quick overview of our Discord server.
 
@@ -12,25 +18,48 @@ Microsoft Teams was the primary tool for our daily standups and we used Discord 
   <em>Figure XX : Team discord server.</em>
 </div>
 
-### Weeks 1 - 5
-We used this time to absorb the content delivered in the technical and design workshops and implement the walkthroughs on our own machines. This gave the us the necessary information to decide on which roles we would undertake during our sprints. Therefore, our communication during these five weeks was just limited to the Tuesday and Thursday SEGP workshop timeslots. 
-
-### Weeks 6 - 10
-From Week 6 onwards, we held standups on Mondays, Wednesdays and Fridays at 10:00 AM. In addition, we used the design and technical workshops on Tuesdays and Thursdays to further discuss how we would go about integrating the week's material into our repository. 
-
-The [meeting logs](../../Meetings/README.md) provide a top level summary of all of our standups.
-
 ## Agile Working
 ### Choice of Methodology
-This first development decision we encountered as a team was to decide on an aprropriate workflow methodology that best fit our experience and the requirements laid out in the brief.
+This first development decision we encountered as a team was to decide on an appropriate workflow methodology that best fit our experience as software developers and the requirements laid out in the brief.
 
 The rationale and thought process behind this decision has been outlined below.
  
-The three potential frameworks we considered for our project were:
-1. Scrum (subset of agile)
-2. Kanban (subset of agile)
-3. Waterfall model
+The two potential frameworks we considered for our project were:
+1. Scrum
+2. Waterfall model
 
+First, let's look at an overview of these two models.
+
+#### Scrum
+Scrum is an agile software methodology that ditches the traditional linear, sequential approach in favour of an incremental, iterative one.
+
+Instead of extensive planning and design up front, Scrum allows for changing requirements over time by using cross-functional teams – incorporating planners, designers, developers and testers – which work on successive iterations of the product over fixed time periods (timeboxes). The work is organised in to a backlog that is prioritised in to exact priority order based on business (or user) value.
+
+The goal of each iteration is to produce a working product, which can be demonstrated to stakeholders. Feedback can then be incorporated into the next or future iterations.
+
+##### Pros:
+- Working software is delivered much more quickly and successive iterations can be delivered frequently, at a consistent pace.
+- There is closer collaboration between developers and the business due to high transparency
+- Changes to requirements can be incorporated at any point of the process – even late in development.
+- It gives the opportunity for continuous integration and deployment for live systems
+
+##### Cons:
+- Scrum is often more difficult to understand than Waterfall – at least initially.
+- With the emphasis on building working software throughpout, there can be a perception that documentation can sometimes be neglected.
+- Scrum can introduce extra inefficiencies in large organisations or can be working against long standing organisational processes, where Watefall would be a better fit.
+
+
+<p align="center">
+  <img src="images/003_scrum.png" width="600"/>
+</p>
+<div align="center">
+  <em>Figure XX : The Scrum workflow.</em>
+</div>
+
+#### Waterfall 
+
+
+#### Evaluation
 The next logical step was to evaluate these frameworks against a set of factors critical to delivering our web application in the leanest and most efficient manner given the tight time schedule. A summary of these factors are presented below:
 
 | Evaluation Criteria             | Waterfall                                                                                                                                                                         | Scrum                                                                                                                                                                          | Kanban                                                                                 |
@@ -48,7 +77,7 @@ The next logical step was to evaluate these frameworks against a set of factors 
   <center><em> Table XX : Potential team workflows categorised by decision criteria.</em></center>
 </p>
 
-Based on the data we collected and the feature-centric, modular nature of the project brief, we decided to adopt a hybrid of the **scrum** and **kanban** methodologies. Given our inexperience as software developers, the planning complexity demanded by the Waterfall model made it a poor choice for this project. 
+Based on the data we collected and the feature-centric, modular nature of the project brief, we decided to adopt a slightly modified version of the **scrum** methodology. Given our inexperience as software developers, the planning complexity demanded by the Waterfall model made it a poor choice for this project. 
 
 The Kanban element in this workflow would be one master board on  which all of our backlog exists. The Scrum aspect in this workflow would be the fact that our work would be split into week long sprints where we work to accomplish the tasks set out at the start of the sprint. The idea behind this hybrid approach is that the iterative nature of scrum would help us reflect on our abilities and rescope our project if necessary. Moreover, the relatively short development lifecycle of the Scrum framework had the potential to provide us with invaluable insight into the weaknesses in our workflows. The idea was to then identify these weakness early in the project, learn from them, and rectify them in time for the next sprint. 
 
