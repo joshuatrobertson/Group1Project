@@ -318,7 +318,7 @@
 
 &nbsp;&nbsp; Many organizations, among them mental health charity *Mind*, have publicly endorsed a range of games and puzzles that are designed to distract the user. The theory is that playing such games can be a powerful way for the user to distract themselves from internal anxiety and/or external stressors in their lives (Mind, 2021). Writing for the Mental Health section of Self in October 2020, Anna Borges opens up about “embracing the power of the mindless mobile game” since the onset of the pandemic, as she found such games to be “unexpected anxiety coping mechanisms” amongst the stressors of COVID-19 (Borges, 2020). Included in Borges’ recommended games are: *Candy Crush Saga*; *2048*, a slide-and-combine number game; a simple dot-connecting game *Two Dots*; *Solitaire*; and many others, including braining-training games such as *Numberzilla*.
 
-&nbsp;&nbsp; We acknowledge that the kinds of ‘mindless mobile games’ mentioned above clearly were not designed to fit the criteria of serious play; in and of themselves applications like Candy Crush typically bear no relevance to serious issues. Notwithstanding, we deemed this category worth including in our industry review because of the relevance of user intent to serious play in this context. Here the user plays a fun and interactive game (play) in order to take their mind off anxiety, stress or panic (an undoubtedly serious problem). In other words, the user’s motivation for engaging with the applications in this category makes these otherwise unserious applications instrumental in addressing a serious problem. We thus see user intent as exerting a transformative effect on what does and does not count as serious play.
+&nbsp;&nbsp; We acknowledge that the kinds of ‘mindless mobile games’ mentioned above clearly were not designed to fit the criteria of serious play; in and of themselves applications like Candy Crush typically bear no relevance to serious issues. Notwithstanding, we deemed this category worth including in our industry review because of the relevance of user intent to serious play in this context. Here the user plays a fun and interactive game (play) in order to take their mind off anxiety, stress or panic (an undoubtedly serious problem). In other words, the user’s motivation for engaging with the applications in this category makes these otherwise unserious applications instrumental in addressing a very serious problem. This does not necessarily bring the applications themselves under the scope of serious play, indeed most would not count as serious play in the hands of a user without the same serious motivation. But at the least we think it is interesting to consider the extent to which the user’s intent or motivation might exert a transformative effect on what does and does not count as serious play.
 
 
 ### (3) Applications that boost productivity by limiting distractions
@@ -331,7 +331,9 @@
 
 ### (4) Applications that tap into working memory ###
 
-&nbsp;&nbsp; Crossword puzzles are often touted as cognitive exercise for working memory. There is not actually any evidence that regularly completing crosswords has any real impact on a person’s cognition or memory (BrainHQ, 2021). Nonetheless, the myth persists in popular culture that crossword puzzles can “improve our vocabulary, refresh our mind, and increase our concentration” (Madaan, 2018).
+&nbsp;&nbsp; Many games and applications on the market can apparently help the user improve their working memory. Board games such as *Sushi Go!*, *The Blue Plate Dinner* and *Sleeping Queens* are marketed as beneficial for children’s cognitive development (Fabulous Family Board Games, 2021). Similarly, more traditional crossword and jigsaw puzzles are often touted as cognitive exercise for the brain that can “improve our vocabulary, refresh our mind, and increase our concentration” (Madaan, 2018). In fact there is little evidence that regularly playing certain games or completing crosswords has any real, long-term impact on a person’s cognition or working memory (Kolirin, 2018; BrainHQ, 2021). But whether such games have a long term impact on cognition or not, the common theme in this category was to ‘exercise’ working memory through play that involved remembering  images, patterns, locations and/or words while simultaneously processing new information. The card game in our application does precisely this by requiring the user to remember multiple images on the cards and their locations while simultaneously processing new images at new locations. 
+
+&nbsp;&nbsp; The games and applications in this category do typically meet the criteria of ‘play’, albeit different forms of play, but whether such applications count as serious play really has to be assessed on a case-to-case basis. Applications in this category that are designed to ward off dementia (or at least marketed as such) arguably do count as serious play due to the seriousness of dementia and related illnesses. However, a simple sudoku puzzle arguably lacks a serious enough aspect to count as serious play.   
 
 
 ### Bibliography: Current Industry Review
@@ -348,6 +350,8 @@
 
 &nbsp; Forest. Seekrtech, 2021. Available: https://www.forestapp.cc/. [Accessed: 22- Apr- 2021].
 
+L. Kolirin, "Crosswords and puzzles do not prevent mental decline, study says", CNN, 2018.
+
 &nbsp; R. Madaan, "Here's what daily crossword puzzles do to your brain?", Wealth Words Blog, 2018. [Online]. Available: https://www.wealthwords.com/blog/what-daily-crossword-puzzles-do-to-your-brain/#:~:text=Working%20on%20crossword%20puzzles%20regularly,and%20enhance%20our%20memory%20power.&text=Solving%20a%20daily%20crossword%20puzzle,dementia%2C%20Alzheimer's%2C%20and%20more. [Accessed: 03- May- 2021].
 
 &nbsp; Mind, "Games and puzzles", Mind.org.uk, 2021. [Online]. Available: https://www.mind.org.uk/need-urgent-help/how-can-i-distract-myself/games-and-puzzles/. [Accessed: 20- Apr- 2021].
@@ -355,6 +359,8 @@
 &nbsp; Seekrtech, 2021. Available: https://seekrtech.com/en/. [Accessed: 22- Apr- 2021].
 
 &nbsp; Serene. Venture Harbour Ltd, 2021. Available: https://zapier.com/blog/stay-focused-avoid-distractions/#serene. [Accessed: 22- Apr- 2021].
+
+"15 Top Games That Will Reinforce Executive Functioning Skills", Fabulous Family Board Games, 2021. [Online]. Available: http://fabulousfamilyboardgames.com/games-executive-functioning-skills/. [Accessed: 03- May- 2021].
 
 
 <p align="center">
