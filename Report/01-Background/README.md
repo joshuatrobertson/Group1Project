@@ -334,6 +334,29 @@
 &nbsp;&nbsp; Crossword puzzles are often touted as cognitive exercise for working memory. There is not actually any evidence that regularly completing crosswords has any real impact on a person’s cognition or memory (BrainHQ, 2021). Nonetheless, the myth persists in popular culture that crossword puzzles can “improve our vocabulary, refresh our mind, and increase our concentration” (Madaan, 2018).
 
 
+### Bibliography: Current Industry Review
+
+&nbsp; M. Allan, "Online game highlights dangerous distraction of mobile phones", Car News, 2019. Available: https://inews.co.uk/essentials/lifestyle/cars/car-news/online-game-highlights-dangerous-distraction-of-mobile-phones-323539 [Accessed: 20- Apr- 2021].
+
+&nbsp; "Brain Myth: Doing crossword puzzles can keep your brain young", BrainHQ, 2021. [Online]. Available: https://www.brainhq.com/brain-resources/cool-brain-facts-myths/brain-mythology/brain-myth-doing-crossword-puzzles-can-keep-your-brain-young/#:~:text=Brain%20Fact%3A%20Crosswords%20are%20fun,brain's%20overall%20cognition%20or%20memory&text=So%20doing%20crosswords%20might%20help,positive%20benefits%20to%20your%20brain. [Accessed: 03- May- 2021].
+
+&nbsp; A. Borges, "29 Free Mobile Games to Distract You When Your Anxiety Is Too Much", Self: Mental Health, 2020. Available: https://www.self.com/story/free-mobile-games. [Accessed: 20- Apr- 2021].
+
+&nbsp; Cold Turkey. Cold Turkey Software, Inc., 2021. Available: https://getcoldturkey.com/. [Accessed: 22- Apr- 2021].
+
+&nbsp; Freedom. Freedom.to, 2021. Available: https://freedom.to/. [Accessed: 15- Apr- 2021].
+
+&nbsp; Forest. Seekrtech, 2021. Available: https://www.forestapp.cc/. [Accessed: 22- Apr- 2021].
+
+&nbsp; R. Madaan, "Here's what daily crossword puzzles do to your brain?", Wealth Words Blog, 2018. [Online]. Available: https://www.wealthwords.com/blog/what-daily-crossword-puzzles-do-to-your-brain/#:~:text=Working%20on%20crossword%20puzzles%20regularly,and%20enhance%20our%20memory%20power.&text=Solving%20a%20daily%20crossword%20puzzle,dementia%2C%20Alzheimer's%2C%20and%20more. [Accessed: 03- May- 2021].
+
+&nbsp; Mind, "Games and puzzles", Mind.org.uk, 2021. [Online]. Available: https://www.mind.org.uk/need-urgent-help/how-can-i-distract-myself/games-and-puzzles/. [Accessed: 20- Apr- 2021].
+
+&nbsp; Seekrtech, 2021. Available: https://seekrtech.com/en/. [Accessed: 22- Apr- 2021].
+
+&nbsp; Serene. Venture Harbour Ltd, 2021. Available: https://zapier.com/blog/stay-focused-avoid-distractions/#serene. [Accessed: 22- Apr- 2021].
+
+
 <p align="center">
   <b>Navigation:</b><br>
   <a href="../README.md">&#8592; Back to Report Landing Page</a> |
