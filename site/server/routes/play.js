@@ -37,7 +37,9 @@ router.get('/other/:playerEmail', async (req, res) => {
     for (let i = 1; i < player.length; i++) {
        playerId = player[i]._id;
        let playstemp = await Play.find({player: playerId})
+       if (playstemp.length != 0) {
        plays.push(playstemp);
+       }
     }
     res.json(plays);
   } catch (err) {
