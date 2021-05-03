@@ -33,8 +33,8 @@ router.get('/other/:playerEmail', async (req, res) => {
   try {
     const player = await Player.find({email: { $ne: req.params.playerEmail}})
     let playerId = player[0]._id;
-    let plays = await Play.find({player: playerId})
-    for (let i = 1; i < player.length; i++) {
+    let plays = [];
+    for (let i = 0; i < player.length; i++) {
        playerId = player[i]._id;
        let playstemp = await Play.find({player: playerId})
        if (playstemp.length != 0) {
