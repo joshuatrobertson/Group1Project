@@ -308,6 +308,16 @@
 
 &nbsp;&nbsp; *Driven to Distraction* is the only applications of its kind that we were able to find on the market as present.
 
+
+### Games that tap into working memory ### 
+
+
+# **FILL THIS SECTION** #
+
+
+
+
+
 ### Applications as a distraction from anxiety
 
 &nbsp;&nbsp; Many organisations, among them mental health charity *Mind*, have publicly endorsed a range of games and puzzles that are *designed to distract* the user. The theory is that playing such games can be a powerful way for the user to distract themselves from internal anxiety and/or external stressors in their lives (Mind, 2021). Writing for the Mental Health section of Self in October 2020, Anna Borges opens up about “embracing the power of the mindless mobile game” since the onset of the pandemic, as she found such games to be “unexpected anxiety coping mechanisms” amongst the stressors of COVID-19 (Borges, 2020). Included in Borges’ recommended games are: *Candy Crush Saga*; *2048*, a slide-and-combine number game; a simple dot-connecting game *Two Dots*; *Solitaire*; and many others, including braining-training games such as *Numberzilla*.
