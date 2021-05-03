@@ -13,7 +13,7 @@ Microsoft Teams was the primary tool for our daily standups and workshops.
 
 We used Discord for our general day to day communication. The Discord server was split into channels to further streamline topics of discussion and are as follows:
 - **#frontend** - updates and information regarding our front end
-- **#backend** - updates and information regarding our front end
+- **#backend** - updates and information regarding our back end
 - **#techincal-issues** - used to resolve any technical issues our members had (i.e. docker commands etc.)
 - **#meetups** - used for any changes to standup schedules, absences etc. 
 - **#tutorials** - useful walkthroughs on the internet relevant to our project
@@ -28,8 +28,6 @@ We used Discord for our general day to day communication. The Discord server was
 ## Agile Working
 ### Choice of Methodology
 This first development decision we encountered as a team was to decide on an appropriate workflow methodology that best fit our experience as software developers and the requirements laid out in the brief.
-
-The rationale and thought process behind this decision has been outlined below.
  
 The two potential frameworks we considered for our project were:
 1. Scrum
@@ -141,20 +139,21 @@ A key step in the scrum workflow is the ideation of the user stories necessary t
 
 ### Sprints
 #### Overview
-The standups and meeting logs for our sprints can be found [here](../../Meetings/README.md).
+We started sprinting in the second week of the Easter holidays and managed to complete five sprints The standups and meeting logs for our sprints can be found [here](../../Meetings/README.md). Figure 4 presents a timeline of our sprints and important milestones that we achieved as we progressed through them.
 
-Essentially, the way we approached our sprints were as follows:
+The way we approached our sprints were as follows:
+
 1. At the start of the week, the team would pick user stories and break that down into smaller subtasks and categorise them into front end, back end or devops tasks.
 2. Every member would assume repsonsibility of these subtasks based on their expertise and role in the team, and branch off to work (pun absolutely intended).
 3. During the week, daily standups would happen on MS Teams and verbal communication pertaining to issues/solutions would occur on the Discord server.
-4. At the end of the week, the team would reconvene for a review of how the week's work went. Merge commits into the **dev** branch were made if the feature was deemed complete by all team members. If the user story implementation was incomplete, it would simply get carried forward to the next week.
+4. At the end of the week, the team would reconvene for a review of how the week's work went. Merge commits into the **dev** branch were made if the feature was deemed complete by all team members. If a user story implementation was incomplete, it would simply get carried forward to the next week.
 
 
 <p align="center">
   <img src="images/005_timeline.png" width="1200"/>
 </p>
 <div align="center">
-  <em>Figure XX : Timeline of critical milestones in the project.</em>
+  <em>Figure 4: Timeline of sprints and critical milestones in the project.</em>
 </div>
 
 #### Sprint 1: Development I (05/04 - 11/04)
@@ -248,7 +247,7 @@ For the sake of completeness, it is important to mention that the **production**
 </p>
 
 ### Continuous Deployment with Docker
-Docker was used for continuous deployment of our web application. 
+The use of Docker helped
 
 ## Team Contributions
 
