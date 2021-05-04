@@ -313,6 +313,16 @@
 
 &nbsp;&nbsp; *Driven to Distraction* is the only applications of its kind that we were able to find on the market at present.
 
+<p align="center">
+  <img src="images/driven1.png" width="300"/>
+  <p><em>*Figure 2.1 * </em></p>
+</p>
+
+<p align="center">
+  <img src="images/driven2.png" width="300"/>
+  <p><em>*Figure 2.2 * </em></p>
+</p>
+
 
 ### (2) Applications as a distraction from anxiety
 
