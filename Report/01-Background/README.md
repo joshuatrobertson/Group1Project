@@ -163,18 +163,22 @@
 
 > “Summing up the formal characteristics of play we might call it a free activity standing quite consciously outside “ordinary” life as being “not serious,” but at the same time absorbing the player intensely and utterly. It is an activity connected with no material interest, and no profit can be gained by it. It proceeds within its own proper boundaries of time and space according to fixed rules and in an orderly manner. It promotes the formation of social groupings which tend to surround themselves with secrecy and to stress their difference from the common world by disguise or other means” (Huizinga, 1955). 
 
-&nbsp;&nbsp; In the influential 1961 book *Man, Play and Games*, French sociologist Roger Caillois also sought to define play – or as Caillois put it, to derive sociology from play (Caillois, 1961). Building critically on Johan Huizinga’s work, Caillois too saw play as: free as opposed to obligatory; occupying its own time and space separate from ordinary life; unconnected to the pursuit of material gain; governed by rules, ‘orderly’; and involving imagined realities that contrast with ‘real’ life. Expanding upon Huizinga’s work, Caillois added that play can also be distinguished by chance and uncertainty – which involves the player’s initiative insofar as the results of play cannot be pre-determined (Caillois, 1961). Caillois also discerned two different play attitudes: *paidia* and *ludus*. Paidia refers to ‘free play’, it is improvised, spontaneous, impulsive, joyous, uncontrolled fantasy. Conversely, the attitude of Ludus refers to ‘gaming’, to more explicitly rule-governed forms of play that often involve specific skills and mastery (Frissen et al, 2013).
+&nbsp;&nbsp; In the influential 1961 book *Man, Play and Games*, French sociologist Roger Caillois also sought to define play – or as Caillois put it, to derive sociology from play (Caillois, 1961). Building critically on Johan Huizinga’s work, Caillois too saw play as: free as opposed to obligatory; occupying its own time and space separate from ordinary life; unconnected to the pursuit of material gain; and involving imagined realities that contrast with ‘real’ life. Expanding upon Huizinga’s work, Caillois added that play can also be distinguished by chance and uncertainty – which involves the player’s initiative insofar as the results of play cannot be pre-determined (Caillois, 1961). Caillois also opposed some aspects of Huizinga’s definition. While Huizinga saw the presence of an orderly structure and rules as characteristic of play in general, Caillois judged this definition of play too broad. Caillois discerned two different play attitudes: *paidia* and *ludus*. Paidia refers to ‘free play’, it is improvised, spontaneous, impulsive, joyous, uncontrolled fantasy. Conversely, the attitude of Ludus refers to ‘gaming’, to more explicitly rule-governed forms of play that often involve specific skills and mastery (Frissen et al, 2013).
 
-&nbsp;&nbsp; In this century, Katie Salen and Eric Zimmerman published their magnum opus *Rules of Play*, in which the authors define three distinct forms of play. ‘Game Play’ defines play as something an individual does through structured, rules-based interactions (Pete and Stuart, video 6b). ‘Ludic Activity’ is again something one does, though ludic activity may be unstructured and without rules. Finally ‘Play as a Mindset’ is used to describe the spirit of play within a broader context that is not typically associated with play (Salen & Zimmerman, 2003). 
-
-
-### Serious Play in *DistractAbility* ###
-
-&nbsp;&nbsp; ‘Serious play’ addresses a real-world problem and/or raises awareness about an important, pressing issue by engaging audiences through the use of playful techniques. The use of playful techniques will often shed new light on the problem and can promote an active learning experience that users find more engaging than more traditional learning methods (Pete & Stuart, 1c).  
-
-&nbsp;&nbsp; Our site, *DistractAbility*, raises awareness about the attentional difficulties many people have experienced since the onset of the Coronavirus pandemic. We trust that the background literature review will have demonstrated the genuine seriousness of the problem. In this section we therefore focus on the play aspects of  *DistractAbility* and how our design decisions relate to the theoretical background of distraction.
+&nbsp;&nbsp; In this century, Katie Salen and Eric Zimmerman published their magnum opus *Rules of Play*, in which the authors define three distinct forms of play. Like Caillois, the authors distinguish between ‘Game Play’, something an individual does through structured, rules-based interactions, from ‘Ludic Activity’, play that tends to be unstructured and without rules (Pete and Stuart, video 6b). Salen and Zimmerman additionally distinguish ‘Play as a Mindset’ as the spirit of play within a broader context that is not typically associated with play (Salen & Zimmerman, 2003). 
 
 
+
+### Serious Play in *DistractAbility* ### 
+
+&nbsp;&nbsp; ‘Serious play’ addresses a real-world problem and/or raises awareness about an important, pressing issue by engaging audiences through the use of playful techniques. The use of playful techniques will often shed new light on the problem and can promote an active learning experience that users find more engaging than traditional learning methods (Pete & Stuart, 1c).  
+
+&nbsp;&nbsp; Our site, *DistractAbility*, raises awareness about the attentional difficulties many people have experienced since the onset of the Coronavirus pandemic. We trust that the background literature review will have demonstrated the genuine seriousness of the problem. In this section we therefore focus on the play aspects of  *DistractAbility* and how our design decisions relate to the theoretical background of distraction given in the earlier sections of this literature review.
+
+**DistractAbility: types of play**
+
+
+**DistractAbility: motivation for playing**
 
 
 
