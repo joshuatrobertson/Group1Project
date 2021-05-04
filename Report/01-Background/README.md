@@ -315,12 +315,12 @@
 
 <p align="center">
   <img src="images/driven1.png" width="300"/>
-  <p><em>*Figure 2.1 * </em></p>
+  <em>Figure 2.1</em>
 </p>
 
 <p align="center">
   <img src="images/driven2.png" width="300"/>
-  <p><em>*Figure 2.2 * </em></p>
+  <em>Figure 2.2 </em>
 </p>
 
 
