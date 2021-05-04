@@ -182,14 +182,13 @@
 &nbsp;&nbsp; The rules of the card game relate to the serious problem in multiple ways. For one, it is the difference between the user’s scores for each round by which we quantify the impact of the distractions on their cognitive abilities – mirroring the impact of distractions on the productivity of people WFH. Moreover, the fact the player cannot define their own rules or forge their own path through *DistractAbility* mimics the fact that, in the world of work, individuals are often unable to design their own tasks and instead have to complete whatever task they are given. If Covid restrictions and the resultant distractions are making it especially difficult for an individual to complete the task at hand, then even if they would be better able to get on with administrative tasks in the presence of distractions, this is not always an option. In fact, it is perhaps ironic that play is sometimes viewed as the opposite of work, yet *DistractAbility* uses play to mimic the negative impacts of distraction on quality of work. Game Play must therefore share some parallels with work and not be its stark opposite if gaming is able to shed light on work. 
 
 
-
 **DistractAbility: motivation for playing**
 
 
 
+**Relation to theoretical background**
 
-
-### Our Audience ###
+&nbsp;&nbsp; Recall the widely accepted premises that concentration is inextricably linked with working memory and that working memory is a finite resource. We chose this card game as the means of quantifying the impact of distraction on concentration precisely because it requires the use of working memory, and it provides scope for increasing the pressure on working memory exponentially. To successfully complete each round of the game, the user must hold the image and location of each card in working memory while simultaneously processing the image and location of new cards and cognitively correlating matching pairs to one another. The greater the quantity of cards to be matched in each round, the greater the cognitive load on working memory – which provides scope for us to introduce different difficulty levels to *DistractAbility* in the future. Once the distractions are introduced in the second round, the user must process a large number of interrupting stimuli while retaining the aforementioned information in working memory. Furthermore, our decision to distract the user with news articles pulled from various platforms touches upon the aforementioned link between poor concentration and negatively charged emotional stimuli, which have been particularly pronounced since the onset of the pandemic encouraged ‘doomscrolling’. 
 
 
 
