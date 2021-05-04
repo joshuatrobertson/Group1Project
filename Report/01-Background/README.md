@@ -165,7 +165,7 @@
 
 &nbsp;&nbsp; In the influential 1961 book *Man, Play and Games*, French sociologist Roger Caillois also sought to define play – or as Caillois put it, to derive sociology from play (Caillois, 1961). Building critically on Johan Huizinga’s work, Caillois too saw play as: free as opposed to obligatory; occupying its own time and space separate from ordinary life; unconnected to the pursuit of material gain; governed by rules, ‘orderly’; and involving imagined realities that contrast with ‘real’ life. Expanding upon Huizinga’s work, Caillois added that play can also be distinguished by chance and uncertainty – which involves the player’s initiative insofar as the results of play cannot be pre-determined (Caillois, 1961). Caillois also discerned two different play attitudes: *paidia* and *ludus*. Paidia refers to ‘free play’, it is improvised, spontaneous, impulsive, joyous, uncontrolled fantasy. Conversely, the attitude of Ludus refers to ‘gaming’, to more explicitly rule-governed forms of play that often involve specific skills and mastery (Frissen et al, 2013).
 
-&nbsp;&nbsp; In this century, Katie Salen and Eric Zimmerman published their magnum opus *Rules of Play*, in which the authors define three distinct forms of play. ‘Game Play’ defines play as something an individual does through structured, rules-based interactions (Pete and Stuart, video 6b). ‘Ludic Activity’ is again something one does, though ludic activity may be unstructured and without rules. Finally ‘Play as a Mindset’ is used to describe the spirit of play within a broader context that is not typically associated with play. 
+&nbsp;&nbsp; In this century, Katie Salen and Eric Zimmerman published their magnum opus *Rules of Play*, in which the authors define three distinct forms of play. ‘Game Play’ defines play as something an individual does through structured, rules-based interactions (Pete and Stuart, video 6b). ‘Ludic Activity’ is again something one does, though ludic activity may be unstructured and without rules. Finally ‘Play as a Mindset’ is used to describe the spirit of play within a broader context that is not typically associated with play (Salen & Zimmerman, 2003). 
 
 ### Serious Play ###
 
@@ -185,113 +185,113 @@
 
 **Primary Sources**
 
-&nbsp; J. Alexander, "Netflix adds 15 million subscribers as people stream more than ever, but warns about tough road ahead", The Verge, 2020. [Online]. Available: https://www.theverge.com/2020/4/21/21229587/netflix-earnings-coronavirus-pandemic-streaming-entertainment. [Accessed: 11- Apr- 2021].
+&nbsp; J. Alexander, "Netflix adds 15 million subscribers as people stream more than ever, but warns about tough road ahead", *The Verge*, 2020. [Online]. Available: https://www.theverge.com/2020/4/21/21229587/netflix-earnings-coronavirus-pandemic-streaming-entertainment. [Accessed: 11- Apr- 2021].
 
-&nbsp; D. Arnsten, Ph.D., The Brain's Response to Stress - How Our Brains May Be Altered During the COVID-19 Pandemic. Yale School Of Medicine, 2020. Available: https://www.youtube.com/watch?v=TsQUeNuvIDY. [Accessed 15 April 2021].
+&nbsp; D. Arnsten, Ph.D., *The Brain's Response to Stress - How Our Brains May Be Altered During the COVID-19 Pandemic*. Yale School Of Medicine, 2020. Available: https://www.youtube.com/watch?v=TsQUeNuvIDY. [Accessed 15 April 2021].
 
 &nbsp; N. Biddle and M. Gray, "Tracking outcomes during the COVID-19 pandemic (October 2020) – Reconvergence", ANU Centre for Social Research and Methods, pp. 1-15, 2020. Available: https://csrm.cass.anu.edu.au/sites/default/files/docs/2020/11/Tracking_wellbeing_outcomes_during_the_COVID-19_pandemic_October_2020_PDF.pdf. [Accessed 14 April 2021].
 
-&nbsp; N. Bloom, P. Bunn, P. Mizen, P. Smietanka and G. Thwaites, "The Impact of COVID-19 on Productivity", NBER Working Paper Series, December 2020. Available: https://www.nber.org/system/files/working_papers/w28233/revisions/w28233.rev0.pdf. [Accessed 14 April 2021].
+&nbsp; N. Bloom, P. Bunn, P. Mizen, P. Smietanka and G. Thwaites, "The Impact of COVID-19 on Productivity", *NBER Working Paper Series*, December 2020. Available: https://www.nber.org/system/files/working_papers/w28233/revisions/w28233.rev0.pdf. [Accessed 14 April 2021].
 
 &nbsp; N. Bloom et al, "Staff Working Paper No. 900", Bank of England, 2020. Available: https://www.citethisforme.com/ [Accessed 14 April 2021].
 
-&nbsp; L. Bowman, L. Levine, B. Waite and M. Gendron, "Can students really multitask? An experimental study of instant messaging while reading", Computers & Education, vol. 54, no. 4, pp. 927-931, 2010. D.O.I: 10.1016/j.compedu.2009.09.024 [Accessed 15 April 2021].
+&nbsp; L. Bowman, L. Levine, B. Waite and M. Gendron, "Can students really multitask? An experimental study of instant messaging while reading", *Computers & Education*, vol. 54, no. 4, pp. 927-931, 2010. D.O.I: 10.1016/j.compedu.2009.09.024 [Accessed 15 April 2021].
 
-&nbsp; T. Brower, "Think Productivity With Work From Home Is Improving? Think Again. Here’s What You Must Know", Forbes, 2021. Available: https://www.forbes.com/sites/tracybrower/2021/01/17/think-productivity-with-work-from-home-is-improving-think-again-heres-what-you-must-know/?sh=162ef3ab2d67 [Accessed: 11- Apr- 2021].
+&nbsp; T. Brower, "Think Productivity With Work From Home Is Improving? Think Again. Here’s What You Must Know", *Forbes*, 2021. Available: https://www.forbes.com/sites/tracybrower/2021/01/17/think-productivity-with-work-from-home-is-improving-think-again-heres-what-you-must-know/?sh=162ef3ab2d67 [Accessed: 11- Apr- 2021].
 
 &nbsp; M. Brückle, “Because of Corona, Netflix and YouTube decrease image quality in order to ease the load on communication networks” (2020) Available: https://www.buffed.de/Netflix-Firma-259629/News/Streaming-Qualitaet-Corona-1345982/. [Accessed: 11- Apr- 2021].
 
-&nbsp; L. Carrier, L. Rosen, N. Cheever and A. Lim, "Causes, effects, and practicalities of everyday multitasking", Developmental Review, vol. 35, pp. 64-78, 2015. D.O.I: 10.1016/j.dr.2014.12.005 [Accessed 15 April 2021].
+&nbsp; L. Carrier, L. Rosen, N. Cheever and A. Lim, "Causes, effects, and practicalities of everyday multitasking", *Developmental Review*, vol. 35, pp. 64-78, 2015. D.O.I: 10.1016/j.dr.2014.12.005 [Accessed 15 April 2021].
 
-&nbsp; Q. Chen and Z. Yan, "Does multitasking with mobile phones affect learning? A review", Computers in Human Behavior, vol. 54, pp. 34-42, 2016. Available: www.sciencedirect.com/science/article/abs/pii/S0747563215300595#:~:text=Studies%20conducted%20in%20the%20laboratory,Carrillo%20%26%20Subrahmanyam%2C%202014. [Accessed 15 April 2021].
+&nbsp; Q. Chen and Z. Yan, "Does multitasking with mobile phones affect learning? A review", *Computers in Human Behavior*, vol. 54, pp. 34-42, 2016. Available: www.sciencedirect.com/science/article/abs/pii/S0747563215300595#:~:text=Studies%20conducted%20in%20the%20laboratory,Carrillo%20%26%20Subrahmanyam%2C%202014. [Accessed 15 April 2021].
 
-&nbsp; S. Cooper, "Physical activity is good for your concentration – here’s why", The Conversation, 2021. Available: https://theconversation.com/physical-activity-is-good-for-your-concentration-heres-why-151143. [Accessed: 15- Apr- 2021].
+&nbsp; S. Cooper, "Physical activity is good for your concentration – here’s why", *The Conversation*, 2021. Available: https://theconversation.com/physical-activity-is-good-for-your-concentration-heres-why-151143. [Accessed: 15- Apr- 2021].
 
 &nbsp; E. Cummins, "Shirking from home", Vox, 2020. Available: https://www.vox.com/the-highlight/21317485/work-from-home-coronavirus-covid-19-zoom-distraction-animal-crossing [Accessed: 15- Apr- 2021].
 
 &nbsp; Deloitte, "Working during lockdown: The impact of COVID-19 on productivity and wellbeing", Deloitte United Kingdom, 2020. [Online]. Available: https://www2.deloitte.com/uk/en/pages/consulting/articles/working-during-lockdown-impact-of-covid-19-on-productivity-and-wellbeing.html. [Accessed: 13- Apr- 2021].
 
-&nbsp; L. Elliot, "Working from home is proving to be a revolution in our way of life", The. Guardian, 2020. Available: https://www.theguardian.com/business/2020/oct/26/working-from-home-is-proving-to-be-a-revolution-in-our-way-of-life [Accessed:  13- Apr- 2021].
+&nbsp; L. Elliot, "Working from home is proving to be a revolution in our way of life", *The Guardian*, 2020. Available: https://www.theguardian.com/business/2020/oct/26/working-from-home-is-proving-to-be-a-revolution-in-our-way-of-life [Accessed:  13- Apr- 2021].
 
-&nbsp; S. Feng, Y. Wong, L. Wong and L. Hossain, "The Internet and Facebook Usage on Academic Distraction of College Students", Computers & Education, vol. 134, pp. 41-49, 2019. D.O.I: 10.1016/j.compedu.2019.02.005 [Accessed 15 April 2021].
+&nbsp; S. Feng, Y. Wong, L. Wong and L. Hossain, "The Internet and Facebook Usage on Academic Distraction of College Students", *Computers & Education*, vol. 134, pp. 41-49, 2019. D.O.I: 10.1016/j.compedu.2019.02.005 [Accessed 15 April 2021].
 
-&nbsp; Z. Feng and K. Savani, "Covid-19 created a gender gap in perceived work productivity and job satisfaction: implications for dual-career parents working from home", Emerald Insight: Gender Management, 7 September, 2020. ISSN: 1754-2413. Available: https://www.emerald.com/insight/content/doi/10.1108/GM-07-2020-0202/full/html. [Accessed 14 April 2021].
+&nbsp; Z. Feng and K. Savani, "Covid-19 created a gender gap in perceived work productivity and job satisfaction: implications for dual-career parents working from home", *Emerald Insight: Gender Management*, 7 September, 2020. ISSN: 1754-2413. Available: https://www.emerald.com/insight/content/doi/10.1108/GM-07-2020-0202/full/html. [Accessed 14 April 2021].
 
-&nbsp; N. Franklin, "Employee productivity proves remarkably resilient during pandemic", Insight., 2020. Available: https://workplaceinsight.net/employee-productivity-proves-remarkably-resilient-during-pandemic/ [Accessed: 14- Apr- 2021].
+&nbsp; N. Franklin, "Employee productivity proves remarkably resilient during pandemic", *Insight.*, 2020. Available: https://workplaceinsight.net/employee-productivity-proves-remarkably-resilient-during-pandemic/ [Accessed: 14- Apr- 2021].
 
 &nbsp; J. Gold, M.D., M.S., "The ‘Covid Cloud’ Is Real", 2020. [Online]. Available: https://www.instyle.com/lifestyle/covid-cloud-concentration-memory-issues. [Accessed: 11- Apr- 2021].
 
-&nbsp; O. Keogh, "Pandemic-induced ‘brain fog’ is result of cognitive overload", The Irish Times, 2020. Available: https://www.irishtimes.com/business/work/pandemic-induced-brain-fog-is-result-of-cognitive-overload-1.4436434 [Accessed: 11-Apr-2021].
+&nbsp; O. Keogh, "Pandemic-induced ‘brain fog’ is result of cognitive overload", *The Irish Times*, 2020. Available: https://www.irishtimes.com/business/work/pandemic-induced-brain-fog-is-result-of-cognitive-overload-1.4436434 [Accessed: 11-Apr-2021].
 
-&nbsp; P. Kirschner and P. De Bruyckere, "The myths of the digital native and the multitasker", Teaching and Teacher Education, vol. 67, pp. 135-142, 2017. D.O.I: 10.1016/j.tate.2017.06.001 [Accessed 15 April 2021].
+&nbsp; P. Kirschner and P. De Bruyckere, "The myths of the digital native and the multitasker", *Teaching and Teacher Education*, vol. 67, pp. 135-142, 2017. D.O.I: 10.1016/j.tate.2017.06.001 [Accessed 15 April 2021].
 
-&nbsp; P. Kirschner and A. Karpinski, "Facebook® and academic performance", Computers in Human Behavior, vol. 26, no. 6, pp. 1237-1245, 2010. D.O.I: 10.1016/j.chb.2010.03.024 [Accessed 15 April 2021].
+&nbsp; P. Kirschner and A. Karpinski, "Facebook® and academic performance", *Computers in Human Behavior*, vol. 26, no. 6, pp. 1237-1245, 2010. D.O.I: 10.1016/j.chb.2010.03.024 [Accessed 15 April 2021].
 
-&nbsp; S. Künn, C. Seel and D. Zegners, "Cognitive performance in the home office—What professional chess can tell us", IZA World of Labor, 2020. Available: https://wol.iza.org/opinions/cognitive-performance-in-the-home-office?utm_source=Adestra&utm_medium=email&utm_content=Cognitive%20performance%20in%20the%20home%20office%E2%80%94What%20professional%20chess%20can%20tell%20us&utm_campaign=IZA%20WoL%20Sept%20monthly%20newsletter [Accessed: 11- Apr- 2021].
+&nbsp; S. Künn, C. Seel and D. Zegners, "Cognitive performance in the home office—What professional chess can tell us", *IZA World of Labor*, 2020. Available: https://wol.iza.org/opinions/cognitive-performance-in-the-home-office?utm_source=Adestra&utm_medium=email&utm_content=Cognitive%20performance%20in%20the%20home%20office%E2%80%94What%20professional%20chess%20can%20tell%20us&utm_campaign=IZA%20WoL%20Sept%20monthly%20newsletter [Accessed: 11- Apr- 2021].
 
-&nbsp; T. Lawson, "Work-from-home productivity gains seen evaporating as pandemic grinds on", S&P Global Market Intelligence, 2020. Available: https://www.spglobal.com/marketintelligence/en/news-insights/latest-news-headlines/work-from-home-productivity-gains-seen-evaporating-as-pandemic-grinds-on-60119373 [Accessed: 11- Apr- 2021].
+&nbsp; T. Lawson, "Work-from-home productivity gains seen evaporating as pandemic grinds on", *S&P Global Market Intelligence*, 2020. Available: https://www.spglobal.com/marketintelligence/en/news-insights/latest-news-headlines/work-from-home-productivity-gains-seen-evaporating-as-pandemic-grinds-on-60119373 [Accessed: 11- Apr- 2021].
 
-&nbsp; J. Mattern, S. Lansmann and J. Hüllmann, "It’s not that bad! Perceived stress of knowledge workers during enforced working from home due to COVID-19", 16th International Conference on Wirtschaftsinformatik, 2021. [Online]. Available: https://www.joschka-huellmann.net/publications/2020-12-22-draft-COVID-19-and-stress_camera-ready.pdf. [Accessed: 12- Apr- 2021].
+&nbsp; J. Mattern, S. Lansmann and J. Hüllmann, "It’s not that bad! Perceived stress of knowledge workers during enforced working from home due to COVID-19", *16th International Conference on Wirtschaftsinformatik*, 2021. [Online]. Available: https://www.joschka-huellmann.net/publications/2020-12-22-draft-COVID-19-and-stress_camera-ready.pdf. [Accessed: 12- Apr- 2021].
 
-&nbsp; S. Manavis, "Why can’t we focus during this pandemic?", New Statesman, 2020. Available: https://www.newstatesman.com/science-tech/coronavirus/2020/05/how-focus-concentration-pandemic-brain-motivation-apps-pomodoro [Accessed: 11-Apr-2021].
+&nbsp; S. Manavis, "Why can’t we focus during this pandemic?", *New Statesman*, 2020. Available: https://www.newstatesman.com/science-tech/coronavirus/2020/05/how-focus-concentration-pandemic-brain-motivation-apps-pomodoro [Accessed: 11-Apr-2021].
 
-&nbsp; V. McKeever, "Coronavirus lockdowns are making the working day longer for many", CNBC: Make It, 2020. [Online]. Available: https://www.cnbc.com/2020/03/30/coronavirus-lockdowns-are-making-the-working-day-longer-for-many.html. [Accessed: 11- Apr- 2021].
+&nbsp; V. McKeever, "Coronavirus lockdowns are making the working day longer for many", *CNBC*: Make It, 2020. [Online]. Available: https://www.cnbc.com/2020/03/30/coronavirus-lockdowns-are-making-the-working-day-longer-for-many.html. [Accessed: 11- Apr- 2021].
 
-&nbsp; H. Messinger, "Coping with COVID Stress: From Pandemic Brain Fog to Building (and Studying) Resilience", Penn Medicine News, 2020. Available: https://www.pennmedicine.org/news/news-blog/2020/june/coping-with-covid-stress [Accessed: 11-Apr-2021].
+&nbsp; H. Messinger, "Coping with COVID Stress: From Pandemic Brain Fog to Building (and Studying) Resilience", *Penn Medicine News*, 2020. Available: https://www.pennmedicine.org/news/news-blog/2020/june/coping-with-covid-stress [Accessed: 11-Apr-2021].
 
-&nbsp; J. Mischke et al., "Will productivity and growth return after the COVID-19 crisis?", McKinsey Global Institute, 2021. Available: https://www.mckinsey.com/industries/public-and-social-sector/our-insights/will-productivity-and-growth-return-after-the-covid-19-crisis [Accessed 14 April 2021].
+&nbsp; J. Mischke et al., "Will productivity and growth return after the COVID-19 crisis?", *McKinsey Global Institute*, 2021. Available: https://www.mckinsey.com/industries/public-and-social-sector/our-insights/will-productivity-and-growth-return-after-the-covid-19-crisis [Accessed 14 April 2021].
 
-&nbsp; S. Newman, S. Zella and R. Heys, "Coronavirus and the effects on UK productivity measures", Office for National Statistics, 2020. Available: https://www.ons.gov.uk/economy/economicoutputandproductivity/productivitymeasures/articles/coronavirusandtheeffectsonukproductivitymeasures/2020-05-19  [Accessed: 11- Apr- 2021].
+&nbsp; S. Newman, S. Zella and R. Heys, "Coronavirus and the effects on UK productivity measures", *Office for National Statistics*, 2020. Available: https://www.ons.gov.uk/economy/economicoutputandproductivity/productivitymeasures/articles/coronavirusandtheeffectsonukproductivitymeasures/2020-05-19  [Accessed: 11- Apr- 2021].
 
-&nbsp; M. Prensky, “Digital natives, digital immigrants,” NCB University Press, 2001. 9(5), 1–6.
+&nbsp; M. Prensky, “Digital natives, digital immigrants,” *NCB University Press*, 2001. 9(5), 1–6.
 
-&nbsp; C. Purtill, "Feeling Scatterbrained? Here’s Why (Published 2020)", Nytimes.com, 2021. [Online]. Available: https://www.nytimes.com/2020/04/09/us/quarantine-mental-health-gender.html. [Accessed: 11- Apr- 2021].
+&nbsp; C. Purtill, "Feeling Scatterbrained? Here’s Why (Published 2020)", *Nytimes.com*, 2021. [Online]. Available: https://www.nytimes.com/2020/04/09/us/quarantine-mental-health-gender.html. [Accessed: 11- Apr- 2021].
 
-&nbsp; A. Rajan, "TV watching and online streaming surge during lockdown", BBC News, 2020. Available: https://www.bbc.co.uk/news/entertainment-arts-53637305 [Accessed: 11- Apr- 2021].
+&nbsp; A. Rajan, "TV watching and online streaming surge during lockdown", *BBC News*, 2020. Available: https://www.bbc.co.uk/news/entertainment-arts-53637305 [Accessed: 11- Apr- 2021].
 
-&nbsp; P. Ralph et al., "Pandemic programming", Empirical Software Engineering, vol. 25, no. 6, pp. 4927-4961, 2020. Available: https://link.springer.com/article/10.1007/s10664-020-09875-y. [Accessed 14 April 2021].
+&nbsp; P. Ralph et al., "Pandemic programming", *Empirical Software Engineering*, vol. 25, no. 6, pp. 4927-4961, 2020. Available: https://link.springer.com/article/10.1007/s10664-020-09875-y. [Accessed 14 April 2021].
 
-&nbsp; D. Russo, P. Hanel, S. Altnickel and N. van Berkel, "Predictors of Well-being and Productivity among Software Professionals during the COVID-19 Pandemic -- A Longitudinal Study", Cornell University: Empirical Software Engineering, 24 January, 2021. Available: https://arxiv.org/abs/2007.12580. [Accessed 14 April 2021].
+&nbsp; D. Russo, P. Hanel, S. Altnickel and N. van Berkel, "Predictors of Well-being and Productivity among Software Professionals during the COVID-19 Pandemic -- A Longitudinal Study", Cornell University: *Empirical Software Engineering*, 24 January, 2021. Available: https://arxiv.org/abs/2007.12580. [Accessed 14 April 2021].
 
 &nbsp; K. Schwab, "‘Doomscrolling’ can break your brain. It can also be a force for good", Fast Company, 2020. [Online]. Available: https://www.fastcompany.com/90514867/doomscrolling-can-break-your-brain-it-can-also-be-a-force-for-good. [Accessed: 11- Apr- 2021].
 
-&nbsp; N. Selwyn and J. Aagaard, "Banning mobile phones from classrooms—An opportunity to advance understandings of technology addiction, distraction and cyberbullying", British Journal of Educational Technology, vol. 52, no. 1, pp. 8-19, 2020. Available: https://bera-journals.onlinelibrary.wiley.com/doi/full/10.1111/bjet.12943?saml_referrer. [Accessed 15 April 2021].
+&nbsp; N. Selwyn and J. Aagaard, "Banning mobile phones from classrooms—An opportunity to advance understandings of technology addiction, distraction and cyberbullying", *British Journal of Educational Technology*, vol. 52, no. 1, pp. 8-19, 2020. Available: https://bera-journals.onlinelibrary.wiley.com/doi/full/10.1111/bjet.12943?saml_referrer. [Accessed 15 April 2021].
 
-&nbsp; M. Spitzer, "Open schools! Weighing the effects of viruses and lockdowns on children", Trends in Neuroscience and Education, vol. 22, p. 100151, 2021. Available: https://www.sciencedirect.com/science/article/pii/S221194932100003X?casa_token=EIciUbdXZuwAAAAA:HNtdsJNu_k_I6VuivjCQpuFP9twTTstyR_mUAvzUXpwLsEjblb-C2bEK1GNeNvAaZCfyjHsAW50#bib0096. [Accessed 15 April 2021].
+&nbsp; M. Spitzer, "Open schools! Weighing the effects of viruses and lockdowns on children", *Trends in Neuroscience and Education*, vol. 22, p. 100151, 2021. Available: https://www.sciencedirect.com/science/article/pii/S221194932100003X?casa_token=EIciUbdXZuwAAAAA:HNtdsJNu_k_I6VuivjCQpuFP9twTTstyR_mUAvzUXpwLsEjblb-C2bEK1GNeNvAaZCfyjHsAW50#bib0096. [Accessed 15 April 2021].
 
-&nbsp; "Tap'd Resilience White-paper: Building Resilience in your Organisation, your Leaders and your Teams", Tap'd Solutions, 2020. [Online]. Available: https://tapdsolutions.com/wp-content/uploads/2020/11/TAP_Resilience_WhitePaper_2020.pdf.  [Accessed: 14- Apr- 2021].
+&nbsp; "Tap'd Resilience White-paper: Building Resilience in your Organisation, your Leaders and your Teams", *Tap'd Solutions*, 2020. [Online]. Available: https://tapdsolutions.com/wp-content/uploads/2020/11/TAP_Resilience_WhitePaper_2020.pdf.  [Accessed: 14- Apr- 2021].
 
-&nbsp; R. Waters, "The work-from-home revolution is only just beginning," The Financial Times, 2020. Available: https://www.ft.com/content/829208c1-2f2c-488f-9b92-95fe234c32af [Accessed:  13- Apr- 2021].
+&nbsp; R. Waters, "The work-from-home revolution is only just beginning," *The Financial Times*, 2020. Available: https://www.ft.com/content/829208c1-2f2c-488f-9b92-95fe234c32af [Accessed:  13- Apr- 2021].
 
-&nbsp; C. Was, R. Hollis and J. Dunlosky, "Do students understand the detrimental effects of mind wandering during online learning?", Computers & Education, vol. 135, pp. 113-122, 2019. D.O.I: 10.1016/j.compedu.2019.02.020 [Accessed 15 April 2021].
+&nbsp; C. Was, R. Hollis and J. Dunlosky, "Do students understand the detrimental effects of mind wandering during online learning?", *Computers & Education*, vol. 135, pp. 113-122, 2019. D.O.I: 10.1016/j.compedu.2019.02.020 [Accessed 15 April 2021].
 
-&nbsp; D. Ziegler, J. Mishra, A. Gazzaley, "The acute and chronic impact of technology on our brain", The Wiley Handbook of Psychology, Technology, and Society, pp. 3-19, 2015. Available: https://onlinelibrary.wiley.com/doi/book/10.1002/9781118771952. [Accessed 15 April 2021].
+&nbsp; D. Ziegler, J. Mishra, A. Gazzaley, "The acute and chronic impact of technology on our brain", *The Wiley Handbook of Psychology, Technology, and Society*, pp. 3-19, 2015. Available: https://onlinelibrary.wiley.com/doi/book/10.1002/9781118771952. [Accessed 15 April 2021].
 
 - Author Unknown - 
-&nbsp; "Exercise can boost your memory and thinking skills", Healthbeat. Harvard Medical School, 2021. Available: https://www.health.harvard.edu/mind-and-mood/exercise-can-boost-your-memory-and-thinking-skills. [Accessed: 15- Apr- 2021].
+&nbsp; "Exercise can boost your memory and thinking skills", *Healthbeat*. Harvard Medical School, 2021. Available: https://www.health.harvard.edu/mind-and-mood/exercise-can-boost-your-memory-and-thinking-skills. [Accessed: 15- Apr- 2021].
 
 
 **Secondary Sources**
 
-&nbsp; A. Baddeley, "Working Memory: Theories, Models, and Controversies", Annual Review of Psychology, vol. 63, pp. 1-29, 2012. Available: https://www.annualreviews.org/doi/10.1146/annurev-psych-120710-100422. [Accessed 15 April 2021].
+&nbsp; A. Baddeley, "Working Memory: Theories, Models, and Controversies", *Annual Review of Psychology*, vol. 63, pp. 1-29, 2012. Available: https://www.annualreviews.org/doi/10.1146/annurev-psych-120710-100422. [Accessed 15 April 2021].
 
-&nbsp; R. Compton, "The Interface Between Emotion and Attention: A Review of Evidence from Psychology and Neuroscience", Behavioral and Cognitive Neuroscience Reviews, vol. 2, no. 2, pp. 115-129, 2003. Available: https://journals.sagepub.com/doi/10.1177/1534582303002002003. [Accessed 15 April 2021].
+&nbsp; R. Compton, "The Interface Between Emotion and Attention: A Review of Evidence from Psychology and Neuroscience", *Behavioral and Cognitive Neuroscience Reviews*, vol. 2, no. 2, pp. 115-129, 2003. Available: https://journals.sagepub.com/doi/10.1177/1534582303002002003. [Accessed 15 April 2021].
 
-&nbsp; M. Eysenck, N. Derakshan, R. Santos and M. Calvo, "Anxiety and cognitive performance: Attentional control theory.", Emotion: American Psychological Association, vol. 7, no. 2, pp. 336-353, 2007. Available: https://psycnet.apa.org/buy/2007-06782-011. [Accessed 15 April 2021].
+&nbsp; M. Eysenck, N. Derakshan, R. Santos and M. Calvo, "Anxiety and cognitive performance: Attentional control theory.", *Emotion: American Psychological Association*, vol. 7, no. 2, pp. 336-353, 2007. Available: https://psycnet.apa.org/buy/2007-06782-011. [Accessed 15 April 2021].
 
-&nbsp; T. A.,  Ghebreyesus. WHO Director‐General's opening remarks at the media briefing on COVID‐19. Geneva, Switzerland: World Health Organization, 2020. Available: https://www.who.int/dg/speeches/detail/who-director-general-s-opening-remarks-at-the-media-briefing-on-covid-19-11-march-2020 [Accessed: 12-Apr-2021].
+&nbsp; T. A.,  Ghebreyesus. *WHO Director‐General's opening remarks at the media briefing on COVID‐19*. Geneva, Switzerland: World Health Organization, 2020. Available: https://www.who.int/dg/speeches/detail/who-director-general-s-opening-remarks-at-the-media-briefing-on-covid-19-11-march-2020 [Accessed: 12-Apr-2021].
 
-&nbsp; C. Hirsch, "Europe’s coronavirus lockdown measures compared", Politico, 2020. Available: https://www.politico.eu/article/europes-coronavirus-lockdown-measures-compared/  [Accessed: 12-Apr-2021].
+&nbsp; C. Hirsch, "Europe’s coronavirus lockdown measures compared", *Politico*, 2020. Available: https://www.politico.eu/article/europes-coronavirus-lockdown-measures-compared/  [Accessed: 12-Apr-2021].
 
 &nbsp; D. Kahneman, Attention and Effort. Prentice-Hall, 1973.
 
-&nbsp; R. Kurzban, A. Duckworth, J. Kable and J. Myers, "An opportunity cost model of subjective effort and task performance", Behavioral and Brain Sciences, vol. 36, no. 6, pp. 661-679, 2013. Available: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3856320/. [Accessed 15 April 2021].
+&nbsp; R. Kurzban, A. Duckworth, J. Kable and J. Myers, "An opportunity cost model of subjective effort and task performance", *Behavioral and Brain Sciences*, vol. 36, no. 6, pp. 661-679, 2013. Available: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3856320/. [Accessed 15 April 2021].
 
 &nbsp; N. Lavie, "Distracted and confused?: Selective attention under load", Trends in Cognitive Sciences, vol. 9, no. 2, pp. 75-82, 2005. Available: https://www.cell.com/trends/cognitive-sciences/fulltext/S1364-6613(04)00316-X?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS136466130400316X%3Fshowall%3Dtrue. [Accessed 15 April 2021].
 
-&nbsp; L. Pessoa and R. Adolphs, "Emotion processing and the amygdala: from a 'low road' to 'many roads' of evaluating biological significance", Nature Reviews Neuroscience, vol. 11, no. 11, pp. 773-782, 2010. Available: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3025529/ D.O.I: 10.1038/nrn2920 [Accessed 15 April 2021].
+&nbsp; L. Pessoa and R. Adolphs, "Emotion processing and the amygdala: from a 'low road' to 'many roads' of evaluating biological significance", *Nature Reviews Neuroscience*, vol. 11, no. 11, pp. 773-782, 2010. Available: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3025529/ D.O.I: 10.1038/nrn2920 [Accessed 15 April 2021].
 
-&nbsp; B. Pudelko, "Having trouble concentrating during the coronavirus pandemic? Neuroscience explains why", The Conversation, 2020. Available: https://theconversation.com/having-trouble-concentrating-during-the-coronavirus-pandemic-neuroscience-explains-why-139185 [Accessed 15 April 2021].
+&nbsp; B. Pudelko, "Having trouble concentrating during the coronavirus pandemic? Neuroscience explains why", *The Conversation*, 2020. Available: https://theconversation.com/having-trouble-concentrating-during-the-coronavirus-pandemic-neuroscience-explains-why-139185 [Accessed 15 April 2021].
 
 &nbsp; WHO, "Severe Acute Respiratory Syndrome (SARS)", Who.int, 2020. [Online]. Available: https://www.who.int/health-topics/severe-acute-respiratory-syndrome#tab=tab_1. [Accessed: 12- Apr- 2021].
 
@@ -304,6 +304,8 @@
 R. Caillois, *Man, Play and Games*. Chicago: University of Illinois Press, 1961. Trans. Meyer Barash. pp. 3-17.
 
 J. Huizinga, *Homo Ludens: A Study of the Play Element in Culture*. Beacon Press, 1955.
+
+K. Salen and E. Zimmerman, *Rules of Play: Game Design Fundamentals*. (Cambridge, Massachusetts: The MIT Press, 2003).
 
 
 **Secondary Sources**
