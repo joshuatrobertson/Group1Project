@@ -160,6 +160,17 @@
 ### Serious Play ###
 
 
+### What is play? ### 
+
+&nbsp;&nbsp; The 1933 book *Homo Ludens*, by Johan Huizinga of the University of Leyden, was the first major scholarly work on the topic of play from a sociological viewpoint. Huizinga analysed several of the fundamental characteristics of play and the important role of play in the development and maintenance of civilisation itself. Huizinga defined three overarching characteristics of play: (1) Play is voluntary. (2) Play is not part of ordinary life, it occupies its own temporal realm removed from the ‘real’ world. (3) Play has a fixed duration, scope and place. Huizinga also identified two particular benefits of play. First play creates order in a chaotic world by providing an orderly, rules-based escape from the randomness of real life. Play also brings social benefits as it tends to create communities around itself. In Huizinga’s own words:
+
+> “Summing up the formal characteristics of play we might call it a free activity standing quite consciously outside “ordinary” life as being “not serious,” but at the same time absorbing the player intensely and utterly. It is an activity connected with no material interest, and no profit can be gained by it. It proceeds within its own proper boundaries of time and space according to fixed rules and in an orderly manner. It promotes the formation of social groupings which tend to surround themselves with secrecy and to stress their difference from the common world by disguise or other means” (Huizinga, 1955). 
+
+&nbsp;&nbsp; In the influential 1961 book *Man, Play and Games*, French sociologist Roger Caillois also sought to define play – or as Caillois put it, to derive sociology from play (Caillois, 1961). Building critically on Johan Huizinga’s work, Caillois too saw play as: free as opposed to obligatory; occupying its own time and space separate from ordinary life; unconnected to the pursuit of material gain; governed by rules, ‘orderly’; and involving imagined realities that contrast with ‘real’ life. Expanding upon Huizinga’s work, Caillois added that play can also be distinguished by chance and uncertainty – which involves the player’s initiative insofar as the results of play cannot be pre-determined (Caillois, 1961). Caillois also discerned two different play attitudes: *paidia* and *ludus*. Paidia refers to ‘free play’, it is improvised, spontaneous, impulsive, joyous, uncontrolled fantasy. Conversely, the attitude of Ludus refers to ‘gaming’, to more explicitly rule-governed forms of play that often involve specific skills and mastery (Frissen et al, 2013).
+
+&nbsp;&nbsp; In this century, Katie Salen and Eric Zimmerman published their magnum opus *Rules of Play*, in which the authors define three distinct forms of play. ‘Game Play’ defines play as something an individual does through structured, rules-based interactions (Pete and Stuart, video 6b). ‘Ludic Activity’ is again something one does, though ludic activity may be unstructured and without rules. Finally ‘Play as a Mindset’ is used to describe the spirit of play within a broader context that is not typically associated with play. 
+
+
 ### --- Play in *DistractAbility* ###
 
 
