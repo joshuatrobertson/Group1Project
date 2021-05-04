@@ -11,6 +11,159 @@
 Above is the entity relationship diagram of our data model. Player is in a separate table rather than in the Play table so that the whole data model conforms to normal forms. The player field in Play table is a foreign key that refers to Player table. The timewithoutdistraction and timewithdistraction record the time in seconds a player spends finishing the game in without distraction round and with distraction round respectively. In the Player table, we use email to identify players. The email field is required and unique. We also added a birthday field and an age virtual property in the Player table, but they are not used in our current minimal viable product. We made one schema per file in the ./models/ directory.
 
 ### Middle Tier (Express, Node, RESTful API)
+
+#### Choice of software
+<p> As seen when exploring our stack architecture, we chose to use Node and Express.js to implement our RESTful API. Aside from the wealth of information available due to the popularity of the MEAN stack, there are several technical benefits to this software choice. </p>
+
+ First and foremost, Node.js is quick. In the right scenario, it's non-blocking I/O combined with asynchronous request handling yield brilliant results. This is due to, despite being single-threaded in terms of executing JS code, it can delegate things like handling files, or network calls to different threads, which when optimized massively reduce execution time, shown well in this <a href="https://medium.com/paypal-tech/node-js-at-paypal-4e2d1d08ce4f" title="https://medium.com/paypal-tech/node-js-at-paypal-4e2d1d08ce4f">report</a>.
+
+On the other end of the spectrum we have Express, which has a shallow learning curve and is a very intuitive way to create your own API, ideal for a simple SPA.
+
+#### API Goals
+The goal of this project's API is to seamlessly and efficiently transfer data between the client and server, i.e our front and back end, based on the users game inputs. While simple, for it to qualify as a RESTful API, it must satisfy several constraints, which in the scope of our webpage are:  
+<ul>
+<li>Client-server architecture</li>
+<li>Statelessness</li>
+<li>Cacheability</li>
+<li>Uniform interface</li>
+</ul>
+
+For more information please see <a href ="https://restfulapi.net/" title="https://restfulapi.net/">here</a>.
+
+#### Building the API routes
+ To begin, we adapt the boilerplate code shown below that sets up a basic API route using Node and Express (without these, it becomes a much more painstaking process).
+
+
+Firstly, we add two new routes to our API which clearly separates what kind of data any function we write will handle, increasing the readability of the code.
+
+```js
+const express = require('express');
+const router = express.Router();
+const Player = require('../../models/player');
+const playercommands = require('./player');
+const playcommands = require('./play');
+
+router.use('/player', playercommands);
+router.use('/play', playcommands);
+
+module.exports = router;
+```
+Now for the fun stuff;
+###### Player Handling
+```js
+router.post('/', async (req, res) => {
+  const player = new Player({
+    email: req.body.email,
+    birthday: req.body.birthday
+    });
+  try{
+    const savedPlayer = await player.save()
+    res.json(savedPlayer);
+  } catch (err) {
+    res.json({ message: err });
+  }
+});
+```
+###### Play Handling
+```js
+router.post('/', async (req, res) => {
+  const player = await Player.find({email: req.body.email})
+  const play = new Play({
+    player: player[0]._id,
+    timewithoutdistraction: req.body.time1,
+    timewithdistraction: req.body.time2
+    });
+  try{
+    const savedPlay = await play.save()
+    res.json(savedPlay);
+  } catch (err) {
+    res.json({ message: err });
+  }
+});
+
+router.get('/:playerEmail', async (req, res) => {
+  try {
+    const player = await Player.find({email: req.params.playerEmail})
+    const playerId = player[0]._id;
+    const plays = await Play.find({player: playerId})
+    res.json(plays);
+  } catch (err) {
+    res.json({message : err});
+  }
+});
+
+router.get('/other/:playerEmail', async (req, res) => {
+  try {
+    const player = await Player.find({email: { $ne: req.params.playerEmail}})
+    let playerId = player[0]._id;
+    let plays = [];
+    for (let i = 0; i < player.length; i++) {
+       playerId = player[i]._id;
+       let playstemp = await Play.find({player: playerId})
+       if (playstemp.length != 0) {
+       plays.push(playstemp);
+       }
+    }
+    res.json(plays);
+  } catch (err) {
+    res.json({message : err});
+  }
+});
+```
+These 4 functions completely encapsulate any interaction between the front and back end, by this I mean, only 4 requests can possibly be made to our game. Clearly, this fulfils the criterion of Client-server architecture and statelessness (the latter by inspection). As an aside, you may notice the use of several async/await blocks, which synergise well with the non-blocking I/O nature of node, as while the request is loading, the process is free to go back and take care of any other tasks the application may need.
+
+For reference, these functions (in order):
+<ol>
+<li>Add a new "player" to the database</li>
+<li>Add a new "play" to the database (with an associated player, per the schema)</li>
+<li>Get the logged in players score history</li>
+<li>Get the score history of all other players</li>
+</ol>
+
+#### Using our API
+With the API routes created, the next challenge was to integrate these requests into the frontend of our application. Since we want complete separation of the front and back end, it would be unwise to make http requests directly from our components. This could be due to readability concerns, but more importantly scalability. It is far easier to abstract out this process, so when changes are made it is done more efficiently and easily.    
+
+To do this, we made use of another mean stack component, Angular. Angular has inbuilt skeletons for "data services" which, in layman's terms, give common functions to all areas of the application, whether they make requests or simply share data. Please find ours below.
+```js
+export class DataService {
+
+  private REST_API_SERVER = "http://localhost:3000/api";
+  message:string
+
+  constructor(private httpClient: HttpClient) { }
+
+  setMessage(data){
+    this.message=data;
+  }
+
+  public getOtherPlays(){
+    return this.httpClient.get(`${this.REST_API_SERVER}/play/other/${this.message}`)
+  }
+
+  public getPlays(){
+    return this.httpClient.get(`${this.REST_API_SERVER}/play/${this.message}`)
+  }
+
+  public postPlay(payload){
+    let httpHeaders = new HttpHeaders({​​​​​'Content-Type' : 'application/json'}​​​​​);
+    return this.httpClient.post(`${this.REST_API_SERVER}/play`, payload, {​​​​​headers: httpHeaders, observe: 'response'}​​​​​)
+  }
+
+  public postPlayer(payload){
+    let httpHeaders = new HttpHeaders({​​​​​'Content-Type' : 'application/json'}​​​​​);
+    return this.httpClient.post(`${this.REST_API_SERVER}/player`, payload, {​​​​​headers: httpHeaders, observe: 'response'}​​​​​)
+  }
+}
+```
+With this, we can make streamlined requests at any place in the frontend! (an obvious example being adding a player to the database once they've registered). This is very powerful, and makes calling the API as simple as copying in a line of code.
+
+A good example of how we used the API in our SPA is in the bar chart. The data which the bar chart displays is pulled from the API functions into the component, where it is manipulated and then finally displayed.
+
+[BAR CHART PIC Gotta be on Linux will do later]
+
+</p>
+
+
 ### Front End (Angular)
 
 #### Implementation
@@ -134,6 +287,11 @@ For the auditory distractions we decided to gather several sounds we found distr
 ### Bibliography:
 
 News API (n.d.) News API – Search News and Blog Articles on the Web [Online]. Available at https://newsapi.org [Accessed 27 April 2021].
+
+Node.js at Paypal - [Online]. Available at https://medium.com/paypal-tech/node-js-at-paypal-4e2d1d08ce4f [Accessed 04 May 2021].
+
+What is REST - [Online]. Available at https://restfulapi.net/ [Accessed 04 May 2021].
+
 
 <p align="center">
   <b>Navigation:</b><br>
