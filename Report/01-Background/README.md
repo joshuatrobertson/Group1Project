@@ -360,6 +360,10 @@
 
 &nbsp;&nbsp; The games and applications in this category do typically meet the criteria of ‘play’, albeit different forms of play, but whether such applications count as serious play really has to be assessed on a case-to-case basis. Applications in this category that are designed to ward off dementia (or at least marketed as such) arguably do count as serious play due to the seriousness of dementia and related illnesses. However, a simple sudoku puzzle arguably lacks a serious enough aspect to count as serious play.   
 
+<p align="center">
+  <img src="images/SushiGo.png" width="500"/>
+  <em>Figure 6: SushiGo! </em>
+</p>
 
 ### Bibliography: Current Industry Review
 
