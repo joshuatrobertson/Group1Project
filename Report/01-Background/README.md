@@ -177,6 +177,11 @@
 
 **DistractAbility: types of play**
 
+&nbsp;&nbsp; *DistractAbility* falls most neatly within the category of gaming or Game Play. First and foremost the card game in Caillois’ attitude of Ludus; it is something the user does, not necessarily something they feel. The game is also structured and rules-based in the following ways. The application features two rounds of a card game in which the user must flip each matching pair of cards to progress to the next stage of the game. The user must complete the first round before they can move on to the second, and there is no scope for the user to devise an alternative route through the application. The rules are clearly defined and the user can learn the rules before beginning the game by reading the ‘App Info’ popup modal window, which clearly states what the purpose of the game is and how to play.
+
+&nbsp;&nbsp; The rules of the card game relate to the serious problem in multiple ways. For one, it is the difference between the user’s scores for each round by which we quantify the impact of the distractions on their cognitive abilities – mirroring the impact of distractions on the productivity of people WFH. Moreover, the fact the player cannot define their own rules or forge their own path through *DistractAbility* mimics the fact that, in the world of work, individuals are often unable to design their own tasks and instead have to complete whatever task they are given. If Covid restrictions and the resultant distractions are making it especially difficult for an individual to complete the task at hand, then even if they would be better able to get on with administrative tasks in the presence of distractions, this is not always an option. In fact, it is perhaps ironic that play is sometimes viewed as the opposite of work, yet *DistractAbility* uses play to mimic the negative impacts of distraction on quality of work. Game Play must therefore share some parallels with work and not be its stark opposite if gaming is able to shed light on work. 
+
+
 
 **DistractAbility: motivation for playing**
 
