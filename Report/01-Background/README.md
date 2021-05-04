@@ -116,9 +116,11 @@
 &nbsp;&nbsp; The restrictions introduced to slow the spread of Coronavirus have undoubtedly increased the influence of social media and streaming services in the daily lives of people of all ages and walks of life. Globally, Netflix saw 15.8 million new subscribers in the first quarter of 2020, and daytime streaming rose 4 per cent between March and April. It is of note that on March 20th 2020, Netflix and YouTube were asked by the European commission to decrease the rate of data transfer through their in order to prevent the breakdown of the internet. According to BBC News, the use of video streaming services increased by 71% compared to 2019. Social media usage also exploded as people lost countless hours to ‘doomscrolling’ – mindlessly refreshing feeds in search of new information about the pandemic or politics. And it was not just adults, newly WFH, whose screentime increased. One German study revealed that during the first lockdown in spring 2020, children and adolescents aged 10 - 17 increased their daily screen time spent playing computer games and using social media from about four to seven hours (Spitzer, 2021). They additionally spent more time watching videos and using streaming services such as Netflix (see Figure 1 below).
 
 <p align="center">
-  <img src="images/001_screentime.png" width="750" />
-  <em>Figure 1 : This bar chart displays the average daily use (in house) of computer games (red) and social media (blue) by children and adolescents in September 2019 (before lockdown; lighter colours) and April 2020 (during lockdown; darker colours) on school days (left) and days with no school (weekends, holidays, lockdown; right). Source: Spitzer, 2021. </em>
+  <img src="images/001_screentime.png" width="400" />
+  <em>Figure 1: </em>
 </p>
+
+*Figure 1: This bar chart displays the average daily use (in house) of computer games (red) and social media (blue) by children and adolescents in September 2019 (before lockdown; lighter colours) and April 2020 (during lockdown; darker colours) on school days (left) and days with no school (weekends, holidays, lockdown; right). Source: Spitzer, 2021.*
 
 &nbsp;&nbsp; Interestingly, the pandemic seems not only to have increased the frequency of people’s use of social media and streaming services, but also the potency of the attraction, i.e. the pull on people’s attention. In Shirking from Home, interviewee Rosen admits that in the context of our unprecedented social isolation, “When you get a [notification] from someone that says they’re following you on Instagram, when you crave connection, you immediately go there,” Rosen says (Cummins, 2020).
 
