@@ -227,7 +227,7 @@ There was a first prototype of our API that required more robustness testing, a 
 2. Integrate welcome page, front end, back end and API. 
 3. Initiate the project documentation process on GitHub.
 4. Merge all features of the previous sprint and the work of this sprint into dev (welcome page, navigation buttons and API).
-5. If the above four tasks are accomplished, we should have an MVP by the end of the sprint.
+5. If the above four tasks are accomplished, we should have an MVP by the end of the sprint (US005).
 
 ##### Outcomes and Review
 1. The welcome page along with the navigation buttons were written in JavaScript, which caused a lot of issues during integration with the rest of the application. This was rectified by rewriting the components using TypeScript and remerging in dev.
