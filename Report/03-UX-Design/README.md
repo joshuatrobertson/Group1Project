@@ -34,7 +34,7 @@ The wireframes can be found [here](https://github.com/keane-fernandes/Group1Proj
 Alternatively, a gif of the paper prototype as seen in Adobe XD can be seen below.
 
 <p align="center">
-  <img src="paper-prototype.gif" width="500"/>
+  <img src="paper-prototype.gif" width="600"/>
 </p>
 <p align="center">
   <em>Paper Prototype Representing our Final Idea.</em>
