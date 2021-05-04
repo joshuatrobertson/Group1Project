@@ -341,7 +341,7 @@
 &nbsp;&nbsp; Applications in the category of ‘focus apps’ are often designed to: block selected websites and/or apps; allow the user to set a schedule or a timer for the period in which the given sites will be blocked; be difficult or impossible to disable during scheduled hours; and to offer encouragement. For instance, team member Ella uses *1Focus* to block social media during the working day, which covers the screen with an ‘inspirational’ quote about the benefits of not being distracted when the user tries to reach a blocked site during scheduled hours. Other such applications include the following. *Freedom* app, which can block distractions across multiple devices at once (Freedom.to, 2021). *Serene*, a dual planner and content-blocker for MacOS that apparently “gives you productivity superpowers” (Venture Harbour Ltd, 2021). Developed in Canada, *Cold Turkey Blocker* is a content blocker for MacOS and Windows that blocks given sites across the whole operating system (Cold Turkey Ltd, 2021). 
 
 <p align="center">
-  <img src="images/1Focus.png" width="300"/>
+  <img src="images/1Focus.png" width="600"/>
   <em>Figure 4: 1Focus </em>
 </p>
 
