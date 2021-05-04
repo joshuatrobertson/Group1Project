@@ -157,9 +157,6 @@
 &nbsp;&nbsp; We deem the most important finding of our background literature review to be the indesputable link between concentration and *working memory*. In light of this, we realised that to successfully highlight the impact of distractions on people's concentration and productivity, our application would have to fulfil the criteria of 'play' in a manner that requires the user to hold information in working memory and then use that information in order to progress through the application. 
 
 
-### Serious Play ###
-
-
 ### What is play? ### 
 
 &nbsp;&nbsp; The 1933 book *Homo Ludens*, by Johan Huizinga of the University of Leyden, was the first major scholarly work on the topic of play from a sociological viewpoint. Huizinga analysed several of the fundamental characteristics of play and the important role of play in the development and maintenance of civilisation itself. Huizinga defined three overarching characteristics of play: (1) Play is voluntary. (2) Play is not part of ordinary life, it occupies its own temporal realm removed from the ‘real’ world. (3) Play has a fixed duration, scope and place. Huizinga also identified two particular benefits of play. First play creates order in a chaotic world by providing an orderly, rules-based escape from the randomness of real life. Play also brings social benefits as it tends to create communities around itself. In Huizinga’s own words:
@@ -170,10 +167,17 @@
 
 &nbsp;&nbsp; In this century, Katie Salen and Eric Zimmerman published their magnum opus *Rules of Play*, in which the authors define three distinct forms of play. ‘Game Play’ defines play as something an individual does through structured, rules-based interactions (Pete and Stuart, video 6b). ‘Ludic Activity’ is again something one does, though ludic activity may be unstructured and without rules. Finally ‘Play as a Mindset’ is used to describe the spirit of play within a broader context that is not typically associated with play. 
 
+### Serious Play ###
 
-### --- Play in *DistractAbility* ###
 
 
+
+### Serious Play in *DistractAbility* ###
+
+
+
+
+### Our Audience ###
 
 
 
@@ -297,9 +301,14 @@
 
 **Primary Sources**
 
+R. Caillois, *Man, Play and Games*. Chicago: University of Illinois Press, 1961. Trans. Meyer Barash. pp. 3-17.
+
+J. Huizinga, *Homo Ludens: A Study of the Play Element in Culture*. Beacon Press, 1955.
 
 
 **Secondary Sources**
+
+V. Frissen, J. de Mul and J. Raessens, "Homo Ludens 2.0: Play, Media and Identity", in *Contemporary Culture*, J. Thissen, R. Zwijnenberg and K. Zijlmans, Ed. (Amsterdam: Amsterdam University Press, 2013), pp.75-92.
 
 
 
