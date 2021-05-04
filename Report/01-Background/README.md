@@ -330,6 +330,11 @@
 
 &nbsp;&nbsp; We acknowledge that the kinds of ‘mindless mobile games’ mentioned above clearly were not designed to fit the criteria of serious play; in and of themselves applications like Candy Crush typically bear no relevance to serious issues. Notwithstanding, we deemed this category worth including in our industry review because of the relevance of user intent to serious play in this context. Here the user plays a fun and interactive game (play) in order to take their mind off anxiety, stress or panic (an undoubtedly serious problem). In other words, the user’s motivation for engaging with the applications in this category makes these otherwise unserious applications instrumental in addressing a very serious problem. This does not necessarily bring the applications themselves under the scope of serious play, indeed most would not count as serious play in the hands of a user without the same serious motivation. But at the least we think it is interesting to consider the extent to which the user’s intent or motivation might exert a transformative effect on what does and does not count as serious play.
 
+<p align="center">
+  <img src="images/TwoDots.png" width="300"/>
+  <em>Figure 3: Two Dots </em>
+</p>
+
 
 ### (3) Applications that boost productivity by limiting distractions
 
