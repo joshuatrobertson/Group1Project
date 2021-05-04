@@ -159,7 +159,12 @@ With this, we can make streamlined requests at any place in the frontend! (an ob
 
 A good example of how we used the API in our SPA is in the bar chart. The data which the bar chart displays is pulled from the API functions into the component, where it is manipulated and then finally displayed.
 
-[BAR CHART PIC Gotta be on Linux will do later]
+<p align="center">
+  <img src="images/barChart.png" width="500"/>
+</p>
+<p align="center">
+  <em>Bar chart comparing users times.</em>
+</p>
 
 </p>
 
