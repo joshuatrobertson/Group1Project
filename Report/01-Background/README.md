@@ -167,12 +167,15 @@
 
 &nbsp;&nbsp; In this century, Katie Salen and Eric Zimmerman published their magnum opus *Rules of Play*, in which the authors define three distinct forms of play. ‘Game Play’ defines play as something an individual does through structured, rules-based interactions (Pete and Stuart, video 6b). ‘Ludic Activity’ is again something one does, though ludic activity may be unstructured and without rules. Finally ‘Play as a Mindset’ is used to describe the spirit of play within a broader context that is not typically associated with play (Salen & Zimmerman, 2003). 
 
-### Serious Play ###
-
-
-
 
 ### Serious Play in *DistractAbility* ###
+
+&nbsp;&nbsp; ‘Serious play’ addresses a real-world problem and/or raises awareness about an important, pressing issue by engaging audiences through the use of playful techniques. The use of playful techniques will often shed new light on the problem and can promote an active learning experience that users find more engaging than more traditional learning methods (Pete & Stuart, 1c).  
+
+&nbsp;&nbsp; Our site, *DistractAbility*, raises awareness about the attentional difficulties many people have experienced since the onset of the Coronavirus pandemic. We trust that the background literature review will have demonstrated the genuine seriousness of the problem. In this section we therefore focus on the play aspects of  *DistractAbility* and how our design decisions relate to the theoretical background of distraction.
+
+
+
 
 
 
