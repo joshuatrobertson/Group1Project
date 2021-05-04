@@ -83,15 +83,15 @@ In the waterfall methodology, all the requirements gathering, and design work is
 #### Evaluation
 We evaluated these frameworks against a set of factors critical to delivering our web application in the leanest and most efficient manner given the tight time schedule. A summary of these factors is presented below:
 
-| Evaluation Criteria             | Waterfall                                                                                                                                                                          | Scrum                                                                                                                                                                                     |
-| :------------------------------ | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Evaluation Criteria            | Waterfall                                                                                                                                                                          | Scrum                                                                                                                                                                                     |
+| :----------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Software Development Lifecycle | Divided into concrete phases with little to no room for maneuverability around the design documentation.                                                                           | Every sprint is essentially a development lifecycle making it a suitable choice for short, time critical projects.                                                                        |
-| Planning                        | Extensive documentation required before the start of the project.                                                                                                                  | A backlog of tasks and user stories required that can be accomplished using scoping workshops, overhead is a lot less.                                                                    |
-| Change Management               | Laborious, since this would warrant changes to be made in the design and planning documentation.                                                                                   | Changes can be introduced flexibly, even late in the cycle, because of the short-lived nature of sprints.                                                                                 |
-| Stakeholder Collaboration       | After the requirements specification from the client, there is no collaboration until delivery of the first prototype of the product.                                              | Maximum client collaboration and intervention possible due to continuous delivery at the end of each sprint, suitable for the SEGP team to provide us continuous feedback on our product. |
-| Issue Identification            | Due to the lack of iterative review, issues become apparent upon delivery of the first prototype to the client.                                                                    | Issues are identified during sprint reviews and can be rectified instantaneously.                                                                                                         |
-| Scheduling                      | Given that meticulous planning is mandatory at the start if the project, this is a massive disadvantage to inexperienced teams as they are unable to estimate the effort required. | The short-lived nature of sprints provides invaluable insight into the abilities of team members early in the project, making scheduling a lot more accurate for future sprints.          |
-| Team Size                       | Suitable for big teams.                                                                                                                                                            | Suitable for teams with 3-10 members.                                                                                                                                                     |
+| Planning                       | Extensive documentation required before the start of the project.                                                                                                                  | A backlog of tasks and user stories required that can be accomplished using scoping workshops, overhead is a lot less.                                                                    |
+| Change Management              | Laborious, since this would warrant changes to be made in the design and planning documentation.                                                                                   | Changes can be introduced flexibly, even late in the cycle, because of the short-lived nature of sprints.                                                                                 |
+| Stakeholder Collaboration      | After the requirements specification from the client, there is no collaboration until delivery of the first prototype of the product.                                              | Maximum client collaboration and intervention possible due to continuous delivery at the end of each sprint, suitable for the SEGP team to provide us continuous feedback on our product. |
+| Issue Identification           | Due to the lack of iterative review, issues become apparent upon delivery of the first prototype to the client.                                                                    | Issues are identified during sprint reviews and can be rectified instantaneously.                                                                                                         |
+| Scheduling                     | Given that meticulous planning is mandatory at the start if the project, this is a massive disadvantage to inexperienced teams as they are unable to estimate the effort required. | The short-lived nature of sprints provides invaluable insight into the abilities of team members early in the project, making scheduling a lot more accurate for future sprints.          |
+| Team Size                      | Suitable for big teams.                                                                                                                                                            | Suitable for teams with 3-10 members.                                                                                                                                                     |
 
 A big advantage of the Scrum framework is its iterative nature. We believed this would help us constantly reflect on our capabilities and rescope our project if necessary, at the end of every sprint. Moreover, the relatively short development lifecycle of the Scrum framework had the potential to provide us with invaluable insight into the weaknesses in our workflows. The idea would be to identify these weaknesses early in the project, learn from them, and rectify them in time for the next sprint. 
 
@@ -105,16 +105,16 @@ Given the tight schedule and open-endedness of the project, we had to scope our 
 
 | Primary Objectives                                                                                                            |       Status       |
 | :---------------------------------------------------------------------------------------------------------------------------- | :----------------: |
-| Build a basic, functioning prototype of a single page application using the MEAN stack.                                        | :white_check_mark: |
+| Build a basic, functioning prototype of a single page application using the MEAN stack.                                       | :white_check_mark: |
 | Ensure that the web application strikes the right balance between serious and play.                                           | :white_check_mark: |
-| Continuous integration using GitHub and Docker is to be used throughout the project.                                           | :white_check_mark: |
+| Continuous integration using GitHub and Docker is to be used throughout the project.                                          | :white_check_mark: |
 | The web application shall be a card matching game with two rounds consisting of a normal round and a round with distractions. | :white_check_mark: |
 | The user of the application will be able to compare their scores after both rounds.                                           | :white_check_mark: |
 
 
 Time-permitting, these were the secondary objectives:
 
-| Secondary Objectives                                              |       Status       |
+| Secondary Objectives                                               |       Status       |
 | :----------------------------------------------------------------- | :----------------: |
 | The application shall be statically served on GitHub pages.        | :white_check_mark: |
 | The application shall support user authentication using passwords. |        :x:         |
@@ -125,8 +125,8 @@ A key step in the scrum workflow is the ideation of the user stories necessary t
 
 
 
-| Code      | User Story                                                                                                                                             | Completed in                                                   |
-| --------- | :----------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------- |
+| Code                                                                                   | User Story                                                                                                                                             | Completed in                                                   |
+| -------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------- |
 | [**US001**](https://github.com/keane-fernandes/Group1Project/projects/1#card-60261136) | As a user, I want to be able to type out the web address and arrive on the welcome page of the website.                                                | [Sprint 1](#sprint-1-development-i-0504---1104)                |
 | [**US002**](https://github.com/keane-fernandes/Group1Project/projects/1#card-58447299) | As a user, I want to compare my score against other users of the game.                                                                                 | [Sprint 3](#sprint-3-development-iii-1904---2504)              |
 | [**US003**](https://github.com/keane-fernandes/Group1Project/projects/1#card-58441596) | As a user, I want to compare my score against my previous score.                                                                                       | [Sprint 3](#sprint-3-development-iii-1904---2504)              |
@@ -157,6 +157,8 @@ The way we approached our sprints were as follows:
 </div>
 
 #### Sprint 1: Development I (05/04 - 11/04)
+##### Preamble
+Given this was our first sprint, we were not expecting much to get done whilst our members were finding our way around agile working. Therefore, the tasks and user stories laid out for the week were not extremely overbearing.
 
 ##### Plan
 1. Setup development environments on all team members' workstations and practice the continuous integration process (push / pull workflow) using our own feature branches.
@@ -174,7 +176,8 @@ The way we approached our sprints were as follows:
 5. The team now had the required knowledge to implement design decisions keeping in mind API considerations. 
    
 #### Sprint 2: Development II (12/04 - 18/04)
-
+##### Preamble
+The previous sprint helped prepare the necessary groundwork to optimise our development and delivery at the end of every sprint. We decided that now would be the right time to branch off and develop the features of the application that each of us were responsible for.
 ##### Plan
 1. Setup docker, ensure docker-compose script is able to spin up containers and serve our web application.
 2. Update the base game so that there is now a round two, where distractions in the form of news articles move across the screen as you play (US006).
@@ -187,7 +190,8 @@ The way we approached our sprints were as follows:
 3. The Express module was still a work in progress and was carried forward into the next sprint.
 
 #### Sprint 3: Development III (19/04 - 25/04)
-Based on the momentum and feedback from the development activities of last week's sprint we were coming closer to achieving a fully functional MVP. This week's sprint was critical in developing our API and integrating the frontend and backend.
+##### Preamble
+Based on the momentum and feedback from the development activities of last week's sprint we were coming closer to achieving a fully functional MVP. We exceeded our frontend goals and now had a game with auditory and visual distractions. This week's sprint was critical in developing our API, database and continue tweaking our continuous delivery pipeline.
 ##### Plan
 1. Add navigation buttons on the website based on UX/UI design workshops.
 2. Create the welcome page of our web application (US001).
@@ -199,6 +203,8 @@ Based on the momentum and feedback from the development activities of last week'
 3. We had a first working prototype of our API with more robustness testing to be performed in the next sprint.
    
 #### Sprint 4: Bugs, Fixes and Documentation (26/04 - 02/05) 
+##### Preamble
+There was a first prototype of our API that required more robustness testing, a fully functional back and a welcome page that all had to be integrated. We were also facing some problems with pulling news sources from our external. Therefore, this sprint was mainly set aside to integrate the different elements of our application and fix bugs.
 
 ##### Plan
 1. Finalize the API.
@@ -210,18 +216,22 @@ Based on the momentum and feedback from the development activities of last week'
 ##### Outcomes and Review
 1. The welcome page along with the navigation buttons were written in JavaScript, which caused a lot of issues during integration with the rest of the application. This was rectified by rewriting the components using TypeScript and remerging in dev.
 2. The API was finalised, review and merged into dev.
-3. The application was then tested using `ng serve` and `docker-compose up`, and worked as expected. At this point, we had a functioning minimum viable product.
+3. The application was then tested using Docker, and worked as expected. At this point, we had a functioning minimum viable product.
 4. The project documentation process was successfully initiated, with the report template and navigation links fully setup on GitHub.
 
 #### Sprint 5: Deployment and Documentation (03/05 - 07/05)
+##### Preamble
+We now had an MVP and the only thing left to complete was to finalise documentation. Time permitting, we wanted to look at how we could publicly serve our application.
 
 ##### Plan
-1. Look at avenues to publicly serve our application using GitHub pages.
-2. Finish up documentation, with submission on Thursday evening at the very latest.
-3. Fix up any last-minute bugs, and merge into **master** as a release for project submission.
-
+1. Finish up documentation, with submission on Thursday evening at the very latest.
+2. Fix up any last-minute bugs, and merge into **master** as a release for project submission.
+3. Potentially, look at avenues to publicly serve our application using GitHub pages.
+ 
 ##### Outcomes and Review
-1. [Ongoing, UPDATE]
+1. As expected, there were a few bugs that required some attention and have now been fixed.
+2. Documentation was successfully completely and merged into our repo the day before submission (6th May 2021).
+3. Decided not to go with publicly serving our application due to lack of time.
 
 ## CI/CD Pipeline
 ### Continuous Integration with GitHub
@@ -247,19 +257,21 @@ For the sake of completeness, it is important to mention that the **production**
 </p>
 
 ### Continuous Deployment with Docker
-The use of Docker helped
+Prior to integrating Docker into our workflow, team development was turning out quite problematic given the fact that we were working on Windows, MacOS and Linux. There were instances where the website would be served completely fine on Windows and Linux, but would appear glitchy on MacOS. 
+
+The use of Docker helped provide a consistent working environment for our application and OS-specific issues were avoided. More specifically, Docker was crucial in the manual testing of our application before merging our **staging** with the **production** branch. The technical implementation of Docker can be found in our [system implementation](../02-System-Implementation/README.md) section.
 
 ## Team Contributions
 
 Documentation contributions. [INSERT LINK HERE]
 
-| Team Member          | Contribution            |
-| :------------------- | :---------------------- |
-| Joshua Robertson     | Front end, UX/UI Design |
-| Alan Cen             | Back end                |
-| Ella Gryf-Lowczowska | Front end, UX/UI Design |
-| Efan Haynes          | API                     |
-| Keane Fernandes      | Docker, Github          |
+| Team Member          | Contribution                    |
+| :------------------- | :------------------------------ |
+| Joshua Robertson     | Front end, UX/UI Design         |
+| Alan Cen             | Back end                        |
+| Ella Gryf-Lowczowska | Front end, UX/UI Design         |
+| Efan Haynes          | API                             |
+| Keane Fernandes      | DevOps, project management |
 
 
 ### Bibliography: Sprints and Project Management
