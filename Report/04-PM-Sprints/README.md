@@ -1,5 +1,21 @@
 [&#8592; Back to Report Landing Page](../README.md)
 # Sprints and Project Management
+
+## Table of Contents
+1. [Communication](#communication)  
+   a. [Overview](#overview)  
+   b. [Channels](#channels)  
+2. [Agile Working](#agile-working)  
+   a. [Choice of Methodology](#choice-of-methodology)  
+   b. [Project Vision and Scoping](#project-vision-and-scoping)  
+   c. [User Story Creation](#user-story-creation) 
+   d. [Sprints](#sprints) 
+3. [CI/CD Pipeline](#cicd-pipeline)  
+   a. [Continuous Integration with GitHub](#continuous-integration-with-github)  
+   b. [Continuous Deployment with Docker](#continuous-deployment-with-docker)  
+4. [Team Contributions](#team-contributions)  
+5. [Bibliography](#bibliography-sprints-and-project-management)  
+
 ## Communication
 ### Overview
 We spent weeks 1 - 5 (01/02 - 05/03) to absorb the content delivered in the technical and design workshops and implement the walkthroughs on our own machines. This gave us the necessary information to decide on which roles we would undertake during our sprints. Therefore, our communication during these five weeks was just limited to the Tuesday and Thursday SEGP workshop timeslots. 
@@ -8,7 +24,7 @@ From week 6 onwards, we held standups on Mondays, Wednesdays, and Fridays at 10:
 
 The [meeting logs](../../Meetings/README.md) provide a top-level summary of all of our standups.
 
-### Communication Channels
+### Channels
 Microsoft Teams was the primary tool for our daily standups and workshops. 
 
 We used Discord for our general day to day communication. The Discord server was split into channels to further streamline topics of discussion and are as follows:
@@ -273,8 +289,9 @@ Documentation contributions. [INSERT LINK HERE]
 | Efan Haynes          | API                             |
 | Keane Fernandes      | DevOps, project management |
 
+---
 
-### Bibliography: Sprints and Project Management
+## Bibliography: Sprints and Project Management
 
 &nbsp; V. Driessen, "Sucessful Git Branching Model", Git, 2010. Available: https://nvie.com/posts/a-successful-git-branching-model/ [Accessed: 20- Apr- 2021].
 
