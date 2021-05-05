@@ -11,6 +11,7 @@ As an aside, given the choice, we would avoid the use of Microsoft Teams for com
 ### Project Objectives
 We had gotten accustomed to the agile workflow by the third sprint, but given the short-lived nature of this project, we managed to achieve the primary objectives required to produce our minimum viable product (MVP). The underestimation of the effort needed to produce coherent and concise documentation meant that we decided not to pursue our secondary objectives of publicly serving our application and implementing user authentication. However, we believe that the current state of our application can act as a solid starting ground for these additional features to be added. 
 ### Remote Working (COVID)
+It has been an unusual year for all of us in this covid stricken era, and it goes without saying that the lack of human interaction throughout the duration of the project has impacted us all. It is difficult to explain using words, but there is this sense of teamwork and spirit that lingers around the room where developers can talk to each other directly when working under the same roof. Anyhow, we believe that our working practices provided us the closest possible resemblance to what developing would be like in a workplace.
 
 ## Social / Ethical Implications
 
