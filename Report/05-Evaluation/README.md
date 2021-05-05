@@ -5,20 +5,17 @@
 ### Old Idea
 
 #### 1. Sustainadress (*provisional name*)
-
 In the project we propose Sustainadress, a single page application where the user is tasked with finding the most sustainable outfit of the options provided, sticking within time and budget constraints. This is meant to highlight the environmental impact of fast and unsustainable fashion. We task the user with dressing themselves out of the clothing options provided; after the time limit is up, we reveal whether the user chose the most sustainable outfit overall, out of the options provided. The playful element of this project comes in customizing and dressing up your avatar, and to get a better score on the next playthrough.
 
 ### Paper Prototype
-
 - 'old_idea/project 1.pptx' is the prototype we created for our initial idea (Sustainadress).
 - 'paper_prorotype.xd' is the prototype for our current idea (Focus on Lock).
 - 'prototype_document.docx' is documentation for the current prototype and the thought process behind it.
 
 ## Unit Testing
-
 For the unit testing, we decided that it would in theory would make sense to have one good unit test per component. Although this is the case for most of our components, those which share high similarity are tested together. This can be seen in the RestartGame and EndGame Components, of which there is only one test.
-### NewsApiComponent
 
+### NewsApiComponent
 For the NewsApiComponent, to test that the API is being used to correctly pull in the news articles, we make use of the HttpTesting Controller to inject the http requests into the test. An example of some of the unit tests for this component can be seen below.
 ```
 describe('Fetch the News Items', () => {
@@ -35,7 +32,6 @@ describe('Fetch the News Items', () => {
   ```
 
 ### AppComponent
-
 The main testing is carried out within the AppComponent. Here, we begin by asserting that relevant variables have been set correctly, as can be seen below.
 
 ```
@@ -60,10 +56,10 @@ The test file is also used to assert the output of any relevant functions. For e
   ```
 
 ## Functional Testing
-For the functional testing, we created two tests; the first aimed towards testing the functionality of the essential components of the website, those needed for the game to work; and the second geared towards any other less critical components of the website. The tests can be seen below.
+For the functional testing, we created two tests; the first aimed towards testing the functionality of the essential components of the website, those needed for the game to work; and the second geared towards any other less critical components of the website. The tests can be found below.
 
-1. [Critical components test](functional-test-1 "The first functional test")
-2. [Other components test](functional-test-2 "The second functional test")
+1. [Critical components test](functional-test-1.md "The first functional test")
+2. [Other components test](functional-test-2.md "The second functional test")
 
 ## User Acceptance Testing
 - 'UserTesting.md' documents the end user testing process and explains the structure of the UserTesting directory.

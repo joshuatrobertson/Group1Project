@@ -5,7 +5,6 @@
 ## UX Approach (Heuristics & Design Methods)
 ## User Group Definition
 ## Wireframes/Interaction Flow Diagrams
-
 For the project, our initial idea involved creating a single page web application centred around making sustainable fashion choices. For the paper prototype, we used collaborative image software to test the feasibility and look of our idea. Although ideally we would have liked to do this using a traditional pen and paper approach, due to covid restrictions this was not possible. The results of this can be seen below.
 <p align="center">
   <img src="images/paper-prototype-2.png" width="500"/>

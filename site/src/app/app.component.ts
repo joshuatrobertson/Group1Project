@@ -100,13 +100,13 @@ export class AppComponent {
     this.playerEmail = document.getElementById('email');
     this.playerEmail = this.playerEmail.value;
     let ob = {"email": this.playerEmail};
-    this.dataService.postPlayer(ob).subscribe((res: any) => {​​​​​
+    this.dataService.postPlayer(ob).subscribe((res: any) => {
       let body = res.body;
       console.log('response body', body);
-      }​​​​​, (error) => {​​​​​
+    }, (error) => {
       console.log('Failed with post');
       console.error(error);
-    }​​​​​);
+    });
     this.dataService.setMessage(this.playerEmail);
   }
 
