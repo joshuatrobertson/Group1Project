@@ -2,8 +2,37 @@
 # UX Design
 ## Prototyping
 ## Users and Stakeholders
+
+<p align="center">
+  <img src="images/persona_student.png" width="500"/>
+</p>
+<p align="center">
+  <em>Figure XX: A student persona.</em>
+</p>
+
+<p align="center">
+  <img src="images/persona_teacher.png" width="500"/>
+</p>
+<p align="center">
+  <em>Figure XX: A teacher persona.</em>
+</p>
+
 ## UX Approach (Heuristics & Design Methods)
+The way we approached our user experience was by following Nielsen’s ten general principles during the design phase of our project.
+
+<p align="center">
+  <img src="images/design-heuristics.png" width="500"/>
+</p>
+<p align="center">
+  <em>Figure XX: Jakob Nielsen's ten general principles for interaction Design.</em>
+</p>
+
+[Refer to components in our application that show some of these principles have been taken into consideration?]
+
+
 ## User Group Definition
+
+
 ## Wireframes/Interaction Flow Diagrams
 For the project, our initial idea involved creating a single page web application centred around making sustainable fashion choices. For the paper prototype, we used collaborative image software to test the feasibility and look of our idea. Although ideally we would have liked to do this using a traditional pen and paper approach, due to covid restrictions this was not possible. The results of this can be seen below.
 <p align="center">
