@@ -10,14 +10,12 @@ import { map, filter, switchMap } from 'rxjs/operators';
 export class DataService {
 
   private REST_API_SERVER = "http://localhost:3000/api";
-  private EFAN_ID = "http://localhost:3000/api/play/607344a09c88d4001c80ce45";
   message:string
 
   constructor(private httpClient: HttpClient) { }
 
   setMessage(data){
     this.message=data;
-    console.log(this.message);
   }
 
   public getOtherPlays(){
@@ -29,17 +27,12 @@ export class DataService {
   }
 
   public postPlay(payload){
-    console.log("we hereplay");
     let httpHeaders = new HttpHeaders({​​​​​'Content-Type' : 'application/json'}​​​​​);
     return this.httpClient.post(`${this.REST_API_SERVER}/play`, payload, {​​​​​headers: httpHeaders, observe: 'response'}​​​​​)
   }
 
   public postPlayer(payload){
-    console.log("we hereplayer");
     let httpHeaders = new HttpHeaders({​​​​​'Content-Type' : 'application/json'}​​​​​);
     return this.httpClient.post(`${this.REST_API_SERVER}/player`, payload, {​​​​​headers: httpHeaders, observe: 'response'}​​​​​)
   }
-
-
-
 }
