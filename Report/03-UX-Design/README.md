@@ -46,6 +46,7 @@ View the initial prototype [here](https://github.com/keane-fernandes/Group1Proje
 *    Participants were sent the prototype and a summary of our project brief and asked to go over both before the group zoom call. 
 *   24 hours after being sent the prototype, the researcher held a group zoom call with a subset of study participants. During the zoom call, the researcher walked everyone through the prototype, answering questions as they came up.
 *    Immediately after the zoom call, participants were sent the questionnaire and asked to respond without consulting other participants in the group.
+* We received fourteen [responses](https://github.com/keane-fernandes/Group1Project/tree/dev/Report/03-UX-Design/FirstSurvey/Survey1_Responses.xlsx). See a more visual representation [here](https://github.com/keane-fernandes/Group1Project/tree/dev/Report/03-UX-Design/FirstSurvey/Survey1_Answers.pdf).
 
 
 <p align="center">
