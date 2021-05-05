@@ -44,7 +44,7 @@ DistractAbility
 | The user of the application will be able to compare their scores after both rounds.                                           | :white_check_mark: |
 
 # Video
-![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Anu82ZdiTFk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 # Documentation
 
