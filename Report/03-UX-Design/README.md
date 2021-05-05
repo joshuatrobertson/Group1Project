@@ -3,7 +3,79 @@
 ## Prototyping
 ## Users and Stakeholders
 ## UX Approach (Heuristics & Design Methods)
+
+
 ## User Group Definition
+
+
+
+## End User Testing *DistractAbility* ##
+
+### Research Objectives ###
+
+During the initial prototyping stages our research objectives were as follows:
+
+•    What sorts of things do people instinctively find most distracting 
+•    What sorts of mind-games people would find engaging
+•    Evaluate proposed user experience (flow and UI design)
+
+Towards the end of the development phase our research objectives were as follows:
+
+•    Test our hypothesis that the presence of distractions negatively impacts performance 
+•    Test our hypothesis that DistractAbility does effectively highlight the serious problem
+•    Evaluate distractions used in the second round
+•    Evaluate user experience 
+•    Feedback on potential future improvements 
+
+
+### Methodology ###
+
+•    Two rounds of survey testing
+•    One round of moderated user testing
+
+### Ethnography ### 
+
+
+
+
+### Survey – Round 1 ###
+
+
+
+
+**Findings and Impacts**
+| Finding                                             | Impact |
+| ---------------------------------------- | ----------- | 
+|     Finding one    |   Impact on our design     |
+
+
+
+
+### Moderated User Testing ###
+
+
+
+
+### Survey – Round 2 ###
+
+
+
+
+### Summary ### 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Wireframes/Interaction Flow Diagrams
 For the project, our initial idea involved creating a single page web application centred around making sustainable fashion choices. For the paper prototype, we used collaborative image software to test the feasibility and look of our idea. Although ideally we would have liked to do this using a traditional pen and paper approach, due to covid restrictions this was not possible. The results of this can be seen below.
 <p align="center">
