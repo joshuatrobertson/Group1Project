@@ -61,12 +61,13 @@ Here is our [full project documentation](Report/README.md).
 Find your way around our repository using the links in our repository skeleton below:
 
  📦 Repository  
- &nbsp;|  
- &nbsp;|--- 📂 [Site](https://github.com/keane-fernandes/Group1Project/tree/keane-documentation/site) &#8594; [ The MEAN stack SPA. ]  
- &nbsp;|  
- &nbsp;|--- 📂 [Report](Report/README.md) &#8594; [ MEAN stack SPA documentation. ]  
- &nbsp;|  
- &nbsp;|--- 📂 [Source](https://github.com/keane-fernandes/Group1Project/tree/keane-documentation/Source) &#8594; [ Source files for technical and design activities. ]  
- &nbsp;|  
- &nbsp;|--- 📂 [Meetings](Meetings/README.md) &#8594; [ Daily standup logs. ]  
-
+ &nbsp; &nbsp;|  
+ &nbsp; &nbsp;|&#8212; 📂 [Site](https://github.com/keane-fernandes/Group1Project/tree/keane-documentation/site) &#8594; [ The MEAN stack SPA. ]  
+ &nbsp; &nbsp;|  
+ &nbsp; &nbsp;|&#8212; 📂 [Report](Report/README.md) &#8594; [ MEAN stack SPA documentation. ]  
+ &nbsp; &nbsp;|  
+ &nbsp; &nbsp;|&#8212; 📂 [Source](https://github.com/keane-fernandes/Group1Project/tree/keane-documentation/Source) &#8594; [ Source files for technical and design activities. ]  
+ &nbsp; &nbsp;|  
+ &nbsp; &nbsp;|&#8212; 📂 [Meetings](Meetings/README.md) &#8594; [ Daily standup logs. ]  
+ &nbsp; &nbsp;|  
+ &nbsp; &nbsp;|&#8212; 📂 [Testing](Testing/README.md) &#8594; [ Testing logs. ]  
