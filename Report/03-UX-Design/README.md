@@ -66,7 +66,7 @@ View the initial prototype [here](https://github.com/keane-fernandes/Group1Proje
 
 
 <p align="center">
-  <img src="images/kindsOfDistractions.png" width="500"/>
+  <img src="FirstSurvey/kindsOfDistractions.png" width="500"/>
 </p>
 <p align="center">
   <em>Responses in our first survey.</em>
