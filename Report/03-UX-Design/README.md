@@ -15,23 +15,23 @@
 
 During the initial prototyping stages our research objectives were as follows:
 
-•    What sorts of things do people instinctively find most distracting 
-•    What sorts of mind-games people would find engaging
-•    Evaluate proposed user experience (flow and UI design)
+*    What sorts of things do people instinctively find most distracting 
+*    What sorts of mind-games people would find engaging
+*    Evaluate proposed user experience (flow and UI design)
 
 Towards the end of the development phase our research objectives were as follows:
 
-•    Test our hypothesis that the presence of distractions negatively impacts performance 
-•    Test our hypothesis that DistractAbility does effectively highlight the serious problem
-•    Evaluate distractions used in the second round
-•    Evaluate user experience 
-•    Feedback on potential future improvements 
+*    Test our hypothesis that the presence of distractions negatively impacts performance 
+*    Test our hypothesis that DistractAbility does effectively highlight the serious problem
+*    Evaluate distractions used in the second round
+*    Evaluate user experience 
+*    Feedback on potential future improvements 
 
 
 ### Methodology ###
 
-•    Two rounds of survey testing
-•    One round of moderated user testing
+*    Two rounds of survey testing
+*    One round of moderated user testing
 
 ### Ethnography ### 
 
