@@ -71,6 +71,8 @@ View the initial prototype [here](https://github.com/keane-fernandes/Group1Proje
 *    In order to tie the distracting sounds to the typical lockdown experience we included construction sounds, the BBC theme song, and soundbites from Netflix’s *Tiger King* - the second most watched TV series globally in 2020. 
 *    We have ten different mobile phone and social media sound effects – more than any other type of distraction. 
 
+Sample the kinds of sounds included in our application [here](sounds/teamsCall.mp3), [here](sounds/joeExotic2.mp3) and [here](sounds/BBC.mp3).
+
 **Evaluation**: The options presented in *Question 3* included examples of what we envisaged for each type of distraction. For instance, once option was ‘Advanced Sound (e.g. notification bells, incoming WhatsApp sound, BBC theme song)’. Providing these specific examples in a tick-box question does not provide much scope for participants to express a different view of what they consider an ‘Advanced Sound’ and the like. However, we believe we corrected this limitation with the following question, which gave respondents an open text box in which to make any additional suggestions as to what kind of distractions they would like to see. 
 
 <p align="center">
@@ -79,8 +81,6 @@ View the initial prototype [here](https://github.com/keane-fernandes/Group1Proje
 <p align="center">
   <em>Responses to Question 3.</em>
 </p>
-
-Sample the kinds of sounds included in our application [here](sounds/teamsCall.mp3), [here](sounds/joeExotic2.mp3) and [here](sounds/BBC.mp3).
 
 
 
