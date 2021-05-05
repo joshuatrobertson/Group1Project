@@ -5,11 +5,15 @@ import { RestartGameComponent } from './restart-game/restart-game.component';
 import {EndGameComponent} from './end-game/end-game.component';
 import {DataService} from './data.service';
 import { ModalService } from './modal';
+import {HttpClient} from '@angular/common/http';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  styleUrls: ['./app.component.css'],
+  providers: [
+    DataService, HttpClient
+  ]
 })
 export class AppComponent {
 
@@ -96,13 +100,13 @@ export class AppComponent {
     this.playerEmail = document.getElementById('email');
     this.playerEmail = this.playerEmail.value;
     let ob = {"email": this.playerEmail};
-    this.dataService.postPlayer(ob).subscribe((res: any) => {​​​​​
+    this.dataService.postPlayer(ob).subscribe((res: any) => {
       let body = res.body;
       console.log('response body', body);
-      }​​​​​, (error) => {​​​​​
+    }, (error) => {
       console.log('Failed with post');
       console.error(error);
-    }​​​​​);
+    });
     this.dataService.setMessage(this.playerEmail);
   }
 

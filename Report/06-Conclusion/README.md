@@ -2,8 +2,16 @@
 # Conclusion
 ## Evaluation
 ### Working practices
+The git workflow was relatively new to all of us which meant that there was a slight learning curve at the start of the project. Merge commits, rebasing and finding our way around git land reduced our development velocity in the initial sprints. However, as the sprints progressed, we gained traction and momentum and code reviews and merges simply became second nature. 
+
+Initially, daily stand-ups and documentation seemed too excessive because we were still finding our way around the technical aspects of implementing our application. However, around the later sprints and documentation, the value of documenting meeting minutes and constant communication became apparent. We had the opportunity to constantly review and refocus depending on the status of the project. Meeting daily definitely helped emulate a working developer environment where we could ask questions and simply update each other on our progress. Moreover, it was useful to look back at the design decisions we made at different stages of the project and to learn from them.
+
+As an aside, given the choice, we would avoid the use of Microsoft Teams for communication due to it being a resource hog and the fact that it almost always caused significant disruptions during our stand-ups. Screen sharing during a video call would simply crash the computer and this would need to be rectified for future work in this project.
+
 ### Project Objectives
+We had gotten accustomed to the agile workflow by the third sprint, but given the short-lived nature of this project, we managed to achieve the primary objectives required to produce our minimum viable product (MVP). The underestimation of the effort needed to produce coherent and concise documentation meant that we decided not to pursue our secondary objectives of publicly serving our application and implementing user authentication. However, we believe that the current state of our application can act as a solid starting ground for these additional features to be added. 
 ### Remote Working (COVID)
+It has been an unusual year for all of us in this covid stricken era, and it goes without saying that the lack of human interaction throughout the duration of the project has impacted us all. It is difficult to explain using words, but there is this sense of teamwork and spirit that lingers around the room where developers can talk to each other directly when working under the same roof. Anyhow, we believe that our working practices provided us the closest possible resemblance to what developing would be like in a workplace.
 
 ## Social / Ethical Implications
 
