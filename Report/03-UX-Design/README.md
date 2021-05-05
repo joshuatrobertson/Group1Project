@@ -80,7 +80,7 @@ View the initial prototype [here](https://github.com/keane-fernandes/Group1Proje
 
 **Research Question**:  What sorts of distractions will best exemplify the difficulties of focusing on work during lockdown? *Covered by survey questions 3-5*.
 
-**Finding**: 
+**Findings**: 
 *    Respondents would most like to see ‘Advanced Sound’ (92.9%) closely followed by ‘Advanced Animation’ (78.6%). The least popular option was ‘Player Specific Demands’ (7.1%).
 *    Respondents want distractions that relate to the typical lockdown experience – suggestions included construction sounds and P.E. with Joe Wicks.  
 *   Most respondents would prioritise mobile phone and social media notification sounds. 
@@ -106,7 +106,7 @@ Sample the kinds of sounds included in our application [here](sounds/teamsCall.m
 
 **Research Question**: What sorts of mind-games will people find engaging?
 
-**Finding**: 
+**Findings**: 
 *   People would most like to play Logic Games, followed by Maths Games then General Knowledge.
 *    General knowledge type games may not be a fair assessment as what is general knowledge to one person is not common knowledge to the next.  
 
