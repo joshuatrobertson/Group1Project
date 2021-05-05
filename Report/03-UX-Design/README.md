@@ -77,7 +77,7 @@ View the initial prototype [here](https://github.com/keane-fernandes/Group1Proje
   <img src="FirstSurvey/kindsOfDistractions.png" width="500"/>
 </p>
 <p align="center">
-  <em>Responses in our first survey.</em>
+  <em>Responses to Question 3.</em>
 </p>
 
 Sample the kinds of sounds included in our application [here](sounds/teamsCall.mp3), [here](sounds/joeExotic2.mp3) and [here](sounds/BBC.mp3).
