@@ -83,8 +83,28 @@ Sample the kinds of sounds included in our application [here](sounds/teamsCall.m
 </p>
 
 
-
 **Research Question**: What sorts of mind-games will people find engaging?
+
+**Finding**: 
+*   People would most like to play Logic Games, followed by Maths Games then General Knowledge.
+*    General knowledge type games may not be a fair assessment as what is general knowledge to one person is not common knowledge to the next.  
+
+**Impact**:
+*    We took into consideration the preference for logic and mathematical games, but noted the importance of a game that relies on working memory, given the link between working memory and concentration. 
+*    We saw that a general knowledge-based game might reduce the broadness of appeal of our application. We are all similar and age and other demographic categories and so what is general knowledge to us is less likely to be general knowledge for as many people in other age ranges and demographics.
+
+**Evaluation**: The options provided for *Question 7* were unequally broad in their definition. For more analytic games we gave very broad categories (‘Maths Games’, ‘Logic Games’), whereas the options we gave which might be preferred by less mathematically inclined individuals were incredibly specific (‘Play Music, guess the artist’, ‘sudoku’). This may have biased respondents in favour of Maths and Logic games even if they would have generally preferred less analytical games, but simply have a specific dislike of sudoku, for instance. In fact, the broader the definition the more popular the option – so perhaps the preference for maths and logic games is due to this flaw in our methodology, rather than a genuine preference for more analytical games. Indeed, *Question 8* gave respondent’s free reign to write their comments about what kinds of games they would like to see in the application, and qualitatively, the preference was less heavily in favour of logical games.
+
+<p align="center">
+  <img src="FirstSurvey/kindsOfGames.png" width="500"/>
+</p>
+<p align="center">
+  <em>Responses to Question 3.</em>
+</p>
+
+
+
+**Research Question**: Evaluate proposed user experience (flow and UI design).
 
 
 
