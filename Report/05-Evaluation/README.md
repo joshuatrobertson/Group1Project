@@ -60,7 +60,7 @@ The test file is also used to assert the output of any relevant functions. For e
   ```
 
 ## Functional Testing
-For the functional testing, we created two tests; the first aimed towards testing the functionality of the essential components of the website, those needed for the game to work; and the second geared towards any other less critical components of the website. The tests can be seen below.
+For the functional testing, we created two tests; the first aimed towards testing the functionality of the essential components of the website, those needed for the game to work; and the second geared towards any other less critical components of the website. The tests can be found below.
 
 1. [Critical components test](functional-test-1 "The first functional test")
 2. [Other components test](functional-test-2 "The second functional test")
