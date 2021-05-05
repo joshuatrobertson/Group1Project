@@ -99,7 +99,7 @@ Sample the kinds of sounds included in our application [here](sounds/teamsCall.m
   <img src="FirstSurvey/kindsOfGames.png" width="500"/>
 </p>
 <p align="center">
-  <em>Responses to Question 3.</em>
+  <em>Responses to Question 7.</em>
 </p>
 
 
