@@ -78,6 +78,7 @@ View the survey questions [here](https://github.com/keane-fernandes/Group1Projec
 
 * Most participants in this group were sent the survey and then left alone in a room with *DistractAbility* open on the researcher's PC. They were asked to make their way through the application and then respond to the survey in one sitting.
 * A small subset of participants did not have first hand experience of engaging with *DistractAbility*. Instead, they were asked to complete the survey to the best of their ability after watching our demo video.
+* We received seventeen [responses](https://github.com/keane-fernandes/Group1Project/tree/dev/Report/03-UX-Design/SecondSurvey/Survey2_Responses.xlsm). See a more visual representation [here](https://github.com/keane-fernandes/Group1Project/tree/dev/Report/03-UX-Design/FirstSurvey/Survey2_Answers.pdf).
 
 
 | Finding                                             | Impact |
