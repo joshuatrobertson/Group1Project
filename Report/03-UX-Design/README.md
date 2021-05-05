@@ -8,14 +8,14 @@
 
 For the project, our initial idea involved creating a single page web application centred around making sustainable fashion choices. For the paper prototype, we used collaborative image software to test the feasibility and look of our idea. Although ideally we would have liked to do this using a traditional pen and paper approach, due to covid restrictions this was not possible. The results of this can be seen below.
 <p align="center">
-  <img src="paper-prototype-2.png" width="500"/>
-  <img src="paper-prototype-1.png" width="500"/>
+  <img src="images/paper-prototype-2.png" width="500"/>
+  <img src="images/paper-prototype-1.png" width="500"/>
 </p>
 <p align="center">
   <em>Paper Prototype Representing our Initial Idea.</em>
 </p>
 
-Further along on the project, we decided as a group that it would be better to implement our second idea, the distraction game. Therefore, we created another prototype using adobe XD. The software, along with allowing us to create a protype, also allowed us to implement interactions between the different elements. The wireframe created involved a login page, two rounds of the card game we were planning to implement and also two charts at the end to display the users score, along with that of all other users of the games score. 
+Further along on the project, we decided as a group that it would be better to implement our second idea, the distraction game. Therefore, we created another prototype using adobe XD. The software, along with allowing us to create a protype, also allowed us to implement interactions between the different elements. The wireframe created involved a login page, two rounds of the card game we were planning to implement and also two charts at the end to display the users score, along with that of all other users of the games score.
 For the design, as a group we tried to focus on several key elements, namely:
 - Creating a circular user experience, where they are able to replay the game
 - Keeping the design 'barebones' in order to allow for greater feature implementation at a later date
@@ -34,7 +34,7 @@ The wireframes can be found [here](https://github.com/keane-fernandes/Group1Proj
 Alternatively, a gif of the paper prototype as seen in Adobe XD can be seen below.
 
 <p align="center">
-  <img src="paper-prototype.gif" width="600"/>
+  <img src="images/paper-prototype.gif" width="600"/>
 </p>
 <p align="center">
   <em>Paper Prototype Representing our Final Idea.</em>
@@ -45,5 +45,5 @@ Alternatively, a gif of the paper prototype as seen in Adobe XD can be seen belo
   <b>Navigation:</b><br>
   <a href="../02-System-Implementation/README.md">&#8592; Previous Section: System Implementation</a> |
   <a href="#ux-design">&#8593; Back to the top</a> |
-  <a href="../04-PM-Sprints/README.md">&#8594; Next Section: Sprints and Project Management</a> 
+  <a href="../04-PM-Sprints/README.md">&#8594; Next Section: Sprints and Project Management</a>
 </p>
