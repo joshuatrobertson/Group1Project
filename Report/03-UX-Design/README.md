@@ -40,6 +40,14 @@ Towards the end of the development phase our research objectives were as follows
 
 ### Survey – Round 1 ###
 
+**Timeline**
+*    Participants were sent the preliminary prototype and a summary of our project brief and asked to go over both on their own. 
+*   24 hours after being sent the prototype, the researcher held a group zoom call with a subsets of study participants. During the zoom call, the researcher walked everyone through the prototype, answering questions as they came up.
+*    Immediately after the zoom call, participants were sent the questionnaire to respond to on their own.
+
+View the initial prototype [here] (../../Source/01-Paper-prototype/paper-prototype.pdf).
+View the survey questions [here] (FirstSurvey/SurveyRound1_Questions.pdf).
+
 
 
 
