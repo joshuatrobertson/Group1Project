@@ -165,6 +165,13 @@ View the survey questions [here](SecondSurvey/SurveyRound2_Questions.pdf).
 **Impact**:
 
 
+<p align="center">
+  <img src="SecondSurvey/harder.png" width="500"/>
+</p>
+<p align="center">
+  <em>Responses to Question 2.</em>
+</p>
+
 
 **Research Question**: Test our hypothesis that *DistractAbility* does effectively highlight the serious problem.
 
@@ -173,6 +180,15 @@ View the survey questions [here](SecondSurvey/SurveyRound2_Questions.pdf).
 * 100% of respondents agreed that *DistractAbility* "does a good job of demonstrating the problem of heightened distractibility in the context of COVID-19".
 
 **Impact**:
+
+
+<p align="center">
+  <img src="SecondSurvey/representative.png" width="500"/>
+</p>
+<p align="center">
+  <em>Responses to Question 3.</em>
+</p>
+
 
 
 
