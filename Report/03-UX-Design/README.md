@@ -62,7 +62,7 @@ View the survey questions [here](https://github.com/keane-fernandes/Group1Projec
 
 
 
-### Survey – Round 2 ###
+### Survey 2: Testing hypotheses and evaluating final product ###
 
 
 
