@@ -106,6 +106,14 @@ Sample the kinds of sounds included in our application [here](sounds/teamsCall.m
 
 **Research Question**: Evaluate proposed user experience (flow and UI design).
 
+**Findings**:
+* 64% of respondents agreed the application should have the given structure, i.e. two roudns the first without distraction and the second with.
+* Respondents would like to see the effect of distraction on concentration *after* distractions have ceased. Some suggested a hybrid round that measures the effect of previous distraction on concentration. Others suggested an interlude between round one and two to allow the user to refresh.
+* In terms of UI design, respondents were fairly evenly split between preferring a minimalist design to something bold and colourful. 
+
+**Impact**: 
+* We retained the two-round structure, but will consider adding additional rounds in which the distractions are inconstant. 
+* Due to the lack of consensus on UI design we chose a bold and colourful aesthetic, which we feel is more memorable.  
 
 
 ### Moderated User Testing ###
