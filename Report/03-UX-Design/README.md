@@ -62,7 +62,7 @@ View the initial prototype [here](https://github.com/keane-fernandes/Group1Proje
 
 ### Survey 2: Testing hypotheses and evaluating final product ###
 
-View the survey questions [here](https://github.com/keane-fernandes/Group1Project/tree/dev/Report/03-UX-Design/FirstSurvey/SurveyRound1_Questions.pdf).
+View the survey questions [here](https://github.com/keane-fernandes/Group1Project/tree/dev/Report/03-UX-Design/SecondSurvey/SurveyRound2_Questions.pdf).
 
 **Timeline**
 
