@@ -15,6 +15,46 @@ In the project we propose Sustainadress, a single page application where the use
 - 'prototype_document.docx' is documentation for the current prototype and the thought process behind it.
 
 ## Unit Testing
+
+For the unit testing, we decided that it would in theory would make sense to have one good unit test per component. Although this is the case for most of our components, those which share high similarity are tested together. This can be seen in the RestartGame and EndGame Components, of which there is only one test. 
+### NewsApiComponent
+For the NewsApiComponent, to test that the API is being used to correctly pull in the news articles, we make use of the HttpTesting Controller to inject the http requests into the test. An example of some of the unit tests for this component can be seen below.
+```
+describe('Fetch the News Items', () => {
+    it('should return a list of articles', () => {
+      service.initArticles().subscribe(articles => {
+        expect(articles.length).toBe(3);
+      });
+      it('should return a list of sources', () => {
+        service.initSources().subscribe(articles => {
+          expect(articles.length).toBeGreaterThan(5);
+        });
+    });
+  });
+  ```
+### AppComponent
+The main testing is carried out within the AppComponent. Here, we begin by asserting that relevant variables have been set correctly, as can be seen below.
+```
+it('begin sound variables should be set to true', () => {
+    const fixture = TestBed.createComponent(AppComponent);
+    const app = fixture.componentInstance;
+    expect(app.beginSound).toBeFalsy();
+    expect(app.beginSound2).toBeFalsy();
+    expect(app.beginSound3).toBeFalsy();
+  });
+
+```
+The test file is also used to assert the output of any relevant functions. For example, within the component we use a random function, that returns a random integer between the two given integers, as can be seen below.
+```
+ it('should return a number between 1 and 4', () => {
+    expect(component).toBeTruthy();
+    const randomNumber = component.getRandomNumber(1, 4);
+    expect(randomNumber).toBeLessThan(5);
+    expect(randomNumber).toBeGreaterThan(0);
+  });
+  ```
+ 
+
 ## Functional Testing
 ## User Acceptance Testing
 - 'UserTesting.md' documents the end user testing process and explains the structure of the UserTesting directory.
