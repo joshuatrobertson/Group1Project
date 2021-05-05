@@ -198,12 +198,13 @@ startTimer(): void {
     return minutes + ':' + (value - minutes * 60);
   }
  ```
+ This was implemented within the main app.component.ts file, which contains most of the game logic. The memory card game implementation can be seen within the GameCardComponent and uses JavaScripts 'states' to animate the card.
 
 ##### Distractions
 For the distraction elements of the game we decided to go with both visual and auditory distractions following feedback from the user survey. Having more than one distraction also aligns with the literature review, in that attention is a finite resource and the brain can only devote attention to a limited number of stimuli.
 
 ###### Visual Distractions
-For the visual distractions, we decided to go with current news to align with what people might encounter during lockdown. To implement this, a new component 'news-api' was created an angular card was created using News API [News API, 2021] to pull contempory articles. The card pulls an image, title and description which is placed inside of an angular card. For the articles, we randomly chose from the 3 most recent sources using the function getRandomNumber()
+For the visual distractions, we decided to go with current news to align with what people might encounter during lockdown. To implement this, a new component 'news-api' was created which used News API [News API, 2021] to pull contempory articles. The card pulls an image, title and description which is placed inside of an angular card. For the articles, we randomly chose from the 3 most recent sources using the function getRandomNumber()
 ```js
 getRandomNumber(min, max): number {
    return Math.random() * (max - min) + min;
@@ -219,8 +220,17 @@ getRandomNumber(min, max): number {
   <em>News card created using News API.</em>
 </p>
 
+During the game, the news cards move across the screen in a seemingly random way, to further distract the user. This was implemented purely using css and made use of motion paths to move the div across the screen. This can be seen below.
+
+<p align="center">
+  <img src="images/news-card.gif" width="600"/>
+</p>
+<p align="center">
+  <em>Animated Angular Card Displaying News</em>
+</p>
+
 ###### Auditory Distractions
-For the auditory distractions we decided to gather several sounds we found distracting. These were further broken down into; ‘long’ sounds, for example children playing and a busy street; and ‘short’ sounds, such as a WhatsApp or Facebook notification. In this way a ‘long’ sound can be played at the beginning and throughout the game period along with several randomly selected ‘short’ sounds that are played at around 15 second intervals. To further improve the user experience, compression, reverb and gain reduction were applied using to the long sounds to give an element of background noise and panning was applied to the short sounds to give the appearance of location.
+For the auditory distractions we decided to gather several sounds we found distracting. These were further broken down into; ‘long’ sounds, for example children playing or a busy street; and ‘short’ sounds, such as a WhatsApp or Facebook notification. In this way a ‘long’ sound can be played at the beginning and throughout the game period along with several randomly selected ‘short’ sounds that are played at around 15 second intervals. To further improve the user experience, compression, reverb and gain reduction were applied using to the long sounds to give an element of background noise and panning was applied to the short sounds to give the appearance of location.
 
 <p align="center">
   <img src="images/audacity.png" width="600"/>
