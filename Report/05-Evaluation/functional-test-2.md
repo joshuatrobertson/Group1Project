@@ -1,3 +1,5 @@
+[&#8592; Back to Evaluation Page](README.md)
+
 ### Test 1
 The second test involves testing less essential components of the website, such as the login screen and the application and contact info buttons.
 
