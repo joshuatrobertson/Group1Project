@@ -15,17 +15,17 @@
 
 During the initial prototyping stages our research objectives were as follows:
 
-*    What sorts of things do people instinctively find most distracting 
-*    What sorts of mind-games will people find engaging
-*    Evaluate proposed user experience (flow and UI design)
+*    What sorts of distractions will best exemplify the difficulties of focusing on work during lockdown?
+*    What sorts of mind-games will people find engaging?
+*    Evaluate proposed user experience (flow and UI design).
 
 Towards the end of the development phase our research objectives were as follows:
 
-*    Test our hypothesis that the presence of distractions negatively impacts performance 
-*    Test our hypothesis that DistractAbility does effectively highlight the serious problem
-*    Evaluate distractions used in the second round
-*    Evaluate user experience 
-*    Feedback on potential future improvements 
+*    Test our hypothesis that the presence of distractions negatively impacts performance.
+*    Test our hypothesis that DistractAbility does effectively highlight the serious problem.
+*    Evaluate distractions used in the second round.
+*    Evaluate user experience.
+*    Feedback on potential future improvements.
 
 
 ### Methodology ###
@@ -57,13 +57,21 @@ View the initial prototype [here](https://github.com/keane-fernandes/Group1Proje
 </p>
 
 
+**Research Question**:  What sorts of distractions will best exemplify the difficulties of focusing on work during lockdown? *Covered by survey questions 3-5*.
 
-| Research Question | Finding                                             | Impact |
-| ---------- | ---------------------------------------- | ----------- | 
-|  What sorts of things do people instinctively find most distracting   |     Finding one    |   Impact on our design     |
+**Finding**: 
+*    Respondents would most like to see ‘Advanced Sound’ (92.9%) closely followed by ‘Advanced Animation’ (78.6%). The least popular option was ‘Player Specific Demands’ (7.1%).
+*    Respondents want distractions that relate to the typical lockdown experience – suggestions included construction sounds and P.E. with Joe Wicks.  
+*   Most respondents would prioritise mobile phone and social media notification sounds. 
 
+**Impact**: 
+*    We omitted player specific demands. 
+*    We built a variety of what we consider ‘advanced sounds’. Importantly, our choice of sound effects is linked to the theoretical background discussed in the literature review. For instance, to reflect the kinds of distractions that would fall in the ‘continuity’ camp, we included notification sounds such as the that of an incoming Microsoft Teams call or a WhatsApp message. 
+*    The news articles pulled in through the API are animated such that they move across the screen and change size.
+*    In order to tie the distracting sounds to the typical lockdown experience we included construction sounds, the BBC theme song, and soundbites from Netflix’s *Tiger King* - the second most watched TV series globally in 2020. 
+*    We have ten different mobile phone and social media sound effects – more than any other type of distraction. 
 
-
+**Evaluation**: The options presented in *Question 3* included examples of what we envisaged for each type of distraction. For instance, once option was ‘Advanced Sound (e.g. notification bells, incoming WhatsApp sound, BBC theme song)’. Providing these specific examples in a tick-box question does not provide much scope for participants to express a different view of what they consider an ‘Advanced Sound’ and the like. However, we believe we corrected this limitation with the following question, which gave respondents an open text box in which to make any additional suggestions as to what kind of distractions they would like to see. 
 
 <p align="center">
   <img src="FirstSurvey/kindsOfDistractions.png" width="500"/>
@@ -71,6 +79,12 @@ View the initial prototype [here](https://github.com/keane-fernandes/Group1Proje
 <p align="center">
   <em>Responses in our first survey.</em>
 </p>
+
+Sample the kinds of sounds included in our application [here](sounds/teamsCall.mp3), [here](sounds/joeExotic2.mp3) and [here](sounds/BBC.mp3).
+
+
+
+**Research Question**: What sorts of mind-games will people find engaging?
 
 
 
