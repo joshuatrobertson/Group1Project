@@ -52,7 +52,7 @@ View the initial prototype [here](https://github.com/keane-fernandes/Group1Proje
   <img src="images/exampleWalkthrough.png" width="500"/>
 </p>
 <p align="center">
-  <em>Screenshot of a zoom call held with participants.</em>
+  <em>Example zoom walk through held with participants.</em>
 </p>
 
 
