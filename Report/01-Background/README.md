@@ -119,7 +119,7 @@
   <img src="images/001_screentime.png" width="400" />
 </p>
 
-*Figure 1: This bar chart displays the average daily use (in house) of computer games (red) and social media (blue) by children and adolescents in September 2019 (before lockdown; lighter colours) and April 2020 (during lockdown; darker colours) on school days (left) and days with no school (weekends, holidays, lockdown; right). Source: Spitzer, 2021.*
+&nbsp; *Figure 1: This bar chart displays the average daily use (in house) of computer games (red) and social media (blue) by children and adolescents in September 2019 (before lockdown; lighter colours) and April 2020 (during lockdown; darker colours) on school days (left) and days with no school (weekends, holidays, lockdown; right). Source: Spitzer, 2021.*
 
 &nbsp;&nbsp; Interestingly, the pandemic seems not only to have increased the frequency of people’s use of social media and streaming services, but also the potency of the attraction, i.e. the pull on people’s attention. In Shirking from Home, interviewee Rosen admits that in the context of our unprecedented social isolation, “When you get a [notification] from someone that says they’re following you on Instagram, when you crave connection, you immediately go there,” Rosen says (Cummins, 2020).
 
@@ -152,119 +152,164 @@
 
 ## Literature Review: Serious Play
 
+### Motivation ###
+
+&nbsp;&nbsp; We deem the most important finding of our background literature review to be the indesputable link between concentration and *working memory*. In light of this, we realised that to successfully highlight the impact of distractions on people's concentration and productivity, our application would have to fulfil the criteria of 'play' in a manner that requires the user to hold information in working memory and then use that information in order to progress through the application. 
+
+
+### What is play? ### 
+
+&nbsp;&nbsp; The 1933 book *Homo Ludens*, by Johan Huizinga of the University of Leyden, was the first major scholarly work on the topic of play from a sociological viewpoint. Huizinga analysed several of the fundamental characteristics of play and the important role of play in the development and maintenance of civilisation itself. Huizinga defined three overarching characteristics of play: (1) Play is voluntary. (2) Play is not part of ordinary life, it occupies its own temporal realm removed from the ‘real’ world. (3) Play has a fixed duration, scope and place. Huizinga also identified two particular benefits of play. First play creates order in a chaotic world by providing an orderly, rules-based escape from the randomness of real life. Play also brings social benefits as it tends to create communities around itself. In Huizinga’s own words:
+
+> “Summing up the formal characteristics of play we might call it a free activity standing quite consciously outside “ordinary” life as being “not serious,” but at the same time absorbing the player intensely and utterly. It is an activity connected with no material interest, and no profit can be gained by it. It proceeds within its own proper boundaries of time and space according to fixed rules and in an orderly manner. It promotes the formation of social groupings which tend to surround themselves with secrecy and to stress their difference from the common world by disguise or other means” (Huizinga, 1955). 
+
+&nbsp;&nbsp; In the influential 1961 book *Man, Play and Games*, French sociologist Roger Caillois also sought to define play – or as Caillois put it, to derive sociology from play (Caillois, 1961). Building critically on Johan Huizinga’s work, Caillois too saw play as: free as opposed to obligatory; occupying its own time and space separate from ordinary life; unconnected to the pursuit of material gain; and involving imagined realities that contrast with ‘real’ life. Expanding upon Huizinga’s work, Caillois added that play can also be distinguished by chance and uncertainty – which involves the player’s initiative insofar as the results of play cannot be pre-determined (Caillois, 1961). Caillois also opposed some aspects of Huizinga’s definition. While Huizinga saw the presence of an orderly structure and rules as characteristic of play in general, Caillois judged this definition of play too broad. Caillois discerned two different play attitudes: *paidia* and *ludus*. Paidia refers to ‘free play’, it is improvised, spontaneous, impulsive, joyous, uncontrolled fantasy. Conversely, the attitude of Ludus refers to ‘gaming’, to more explicitly rule-governed forms of play that often involve specific skills and mastery (Frissen et al, 2013).
+
+&nbsp;&nbsp; In this century, Katie Salen and Eric Zimmerman published their magnum opus *Rules of Play*, in which the authors define three distinct forms of play. Like Caillois, the authors distinguish between ‘Game Play’, something an individual does through structured, rules-based interactions, from ‘Ludic Activity’, play that tends to be unstructured and without rules (Pete and Stuart, video 6b). Salen and Zimmerman additionally distinguish ‘Play as a Mindset’ as the spirit of play within a broader context that is not typically associated with play (Salen & Zimmerman, 2003). 
+
+
+
+### Serious Play in *DistractAbility* ### 
+
+&nbsp;&nbsp; ‘Serious play’ addresses a real-world problem and/or raises awareness about an important, pressing issue by engaging audiences through the use of playful techniques. The use of playful techniques will often shed new light on the problem and can promote an active learning experience that users find more engaging than traditional learning methods (Pete & Stuart, 1c).  
+
+&nbsp;&nbsp; Our site, *DistractAbility*, raises awareness about the attentional difficulties many people have experienced since the onset of the Coronavirus pandemic. We trust that the background literature review will have demonstrated the genuine seriousness of the problem. In this section we therefore focus on the play aspects of  *DistractAbility* and how our design decisions relate to the theoretical background of distraction given in the earlier sections of this literature review.
+
+**DistractAbility: types of play**
+
+&nbsp;&nbsp; *DistractAbility* falls most neatly within the category of gaming or Game Play. First and foremost the card game is in the spirit of Caillois’ attitude of Ludus; it is something the user does, not necessarily something they feel. The game is also structured and rules-based in the following ways. The application features two rounds of a card game in which the user must flip each matching pair of cards to progress to the next stage of the game. The user must complete the first round before they can move on to the second, and there is no scope for the user to devise an alternative route through the application. The rules are clearly defined and the user can learn the rules before beginning the game by reading the ‘App Info’ popup modal window, which clearly states what the purpose of the game is and how to play. This closely fits Jesper Juul's definition of a game as “a rule-based formal system with a variable and quantifiable outcome, where different outcomes are assigned different values, the player exerts effort in order to influence the outcome, the player feels attached to the outcome, and the consequences of the activity are optional and negotiable” (Juul quoted in Koster, 2004). 
+
+&nbsp;&nbsp; The rules of the card game relate to the serious problem in multiple ways. For one, it is the difference between the user’s scores for each round by which we quantify the impact of the distractions on their cognitive abilities – mirroring the impact of distractions on the productivity of people WFH. Moreover, the fact the player cannot define their own rules or forge their own path through *DistractAbility* mimics the fact that, in the world of work, individuals are often unable to design their own tasks and instead have to complete whatever task they are given. If Covid restrictions and the resultant distractions are making it especially difficult for an individual to complete the task at hand, then even if they would be better able to get on with administrative tasks in the presence of distractions, this is not always an option. In fact, it is perhaps ironic that play is sometimes viewed as the opposite of work, yet *DistractAbility* uses play to mimic the negative impacts of distraction on quality of work. Game Play must therefore share some parallels with work and not be its stark opposite if gaming is able to shed light on work. 
+
+
+**DistractAbility: motivation for playing**
+
+&nbsp;&nbsp; The Player Experience Needs Satisfaction (PENS) model holds that people are typically motivated to engage in playful experiences for three key reasons: (i) A sense of competence, (ii) A sense of autonomy, (iii) A sense of relatedness (Pete & Stuart, 6b).
+
+&nbsp;&nbsp; In terms of the first pillar, it is often said that instilling feelings of competence and pride in people can encourage behaviour change. We believe that if the user sees a better score for the first round than the second, the visual representation of greater competence without distractions than with may inspire the user to purge their own WFH setup of the kinds of commonplace distractions featured in *DistractAbility*. 
+
+&nbsp;&nbsp; The second pillar, autonomy, relates to the fact that individuals can be motivated to engage in playful activities if they have the power and the freedom to make certain choices within the play, if they feel in control, or if the play provides opportunities for the player to express themselves in some manner. We have to admit that our application is very poor with regards to autonomy. The user has no freedom of choice besides choosing which cards to flip. The user must follow the given structure of the game, first round without distractions second round with. There is also no opportunity for the user to self-express. One possible future improvement might therefore be to add functionality that lets the user build their own avatar hand, then as they are playing the game and selecting cards, the cursor is the image of the hand that they designed. Ethically, we would need to ensure inclusivity by ensuring the avatar could be a wide range of skin tones, able to be representative of various disabilities that affect the appearance of one’s hands, etc.
+
+&nbsp;&nbsp; Relatedness concerns feelings part of a community and connecting with others. Our applications encourages relatedness with the scoring data. For example, at the end of the second round the user can choose to ‘See Statistics’ and compare their scores with the average scores for all other users. However, the user can only see others’ scores, they cannot directly interact with other users. Another potential future improvement might thus be to allow users to create ‘bubbles’ – akin to a Discord server – where users can add their friends and have each player’s average score displayed together in a leader board. Affording certain privileges to the players at the top of the leader board might further motivate users.  
+
+
+**Relation to theoretical background**
+
+&nbsp;&nbsp; Recall the widely accepted premises that concentration is inextricably linked with working memory and that working memory is a finite resource. We chose this card game as the means of quantifying the impact of distraction on concentration precisely because it requires the use of working memory, and it provides scope for increasing the pressure on working memory exponentially. To successfully complete each round of the game, the user must hold the image and location of each card in working memory while simultaneously processing the image and location of new cards and cognitively correlating matching pairs to one another. The greater the quantity of cards to be matched in each round, the greater the cognitive load on working memory – which provides scope for us to introduce different difficulty levels to *DistractAbility* in the future. Once the distractions are introduced in the second round, the user must process a large number of interrupting stimuli while retaining the aforementioned information in working memory. Furthermore, our decision to distract the user with news articles pulled from various platforms touches upon the aforementioned link between poor concentration and negatively charged emotional stimuli, which have been particularly pronounced since the onset of the pandemic encouraged ‘doomscrolling’. 
+
 
 
 ### Bibliography: The Problem
 
 **Primary Sources**
 
-&nbsp; J. Alexander, "Netflix adds 15 million subscribers as people stream more than ever, but warns about tough road ahead", The Verge, 2020. [Online]. Available: https://www.theverge.com/2020/4/21/21229587/netflix-earnings-coronavirus-pandemic-streaming-entertainment. [Accessed: 11- Apr- 2021].
+&nbsp; J. Alexander, "Netflix adds 15 million subscribers as people stream more than ever, but warns about tough road ahead", *The Verge*, 2020. [Online]. Available: https://www.theverge.com/2020/4/21/21229587/netflix-earnings-coronavirus-pandemic-streaming-entertainment. [Accessed: 11- Apr- 2021].
 
-&nbsp; D. Arnsten, Ph.D., The Brain's Response to Stress - How Our Brains May Be Altered During the COVID-19 Pandemic. Yale School Of Medicine, 2020. Available: https://www.youtube.com/watch?v=TsQUeNuvIDY. [Accessed 15 April 2021].
+&nbsp; D. Arnsten, Ph.D., *The Brain's Response to Stress - How Our Brains May Be Altered During the COVID-19 Pandemic*. Yale School Of Medicine, 2020. Available: https://www.youtube.com/watch?v=TsQUeNuvIDY. [Accessed 15 April 2021].
 
 &nbsp; N. Biddle and M. Gray, "Tracking outcomes during the COVID-19 pandemic (October 2020) – Reconvergence", ANU Centre for Social Research and Methods, pp. 1-15, 2020. Available: https://csrm.cass.anu.edu.au/sites/default/files/docs/2020/11/Tracking_wellbeing_outcomes_during_the_COVID-19_pandemic_October_2020_PDF.pdf. [Accessed 14 April 2021].
 
-&nbsp; N. Bloom, P. Bunn, P. Mizen, P. Smietanka and G. Thwaites, "The Impact of COVID-19 on Productivity", NBER Working Paper Series, December 2020. Available: https://www.nber.org/system/files/working_papers/w28233/revisions/w28233.rev0.pdf. [Accessed 14 April 2021].
+&nbsp; N. Bloom, P. Bunn, P. Mizen, P. Smietanka and G. Thwaites, "The Impact of COVID-19 on Productivity", *NBER Working Paper Series*, December 2020. Available: https://www.nber.org/system/files/working_papers/w28233/revisions/w28233.rev0.pdf. [Accessed 14 April 2021].
 
 &nbsp; N. Bloom et al, "Staff Working Paper No. 900", Bank of England, 2020. Available: https://www.citethisforme.com/ [Accessed 14 April 2021].
 
-&nbsp; L. Bowman, L. Levine, B. Waite and M. Gendron, "Can students really multitask? An experimental study of instant messaging while reading", Computers & Education, vol. 54, no. 4, pp. 927-931, 2010. D.O.I: 10.1016/j.compedu.2009.09.024 [Accessed 15 April 2021].
+&nbsp; L. Bowman, L. Levine, B. Waite and M. Gendron, "Can students really multitask? An experimental study of instant messaging while reading", *Computers & Education*, vol. 54, no. 4, pp. 927-931, 2010. D.O.I: 10.1016/j.compedu.2009.09.024 [Accessed 15 April 2021].
 
-&nbsp; T. Brower, "Think Productivity With Work From Home Is Improving? Think Again. Here’s What You Must Know", Forbes, 2021. Available: https://www.forbes.com/sites/tracybrower/2021/01/17/think-productivity-with-work-from-home-is-improving-think-again-heres-what-you-must-know/?sh=162ef3ab2d67 [Accessed: 11- Apr- 2021].
+&nbsp; T. Brower, "Think Productivity With Work From Home Is Improving? Think Again. Here’s What You Must Know", *Forbes*, 2021. Available: https://www.forbes.com/sites/tracybrower/2021/01/17/think-productivity-with-work-from-home-is-improving-think-again-heres-what-you-must-know/?sh=162ef3ab2d67 [Accessed: 11- Apr- 2021].
 
 &nbsp; M. Brückle, “Because of Corona, Netflix and YouTube decrease image quality in order to ease the load on communication networks” (2020) Available: https://www.buffed.de/Netflix-Firma-259629/News/Streaming-Qualitaet-Corona-1345982/. [Accessed: 11- Apr- 2021].
 
-&nbsp; L. Carrier, L. Rosen, N. Cheever and A. Lim, "Causes, effects, and practicalities of everyday multitasking", Developmental Review, vol. 35, pp. 64-78, 2015. D.O.I: 10.1016/j.dr.2014.12.005 [Accessed 15 April 2021].
+&nbsp; L. Carrier, L. Rosen, N. Cheever and A. Lim, "Causes, effects, and practicalities of everyday multitasking", *Developmental Review*, vol. 35, pp. 64-78, 2015. D.O.I: 10.1016/j.dr.2014.12.005 [Accessed 15 April 2021].
 
-&nbsp; Q. Chen and Z. Yan, "Does multitasking with mobile phones affect learning? A review", Computers in Human Behavior, vol. 54, pp. 34-42, 2016. Available: www.sciencedirect.com/science/article/abs/pii/S0747563215300595#:~:text=Studies%20conducted%20in%20the%20laboratory,Carrillo%20%26%20Subrahmanyam%2C%202014. [Accessed 15 April 2021].
+&nbsp; Q. Chen and Z. Yan, "Does multitasking with mobile phones affect learning? A review", *Computers in Human Behavior*, vol. 54, pp. 34-42, 2016. Available: www.sciencedirect.com/science/article/abs/pii/S0747563215300595#:~:text=Studies%20conducted%20in%20the%20laboratory,Carrillo%20%26%20Subrahmanyam%2C%202014. [Accessed 15 April 2021].
 
-&nbsp; S. Cooper, "Physical activity is good for your concentration – here’s why", The Conversation, 2021. Available: https://theconversation.com/physical-activity-is-good-for-your-concentration-heres-why-151143. [Accessed: 15- Apr- 2021].
+&nbsp; S. Cooper, "Physical activity is good for your concentration – here’s why", *The Conversation*, 2021. Available: https://theconversation.com/physical-activity-is-good-for-your-concentration-heres-why-151143. [Accessed: 15- Apr- 2021].
 
 &nbsp; E. Cummins, "Shirking from home", Vox, 2020. Available: https://www.vox.com/the-highlight/21317485/work-from-home-coronavirus-covid-19-zoom-distraction-animal-crossing [Accessed: 15- Apr- 2021].
 
 &nbsp; Deloitte, "Working during lockdown: The impact of COVID-19 on productivity and wellbeing", Deloitte United Kingdom, 2020. [Online]. Available: https://www2.deloitte.com/uk/en/pages/consulting/articles/working-during-lockdown-impact-of-covid-19-on-productivity-and-wellbeing.html. [Accessed: 13- Apr- 2021].
 
-&nbsp; L. Elliot, "Working from home is proving to be a revolution in our way of life", The. Guardian, 2020. Available: https://www.theguardian.com/business/2020/oct/26/working-from-home-is-proving-to-be-a-revolution-in-our-way-of-life [Accessed:  13- Apr- 2021].
+&nbsp; L. Elliot, "Working from home is proving to be a revolution in our way of life", *The Guardian*, 2020. Available: https://www.theguardian.com/business/2020/oct/26/working-from-home-is-proving-to-be-a-revolution-in-our-way-of-life [Accessed:  13- Apr- 2021].
 
-&nbsp; S. Feng, Y. Wong, L. Wong and L. Hossain, "The Internet and Facebook Usage on Academic Distraction of College Students", Computers & Education, vol. 134, pp. 41-49, 2019. D.O.I: 10.1016/j.compedu.2019.02.005 [Accessed 15 April 2021].
+&nbsp; S. Feng, Y. Wong, L. Wong and L. Hossain, "The Internet and Facebook Usage on Academic Distraction of College Students", *Computers & Education*, vol. 134, pp. 41-49, 2019. D.O.I: 10.1016/j.compedu.2019.02.005 [Accessed 15 April 2021].
 
-&nbsp; Z. Feng and K. Savani, "Covid-19 created a gender gap in perceived work productivity and job satisfaction: implications for dual-career parents working from home", Emerald Insight: Gender Management, 7 September, 2020. ISSN: 1754-2413. Available: https://www.emerald.com/insight/content/doi/10.1108/GM-07-2020-0202/full/html. [Accessed 14 April 2021].
+&nbsp; Z. Feng and K. Savani, "Covid-19 created a gender gap in perceived work productivity and job satisfaction: implications for dual-career parents working from home", *Emerald Insight: Gender Management*, 7 September, 2020. ISSN: 1754-2413. Available: https://www.emerald.com/insight/content/doi/10.1108/GM-07-2020-0202/full/html. [Accessed 14 April 2021].
 
-&nbsp; N. Franklin, "Employee productivity proves remarkably resilient during pandemic", Insight., 2020. Available: https://workplaceinsight.net/employee-productivity-proves-remarkably-resilient-during-pandemic/ [Accessed: 14- Apr- 2021].
+&nbsp; N. Franklin, "Employee productivity proves remarkably resilient during pandemic", *Insight.*, 2020. Available: https://workplaceinsight.net/employee-productivity-proves-remarkably-resilient-during-pandemic/ [Accessed: 14- Apr- 2021].
 
 &nbsp; J. Gold, M.D., M.S., "The ‘Covid Cloud’ Is Real", 2020. [Online]. Available: https://www.instyle.com/lifestyle/covid-cloud-concentration-memory-issues. [Accessed: 11- Apr- 2021].
 
-&nbsp; O. Keogh, "Pandemic-induced ‘brain fog’ is result of cognitive overload", The Irish Times, 2020. Available: https://www.irishtimes.com/business/work/pandemic-induced-brain-fog-is-result-of-cognitive-overload-1.4436434 [Accessed: 11-Apr-2021].
+&nbsp; O. Keogh, "Pandemic-induced ‘brain fog’ is result of cognitive overload", *The Irish Times*, 2020. Available: https://www.irishtimes.com/business/work/pandemic-induced-brain-fog-is-result-of-cognitive-overload-1.4436434 [Accessed: 11-Apr-2021].
 
-&nbsp; P. Kirschner and P. De Bruyckere, "The myths of the digital native and the multitasker", Teaching and Teacher Education, vol. 67, pp. 135-142, 2017. D.O.I: 10.1016/j.tate.2017.06.001 [Accessed 15 April 2021].
+&nbsp; P. Kirschner and P. De Bruyckere, "The myths of the digital native and the multitasker", *Teaching and Teacher Education*, vol. 67, pp. 135-142, 2017. D.O.I: 10.1016/j.tate.2017.06.001 [Accessed 15 April 2021].
 
-&nbsp; P. Kirschner and A. Karpinski, "Facebook® and academic performance", Computers in Human Behavior, vol. 26, no. 6, pp. 1237-1245, 2010. D.O.I: 10.1016/j.chb.2010.03.024 [Accessed 15 April 2021].
+&nbsp; P. Kirschner and A. Karpinski, "Facebook® and academic performance", *Computers in Human Behavior*, vol. 26, no. 6, pp. 1237-1245, 2010. D.O.I: 10.1016/j.chb.2010.03.024 [Accessed 15 April 2021].
 
-&nbsp; S. Künn, C. Seel and D. Zegners, "Cognitive performance in the home office—What professional chess can tell us", IZA World of Labor, 2020. Available: https://wol.iza.org/opinions/cognitive-performance-in-the-home-office?utm_source=Adestra&utm_medium=email&utm_content=Cognitive%20performance%20in%20the%20home%20office%E2%80%94What%20professional%20chess%20can%20tell%20us&utm_campaign=IZA%20WoL%20Sept%20monthly%20newsletter [Accessed: 11- Apr- 2021].
+&nbsp; S. Künn, C. Seel and D. Zegners, "Cognitive performance in the home office—What professional chess can tell us", *IZA World of Labor*, 2020. Available: https://wol.iza.org/opinions/cognitive-performance-in-the-home-office?utm_source=Adestra&utm_medium=email&utm_content=Cognitive%20performance%20in%20the%20home%20office%E2%80%94What%20professional%20chess%20can%20tell%20us&utm_campaign=IZA%20WoL%20Sept%20monthly%20newsletter [Accessed: 11- Apr- 2021].
 
-&nbsp; T. Lawson, "Work-from-home productivity gains seen evaporating as pandemic grinds on", S&P Global Market Intelligence, 2020. Available: https://www.spglobal.com/marketintelligence/en/news-insights/latest-news-headlines/work-from-home-productivity-gains-seen-evaporating-as-pandemic-grinds-on-60119373 [Accessed: 11- Apr- 2021].
+&nbsp; T. Lawson, "Work-from-home productivity gains seen evaporating as pandemic grinds on", *S&P Global Market Intelligence*, 2020. Available: https://www.spglobal.com/marketintelligence/en/news-insights/latest-news-headlines/work-from-home-productivity-gains-seen-evaporating-as-pandemic-grinds-on-60119373 [Accessed: 11- Apr- 2021].
 
-&nbsp; J. Mattern, S. Lansmann and J. Hüllmann, "It’s not that bad! Perceived stress of knowledge workers during enforced working from home due to COVID-19", 16th International Conference on Wirtschaftsinformatik, 2021. [Online]. Available: https://www.joschka-huellmann.net/publications/2020-12-22-draft-COVID-19-and-stress_camera-ready.pdf. [Accessed: 12- Apr- 2021].
+&nbsp; J. Mattern, S. Lansmann and J. Hüllmann, "It’s not that bad! Perceived stress of knowledge workers during enforced working from home due to COVID-19", *16th International Conference on Wirtschaftsinformatik*, 2021. [Online]. Available: https://www.joschka-huellmann.net/publications/2020-12-22-draft-COVID-19-and-stress_camera-ready.pdf. [Accessed: 12- Apr- 2021].
 
-&nbsp; S. Manavis, "Why can’t we focus during this pandemic?", New Statesman, 2020. Available: https://www.newstatesman.com/science-tech/coronavirus/2020/05/how-focus-concentration-pandemic-brain-motivation-apps-pomodoro [Accessed: 11-Apr-2021].
+&nbsp; S. Manavis, "Why can’t we focus during this pandemic?", *New Statesman*, 2020. Available: https://www.newstatesman.com/science-tech/coronavirus/2020/05/how-focus-concentration-pandemic-brain-motivation-apps-pomodoro [Accessed: 11-Apr-2021].
 
-&nbsp; V. McKeever, "Coronavirus lockdowns are making the working day longer for many", CNBC: Make It, 2020. [Online]. Available: https://www.cnbc.com/2020/03/30/coronavirus-lockdowns-are-making-the-working-day-longer-for-many.html. [Accessed: 11- Apr- 2021].
+&nbsp; V. McKeever, "Coronavirus lockdowns are making the working day longer for many", *CNBC*: Make It, 2020. [Online]. Available: https://www.cnbc.com/2020/03/30/coronavirus-lockdowns-are-making-the-working-day-longer-for-many.html. [Accessed: 11- Apr- 2021].
 
-&nbsp; H. Messinger, "Coping with COVID Stress: From Pandemic Brain Fog to Building (and Studying) Resilience", Penn Medicine News, 2020. Available: https://www.pennmedicine.org/news/news-blog/2020/june/coping-with-covid-stress [Accessed: 11-Apr-2021].
+&nbsp; H. Messinger, "Coping with COVID Stress: From Pandemic Brain Fog to Building (and Studying) Resilience", *Penn Medicine News*, 2020. Available: https://www.pennmedicine.org/news/news-blog/2020/june/coping-with-covid-stress [Accessed: 11-Apr-2021].
 
-&nbsp; J. Mischke et al., "Will productivity and growth return after the COVID-19 crisis?", McKinsey Global Institute, 2021. Available: https://www.mckinsey.com/industries/public-and-social-sector/our-insights/will-productivity-and-growth-return-after-the-covid-19-crisis [Accessed 14 April 2021].
+&nbsp; J. Mischke et al., "Will productivity and growth return after the COVID-19 crisis?", *McKinsey Global Institute*, 2021. Available: https://www.mckinsey.com/industries/public-and-social-sector/our-insights/will-productivity-and-growth-return-after-the-covid-19-crisis [Accessed 14 April 2021].
 
-&nbsp; S. Newman, S. Zella and R. Heys, "Coronavirus and the effects on UK productivity measures", Office for National Statistics, 2020. Available: https://www.ons.gov.uk/economy/economicoutputandproductivity/productivitymeasures/articles/coronavirusandtheeffectsonukproductivitymeasures/2020-05-19  [Accessed: 11- Apr- 2021].
+&nbsp; S. Newman, S. Zella and R. Heys, "Coronavirus and the effects on UK productivity measures", *Office for National Statistics*, 2020. Available: https://www.ons.gov.uk/economy/economicoutputandproductivity/productivitymeasures/articles/coronavirusandtheeffectsonukproductivitymeasures/2020-05-19  [Accessed: 11- Apr- 2021].
 
-&nbsp; M. Prensky, “Digital natives, digital immigrants,” NCB University Press, 2001. 9(5), 1–6.
+&nbsp; M. Prensky, “Digital natives, digital immigrants,” *NCB University Press*, 2001. 9(5), 1–6.
 
-&nbsp; C. Purtill, "Feeling Scatterbrained? Here’s Why (Published 2020)", Nytimes.com, 2021. [Online]. Available: https://www.nytimes.com/2020/04/09/us/quarantine-mental-health-gender.html. [Accessed: 11- Apr- 2021].
+&nbsp; C. Purtill, "Feeling Scatterbrained? Here’s Why (Published 2020)", *Nytimes.com*, 2021. [Online]. Available: https://www.nytimes.com/2020/04/09/us/quarantine-mental-health-gender.html. [Accessed: 11- Apr- 2021].
 
-&nbsp; A. Rajan, "TV watching and online streaming surge during lockdown", BBC News, 2020. Available: https://www.bbc.co.uk/news/entertainment-arts-53637305 [Accessed: 11- Apr- 2021].
+&nbsp; A. Rajan, "TV watching and online streaming surge during lockdown", *BBC News*, 2020. Available: https://www.bbc.co.uk/news/entertainment-arts-53637305 [Accessed: 11- Apr- 2021].
 
-&nbsp; P. Ralph et al., "Pandemic programming", Empirical Software Engineering, vol. 25, no. 6, pp. 4927-4961, 2020. Available: https://link.springer.com/article/10.1007/s10664-020-09875-y. [Accessed 14 April 2021].
+&nbsp; P. Ralph et al., "Pandemic programming", *Empirical Software Engineering*, vol. 25, no. 6, pp. 4927-4961, 2020. Available: https://link.springer.com/article/10.1007/s10664-020-09875-y. [Accessed 14 April 2021].
 
-&nbsp; D. Russo, P. Hanel, S. Altnickel and N. van Berkel, "Predictors of Well-being and Productivity among Software Professionals during the COVID-19 Pandemic -- A Longitudinal Study", Cornell University: Empirical Software Engineering, 24 January, 2021. Available: https://arxiv.org/abs/2007.12580. [Accessed 14 April 2021].
+&nbsp; D. Russo, P. Hanel, S. Altnickel and N. van Berkel, "Predictors of Well-being and Productivity among Software Professionals during the COVID-19 Pandemic -- A Longitudinal Study", Cornell University: *Empirical Software Engineering*, 24 January, 2021. Available: https://arxiv.org/abs/2007.12580. [Accessed 14 April 2021].
 
 &nbsp; K. Schwab, "‘Doomscrolling’ can break your brain. It can also be a force for good", Fast Company, 2020. [Online]. Available: https://www.fastcompany.com/90514867/doomscrolling-can-break-your-brain-it-can-also-be-a-force-for-good. [Accessed: 11- Apr- 2021].
 
-&nbsp; N. Selwyn and J. Aagaard, "Banning mobile phones from classrooms—An opportunity to advance understandings of technology addiction, distraction and cyberbullying", British Journal of Educational Technology, vol. 52, no. 1, pp. 8-19, 2020. Available: https://bera-journals.onlinelibrary.wiley.com/doi/full/10.1111/bjet.12943?saml_referrer. [Accessed 15 April 2021].
+&nbsp; N. Selwyn and J. Aagaard, "Banning mobile phones from classrooms—An opportunity to advance understandings of technology addiction, distraction and cyberbullying", *British Journal of Educational Technology*, vol. 52, no. 1, pp. 8-19, 2020. Available: https://bera-journals.onlinelibrary.wiley.com/doi/full/10.1111/bjet.12943?saml_referrer. [Accessed 15 April 2021].
 
-&nbsp; M. Spitzer, "Open schools! Weighing the effects of viruses and lockdowns on children", Trends in Neuroscience and Education, vol. 22, p. 100151, 2021. Available: https://www.sciencedirect.com/science/article/pii/S221194932100003X?casa_token=EIciUbdXZuwAAAAA:HNtdsJNu_k_I6VuivjCQpuFP9twTTstyR_mUAvzUXpwLsEjblb-C2bEK1GNeNvAaZCfyjHsAW50#bib0096. [Accessed 15 April 2021].
+&nbsp; M. Spitzer, "Open schools! Weighing the effects of viruses and lockdowns on children", *Trends in Neuroscience and Education*, vol. 22, p. 100151, 2021. Available: https://www.sciencedirect.com/science/article/pii/S221194932100003X?casa_token=EIciUbdXZuwAAAAA:HNtdsJNu_k_I6VuivjCQpuFP9twTTstyR_mUAvzUXpwLsEjblb-C2bEK1GNeNvAaZCfyjHsAW50#bib0096. [Accessed 15 April 2021].
 
-&nbsp; "Tap'd Resilience White-paper: Building Resilience in your Organisation, your Leaders and your Teams", Tap'd Solutions, 2020. [Online]. Available: https://tapdsolutions.com/wp-content/uploads/2020/11/TAP_Resilience_WhitePaper_2020.pdf.  [Accessed: 14- Apr- 2021].
+&nbsp; "Tap'd Resilience White-paper: Building Resilience in your Organisation, your Leaders and your Teams", *Tap'd Solutions*, 2020. [Online]. Available: https://tapdsolutions.com/wp-content/uploads/2020/11/TAP_Resilience_WhitePaper_2020.pdf.  [Accessed: 14- Apr- 2021].
 
-&nbsp; R. Waters, "The work-from-home revolution is only just beginning," The Financial Times, 2020. Available: https://www.ft.com/content/829208c1-2f2c-488f-9b92-95fe234c32af [Accessed:  13- Apr- 2021].
+&nbsp; R. Waters, "The work-from-home revolution is only just beginning," *The Financial Times*, 2020. Available: https://www.ft.com/content/829208c1-2f2c-488f-9b92-95fe234c32af [Accessed:  13- Apr- 2021].
 
-&nbsp; C. Was, R. Hollis and J. Dunlosky, "Do students understand the detrimental effects of mind wandering during online learning?", Computers & Education, vol. 135, pp. 113-122, 2019. D.O.I: 10.1016/j.compedu.2019.02.020 [Accessed 15 April 2021].
+&nbsp; C. Was, R. Hollis and J. Dunlosky, "Do students understand the detrimental effects of mind wandering during online learning?", *Computers & Education*, vol. 135, pp. 113-122, 2019. D.O.I: 10.1016/j.compedu.2019.02.020 [Accessed 15 April 2021].
 
-&nbsp; D. Ziegler, J. Mishra, A. Gazzaley, "The acute and chronic impact of technology on our brain", The Wiley Handbook of Psychology, Technology, and Society, pp. 3-19, 2015. Available: https://onlinelibrary.wiley.com/doi/book/10.1002/9781118771952. [Accessed 15 April 2021].
+&nbsp; D. Ziegler, J. Mishra, A. Gazzaley, "The acute and chronic impact of technology on our brain", *The Wiley Handbook of Psychology, Technology, and Society*, pp. 3-19, 2015. Available: https://onlinelibrary.wiley.com/doi/book/10.1002/9781118771952. [Accessed 15 April 2021].
 
 - Author Unknown - 
-&nbsp; "Exercise can boost your memory and thinking skills", Healthbeat. Harvard Medical School, 2021. Available: https://www.health.harvard.edu/mind-and-mood/exercise-can-boost-your-memory-and-thinking-skills. [Accessed: 15- Apr- 2021].
+&nbsp; "Exercise can boost your memory and thinking skills", *Healthbeat*. Harvard Medical School, 2021. Available: https://www.health.harvard.edu/mind-and-mood/exercise-can-boost-your-memory-and-thinking-skills. [Accessed: 15- Apr- 2021].
 
 
 **Secondary Sources**
 
-&nbsp; A. Baddeley, "Working Memory: Theories, Models, and Controversies", Annual Review of Psychology, vol. 63, pp. 1-29, 2012. Available: https://www.annualreviews.org/doi/10.1146/annurev-psych-120710-100422. [Accessed 15 April 2021].
+&nbsp; A. Baddeley, "Working Memory: Theories, Models, and Controversies", *Annual Review of Psychology*, vol. 63, pp. 1-29, 2012. Available: https://www.annualreviews.org/doi/10.1146/annurev-psych-120710-100422. [Accessed 15 April 2021].
 
-&nbsp; R. Compton, "The Interface Between Emotion and Attention: A Review of Evidence from Psychology and Neuroscience", Behavioral and Cognitive Neuroscience Reviews, vol. 2, no. 2, pp. 115-129, 2003. Available: https://journals.sagepub.com/doi/10.1177/1534582303002002003. [Accessed 15 April 2021].
+&nbsp; R. Compton, "The Interface Between Emotion and Attention: A Review of Evidence from Psychology and Neuroscience", *Behavioral and Cognitive Neuroscience Reviews*, vol. 2, no. 2, pp. 115-129, 2003. Available: https://journals.sagepub.com/doi/10.1177/1534582303002002003. [Accessed 15 April 2021].
 
-&nbsp; M. Eysenck, N. Derakshan, R. Santos and M. Calvo, "Anxiety and cognitive performance: Attentional control theory.", Emotion: American Psychological Association, vol. 7, no. 2, pp. 336-353, 2007. Available: https://psycnet.apa.org/buy/2007-06782-011. [Accessed 15 April 2021].
+&nbsp; M. Eysenck, N. Derakshan, R. Santos and M. Calvo, "Anxiety and cognitive performance: Attentional control theory.", *Emotion: American Psychological Association*, vol. 7, no. 2, pp. 336-353, 2007. Available: https://psycnet.apa.org/buy/2007-06782-011. [Accessed 15 April 2021].
 
-&nbsp; T. A.,  Ghebreyesus. WHO Director‐General's opening remarks at the media briefing on COVID‐19. Geneva, Switzerland: World Health Organization, 2020. Available: https://www.who.int/dg/speeches/detail/who-director-general-s-opening-remarks-at-the-media-briefing-on-covid-19-11-march-2020 [Accessed: 12-Apr-2021].
+&nbsp; T. A.,  Ghebreyesus. *WHO Director‐General's opening remarks at the media briefing on COVID‐19*. Geneva, Switzerland: World Health Organization, 2020. Available: https://www.who.int/dg/speeches/detail/who-director-general-s-opening-remarks-at-the-media-briefing-on-covid-19-11-march-2020 [Accessed: 12-Apr-2021].
 
-&nbsp; C. Hirsch, "Europe’s coronavirus lockdown measures compared", Politico, 2020. Available: https://www.politico.eu/article/europes-coronavirus-lockdown-measures-compared/  [Accessed: 12-Apr-2021].
+&nbsp; C. Hirsch, "Europe’s coronavirus lockdown measures compared", *Politico*, 2020. Available: https://www.politico.eu/article/europes-coronavirus-lockdown-measures-compared/  [Accessed: 12-Apr-2021].
 
 &nbsp; D. Kahneman, Attention and Effort. Prentice-Hall, 1973.
 
-&nbsp; R. Kurzban, A. Duckworth, J. Kable and J. Myers, "An opportunity cost model of subjective effort and task performance", Behavioral and Brain Sciences, vol. 36, no. 6, pp. 661-679, 2013. Available: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3856320/. [Accessed 15 April 2021].
+&nbsp; R. Kurzban, A. Duckworth, J. Kable and J. Myers, "An opportunity cost model of subjective effort and task performance", *Behavioral and Brain Sciences*, vol. 36, no. 6, pp. 661-679, 2013. Available: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3856320/. [Accessed 15 April 2021].
 
 &nbsp; N. Lavie, "Distracted and confused?: Selective attention under load", Trends in Cognitive Sciences, vol. 9, no. 2, pp. 75-82, 2005. Available: https://www.cell.com/trends/cognitive-sciences/fulltext/S1364-6613(04)00316-X?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS136466130400316X%3Fshowall%3Dtrue. [Accessed 15 April 2021].
 
-&nbsp; L. Pessoa and R. Adolphs, "Emotion processing and the amygdala: from a 'low road' to 'many roads' of evaluating biological significance", Nature Reviews Neuroscience, vol. 11, no. 11, pp. 773-782, 2010. Available: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3025529/ D.O.I: 10.1038/nrn2920 [Accessed 15 April 2021].
+&nbsp; L. Pessoa and R. Adolphs, "Emotion processing and the amygdala: from a 'low road' to 'many roads' of evaluating biological significance", *Nature Reviews Neuroscience*, vol. 11, no. 11, pp. 773-782, 2010. Available: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3025529/ D.O.I: 10.1038/nrn2920 [Accessed 15 April 2021].
 
-&nbsp; B. Pudelko, "Having trouble concentrating during the coronavirus pandemic? Neuroscience explains why", The Conversation, 2020. Available: https://theconversation.com/having-trouble-concentrating-during-the-coronavirus-pandemic-neuroscience-explains-why-139185 [Accessed 15 April 2021].
+&nbsp; B. Pudelko, "Having trouble concentrating during the coronavirus pandemic? Neuroscience explains why", *The Conversation*, 2020. Available: https://theconversation.com/having-trouble-concentrating-during-the-coronavirus-pandemic-neuroscience-explains-why-139185 [Accessed 15 April 2021].
 
 &nbsp; WHO, "Severe Acute Respiratory Syndrome (SARS)", Who.int, 2020. [Online]. Available: https://www.who.int/health-topics/severe-acute-respiratory-syndrome#tab=tab_1. [Accessed: 12- Apr- 2021].
 
@@ -274,9 +319,18 @@
 
 **Primary Sources**
 
+R. Caillois, *Man, Play and Games*. Chicago: University of Illinois Press, 1961. Trans. Meyer Barash. pp. 3-17.
+
+J. Huizinga, *Homo Ludens: A Study of the Play Element in Culture*. Beacon Press, 1955.
+
+R. Koster, *A Theory of Fun for Game Design*. (Scottsdale, Arizona: Paraglygh Press Inc., 2004).
+
+K. Salen and E. Zimmerman, *Rules of Play: Game Design Fundamentals*. (Cambridge, Massachusetts: The MIT Press, 2003).
 
 
 **Secondary Sources**
+
+V. Frissen, J. de Mul and J. Raessens, "Homo Ludens 2.0: Play, Media and Identity", in *Contemporary Culture*, J. Thissen, R. Zwijnenberg and K. Zijlmans, Ed. (Amsterdam: Amsterdam University Press, 2013), pp.75-92.
 
 
 
@@ -284,36 +338,80 @@
 
 ## Current Industry Review
 
-&nbsp;&nbsp; When searching for applications that relate to the serious problem of distraction, we found several themes into which the market can be categorised. Most similar to our application, *DistractAbility*, are games that highlight the consequences of distraction. Then there are applications that are designed to be a distraction, for example, to distract the user from anxiety or stress. Finally, there are countless applications on the market that are designed to limit distractions, for instance social media and content blockers. Such applications are often marketed as a great way for individuals to boost their productivity. While the first two categories fall within the scope of serious play, the final category does not due to the lack of a play aspect.
 
-### Games that highlight the consequences of distraction
+&nbsp;&nbsp; When searching for applications that relate to the purpose of our application, its theoretical background and the core beliefs that underpin it, we found four themes into which the market can be categorized. (1) Applications that highlight the negative consequences of distraction. (2) Applications that are designed to be a distraction, for example, to distract the user from anxiety or stress. (3) Applications designed to limit distractions, which are often marketed as effective productivity enhancers. (4) Applications that tap into working memory. 
+
+&nbsp;&nbsp; Applications in category (1) are typically exactly how we understand serious play. In our discussion of (2) we acknowledge that the applications themselves generally fall outside the scope of serious play due to the lack of a serious element in their design, however, we comment on the link between serious play and user intent. Applications in (3) generally fall outside the scope of serious play due to the lack of a play aspect. Finally, in terms of serious play (4) is quite the hybrid, as is to be expected given the huge variety of purposes to which the scientific understanding of working memory may be applied.
+
+
+
+### (1) Applications that highlight the consequences of distraction
 
 &nbsp;&nbsp; In 2019, the servicing and repair company Kwik Fit released an interactive game called *Driven to Distraction*, that assesses how using a mobile phone affects motorists’ concentration and reaction times (Alan, 2019; Kwik Fit, 2021). Our team were not in fact aware of this application until after the prototyping stage, however of all applications currently on the market, *Driven to Distraction* certainly bears the most similarity to our own application, in terms of both its core objectives and the trajectory of the game itself. 
 
-&nbsp;&nbsp; *Driven to Distraction* is a fun and interactive game, with a colourful, cartoon-style user interface, yet its core objective is to highlight the impact of mobile phone distraction on road safety. This is clearly well within the scope of ‘serious play.’ This is also very similar to our interactive and (hopefully) fun application, which at core is meant to highlight the extent to which productivity is impacted by the distractions that have typically arisen or been more pronounced since the onset of the pandemic. 
+&nbsp;&nbsp; *Driven to Distraction* is a fun and interactive game, with a colourful, cartoon-style user interface, yet its core objective is to highlight the impact of mobile phone distraction on road safety. This is clearly well within the scope of serious play and thereby very similar in purpose to our interactive and (hopefully) fun application, which at core is meant to highlight the extent to which productivity is impacted by the distractions that have typically arisen or been more pronounced since the onset of the pandemic. 
 
 &nbsp;&nbsp; The structure of *Driven to Distraction* is also very similar to the trajectory of our own application. *Driven to Distraction* puts drivers in a virtual car and asks them to react to a stop sign, first without any distractions and then again while answering driving-related questions on a mock mobile phone screen. This is clearly akin to our application *DistractAbility*, which first has the user play the memory game without distractions and then again with distractions. 
 
-&nbsp;&nbsp; *Driven to Distraction* is the only applications of its kind that we were able to find on the market as present.
+&nbsp;&nbsp; *Driven to Distraction* is the only applications of its kind that we were able to find on the market at present.
 
-### Applications as a distraction from anxiety
+<p align="center">
+  <img src="images/driven1.png" width="300"/>
+  <em>Figure 2.1</em>
+</p>
 
-&nbsp;&nbsp; Many organisations, among them mental health charity *Mind*, have publicly endorsed a range of games and puzzles that are *designed to distract* the user. The theory is that playing such games can be a powerful way for the user to distract themselves from internal anxiety and/or external stressors in their lives (Mind, 2021). Writing for the Mental Health section of Self in October 2020, Anna Borges opens up about “embracing the power of the mindless mobile game” since the onset of the pandemic, as she found such games to be “unexpected anxiety coping mechanisms” amongst the stressors of COVID-19 (Borges, 2020). Included in Borges’ recommended games are: *Candy Crush Saga*; *2048*, a slide-and-combine number game; a simple dot-connecting game *Two Dots*; *Solitaire*; and many others, including braining-training games such as *Numberzilla*.
+<p align="center">
+  <img src="images/driven2.png" width="300"/>
+  <em>Figure 2.2 </em>
+</p>
 
-&nbsp;&nbsp; Such applications arguably do fall within the scope of serious play. They tend to use a fun and interactive game of some sort (play) to help individuals to take their mind off anxiety, stress or panic (an undoubtedly serious problem). The difference here is that, whereas our own application and games such as *Driven to Distraction* use play to highlight the impact of a serious problem – arguably with the second-order objective of provoking behaviour change – applications in this category are designed to directly address, or fix, the problem rather than emphasise its relevance. 
 
-### Applications that boost productivity by limiting distractions
+### (2) Applications as a distraction from anxiety
+
+&nbsp;&nbsp; Many organizations, among them mental health charity *Mind*, have publicly endorsed a range of games and puzzles that are designed to distract the user. The theory is that playing such games can be a powerful way for the user to distract themselves from internal anxiety and/or external stressors in their lives (Mind, 2021). Writing for the Mental Health section of Self in October 2020, Anna Borges opens up about “embracing the power of the mindless mobile game” since the onset of the pandemic, as she found such games to be “unexpected anxiety coping mechanisms” amongst the stressors of COVID-19 (Borges, 2020). Included in Borges’ recommended games are: *Candy Crush Saga*; *2048*, a slide-and-combine number game; a simple dot-connecting game *Two Dots*; *Solitaire*; and many others, including braining-training games such as *Numberzilla*.
+
+&nbsp;&nbsp; We acknowledge that the kinds of ‘mindless mobile games’ mentioned above clearly were not designed to fit the criteria of serious play; in and of themselves applications like Candy Crush typically bear no relevance to serious issues. Notwithstanding, we deemed this category worth including in our industry review because of the relevance of user intent to serious play in this context. Here the user plays a fun and interactive game (play) in order to take their mind off anxiety, stress or panic (an undoubtedly serious problem). In other words, the user’s motivation for engaging with the applications in this category makes these otherwise unserious applications instrumental in addressing a very serious problem. This does not necessarily bring the applications themselves under the scope of serious play, indeed most would not count as serious play in the hands of a user without the same serious motivation. But at the least we think it is interesting to consider the extent to which the user’s intent or motivation might exert a transformative effect on what does and does not count as serious play.
+
+<p align="center">
+  <img src="images/TwoDots.png" width="400"/>
+  <em>Figure 3: Two Dots </em>
+</p>
+
+
+### (3) Applications that boost productivity by limiting distractions
 
 &nbsp;&nbsp; Applications in the category of ‘focus apps’ are often designed to: block selected websites and/or apps; allow the user to set a schedule or a timer for the period in which the given sites will be blocked; be difficult or impossible to disable during scheduled hours; and to offer encouragement. For instance, team member Ella uses *1Focus* to block social media during the working day, which covers the screen with an ‘inspirational’ quote about the benefits of not being distracted when the user tries to reach a blocked site during scheduled hours. Other such applications include the following. *Freedom* app, which can block distractions across multiple devices at once (Freedom.to, 2021). *Serene*, a dual planner and content-blocker for MacOS that apparently “gives you productivity superpowers” (Venture Harbour Ltd, 2021). Developed in Canada, *Cold Turkey Blocker* is a content blocker for MacOS and Windows that blocks given sites across the whole operating system (Cold Turkey Ltd, 2021). 
 
-&nbsp;&nbsp; The aforementioned applications relate to our project insofar as we share the premise that social media and other such distractions – distractions that we categorised as ‘continuity’ in the literature review – negatively impact productivity. The creators of these applications evidently believe that distraction is a serious problem, or at least trust that their consumers do. Nonetheless, these applications do not count as serious play due to the lack of any real play aspect. 
+<p align="center">
+  <img src="images/1Focus.png" width="600"/>
+  <em>Figure 4: 1Focus </em>
+</p>
 
-&nbsp;&nbsp; That being the case, *Forest* app, for Android, iOS and Chrome, is perhaps an exception as it is more on the side of serious play than the other applications in this category (Seekrtech, 2021). First, *Forest* is colourful, interactive and, by our own assessment, fun. Users of *Forest* plant a virtual tree whenever they start a session of focus and as they focus on their work the tree grows. The user earns points every time they make it to the end of the scheduled focus session without using their phone for an unproductive purpose, but if the user leaves the app before the end of the session then the tree dies. From personal experience the point system itself is fairly effective motivation to keep earning more points. Moreover, the *Forest* app brilliantly incorporates external motivation through its partnership with the real-tree-planting organization *Trees for the Future*. When users of Forest accrue enough points from planting virtual trees they earn virtual coins, which can then be spent planting real trees through selecting the option to do so in-app, and Forest then uses the money to place planting orders with *Trees for the Future*. If we were to continue with our application *DistractAblity* after university we would certainly consider building in similar kinds of external motivation. 
+&nbsp;&nbsp; The aforementioned applications relate to our project insofar as we share the premise that social media and other such distractions – distractions that we categorised as ‘continuity’ in the literature review – negatively impact productivity. The creators of these applications evidently believe that distraction is a serious problem, or at least trust that their customers do. Nonetheless, these applications arguably do not count as serious play due to the lack of any real play aspect. 
 
+&nbsp;&nbsp; That being the case, *Forest* app, for Android, iOS and Chrome, is perhaps an exception as it is more on the side of serious play than the other applications in this category (Seekrtech, 2021). *Forest* is colourful, interactive and, by our own assessment, fun. Users of *Forest* plant a virtual tree whenever they start a session of focus and as they focus on their work the tree grows. The user earns points every time they make it to the end of the scheduled focus session without using their phone for an unproductive purpose, but if the user leaves the app before the end of the session then the tree dies. From personal experience the point system itself is fairly effective motivation to keep earning more points. Moreover, the *Forest* app brilliantly incorporates external motivation through its partnership with the real-tree-planting organization *Trees for the Future*. When users of Forest accrue enough points from planting virtual trees they earn virtual coins, which can then be spent planting real trees through selecting the option to do so in-app, and Forest then uses the money to place planting orders with *Trees for the Future*. If we were to continue with our application *DistractAblity* after university we would certainly consider building in similar kinds of external motivation. 
+
+<p align="center">
+  <img src="images/Forest.png" width="300"/>
+  <em>Figure 5: Forest app </em>
+</p>
+
+### (4) Applications that tap into working memory ###
+
+&nbsp;&nbsp; Many games and applications on the market can apparently help the user improve their working memory. Board games such as *Sushi Go!*, *The Blue Plate Dinner* and *Sleeping Queens* are marketed as beneficial for children’s cognitive development (Fabulous Family Board Games, 2021). Similarly, more traditional crossword and jigsaw puzzles are often touted as cognitive exercise for the brain that can “improve our vocabulary, refresh our mind, and increase our concentration” (Madaan, 2018). In fact there is little evidence that regularly playing certain games or completing crosswords has any real, long-term impact on a person’s cognition or working memory (Kolirin, 2018; BrainHQ, 2021). But whether such games have a long term impact on cognition or not, the common theme in this category was to ‘exercise’ working memory through play that involved remembering  images, patterns, locations and/or words while simultaneously processing new information. The card game in our application does precisely this by requiring the user to remember multiple images on the cards and their locations while simultaneously processing new images at new locations. 
+
+&nbsp;&nbsp; The games and applications in this category do typically meet the criteria of ‘play’, albeit different forms of play, but whether such applications count as serious play really has to be assessed on a case-to-case basis. Applications in this category that are designed to ward off dementia (or at least marketed as such) arguably do count as serious play due to the seriousness of dementia and related illnesses. However, a simple sudoku puzzle arguably lacks a serious enough aspect to count as serious play.   
+
+<p align="center">
+  <img src="images/SushiGo.png" width="500"/>
+  <em>Figure 6: SushiGo! </em>
+</p>
 
 ### Bibliography: Current Industry Review
 
 &nbsp; M. Allan, "Online game highlights dangerous distraction of mobile phones", Car News, 2019. Available: https://inews.co.uk/essentials/lifestyle/cars/car-news/online-game-highlights-dangerous-distraction-of-mobile-phones-323539 [Accessed: 20- Apr- 2021].
+
+&nbsp; "Brain Myth: Doing crossword puzzles can keep your brain young", BrainHQ, 2021. [Online]. Available: https://www.brainhq.com/brain-resources/cool-brain-facts-myths/brain-mythology/brain-myth-doing-crossword-puzzles-can-keep-your-brain-young/#:~:text=Brain%20Fact%3A%20Crosswords%20are%20fun,brain's%20overall%20cognition%20or%20memory&text=So%20doing%20crosswords%20might%20help,positive%20benefits%20to%20your%20brain. [Accessed: 03- May- 2021].
 
 &nbsp; A. Borges, "29 Free Mobile Games to Distract You When Your Anxiety Is Too Much", Self: Mental Health, 2020. Available: https://www.self.com/story/free-mobile-games. [Accessed: 20- Apr- 2021].
 
@@ -323,11 +421,18 @@
 
 &nbsp; Forest. Seekrtech, 2021. Available: https://www.forestapp.cc/. [Accessed: 22- Apr- 2021].
 
+L. Kolirin, "Crosswords and puzzles do not prevent mental decline, study says", CNN, 2018.
+
+&nbsp; R. Madaan, "Here's what daily crossword puzzles do to your brain?", Wealth Words Blog, 2018. [Online]. Available: https://www.wealthwords.com/blog/what-daily-crossword-puzzles-do-to-your-brain/#:~:text=Working%20on%20crossword%20puzzles%20regularly,and%20enhance%20our%20memory%20power.&text=Solving%20a%20daily%20crossword%20puzzle,dementia%2C%20Alzheimer's%2C%20and%20more. [Accessed: 03- May- 2021].
+
 &nbsp; Mind, "Games and puzzles", Mind.org.uk, 2021. [Online]. Available: https://www.mind.org.uk/need-urgent-help/how-can-i-distract-myself/games-and-puzzles/. [Accessed: 20- Apr- 2021].
 
 &nbsp; Seekrtech, 2021. Available: https://seekrtech.com/en/. [Accessed: 22- Apr- 2021].
 
 &nbsp; Serene. Venture Harbour Ltd, 2021. Available: https://zapier.com/blog/stay-focused-avoid-distractions/#serene. [Accessed: 22- Apr- 2021].
+
+"15 Top Games That Will Reinforce Executive Functioning Skills", Fabulous Family Board Games, 2021. [Online]. Available: http://fabulousfamilyboardgames.com/games-executive-functioning-skills/. [Accessed: 03- May- 2021].
+
 
 <p align="center">
   <b>Navigation:</b><br>
