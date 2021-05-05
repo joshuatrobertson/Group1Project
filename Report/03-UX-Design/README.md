@@ -140,6 +140,9 @@ Sample the kinds of sounds included in our application [here](sounds/teamsCall.m
 ### Moderated User Testing ###
 
 
+# Do this #
+
+
 
 
 ### Survey 2: Testing hypotheses and evaluating final product ###
@@ -157,15 +160,17 @@ View the survey questions [here](SecondSurvey/SurveyRound2_Questions.pdf).
 
 
 **Findings**:
+* 76.5% of respondents found the card game harder to complete in the second round, in the presence of distractions, than in the first round.
 
 **Impact**:
 
 
 
-**Research Question**: Test our hypothesis that DistractAbility does effectively highlight the serious problem.
+**Research Question**: Test our hypothesis that *DistractAbility* does effectively highlight the serious problem.
 
 
 **Findings**:
+* 100% of respondents agreed that *DistractAbility* "does a good job of demonstrating the problem of heightened distractibility in the context of COVID-19".
 
 **Impact**:
 
