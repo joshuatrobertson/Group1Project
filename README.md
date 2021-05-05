@@ -35,21 +35,23 @@ DistractAbility
 
 ## Project Objectives
 
-### Primary Objectives
+| Primary Objectives                                                                                                            |       Status       |
+| :---------------------------------------------------------------------------------------------------------------------------- | :----------------: |
+| Build a basic, functioning prototype of a single page application using the MEAN stack.                                        | :white_check_mark: |
+| Ensure that the web application strikes the right balance between serious and play.                                           | :white_check_mark: |
+| Continuous integration using GitHub and Docker is to be used throughout the project.                                           | :white_check_mark: |
+| The web application shall be a card matching game with two rounds consisting of a normal round and a round with distractions. | :white_check_mark: |
+| The user of the application will be able to compare their scores after both rounds.                                           | :white_check_mark: |
 
-| Item                                        | Status    |
-| :------------------------------------------ | --------- |
-| Build a basic, fully tested game that works | Completed |
-| Strike a good balance between work and play | Completed |
-
-### Secondary Objectives
-
-| Item                | Status     |
-| :------------------ | ---------- |
-| User Authentication | Incomplete |
-
-# Video
-![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
+# Video 
+<div align="center">
+      <a href="https://youtu.be/Anu82ZdiTFk">
+     <img 
+      src="https://img.youtube.com/vi/Anu82ZdiTFk/0.jpg" 
+      alt="Oops, this is supposed to be the thumbnail for the video!" 
+      style="width:100%;">
+      </a>
+    </div>
 
 # Documentation
 
