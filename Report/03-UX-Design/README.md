@@ -48,6 +48,10 @@ View the initial prototype [here](https://github.com/keane-fernandes/Group1Proje
 *    Immediately after the zoom call, participants were sent the questionnaire and asked to respond without consulting other participants in the group.
 
 
+
+
+
+
 | Finding                                             | Impact |
 | ---------------------------------------- | ----------- | 
 |     Finding one    |   Impact on our design     |
