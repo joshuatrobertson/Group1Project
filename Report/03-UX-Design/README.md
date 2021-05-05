@@ -16,7 +16,7 @@
 During the initial prototyping stages our research objectives were as follows:
 
 *    What sorts of things do people instinctively find most distracting 
-*    What sorts of mind-games people would find engaging
+*    What sorts of mind-games will people find engaging
 *    Evaluate proposed user experience (flow and UI design)
 
 Towards the end of the development phase our research objectives were as follows:
@@ -58,10 +58,19 @@ View the initial prototype [here](https://github.com/keane-fernandes/Group1Proje
 
 
 
-| Finding                                             | Impact |
-| ---------------------------------------- | ----------- | 
-|     Finding one    |   Impact on our design     |
+| Research Question | Finding                                             | Impact |
+| ---------- | ---------------------------------------- | ----------- | 
+|  What sorts of things do people instinctively find most distracting   |     Finding one    |   Impact on our design     |
 
+
+
+
+<p align="center">
+  <img src="images/kindsOfDistractions.png" width="500"/>
+</p>
+<p align="center">
+  <em>Responses in our first survey.</em>
+</p>
 
 
 
