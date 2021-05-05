@@ -1,14 +1,41 @@
 [&#8592; Back to Report Landing Page](../README.md)
 # System Implementation
 ## System Design Overview
-## Back End (MongoDB)
+We chose to implement our SPA using the MEAN stack, a collection of software well suited to building dynamic web sites or applications. The driving force behind our choice was it's popularity. With so many resources available relating to use of the MEAN stack, it made drawing inspiration for our implementation and fixing the (inevitable) bugs far easier. The MEAN stack is as follows:
+
+<ul>
+<li> MongoDB - A NoSQL document-oriented database program </li>
+<li> Express.js - Backend web application framework</li>
+<li> Angular - Frontend web application framework</li>
+<li> Node.js - Backend JavaScript runtime environment</li>
+</ul>
+
+Another thing to note is that all members of the stack are coded in JavaScript or TypeScript (a language <em>very</em> similar). This makes it easy for a team to work on since everyone can understand what each block of code is doing.
+
+To best explain how we used this software to create our webpage, we use a helpful sequence diagram which encompasses most of our products functionality.
+
+#### Sequence Diagram
+
 <p align="center">
-  <img src="images/schemas.png" width="500"/>
+  <img src="images/Sequence Diagram.png" width="900"/>
 </p>
 <p align="center">
-  <em>Our data model</em>
+  <em>Sequence Diagram showing how our website flows.</em>
 </p>
-Above is the entity relationship diagram of our data model. Player is in a separate table rather than in the Play table so that the whole data model conforms to normal forms. The player field in Play table is a foreign key that refers to Player table. The timewithoutdistraction and timewithdistraction record the time in seconds a player spends finishing the game in without distraction round and with distraction round respectively. In the Player table, we use email to identify players. The email field is required and unique. We also added a birthday field and an age virtual property in the Player table, but they are not used in our current minimal viable product. We made one schema per file in the ./models/ directory.
+
+To aid comprehension of the diagram, when a User accesses the website, the Angular app.component.ts presents them with the welcome page HTML view. From this point, the user has some options. They can either look at the dev info, which prompts a pop-up component to display information. Alternatively, they may enter their email and begin the game. Upon doing so, depending on which point in the game they are at, various components are called (game-card, News-Api etc.). Functions within these components are then carried out and alter what the user sees on screen. It should be noted, some of these functions are those of the DataService, which, when called, send a request through Node and Express to our Database. Upon receiving this Http request, MongoDB sends back the required information in a JSON payload (Or, in the case of a POST request, a fulfilled promise).
+
+#### Class diagram
+
+To further clarify just how our frontend components interact and how that translates to the user experience, please find below a class diagram, listing the attributes, functions and links between our components. While we didn't include everything here since space was limited, this should give you an overview of how our SPA fits together.
+
+<p align="center">
+  <img src="images/UML+Distract.png" width="900"/>
+</p>
+<p align="center">
+  <em>Class Diagram showcasing the relationship between components.</em>
+</p>
+
 
 ## Front End (Angular)
 
@@ -131,7 +158,7 @@ For the auditory distractions we decided to gather several sounds we found distr
 ## Middle Tier (Express, Node, RESTful API)
 
 ### Choice of software
-<p> As seen when exploring our stack architecture, we chose to use Node and Express.js to implement our RESTful API. Aside from the wealth of information available due to the popularity of the MEAN stack, there are several technical benefits to this software choice. </p>
+<p> As seen when exploring our stack architecture, we chose to use Node and Express.js to implement our RESTful API. Aside from the general advantages of MEAN discussed above, there are several technical benefits to this software choice. </p>
 
  First and foremost, Node.js is quick. In the right scenario, it's non-blocking I/O combined with asynchronous request handling yield brilliant results. This is due to, despite being single-threaded in terms of executing JS code, it can delegate things like handling files, or network calls to different threads, which when optimized massively reduce execution time, shown well in this <a href="https://medium.com/paypal-tech/node-js-at-paypal-4e2d1d08ce4f" title="https://medium.com/paypal-tech/node-js-at-paypal-4e2d1d08ce4f">report</a>.
 
@@ -275,7 +302,7 @@ export class DataService {
 ```
 With this, we can make streamlined requests at any place in the frontend! (an obvious example being adding a player to the database once they've registered). This is very powerful, and makes calling the API as simple as copying in a line of code.
 
-A good example of how we used the API in our SPA is in the bar chart. The data which the bar chart displays is pulled from the API functions into the component, where it is manipulated and then finally displayed.
+A good example of how we used the API in our SPA is in the bar chart. The data which the bar chart displays is pulled from the API functions into the component, where it is manipulated and then finally shown to the user.
 
 <p align="center">
   <img src="images/barChart.png" width="500"/>
@@ -286,11 +313,20 @@ A good example of how we used the API in our SPA is in the bar chart. The data w
 
 </p>
 
+## Back End (MongoDB)
+<p align="center">
+  <img src="images/schemas.png" width="500"/>
+</p>
+<p align="center">
+  <em>Our data model</em>
+</p>
+Above is the entity relationship diagram of our data model. Player is in a separate table rather than in the Play table so that the whole data model conforms to normal forms. The player field in Play table is a foreign key that refers to Player table. The timewithoutdistraction and timewithdistraction record the time in seconds a player spends finishing the game in without distraction round and with distraction round respectively. In the Player table, we use email to identify players. The email field is required and unique. We also added a birthday field and an age virtual property in the Player table, but they are not used in our current minimal viable product. We made one schema per file in the ./models/ directory.
+
 ## Continuous Deployment using Docker
-### Primer 
+### Primer
 Docker is used for running applications in containers making them contain everything needed for running the application: runtimes, system tools, libraries, OS and everything you would otherwise need to install yourself to run the application. It ensures that the runtime environment of your application is constant – a massive advantage that development teams need not worry about setting up work environments and managing dependencies on the client side.
 
-This contrasts more traditional forms of deployment including virtual machines (VMs), which can be infrastructurally expensive, because each VM requires its own underlying OS and a virtual copy of the hardware that the OS needs to run. This quickly adds up to a lot of RAM and CPU cycles. 
+This contrasts more traditional forms of deployment including virtual machines (VMs), which can be infrastructurally expensive, because each VM requires its own underlying OS and a virtual copy of the hardware that the OS needs to run. This quickly adds up to a lot of RAM and CPU cycles.
 
 <p align="center">
   <img src="images/docker.png" width="800"/>
@@ -301,17 +337,17 @@ This contrasts more traditional forms of deployment including virtual machines (
 
 ### Implementation
 The main idea behind our Docker deployment strategy was to use a docker compose script to spin up two containers that would talk to each other while the application was being served. The following containers were deployed:
-1. NodeJS container containing the Angular frontend and ExpressJS server 
-2. MongoDB container to persist the data in our application 
+1. NodeJS container containing the Angular frontend and ExpressJS server
+2. MongoDB container to persist the data in our application
 
 #### Container 1: NodeJS Container
 The following [`Dockerfile`](../site/../../site/Dockerfile) was used to create an image containing our Angular front end and server using Alpine linux as a parent image that is pulled directly from DockerHub.
 The dependences are installed from the [`packages.json`](../../site/package.json) and port 3000 can then be accessed on the host machine to use the application.
 ```dockerfile
-FROM node:10-alpine 
+FROM node:10-alpine
 RUN mkdir -p /home/node/app/node_modules && chown -R node:node /home/node/app
 WORKDIR /home/node/app
-COPY package*.json ./ 
+COPY package*.json ./
 USER node
 RUN npm install
 COPY --chown=node:node . .
@@ -323,11 +359,11 @@ CMD [ "node", "server.js" ]
 There was no need to build a custom image for the MongoDB container. We directly used the the official [`mongo:4.1.8-xenial`](https://hub.docker.com/_/mongo) from DockerHub.
 
 #### Container Orchestration
-The [`docker-compose.yml`](../../site/docker-compose.yml) script was then used to orchestrate container creation and deployment. 
+The [`docker-compose.yml`](../../site/docker-compose.yml) script was then used to orchestrate container creation and deployment.
 
 Every container that is spun up can be thought of as a service. Services can talk to one another over a network based on the ports that have been exposed on each of the containers. The docker daemon creates this network internally and allows communication between containers.
 
-Let us break the process down. 
+Let us break the process down.
 
 First, the NodeJS container is built from the [Dockerfile above](#container-1-nodejs-container) and is defined as a `nodejs` service.
 
