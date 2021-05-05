@@ -58,10 +58,6 @@ Towards the end of the development phase our research objectives were as follows
 *    Two rounds of survey testing
 *    One round of moderated user testing
 
-### Ethnography ### 
-
-
-
 
 ### Survey 1: Testing the initial prototype ###
 
