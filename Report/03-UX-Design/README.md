@@ -28,7 +28,7 @@ The creation of this wireframe also allowed us to gather some early feedback fro
 - Keep the games fairly simple to allow for a wider audience access.
 - Explain the benefits of user distraction.
 
-The wireframes can be found [here](../../Source/01-Paper-prototype/paper-prototype.pdf). 
+The wireframes can be found [here](https://github.com/keane-fernandes/Group1Project/tree/dev/Source/01-Paper-prototype "Paper Prototype Folder").
 
 Alternatively, a gif of the paper prototype as seen in Adobe XD can be seen below.
 
