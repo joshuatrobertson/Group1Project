@@ -40,9 +40,7 @@ Towards the end of the development phase our research objectives were as follows
 
 ### Survey 1: Testing the initial prototype ###
 
-View the initial prototype [here](https://github.com/keane-fernandes/Group1Project/tree/dev/Source/01-Paper-prototype/paper-prototype.pdf).
-
-View the survey questions [here](https://github.com/keane-fernandes/Group1Project/tree/dev/Report/03-UX-Design/FirstSurvey/SurveyRound1_Questions.pdf).
+View the initial prototype [here](https://github.com/keane-fernandes/Group1Project/tree/dev/Source/01-Paper-prototype/paper-prototype.pdf). View the survey questions [here](https://github.com/keane-fernandes/Group1Project/tree/dev/Report/03-UX-Design/FirstSurvey/SurveyRound1_Questions.pdf).
 
 **Timeline**
 *    Participants were sent the preliminary prototype and a summary of our project brief and asked to go over both on their own. 
