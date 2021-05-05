@@ -49,7 +49,7 @@ View the initial prototype [here](https://github.com/keane-fernandes/Group1Proje
 
 
 <p align="center">
-  <img src="images/survey1Image.png" width="500"/>
+  <img src="images/exampleWalkthrough.png" width="500"/>
 </p>
 <p align="center">
   <em>Screenshot of a zoom call held with participants.</em>
