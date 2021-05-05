@@ -132,9 +132,52 @@ View the survey questions [here](SecondSurvey/SurveyRound2_Questions.pdf).
 * We received seventeen [responses](SecondSurvey/Survey2_Responses.xlsm). See a more visual representation [here](FirstSurvey/Survey2_Answers.pdf).
 
 
-| Finding                                             | Impact |
-| ---------------------------------------- | ----------- | 
-|     Finding one    |   Impact on our design     |
+**Research Question**: Test our hypothesis that the presence of distractions negatively impacts performance.
+
+
+**Findings**:
+
+**Impact**:
+
+
+
+**Research Question**: Test our hypothesis that DistractAbility does effectively highlight the serious problem.
+
+
+**Findings**:
+
+**Impact**:
+
+
+
+**Research Question**: Evaluate distractions used in the second round.
+
+
+**Findings**:
+
+**Impact**:
+
+
+
+**Research Question**: Evaluate user experience.
+
+
+**Findings**:
+
+**Impact**:
+
+
+**Research Question**: Feedback on potential future improvements.
+
+
+**Findings**:
+
+**Impact**:
+
+
+
+**Evaluation of Survey 2**
+
 
 ### Summary ### 
 
