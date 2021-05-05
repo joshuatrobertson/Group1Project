@@ -2,7 +2,32 @@
 # UX Design
 ## Prototyping
 ## Users and Stakeholders
+
+<p align="center">
+  <img src="images/persona_student.png" width="500"/>
+</p>
+<p align="center">
+  <em>Figure XX: A student persona.</em>
+</p>
+
+<p align="center">
+  <img src="images/persona_teacher.png" width="500"/>
+</p>
+<p align="center">
+  <em>Figure XX: A teacher persona.</em>
+</p>
+
 ## UX Approach (Heuristics & Design Methods)
+The way we approached our user experience was by following Nielsen’s ten general principles during the design phase of our project.
+
+<p align="center">
+  <img src="images/design-heuristics.png" width="500"/>
+</p>
+<p align="center">
+  <em>Figure XX: Jakob Nielsen's ten general principles for interaction Design.</em>
+</p>
+
+[Refer to components in our application that show some of these principles have been taken into consideration?]
 
 
 ## User Group Definition
