@@ -43,8 +43,15 @@ DistractAbility
 | The web application shall be a card matching game with two rounds consisting of a normal round and a round with distractions. | :white_check_mark: |
 | The user of the application will be able to compare their scores after both rounds.                                           | :white_check_mark: |
 
-# Video
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Anu82ZdiTFk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+# Video 
+<div align="center">
+      <a href="https://youtu.be/Anu82ZdiTFk">
+     <img 
+      src="https://img.youtube.com/vi/Anu82ZdiTFk/0.jpg" 
+      alt="Oops, this is supposed to be the thumbnail for the video!" 
+      style="width:100%;">
+      </a>
+    </div>
 
 # Documentation
 
