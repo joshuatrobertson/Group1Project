@@ -56,6 +56,9 @@ The test file is also used to assert the output of any relevant functions. For e
  
 
 ## Functional Testing
+
+For the functional testing, we decided to try to implement two main user stories and their journey through the application.
+
 ## User Acceptance Testing
 - 'UserTesting.md' documents the end user testing process and explains the structure of the UserTesting directory.
 - 'EndUserSurvey_(1).pdf' is the survey that was sent out to end user testing participants during the first round of end user testing.
