@@ -20,7 +20,7 @@ Above is the entity relationship diagram of our data model. Player is in a separ
 On the other end of the spectrum we have Express, which has a shallow learning curve and is a very intuitive way to create your own API, ideal for a simple SPA.
 
 #### API Goals
-The goal of this project's API is to seamlessly and efficiently transfer data between the client and server, i.e our front and back end, based on the users game inputs. While simple, for it to qualify as a RESTful API, it must satisfy several constraints, which in the scope of our webpage are:  
+The goal of this project's API is to seamlessly and efficiently transfer data between the client and server, i.e our front and back end, based on the users game inputs. While simple, for it to qualify as a RESTful API, it must satisfy several constraints, which in the scope of our webpage are:
 <ul>
 <li>Client-server architecture</li>
 <li>Statelessness</li>
@@ -121,7 +121,7 @@ For reference, these functions (in order):
 </ol>
 
 #### Using our API
-With the API routes created, the next challenge was to integrate these requests into the frontend of our application. Since we want complete separation of the front and back end, it would be unwise to make http requests directly from our components. This could be due to readability concerns, but more importantly scalability. It is far easier to abstract out this process, so when changes are made it is done more efficiently and easily.    
+With the API routes created, the next challenge was to integrate these requests into the frontend of our application. Since we want complete separation of the front and back end, it would be unwise to make http requests directly from our components. This could be due to readability concerns, but more importantly scalability. It is far easier to abstract out this process, so when changes are made it is done more efficiently and easily.
 
 To do this, we made use of another mean stack component, Angular. Angular has inbuilt skeletons for "data services" which, in layman's terms, give common functions to all areas of the application, whether they make requests or simply share data. Please find ours below.
 ```js
@@ -220,10 +220,10 @@ getRandomNumber(min, max): number {
   <em>News card created using News API.</em>
 </p>
 
-During the game, the news cards move across the screen in a seemingly random way, to further distract the user. This was implemented purely using css and made use of motion paths to move the div across the screen. This can be seen below.
+During the game, the news cards move across the screen in a seemingly random way, to further distract the user. To implement this, we first created an svg path with sudo random movements, before converting the path to coordinates. This then allowed us to make use of motion path within css to animate the div within its parent element. Although it would have been preferable to inject some randomness into the movement, for the task we deemed this suitable, along with it allowing us to easily adapt the code for future versions. The animated card can be seen below.
 
 <p align="center">
-  <img src="images/news-card.gif" width="600"/>
+  <img src="images/news-card.gif" width="500"/>
 </p>
 <p align="center">
   <em>Animated Angular Card Displaying News</em>
@@ -283,14 +283,7 @@ For the auditory distractions we decided to gather several sounds we found distr
   <td>The implementation of this was relatively straightforward and therefore we did not run into any issues. </td>
   <td>N/A</td>
 </tr>
-<tr>
-  <td>AppComponent</td>
-  <td>The main component which contained most of the game logic</td>
-  <td>
-  When playing a sound, once it began it would continuously play.
-
-  </td>
-  <td>N/A</td>
+</td>
 </tr>
 </table>
 
