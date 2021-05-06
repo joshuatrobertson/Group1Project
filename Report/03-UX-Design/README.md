@@ -203,13 +203,13 @@ View the initial prototype [here](../../Source/01-Paper-prototype/paper-prototyp
 *    In order to tie the distracting sounds to the typical lockdown experience we included [construction sounds](sounds/construction.wav), the [BBC theme song](sounds/BBC.mp3), and soundbites from Netflix’s [*Tiger King*](sounds/joeExotic2.mp3) - the second most watched TV series globally in 2020. 
 *    We omitted player specific demands. 
 
-**Evaluation:** The options presented in *Question 3* included examples of what we envisaged for each type of distraction. For instance, one option was ‘Advanced Sound (e.g. notification bells, incoming WhatsApp sound, BBC theme song)’. Providing these specific examples in a tick-box question does not provide much scope for participants to express a different view of what they consider an ‘Advanced Sound’ and the like. However, we believe we corrected this limitation with the following question, which gave respondents an open text box in which to make any additional suggestions as to what kind of distractions they would like to see. 
+**Evaluation:** The options presented in *Question 2* included examples of what we envisaged for each type of distraction. For instance, one option was ‘Advanced Sound (e.g. notification bells, incoming WhatsApp sound, BBC theme song)’. Providing these specific examples in a tick-box question does not provide much scope for participants to express a different view of what they consider an ‘Advanced Sound’ and the like. However, we believe we corrected this limitation with the following question, which gave respondents an open text box in which to make any additional suggestions as to what kind of distractions they would like to see. 
 
 <p align="center">
   <img src="FirstSurvey/kindsOfDistractions.png" width="500"/>
 </p>
 <p align="center">
-  <em>Responses to Question 3.</em>
+  <em>Responses to Question 2.</em>
 </p>
 
 
@@ -223,13 +223,13 @@ View the initial prototype [here](../../Source/01-Paper-prototype/paper-prototyp
 *    We took into consideration the preference for logic and mathematical games. But given the limitation in the way we asked this question (discussed below), we did not consider this preference more important than our primary objective of using a game that relies on working memory, given the link between working memory and concentration. 
 *    We saw that a general knowledge-based game might reduce the broadness of appeal of our application. We, the developers, are all similar in age and other demographic categories and so what is general knowledge to us is less likely to be general knowledge for as many people in other age ranges and demographics.
 
-**Evaluation:** In hindsight *Question 7* was poorly designed, although we believe *Question 8* did somewhat atone for the limitations of 7. *Question 7* asked 'What kinds of mind games would you like to see?' and provided five options, with respondents able to select as many as they agreed with. For more analytic games we gave very broad categories (‘Maths Games’, ‘Logic Games’), whereas the options which might be preferred by less mathematically inclined individuals were incredibly specific (‘Play Music, guess the artist’, ‘sudoku’). This may have biased respondents in favour of Maths and Logic games even if they would have generally preferred less analytical games, but simply have a specific dislike of sudoku, for instance. In fact, the broader the definition the more popular the option – so perhaps the preference for maths and logic games is due to this flaw in our methodology, rather than a genuine preference for more analytical games. Indeed, *Question 8* gave respondent’s free reign to write their comments about what kinds of games they would like to see in the application, and qualitatively, the preference was less heavily in favour of explicitly analytic games.
+**Evaluation:** In hindsight *Question 6* was poorly designed, although we believe *Question 7* did somewhat atone for the limitations of 6. *Question 6* asked 'What kinds of mind games would you like to see?' and provided five options, with respondents able to select as many as they agreed with. For more analytic games we gave very broad categories (‘Maths Games’, ‘Logic Games’), whereas the options which might be preferred by less mathematically inclined individuals were incredibly specific (‘Play Music, guess the artist’, ‘sudoku’). This may have biased respondents in favour of Maths and Logic games even if they would have generally preferred less analytical games, but simply have a specific dislike of sudoku, for instance. In fact, the broader the definition the more popular the option – so perhaps the preference for maths and logic games is due to this flaw in our methodology, rather than a genuine preference for more analytical games. Indeed, *Question 7* gave respondent’s free reign to write their comments about what kinds of games they would like to see in the application, and qualitatively, the preference was less heavily in favour of explicitly analytic games.
 
 <p align="center">
   <img src="FirstSurvey/kindsOfGames.png" width="500"/>
 </p>
 <p align="center">
-  <em>Responses to Question 7.</em>
+  <em>Responses to Question 6.</em>
 </p>
 
 
@@ -280,7 +280,7 @@ View the survey questions [here](SecondSurvey/SurveyRound2_Questions.pdf).
   <img src="SecondSurvey/secondHarder.png" width="500"/>
 </p>
 <p align="center">
-  <em>Responses to Question 2.</em>
+  <em>Responses to Question 1</em>
 </p>
 
 
@@ -297,7 +297,7 @@ View the survey questions [here](SecondSurvey/SurveyRound2_Questions.pdf).
   <img src="SecondSurvey/representative.png" width="500"/>
 </p>
 <p align="center">
-  <em>Question 3 </em>
+  <em>Question 2 </em>
 </p>
 
 
@@ -321,7 +321,7 @@ View the survey questions [here](SecondSurvey/SurveyRound2_Questions.pdf).
   <img src="SecondSurvey/distractionType.png" width="500"/>
 </p>
 <p align="center">
-  <em>Question 5 </em>
+  <em>Question 4 </em>
 </p>
 
 
