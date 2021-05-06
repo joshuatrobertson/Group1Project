@@ -28,6 +28,39 @@ The way we approached our user experience was by following Nielsen’s ten gener
 </p>
 
 [Refer to components in our application that show some of these principles have been taken into consideration?]
+Obviously, not all of these had equal influence. For example, the flexibility and efficiency of use generally refers to an experienced user being able to carry out more advanced tasks. Given the small size and precise goal of our application, advanced options would only serve to detract from it's purpose, or potentially discourage first-time users. Despite this, we were still considerate of those users who truly do want to know more about our project, and have provided means to contact us if they so wish.
+
+As a team, we then decided on the most important of these principles, which we would strive to implement across our app. These were:
+<ul>
+<li>Match Between System & Real World </li>
+<li>User Control and Freedom </li>
+<li>Consistency And Standards </li>
+<li>Aesthetic and Minimalist Design </li>
+</ul>
+
+#### Match Between System And The Real World
+
+Clearly, when designing a web app with "Serious Play" in mind, it is essential that the user can almost immediately identify the issue being tackled. In addition to this, the User should relate in some way to the material presented, whether it be through choice of language, or that the webpage is natural to navigate off of instinct. Since the pandemic has had such a massive global impact, we had our work cut out for us in terms of users relating to the issue. However, it was vital that the distractions we chose to implement throughout our game matched those that the average user would experience. It would be of no use to anyone if the distractions were unrealistic or silly, which would take away hugely from the user experience.
+
+We kept this in mind when designing our surveys for initial end user testing, with a question specifically relating to this issue. For a full breakdown, please see the relevant section below!
+
+#### User Control And Freedom
+
+#### Consistency And Standards
+
+Given our application is contained within a single page, consistent formatting and presentation of the interface is paramount. Thus, during the building process it was decided that we'd stick to simple CSS templates. Once the website was functional, i.e users could log in and play the game, only then would we decide on any additional formatting changes as required. Otherwise, if different people designed different sections of the website we could end up with a confusing or contradictory interface, a simple example being the picture shown below.  
+
+<p align="center">
+  <img src="SUBMIT.png" width="200"/>
+</p>
+<p align="center">
+  <em>Figure XX: An example inconsistency in a website.</em>
+</p>
+
+
+
+#### Aesthetic and Minimalist Design
+
 
 
 ## User Group Definition
