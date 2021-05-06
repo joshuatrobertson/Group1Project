@@ -1,4 +1,21 @@
 [&#8592; Back to Report Landing Page](../README.md)
+
+## Table of Contents
+1. [System Design Overview](#system-design-overview)  
+2. [Frontend](#frontend) 
+   a. [Implementation](#frontend-implementation)  
+   b. [Routing](#frontend-routing)  
+   c. [Issues and Functionality of the Components](#frontend-issues-and-functionality-of-the-components)  
+3. [Middle Tier](#middle-tier)
+   a. [Choice of Software](#middle-tier-choice-of-software)  
+   b. [Building the API routes](#middle-tier-building-the-api-routes) 
+   c. [Using our API](#middle-tier-using-our-api)
+4. [Backend (MongoDB)](#backend-mongodb)
+5. [Continuous Deployment using Docker](#continuous-deployment-using-docker)
+   a. [Primer](#continuous-deployment-using-docker-primer)
+   b. [Implementation](#continuous-deployment-using-docker-implementation)
+6. [Bibliography](#bibliography)
+   
 # System Implementation
 ## System Design Overview
 We chose to implement our SPA using the MEAN stack, a collection of software well suited to building dynamic web sites or applications. The driving force behind our choice was it's popularity. With so many resources available relating to use of the MEAN stack, it made drawing inspiration for our implementation and fixing the (inevitable) bugs far easier. The MEAN stack is as follows:
@@ -20,7 +37,7 @@ To best explain how we used this software to create our webpage, we use a helpfu
   <img src="images/Sequence Diagram.png" width="900"/>
 </p>
 <p align="center">
-  <em>Sequence Diagram showing how our website flows.</em>
+  <em>Figure 1: Sequence Diagram showing how our website flows.</em>
 </p>
 
 To aid comprehension of the diagram, when a User accesses the website, the Angular app.component.ts presents them with the welcome page HTML view. From this point, the user has some options. They can either look at the dev info, which prompts a pop-up component to display information. Alternatively, they may enter their email and begin the game. Upon doing so, depending on which point in the game they are at, various components are called (game-card, News-Api etc.). Functions within these components are then carried out and alter what the user sees on screen. It should be noted, some of these functions are those of the DataService, which, when called, send a request through Node and Express to our Database. Upon receiving this Http request, MongoDB sends back the required information in a JSON payload (Or, in the case of a POST request, a fulfilled promise).
@@ -33,7 +50,7 @@ To further clarify just how our frontend components interact and how that transl
   <img src="images/UML+Distract.png" width="900"/>
 </p>
 <p align="center">
-  <em>Class Diagram showcasing the relationship between components.</em>
+  <em>Figure 2: Class Diagram showcasing the relationship between components.</em>
 </p>
 
 
@@ -66,7 +83,7 @@ startTimer(): void {
     return minutes + ':' + (value - minutes * 60);
   }
  ```
- This was implemented within the main app.component.ts file, which contains most of the game logic. The memory card game implementation can be seen within the GameCardComponent and uses JavaScripts 'states' to animate the card.
+This was implemented within the main app.component.ts file, which contains most of the game logic. The memory card game implementation can be seen within the GameCardComponent and uses JavaScripts 'states' to animate the card.
 
 #### Distractions
 For the distraction elements of the game we decided to go with both visual and auditory distractions following feedback from the user survey. Having more than one distraction also aligns with the literature review, in that attention is a finite resource and the brain can only devote attention to a limited number of stimuli.
@@ -85,7 +102,7 @@ getRandomNumber(min, max): number {
   <img src="images/news-card.png" width="300"/>
 </p>
 <p align="center">
-  <em>News card created using News API.</em>
+  <em>Figure 3: News card created using News API.</em>
 </p>
 
 During the game, the news cards move across the screen in a seemingly random way, to further distract the user. To implement this, we first created an svg path with sudo random movements, before converting the path to coordinates. This then allowed us to make use of motion path within css to animate the div within its parent element. Although it would have been preferable to inject some randomness into the movement, for the task we deemed this suitable, along with it allowing us to easily adapt the code for future versions. The animated card can be seen below.
@@ -94,7 +111,7 @@ During the game, the news cards move across the screen in a seemingly random way
   <img src="images/news-card.gif" width="500"/>
 </p>
 <p align="center">
-  <em>Animated Angular Card Displaying News</em>
+  <em>Figure 4: Animated Angular Card Displaying News</em>
 </p>
 
 ##### Auditory Distractions
@@ -104,7 +121,7 @@ For the auditory distractions we decided to gather several sounds we found distr
   <img src="images/audacity.png" width="600"/>
 </p>
 <p align="center">
-  <em>Adding reverb to 'construction.wav' in Audacity</em>
+  <em>Figure 5: Adding reverb to 'construction.wav' in Audacity</em>
 </p>
 
 ### Routing
@@ -174,6 +191,10 @@ if (this.userSecondGame === true) {
 </td>
 </tr>
 </table>
+
+<p align="center">
+  <em>Table 1: Issues and Functionality of the Components</em>
+</p>
 
 ## Middle Tier (Express, Node, RESTful API)
 
@@ -328,7 +349,7 @@ A good example of how we used the API in our SPA is in the bar chart. The data w
   <img src="images/barChart.png" width="500"/>
 </p>
 <p align="center">
-  <em>Bar chart comparing users times.</em>
+  <em>Figure 6 - Bar chart comparing users times.</em>
 </p>
 
 </p>
@@ -341,7 +362,7 @@ Below is the entity relationship diagram of our data model. Player is in a separ
   <img src="images/schemas.png" width="500"/>
 </p>
 <p align="center">
-  <em>Our data model</em>
+  <em>Figure 7: Our data model</em>
 </p>
 
 ## Continuous Deployment using Docker
@@ -354,7 +375,7 @@ This contrasts more traditional forms of deployment including virtual machines (
   <img src="images/docker.png" width="800"/>
 </p>
 <div align="center">
-  <em>Figure XX: Docker vs traditional full virtualization for deployment.</em>
+  <em>Figure 8: Docker vs traditional full virtualization for deployment.</em>
 </div>
 
 ### Implementation
