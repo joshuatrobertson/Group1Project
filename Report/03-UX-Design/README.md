@@ -67,7 +67,9 @@ Age  |  Gender | Background (technical/non-technical)
 
 ### Ethnography: Survey 2 ###
 
-
+Age  |  Gender | Background (technical/non-technical)
+:-------------------------:|:-------------------------:|:-------------------------:
+![](SecondSurvey/ethnography/age.png)  |  ![](SecondSurvey/ethnography/gender.png) |  ![](SecondSurvey/ethnography/background.png)
 
 
 ### Survey 1: Testing the initial prototype ###
