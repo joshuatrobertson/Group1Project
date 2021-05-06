@@ -408,7 +408,7 @@ nodejs:
   container_name: nodejs
 ```
 
-Environment variables for this container are stored in the .env file and contain the credentials to login to our `db` service. We ensured that this file was added to our `.gitignore` file since it contained sensitive information of our users' login credentials.
+Environment variables for this container are stored in the .env file and contain the credentials to login to our `db` service. We ensured that this file was added to our [`.gitignore`](../../site/.gitignore) file since it contained sensitive information of our users' login credentials.
 
 ```yaml
 env_file: .env
