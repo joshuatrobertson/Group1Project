@@ -245,31 +245,17 @@ View the survey questions [here](SecondSurvey/SurveyRound2_Questions.pdf).
 
 
 **Findings**
-* 
+* Calls for: (i) more rounds, (ii) separate rounds for audio/visual distractions, (iii) randomised ordering of the rounds, i.e. sometimes the round with distractions first and round without distractions second.  
+* Some respondents would like the visual distractions to be improvoed, e.g. "use a template of a phone rather than the visuals spinning around".
+* One respondent said "It would be interesting to assess whether there is a difference in distractibility based on gender".
 
 **Impact**
-
+* In response to both the feedback and our realisation that *DistractAbility* does not give the user much autonomy, in future we will consider allowing the user to decide for themselves whether to start with the distraction-infested round or the distractionless round.
 
 
 **Evaluation of Survey 2**
 * Most importantly, the authenticity of the survey is limited by the fact that a handful of participants completed the survey on the basis of the demo video rather than first-hand experience of our site. Indeed it was these participants who tended to answer 'Not Sure' to the first question - for obvious reasons. This is clearly not ideal. However, given the current Covid situation, gathering a subset of responses on the basis of the demo video was the only way we could survey a greater diversity of ages and professions. We judged it preferable to diversify our participant pool at the cost of some responses not being as authentic as first-hand experience. 
 * We did not explicitly ask the respondents about their experience of play in *DistractAbility*. If we were to do more user testing, we would either ask survey respondents to what extent was their experience fun, or we would ask about the user's experience of play in an interview.
-
-
-
-### Summary ### 
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 ## Wireframes/Interaction Flow Diagrams
