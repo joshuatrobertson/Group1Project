@@ -164,10 +164,10 @@ View the survey questions [here](SecondSurvey/SurveyRound2_Questions.pdf).
 **Research Question**: Test our hypothesis that the presence of distractions negatively impacts performance.
 
 
-**Findings**:
+**Findings**
 * 76.5% of respondents found the card game harder to complete in the second round, in the presence of distractions, than in the first round.
 
-**Impact**:
+**Impact**
 
 
 <p align="center">
@@ -181,10 +181,10 @@ View the survey questions [here](SecondSurvey/SurveyRound2_Questions.pdf).
 **Research Question**: Test our hypothesis that *DistractAbility* does effectively highlight the serious problem.
 
 
-**Findings**:
+**Findings**
 * 100% of respondents agreed that *DistractAbility* "does a good job of demonstrating the problem of heightened distractibility in the context of COVID-19".
 
-**Impact**:
+**Impact**
 
 
 <p align="center">
@@ -200,26 +200,26 @@ View the survey questions [here](SecondSurvey/SurveyRound2_Questions.pdf).
 **Research Question**: Evaluate distractions used in the second round.
 
 
-**Findings**:
+**Findings**
 
-**Impact**:
+**Impact**
 
 
 
 **Research Question**: Evaluate user experience.
 
 
-**Findings**:
+**Findings**
 
-**Impact**:
+**Impact**
 
 
 **Research Question**: Feedback on potential future improvements.
 
 
-**Findings**:
+**Findings**
 
-**Impact**:
+**Impact**
 
 
 
