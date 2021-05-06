@@ -92,15 +92,29 @@ Towards the end of the development phase our research objectives were as follows
 *    One round of moderated user testing
 
 
+### Ethnography: Survey 1 ###
+
+Age  |  Gender | Background (technical/non-technical)
+:-------------------------:|:-------------------------:|:-------------------------:
+![](FirstSurvey/ethnography/age.png)  |  ![](FirstSurvey/ethnography/gender.png) |  ![](FirstSurvey/ethnography/background.png)
+
+### Ethnography: Survey 2 ###
+
+Age  |  Gender | Background (technical/non-technical)
+:-------------------------:|:-------------------------:|:-------------------------:
+![](SecondSurvey/ethnography/age.png)  |  ![](SecondSurvey/ethnography/gender.png) |  ![](SecondSurvey/ethnography/background.png)
+
+
 ### Survey 1: Testing the initial prototype ###
 
-View the initial prototype [here](https://github.com/keane-fernandes/Group1Project/tree/dev/Source/01-Paper-prototype/paper-prototype.pdf). View the survey questions [here](https://github.com/keane-fernandes/Group1Project/tree/dev/Report/03-UX-Design/FirstSurvey/SurveyRound1_Questions.pdf).
+View the initial prototype [here](../../Source/01-Paper-prototype/paper-prototype.pdf). View the survey questions [here](FirstSurvey/SurveyRound1_Questions.pdf).
 
 **Timeline**
-*    Participants were sent the prototype and a summary of our project brief and asked to go over both before the group zoom call.
-*   24 hours after being sent the prototype, the researcher held a group zoom call with a subset of study participants. During the zoom call, the researcher walked everyone through the prototype, answering questions as they came up.
+*    Participants were sent the prototype and a summary of our project brief and asked to go over both before the group zoom call. 
+*   24 hours after being sent the prototype, the researcher held a group zoom call with subsets of study participants - not all participants attended the same zoom. 
+* During the zoom call, the researcher walked everyone through the prototype, answering questions as they came up.
 *    Immediately after the zoom call, participants were sent the questionnaire and asked to respond without consulting other participants in the group.
-* We received fourteen [responses](FirstSurvey/Survey1_Responses.xlsx). See a more visual representation [here](FirstSurvey/Survey1_Answers.pdf).
+* We received fourteen [responses](FirstSurvey/Survey1_Responses.xlsx). See a more visual representation [here](FirstSurvey/SurveyRound1_Answers.pdf).
 
 
 <p align="center">
@@ -113,21 +127,18 @@ View the initial prototype [here](https://github.com/keane-fernandes/Group1Proje
 
 **Research Question**:  What sorts of distractions will best exemplify the difficulties of focusing on work during lockdown? *Covered by survey questions 3-5*.
 
-**Findings**:
+**Findings**
 *    Respondents would most like to see ‘Advanced Sound’ (92.9%) closely followed by ‘Advanced Animation’ (78.6%). The least popular option was ‘Player Specific Demands’ (7.1%).
-*    Respondents want distractions that relate to the typical lockdown experience – suggestions included construction sounds and P.E. with Joe Wicks.
-*   Most respondents would prioritise mobile phone and social media notification sounds.
+*    Respondents want distractions that relate to the typical lockdown experience – suggestions included P.E. with Joe Wicks and construction sounds (one respondent reported "a lot of DIY in lockdown and it was very annoying").  
+*   Most respondents would prioritise mobile phone and social media notification sounds. 
 
-**Impact**:
-*    We omitted player specific demands.
-*    We built a variety of what we consider ‘advanced sounds’. Importantly, our choice of sound effects is linked to the theoretical background discussed in the literature review. For instance, to reflect the kinds of distractions that would fall in the ‘continuity’ camp, we included notification sounds such as the that of an incoming Microsoft Teams call or a WhatsApp message.
+**Impact**
+*    We play a variety of what we consider ‘advanced sounds’, including ten different mobile phone and social media sound effects – more than any other type of distraction. Examples include an incoming [Microsoft Teams call](sounds/teamsCall.mp3), a [WhatsApp message](sounds/whatsappIncoming.mp3) and a [Facebook message](sounds/facebookCall.mp3). When related to the theoretical background discussed in the literature review, these sounds reflect the kinds of distractions that would fall in the ‘continuity’ camp.
 *    The news articles pulled in through the API are animated such that they move across the screen and change size.
-*    In order to tie the distracting sounds to the typical lockdown experience we included construction sounds, the BBC theme song, and soundbites from Netflix’s *Tiger King* - the second most watched TV series globally in 2020.
-*    We have ten different mobile phone and social media sound effects – more than any other type of distraction.
+*    In order to tie the distracting sounds to the typical lockdown experience we included [construction sounds](sounds/construction.wav), the [BBC theme song](sounds/BBC.mp3), and soundbites from Netflix’s [*Tiger King*](sounds/joeExotic2.mp3) - the second most watched TV series globally in 2020. 
+*    We omitted player specific demands. 
 
-Sample the kinds of sounds included in our application [here](sounds/teamsCall.mp3), [here](sounds/joeExotic2.mp3) and [here](sounds/BBC.mp3).
-
-**Evaluation**: The options presented in *Question 3* included examples of what we envisaged for each type of distraction. For instance, once option was ‘Advanced Sound (e.g. notification bells, incoming WhatsApp sound, BBC theme song)’. Providing these specific examples in a tick-box question does not provide much scope for participants to express a different view of what they consider an ‘Advanced Sound’ and the like. However, we believe we corrected this limitation with the following question, which gave respondents an open text box in which to make any additional suggestions as to what kind of distractions they would like to see.
+**Evaluation:** The options presented in *Question 3* included examples of what we envisaged for each type of distraction. For instance, one option was ‘Advanced Sound (e.g. notification bells, incoming WhatsApp sound, BBC theme song)’. Providing these specific examples in a tick-box question does not provide much scope for participants to express a different view of what they consider an ‘Advanced Sound’ and the like. However, we believe we corrected this limitation with the following question, which gave respondents an open text box in which to make any additional suggestions as to what kind of distractions they would like to see. 
 
 <p align="center">
   <img src="FirstSurvey/kindsOfDistractions.png" width="500"/>
@@ -139,15 +150,15 @@ Sample the kinds of sounds included in our application [here](sounds/teamsCall.m
 
 **Research Question**: What sorts of mind-games will people find engaging?
 
-**Findings**:
+**Findings**
 *   People would most like to play Logic Games, followed by Maths Games then General Knowledge.
-*    General knowledge type games may not be a fair assessment as what is general knowledge to one person is not common knowledge to the next.
+*   Some concern that general knowledge type games may not be a fair assessment, as what is general knowledge to one person is not common knowledge to the next.  
 
-**Impact**:
-*    We took into consideration the preference for logic and mathematical games, but noted the importance of a game that relies on working memory, given the link between working memory and concentration.
-*    We saw that a general knowledge-based game might reduce the broadness of appeal of our application. We are all similar and age and other demographic categories and so what is general knowledge to us is less likely to be general knowledge for as many people in other age ranges and demographics.
+**Impact**
+*    We took into consideration the preference for logic and mathematical games. But given the limitation in the way we asked this question (discussed below), we did not consider this preference more important than our primary objective of using a game that relies on working memory, given the link between working memory and concentration. 
+*    We saw that a general knowledge-based game might reduce the broadness of appeal of our application. We, the developers, are all similar in age and other demographic categories and so what is general knowledge to us is less likely to be general knowledge for as many people in other age ranges and demographics.
 
-**Evaluation**: The options provided for *Question 7* were unequally broad in their definition. For more analytic games we gave very broad categories (‘Maths Games’, ‘Logic Games’), whereas the options we gave which might be preferred by less mathematically inclined individuals were incredibly specific (‘Play Music, guess the artist’, ‘sudoku’). This may have biased respondents in favour of Maths and Logic games even if they would have generally preferred less analytical games, but simply have a specific dislike of sudoku, for instance. In fact, the broader the definition the more popular the option – so perhaps the preference for maths and logic games is due to this flaw in our methodology, rather than a genuine preference for more analytical games. Indeed, *Question 8* gave respondent’s free reign to write their comments about what kinds of games they would like to see in the application, and qualitatively, the preference was less heavily in favour of logical games.
+**Evaluation:** In hindsight *Question 7* was poorly designed, although we believe *Question 8* did somewhat atone for the limitations of 7. *Question 7* asked 'What kinds of mind games would you like to see?' and provided five options, with respondents able to select as many as they agreed with. For more analytic games we gave very broad categories (‘Maths Games’, ‘Logic Games’), whereas the options which might be preferred by less mathematically inclined individuals were incredibly specific (‘Play Music, guess the artist’, ‘sudoku’). This may have biased respondents in favour of Maths and Logic games even if they would have generally preferred less analytical games, but simply have a specific dislike of sudoku, for instance. In fact, the broader the definition the more popular the option – so perhaps the preference for maths and logic games is due to this flaw in our methodology, rather than a genuine preference for more analytical games. Indeed, *Question 8* gave respondent’s free reign to write their comments about what kinds of games they would like to see in the application, and qualitatively, the preference was less heavily in favour of explicitly analytic games.
 
 <p align="center">
   <img src="FirstSurvey/kindsOfGames.png" width="500"/>
@@ -157,18 +168,27 @@ Sample the kinds of sounds included in our application [here](sounds/teamsCall.m
 </p>
 
 
-
 **Research Question**: Evaluate proposed user experience (flow and UI design).
 
-**Findings**:
+**Findings**
 * 64% of respondents agreed the application should have the given structure, i.e. two roudns the first without distraction and the second with.
 * Respondents would like to see the effect of distraction on concentration *after* distractions have ceased. Some suggested a hybrid round that measures the effect of previous distraction on concentration. Others suggested an interlude between round one and two to allow the user to refresh.
-* In terms of UI design, respondents were fairly evenly split between preferring a minimalist design to something bold and colourful.
+* In terms of UI design, respondents were fairly evenly split between preferring a minimalist design to something bold and colourful. 
 
-**Impact**:
-* We retained the two-round structure, but will consider adding additional rounds in which the distractions are inconstant.
-* Due to the lack of consensus on UI design we chose a bold and colourful aesthetic, which we feel is more memorable.
+**Impact**
+* In line with the majority view we retained the two-round structure.
+* We will consider future improvements that include adding additional rounds in which the distractions are inconstant. 
+* Due to the lack of consensus on UI design we chose a bold and colourful aesthetic, which we feel is more memorable.  
 
+**Evaluation:** Our initial prototype was very basic and aesthetically really quite boring. Given that almost all of our respondents were from non-technical backgrounds, it was perhaps difficult for them to comment on the UI design without much inspiration in front of them. 
+
+
+
+Prototype Results Page  |  Final Product Results Page
+:-------------------------:|:-------------------------:
+![](images/prototypeResults.png)  |  ![](images/endResults.png)
+
+-----------------------
 
 ### Survey 2: Testing hypotheses and evaluating final product ###
 
@@ -184,14 +204,15 @@ View the survey questions [here](SecondSurvey/SurveyRound2_Questions.pdf).
 **Research Question**: Test our hypothesis that the presence of distractions negatively impacts performance.
 
 
-**Findings**:
+**Findings**
 * 76.5% of respondents found the card game harder to complete in the second round, in the presence of distractions, than in the first round.
 
-**Impact**:
+**Impact**
+* This support for our hypothesis shows that our applications is in line with the theory presented in the literature review. 
 
 
 <p align="center">
-  <img src="SecondSurvey/harder.png" width="500"/>
+  <img src="SecondSurvey/secondHarder.png" width="500"/>
 </p>
 <p align="center">
   <em>Responses to Question 2.</em>
@@ -201,51 +222,70 @@ View the survey questions [here](SecondSurvey/SurveyRound2_Questions.pdf).
 **Research Question**: Test our hypothesis that *DistractAbility* does effectively highlight the serious problem.
 
 
-**Findings**:
+**Findings**
 * 100% of respondents agreed that *DistractAbility* "does a good job of demonstrating the problem of heightened distractibility in the context of COVID-19".
 
-**Impact**:
-
+**Impact**
+* This unanimous support for our hypothesis has given us confidence that our application has successfully met the 'serious' side of serious play. 
 
 <p align="center">
   <img src="SecondSurvey/representative.png" width="500"/>
 </p>
 <p align="center">
-  <em>Responses to Question 3.</em>
+  <em>Question 3 </em>
 </p>
-
-
 
 
 **Research Question**: Evaluate distractions used in the second round.
 
 
-**Findings**:
+**Findings**
+* 41.2% found sounds more distracting than visual distractions
+* 29.4% found visuals more distracting
+* 29.4% found both equally distracting
+* Qualitatively, suggestions for future improvements included: 
+* * "Messages popping up on screen"
+* * "More distractions - such as a housemate asking for a tea and a chat, a teams notification popping up asking for you, the email pings were triggering, more of them!"
+* * "If there could be some way to factor in the stress of having to complete an important task, something with higher stakes, that would interesting - like filling out a form with a deadline on it."
 
-**Impact**:
+**Impact**
+* The majority opinion that sounds are the most distracting is in line with the majority view in Survey 1 that sounds should be prioritised, implying that people do generally know in advance what they find most distracting.
+* Great recommendations for more advanced distractions that we will certainly consider building into future iterations of *DistractAbility*.
 
+<p align="center">
+  <img src="SecondSurvey/distractionType.png" width="500"/>
+</p>
+<p align="center">
+  <em>Question 5 </em>
+</p>
 
 
 **Research Question**: Evaluate user experience.
 
 
-**Findings**:
+**Findings**
+* Qualitatively very positive feedback.
+* One respondent said "Maybe an instructions menu to explain how the game works. To prepare the users on what to expect when carrying out the game." 
 
-**Impact**:
+**Impact**
+* That one respondent asked for an instructions menu indicates that either (i) the visibility of our 'App Info' popup modal could be improved, or (ii) the text in 'App Info' is not explanatory enough.  
 
 
 **Research Question**: Feedback on potential future improvements.
 
 
-**Findings**:
+**Findings**
+* Calls for: (i) more rounds, (ii) separate rounds for audio/visual distractions, (iii) randomised ordering of the rounds, i.e. sometimes the round with distractions first and round without distractions second.  
+* Some respondents would like the visual distractions to be improvoed, e.g. "use a template of a phone rather than the visuals spinning around".
+* One respondent said "It would be interesting to assess whether there is a difference in distractibility based on gender".
 
-**Impact**:
-
+**Impact**
+* In response to both the feedback and our realisation that *DistractAbility* does not give the user much autonomy, in future we will consider allowing the user to decide for themselves whether to start with the distraction-infested round or the distractionless round.
 
 
 **Evaluation of Survey 2**
-
-
+* Most importantly, the authenticity of the survey is limited by the fact that a handful of participants completed the survey on the basis of the demo video rather than first-hand experience of our site. Indeed it was these participants who tended to answer 'Not Sure' to the first question - for obvious reasons. This is clearly not ideal. However, given the current Covid situation, gathering a subset of responses on the basis of the demo video was the only way we could survey a greater diversity of ages and professions. We judged it preferable to diversify our participant pool at the cost of some responses not being as authentic as first-hand experience. 
+* We did not explicitly ask the respondents about their experience of play in *DistractAbility*. If we were to do more user testing, we would either ask survey respondents to what extent was their experience fun, or we would ask about the user's experience of play in an interview.
 
 
 ### Moderated User Testing ###
