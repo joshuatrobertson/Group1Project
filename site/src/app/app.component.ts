@@ -5,15 +5,11 @@ import { RestartGameComponent } from './restart-game/restart-game.component';
 import {EndGameComponent} from './end-game/end-game.component';
 import {DataService} from './data.service';
 import { ModalService } from './modal';
-import {HttpClient} from '@angular/common/http';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css'],
-  providers: [
-    DataService, HttpClient
-  ]
+  styleUrls: ['./app.component.css']
 })
 export class AppComponent {
 
@@ -99,15 +95,6 @@ export class AppComponent {
   saveEmail(): void {
     this.playerEmail = document.getElementById('email');
     this.playerEmail = this.playerEmail.value;
-    let ob = {"email": this.playerEmail};
-    this.dataService.postPlayer(ob).subscribe((res: any) => {
-      let body = res.body;
-      console.log('response body', body);
-    }, (error) => {
-      console.log('Failed with post');
-      console.error(error);
-    });
-    this.dataService.setMessage(this.playerEmail);
   }
 
   // Set up the cards on the screen
@@ -275,13 +262,22 @@ export class AppComponent {
           } else {
             this.userSecondTime = this.time;
             this.userSecondGame = false;
-            let ob = {"email": this.playerEmail, "time1": this.userFirstTime, "time2": this.userSecondTime};
-            this.dataService.postPlay(ob).subscribe((res: any) => {​​​​​
-            let body = res.body;
-            console.log('response body', body);
-            }​​​​​, (error) => {​​​​​
+            let ob = {"email": this.playerEmail};
+            this.dataService.postPlayer(ob).subscribe((res: any) => {​​​​​
+              let body = res.body;
+              console.log('response body', body);
+              }​​​​​, (error) => {​​​​​
               console.log('Failed with post');
               console.error(error);
+            }​​​​​);
+            this.dataService.setMessage(this.playerEmail);
+            let ob2 = {"email": this.playerEmail, "time1": this.userFirstTime, "time2": this.userSecondTime};
+            this.dataService.postPlay(ob2).subscribe((res: any) => {​​​​​
+            let body2 = res.body;
+            console.log('response body', body2);
+          }​​​​​, (error2) => {​​​​​
+              console.log('Failed with post');
+              console.error(error2);
             }​​​​​);
             //this.muteAudio();
           }
