@@ -28,7 +28,7 @@ For the project, our initial idea involved creating a single page web applicatio
   <img src="images/paper-prototype-1.png" width="500"/>
 </p>
 <p align="center">
-  <em>Paper Prototype Representing our Initial Idea.</em>
+  <em>Figure 1: Paper Prototype Representing our Initial Idea.</em>
 </p>
 
 Further along on the project, we decided as a group that it would be better to implement our second idea, the distraction game. Therefore, we created another prototype using adobe XD. The software, along with allowing us to create a protype, also allowed us to implement interactions between the different elements. The wireframe created involved a login page, two rounds of the card game we were planning to implement and also two charts at the end to display the users score, along with that of all other users of the games score.
@@ -53,7 +53,7 @@ Alternatively, a gif of the paper prototype as seen in Adobe XD can be seen belo
   <img src="images/paper-prototype.gif" width="600"/>
 </p>
 <p align="center">
-  <em>Paper Prototype Representing our Final Idea.</em>
+  <em>Figure 2: Paper Prototype Representing our Final Idea.</em>
 </p>
 
 ## Users and Stakeholders
@@ -69,14 +69,14 @@ Since most of the development and design decisions were already taken with the b
   <img src="images/persona_student.png" width="1000"/>
 </p>
 <p align="center">
-  <em>Figure XX: A student persona.</em>
+  <em>Figure 3: A student persona.</em>
 </p>
 
 <p align="center">
   <img src="images/persona_teacher.png" width="1000"/>
 </p>
 <p align="center">
-  <em>Figure XX: A teacher persona.</em>
+  <em>Figure 4: A teacher persona.</em>
 </p>
 
 ## UX Approach (Heuristics & Design Methods)
@@ -86,7 +86,7 @@ The way we approached our user experience was by following Nielsen’s ten gener
   <img src="images/design-heuristics.png" width="500"/>
 </p>
 <p align="center">
-  <em>Figure XX: Jakob Nielsen's ten general principles for interaction Design.</em>
+  <em>Figure 5: Jakob Nielsen's ten general principles for interaction design.</em>
 </p>
 
 Obviously, not all of these had equal influence. For example, the flexibility and efficiency of use generally refers to an experienced user being able to carry out more advanced tasks. Given the small size and precise goal of our application, advanced options would only serve to detract from it's purpose, or potentially discourage first-time users. Despite this, we were still considerate of those users who truly do want to know more about our project, and have provided means to contact us if they so wish.
@@ -116,7 +116,7 @@ Given our application is contained within a single page, consistent formatting a
   <img src="images/design.jpg" width="300"/>
 </p>
 <p align="center">
-  <em>Figure XX: An example inconsistency in a website.</em>
+  <em>Figure 6: An example inconsistency in a website.</em>
 </p>
 
 For comparison, let us showcase the consistent choice of styling throughout our application:
@@ -126,7 +126,7 @@ For comparison, let us showcase the consistent choice of styling throughout our 
   <img src="images/button2.png" width="300" />
 <p>
 <p align = "center">
-  <em>Figure XX: Screenshots from our website</em>
+  <em>Figure 7: Screenshots from our website</em>
 </p>
 
 
@@ -137,7 +137,7 @@ In a similar vein, we did not want our design to become oversaturated. For a gam
   <img src="images/website.png" width="700" />
 <p>
 <p align = "center">
-  <em>Figure XX: The website welcome page</em>
+  <em>Figure 8: The website welcome page</em>
 </p>
 
 In addition, when playing the game, it is fully centered, and devoid of any other features.
@@ -146,7 +146,7 @@ In addition, when playing the game, it is fully centered, and devoid of any othe
   <img src="images/cards.png" width="700" />
 <p>
 <p align = "center">
-  <em>Figure XX: The website welcome page</em>
+  <em>Figure 9: The website welcome page</em>
 </p>
 
 
@@ -209,7 +209,7 @@ View the initial prototype [here](../../Source/01-Paper-prototype/paper-prototyp
   <img src="images/exampleWalkthrough.png" width="500"/>
 </p>
 <p align="center">
-  <em>Example zoom walk through held with participants.</em>
+  <em>Figure 10: Example zoom walk through held with participants.</em>
 </p>
 
 
@@ -232,7 +232,7 @@ View the initial prototype [here](../../Source/01-Paper-prototype/paper-prototyp
   <img src="FirstSurvey/kindsOfDistractions.png" width="500"/>
 </p>
 <p align="center">
-  <em>Responses to Question 2.</em>
+  <em>Figure 11: Responses to Question 2.</em>
 </p>
 
 
@@ -252,7 +252,7 @@ View the initial prototype [here](../../Source/01-Paper-prototype/paper-prototyp
   <img src="FirstSurvey/kindsOfGames.png" width="500"/>
 </p>
 <p align="center">
-  <em>Responses to Question 6.</em>
+  <em>Figure 12: Responses to Question 6.</em>
 </p>
 
 
@@ -303,7 +303,7 @@ View the survey questions [here](SecondSurvey/SurveyRound2_Questions.pdf).
   <img src="SecondSurvey/secondHarder.png" width="500"/>
 </p>
 <p align="center">
-  <em>Responses to Question 1</em>
+  <em>Figure 13: Responses to Question 1</em>
 </p>
 
 
@@ -320,7 +320,7 @@ View the survey questions [here](SecondSurvey/SurveyRound2_Questions.pdf).
   <img src="SecondSurvey/representative.png" width="500"/>
 </p>
 <p align="center">
-  <em>Question 2 </em>
+  <em>Figure 14: Question 2 </em>
 </p>
 
 
@@ -344,7 +344,7 @@ View the survey questions [here](SecondSurvey/SurveyRound2_Questions.pdf).
   <img src="SecondSurvey/distractionType.png" width="500"/>
 </p>
 <p align="center">
-  <em>Question 4 </em>
+  <em>Figure 15: Question 4 </em>
 </p>
 
 
