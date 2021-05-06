@@ -210,9 +210,17 @@ View the survey questions [here](SecondSurvey/SurveyRound2_Questions.pdf).
 
 
 **Findings**
+* 41.2% found sounds more distracting than visual distractions
+* 29.4% found visuals more distracting
+* 29.4% found both equally distracting
+* Qualitatively, suggestions for future improvements included: 
+* * "Messages popping up on screen"
+* * "More distractions - such as a housemate asking for a tea and a chat, a teams notification popping up asking for you, the email pings were triggering, more of them!"
+* * "If there could be some way to factor in the stress of having to complete an important task, something with higher stakes, that would interesting - like filling out a form with a deadline on it."
 
 **Impact**
-
+* The majority opinion that sounds are the most distracting is in line with the majority view in Survey 1 that sounds should be prioritised, implying that people do generally know in advance what they find most distracting.
+* Great recommendations for more advanced distractions that we will certainly consider building into future iterations of *DistractAbility*.
 
 <p align="center">
   <img src="SecondSurvey/distractionType.png" width="500"/>
