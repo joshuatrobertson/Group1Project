@@ -62,7 +62,7 @@ For the functional testing, we created two tests; the first aimed towards testin
 
 ## User Acceptance Testing
 
-User Acceptance Testing is discussed [here](../03-UX-Design/README.md#end-user-testing-DistractAbility).
+User Acceptance Testing is discussed [here](../03-UX-Design/README.md#Survey-2:-Testing-hypotheses-and-evaluating-final-product).
 
 
 <p align="center">
