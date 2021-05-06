@@ -9,8 +9,7 @@
    b. [Consistency And Standards](#consistency-and-standards)  
    c. [Aesthetic and Minimalist Design](#aesthetic-and-minimalist-design)  
 4. [User Group Definition](#user-group-definition)  
-5. [End User Testing *DistractAbility*](#end-user-testing-distractability)  
-   a. [User Group Definition](#user-group-definition)  
+   a. [Research Objectives](#research-objectives)  
    b. [Methodology](#methodology)  
    c. [Ethnography: Survey 1](#ethnography-survey-1)  
    d. [Ethnography: Survey 2](#ethnography-survey-2)  
@@ -150,14 +149,9 @@ In addition, when playing the game, it is fully centered, and devoid of any othe
 </p>
 
 
-
 ## User Group Definition
-
-
-
-## End User Testing *DistractAbility* ##
-
-### Research Objectives ###
+This section covers our end user testing for *DistractAbility*.
+### Research Objectives
 
 During the initial prototyping stages our research objectives were as follows:
 
@@ -174,26 +168,26 @@ Towards the end of the development phase our research objectives were as follows
 *    Feedback on potential future improvements.
 
 
-### Methodology ###
+### Methodology
 
 *    Two rounds of survey testing
 *    One round of moderated user testing
 
 
-### Ethnography: Survey 1 ###
+### Ethnography: Survey 1
 
 Age  |  Gender | Background (technical/non-technical)
 :-------------------------:|:-------------------------:|:-------------------------:
 ![](FirstSurvey/ethnography/age.png)  |  ![](FirstSurvey/ethnography/gender.png) |  ![](FirstSurvey/ethnography/background.png)
 
-### Ethnography: Survey 2 ###
+### Ethnography: Survey 2
 
 Age  |  Gender | Background (technical/non-technical)
 :-------------------------:|:-------------------------:|:-------------------------:
 ![](SecondSurvey/ethnography/age.png)  |  ![](SecondSurvey/ethnography/gender.png) |  ![](SecondSurvey/ethnography/background.png)
 
 
-### Survey 1: Testing the initial prototype ###
+### Survey 1: Testing the initial prototype
 
 View the initial prototype [here](../../Source/01-Paper-prototype/paper-prototype.pdf). View the survey questions [here](FirstSurvey/SurveyRound1_Questions.pdf).
 
@@ -278,7 +272,7 @@ Prototype Results Page  |  Final Product Results Page
 
 -----------------------
 
-### Survey 2: Testing hypotheses and evaluating final product ###
+### Survey 2: Testing hypotheses and evaluating final product
 
 View the survey questions [here](SecondSurvey/SurveyRound2_Questions.pdf).
 
