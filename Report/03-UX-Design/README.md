@@ -39,18 +39,24 @@ Alternatively, a gif of the paper prototype as seen in Adobe XD can be seen belo
   <em>Paper Prototype Representing our Final Idea.</em>
 </p>
 
-
 ## Users and Stakeholders
+There were two directions in which we could have performed our stakeholder analysis – a full blown out analysis where go into the depths of considering investors, system administrators, organisations and categorize our user groups and so on. Or, we could simply restrict the scope of our stakeholder analysis and design our product to suit the best interests of these stakeholders and deliver a product that fits our description of a minimum viable product. We decided to go with option two and restricted the scope to the following stakeholders:
+
+1. The development team (us)
+2. Students engaged in online learning
+3. Teachers working from home
+
+Since most of the development and design decisions were already taken with the best interests of the development team in mind, there was no need to draw up a persona of a typical developer. However, we did draw up two personas - a student persona and a teacher persona. We think that this stakeholder group would be our priority target user group that suffer the most from maintaining concentration during lockdown. Our user experience and application design decisions were implemented keeping in mind these personas.
 
 <p align="center">
-  <img src="images/persona_student.png" width="500"/>
+  <img src="images/persona_student.png" width="1000"/>
 </p>
 <p align="center">
   <em>Figure XX: A student persona.</em>
 </p>
 
 <p align="center">
-  <img src="images/persona_teacher.png" width="500"/>
+  <img src="images/persona_teacher.png" width="1000"/>
 </p>
 <p align="center">
   <em>Figure XX: A teacher persona.</em>
