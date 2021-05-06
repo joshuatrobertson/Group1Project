@@ -357,12 +357,11 @@ V. Frissen, J. de Mul and J. Raessens, "Homo Ludens 2.0: Play, Media and Identit
 
 <p align="center">
   <img src="images/driven1.png" width="300"/>
-  <em>Figure 2.1</em>
 </p>
 
 <p align="center">
   <img src="images/driven2.png" width="300"/>
-  <em>Figure 2.2 </em>
+  <em>Driven to Distractibility by Kwik Fit </em>
 </p>
 
 
@@ -374,7 +373,7 @@ V. Frissen, J. de Mul and J. Raessens, "Homo Ludens 2.0: Play, Media and Identit
 
 <p align="center">
   <img src="images/TwoDots.png" width="400"/>
-  <em>Figure 3: Two Dots </em>
+  <em>Two Dots game</em>
 </p>
 
 
@@ -384,7 +383,7 @@ V. Frissen, J. de Mul and J. Raessens, "Homo Ludens 2.0: Play, Media and Identit
 
 <p align="center">
   <img src="images/1Focus.png" width="600"/>
-  <em>Figure 4: 1Focus </em>
+  <em>1Focus content blocker </em>
 </p>
 
 &nbsp;&nbsp; The aforementioned applications relate to our project insofar as we share the premise that social media and other such distractions – distractions that we categorised as ‘continuity’ in the literature review – negatively impact productivity. The creators of these applications evidently believe that distraction is a serious problem, or at least trust that their customers do. Nonetheless, these applications arguably do not count as serious play due to the lack of any real play aspect. 
@@ -393,7 +392,7 @@ V. Frissen, J. de Mul and J. Raessens, "Homo Ludens 2.0: Play, Media and Identit
 
 <p align="center">
   <img src="images/Forest.png" width="300"/>
-  <em>Figure 5: Forest app </em>
+  <em>Forest app </em>
 </p>
 
 ### (4) Applications that tap into working memory ###
@@ -404,7 +403,7 @@ V. Frissen, J. de Mul and J. Raessens, "Homo Ludens 2.0: Play, Media and Identit
 
 <p align="center">
   <img src="images/SushiGo.png" width="500"/>
-  <em>Figure 6: SushiGo! </em>
+  <em>SushiGo! card game </em>
 </p>
 
 ### Bibliography: Current Industry Review
