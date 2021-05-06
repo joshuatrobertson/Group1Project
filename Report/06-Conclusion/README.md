@@ -64,7 +64,7 @@ Automated testing frameworks available on DockerHub could be integrated into the
 
 Publicly serving our application, perhaps through the use of Amazon Web Services, would aid in improving the feedback we would receive for our application. However, given the time for the project this was not possible and would definitely be at the top of the list for future work on this project.
 
-In summary, we believe that our application is indeed a minimum viable product that has been appropriately scoped given the time schedule. It can be delivered to potential clients as a proof of concept. There is a suitable balance between serious and play and if the further work outlined above is carried out, we believe that it can be a solid product that solves the problem of maintaining concentration during lockdown.
+In summary, we believe that our application is indeed a minimum viable product that has been appropriately scoped given the time schedule. It can be delivered to potential clients as a proof of concept. There is a suitable balance between serious and play and if the further work outlined above is carried out, we believe that it can be a solid product that really educates users about the problem of maintaining concentration during lockdown.
 ___
 
 <p align="center">
