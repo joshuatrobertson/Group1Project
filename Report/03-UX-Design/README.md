@@ -148,13 +148,7 @@ Prototype Results Page  |  Final Product Results Page
 :-------------------------:|:-------------------------:
 ![](images/prototypeResults.png)  |  ![](images/endResults.png)
 
-### Moderated User Testing ###
-
-
-# Do this #
-
-
-
+-----------------------
 
 ### Survey 2: Testing hypotheses and evaluating final product ###
 
