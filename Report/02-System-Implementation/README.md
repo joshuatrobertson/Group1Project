@@ -386,20 +386,9 @@ The main idea behind our Docker deployment strategy was to use a docker compose 
 #### Container 1: NodeJS Container
 The following [`Dockerfile`](../site/../../site/Dockerfile) was used to create an image containing our Angular front end and server using Alpine linux as a parent image that is pulled directly from DockerHub.
 The dependences are installed from the [`packages.json`](../../site/package.json) and port 3000 can then be accessed on the host machine to use the application.
-```dockerfile
-FROM node:10-alpine
-RUN mkdir -p /home/node/app/node_modules && chown -R node:node /home/node/app
-WORKDIR /home/node/app
-COPY package*.json ./
-USER node
-RUN npm install
-COPY --chown=node:node . .
-RUN ./node_modules/.bin/ng build --output-path ./dist
-EXPOSE 3000
-CMD [ "node", "server.js" ]
-```
+
 #### Container 2: MongoDB Container
-There was no need to build a custom image for the MongoDB container. We directly used the the official [`mongo:4.1.8-xenial`](https://hub.docker.com/_/mongo) from DockerHub.
+There was no need to build a custom image for the MongoDB container. We directly used the the official [`mongo:4.1.8-xenial`](https://hub.docker.com/_/mongo) image from DockerHub.
 
 #### Container Orchestration
 The [`docker-compose.yml`](../../site/docker-compose.yml) script was then used to orchestrate container creation and deployment.
@@ -408,7 +397,7 @@ Every container that is spun up can be thought of as a service. Services can tal
 
 Let us break the process down.
 
-First, the NodeJS container is built from the [Dockerfile above](#container-1-nodejs-container) and is defined as a `nodejs` service.
+First, the NodeJS container is built from the same [`Dockerfile`](#container-1-nodejs-container) mentioned above, and is defined as a `nodejs` service.
 
 ```yaml
 nodejs:
@@ -419,7 +408,7 @@ nodejs:
   container_name: nodejs
 ```
 
-Environment variables for this container are stored in the .env file and contain the credentials to login to our `db` service. We ensured that this file was added to our `.gitignore` file since it contained sensitive information of our users login credentials.
+Environment variables for this container are stored in the .env file and contain the credentials to login to our `db` service. We ensured that this file was added to our `.gitignore` file since it contained sensitive information of our users' login credentials.
 
 ```yaml
 env_file: .env
