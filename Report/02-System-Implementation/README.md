@@ -38,6 +38,7 @@ To best explain how we used this software to create our webpage, we use a helpfu
 </p>
 <p align="center">
   <em>Figure 1: Sequence Diagram showing how our website flows.</em>
+  <br/><br/>
 </p>
 
 To aid comprehension of the diagram, when a User accesses the website, the Angular app.component.ts presents them with the welcome page HTML view. From this point, the user has some options. They can either look at the dev info, which prompts a pop-up component to display information. Alternatively, they may enter their email and begin the game. Upon doing so, depending on which point in the game they are at, various components are called (game-card, News-Api etc.). Functions within these components are then carried out and alter what the user sees on screen. It should be noted, some of these functions are those of the DataService, which, when called, send a request through Node and Express to our Database. Upon receiving this Http request, MongoDB sends back the required information in a JSON payload (Or, in the case of a POST request, a fulfilled promise).
@@ -51,6 +52,7 @@ To further clarify just how our frontend components interact and how that transl
 </p>
 <p align="center">
   <em>Figure 2: Class Diagram showcasing the relationship between components.</em>
+  <br/><br/>
 </p>
 
 
@@ -103,6 +105,7 @@ getRandomNumber(min, max): number {
 </p>
 <p align="center">
   <em>Figure 3: News card created using News API.</em>
+  <br/><br/>
 </p>
 
 During the game, the news cards move across the screen in a seemingly random way, to further distract the user. To implement this, we first created an svg path with sudo random movements, before converting the path to coordinates. This then allowed us to make use of motion path within css to animate the div within its parent element. Although it would have been preferable to inject some randomness into the movement, for the task we deemed this suitable, along with it allowing us to easily adapt the code for future versions. The animated card can be seen below.
@@ -112,6 +115,7 @@ During the game, the news cards move across the screen in a seemingly random way
 </p>
 <p align="center">
   <em>Figure 4: Animated Angular Card Displaying News</em>
+  <br/><br/>
 </p>
 
 ##### Auditory Distractions
@@ -122,6 +126,7 @@ For the auditory distractions we decided to gather several sounds we found distr
 </p>
 <p align="center">
   <em>Figure 5: Adding reverb to 'construction.wav' in Audacity</em>
+  <br/><br/>
 </p>
 
 ### Routing
@@ -350,6 +355,7 @@ A good example of how we used the API in our SPA is in the bar chart. The data w
 </p>
 <p align="center">
   <em>Figure 6 - Bar chart comparing users times.</em>
+  <br/><br/>
 </p>
 
 </p>
@@ -358,11 +364,15 @@ A good example of how we used the API in our SPA is in the bar chart. The data w
 We chose MongoDB as our database. MongoDB is a NoSQL database which means it's flexible and easy to use. We prefer a NoSQL database to a SQL database because our application doesn't have huge amount of data to store and retrieve. Also with the popularity of the MEAN stack, it would be easier for us to find resources and solutions to potential problems online if we choose MongoDB.
 
 Below is the entity relationship diagram of our data model. Player is in a separate table rather than in the Play table so that the whole data model conforms to normal forms although this is not required by MongoDB as a NoSQL database. The player field in Play table is a foreign key that refers to Player table. The timewithoutdistraction and timewithdistraction record the time in seconds a player spends finishing the game in without distraction round and with distraction round respectively. In the Player table, we use email to identify players. The email field is required and unique. We also added a birthday field and an age virtual property in the Player table, but they are not used in our current minimal viable product. For clarity, one schema per file was made in the ./models/ directory.
+
+<br/><br/>
+
 <p align="center">
   <img src="images/schemas.png" width="500"/>
 </p>
 <p align="center">
   <em>Figure 7: Our data model</em>
+  <br/><br/>
 </p>
 
 ## Continuous Deployment using Docker
@@ -376,6 +386,7 @@ This contrasts more traditional forms of deployment including virtual machines (
 </p>
 <div align="center">
   <em>Figure 8: Docker vs traditional full virtualization for deployment.</em>
+  <br/><br/>
 </div>
 
 ### Deployment
@@ -446,7 +457,7 @@ There was an issue where the `nodejs` service kept restarting when spinning up t
 command: ./wait-for.sh db:27017 -- /home/node/app/node_modules/.bin/nodemon server.js
 ```
 
-
+___
 
 ## Bibliography:
 
@@ -456,6 +467,7 @@ Node.js at Paypal - [Online]. Available at https://medium.com/paypal-tech/node-j
 
 What is REST - [Online]. Available at https://restfulapi.net/ [Accessed 04 May 2021].
 
+___
 
 <p align="center">
   <b>Navigation:</b><br>
