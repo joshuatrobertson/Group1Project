@@ -204,8 +204,6 @@ View the survey questions [here](SecondSurvey/SurveyRound2_Questions.pdf).
 </p>
 
 
-
-
 **Research Question**: Evaluate distractions used in the second round.
 
 
