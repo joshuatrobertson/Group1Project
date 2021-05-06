@@ -27,16 +27,16 @@ The way we approached our user experience was by following Nielsen’s ten gener
   <em>Figure XX: Jakob Nielsen's ten general principles for interaction Design.</em>
 </p>
 
-[Refer to components in our application that show some of these principles have been taken into consideration?]
 Obviously, not all of these had equal influence. For example, the flexibility and efficiency of use generally refers to an experienced user being able to carry out more advanced tasks. Given the small size and precise goal of our application, advanced options would only serve to detract from it's purpose, or potentially discourage first-time users. Despite this, we were still considerate of those users who truly do want to know more about our project, and have provided means to contact us if they so wish.
 
-As a team, we then decided on the most important of these principles, which we would strive to implement across our app. These were:
+As a team, we then decided on the 3 most applicaible and important of these principles, which we would strive to implement across our app. These were:
 <ul>
 <li>Match Between System & Real World </li>
-<li>User Control and Freedom </li>
 <li>Consistency And Standards </li>
 <li>Aesthetic and Minimalist Design </li>
 </ul>
+
+While the size of the applictaion played a major part in these choices, our conclusion was aided by considering the wants and needs of our primary stakeholders. Seen above, we think our design most appropriate for educational purposes. As such, the software should be very simple so any teacher can easily explain how it works to their students, and no student should struggle to utilise it.
 
 #### Match Between System And The Real World
 
@@ -44,22 +44,48 @@ Clearly, when designing a web app with "Serious Play" in mind, it is essential t
 
 We kept this in mind when designing our surveys for initial end user testing, with a question specifically relating to this issue. For a full breakdown, please see the relevant section below!
 
-#### User Control And Freedom
+Another thing we took from our surveys relates to the websites "ease of navigation". From reading our responses, we found the most popular game type to be a logic game! While this fits in nicely with our previous discussion of <em>working memory</em>, we had to ensure that users were familliar with the game we chose. Matching cards is a simple concept that ties in very nicely with distraction, but also will have almost surely been done before by any user visiting our website. As such, the user does not have to read any long documents, they can simply press play and know what to do. (Our wireframes show this well!)
 
 #### Consistency And Standards
 
-Given our application is contained within a single page, consistent formatting and presentation of the interface is paramount. Thus, during the building process it was decided that we'd stick to simple CSS templates. Once the website was functional, i.e users could log in and play the game, only then would we decide on any additional formatting changes as required. Otherwise, if different people designed different sections of the website we could end up with a confusing or contradictory interface, a simple example being the picture shown below.  
+Given our application is contained within a single page, consistent formatting and presentation of the interface is paramount. Thus, during the building process it was decided that we'd stick to simple CSS templates. Once the website was functional, i.e users could log in and play the game, only then would we decide on any additional formatting changes as required. Otherwise, if different people designed different sections of the website we could end up with a confusing or contradictory interface, much like the picture shown below.  
 
 <p align="center">
-  <img src="SUBMIT.png" width="200"/>
+  <img src="images/design.jpg" width="300"/>
 </p>
 <p align="center">
   <em>Figure XX: An example inconsistency in a website.</em>
 </p>
 
+For comparison, let us showcase the consistent choice of styling throughout our application:
+
+<p align="center">
+  <img src="images/button1.png" width="300" />
+  <img src="images/button2.png" width="300" />
+<p>
+<p align = "center">
+  <em>Figure XX: Screenshots from our website</em>
+</p>
 
 
 #### Aesthetic and Minimalist Design
+In a similar vein, we did not want our design to become oversaturated. For a game centered on distraction, it would be ironic if we fell prey to distracting our users with superfluous content. To ensure a clean, minimalist design, any additional info (e.g Dev Contact, Help Button) were placed far away from the primary purpose. A primary case being the welcome page, with the aformentioned buttons far from the "Start Game" option.
+
+<p align="center">
+  <img src="images/website.png" width="700" />
+<p>
+<p align = "center">
+  <em>Figure XX: The website welcome page</em>
+</p>
+
+In addition, when playing the game, it is fully centered, and devoid of any other features.
+
+<p align="center">
+  <img src="images/cards.png" width="700" />
+<p>
+<p align = "center">
+  <em>Figure XX: The website welcome page</em>
+</p>
 
 
 
