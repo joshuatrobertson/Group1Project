@@ -61,10 +61,9 @@ For the functional testing, we created two tests; the first aimed towards testin
 2. [Other components test](functional-test-2.md "The second functional test")
 
 ## User Acceptance Testing
-- 'UserTesting.md' documents the end user testing process and explains the structure of the UserTesting directory.
-- 'EndUserSurvey_(1).pdf' is the survey that was sent out to end user testing participants during the first round of end user testing.
-- 'SurveryWrittenResponses_1.xlsm' is a record of test participants' individual, written responses to the survey questions.
-- 'SurveryGraphicalResponses_1.docx' contains screenshots of graphically-represented responses to survey questions that did not collect a written answer.
+
+User Acceptance Testing is discussed [here](../03-UX-Design/README.md#end-user-testing-DistractAbility).
+
 
 <p align="center">
   <b>Navigation</b><br>
