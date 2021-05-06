@@ -16,18 +16,24 @@ It has been an unusual year for all of us in this covid stricken era, and it goe
 ## Social / Ethical Implications
 
 
+### Handling of data
+
+**saveEmail().** The login page of *DistractAbility* prompts the user for their email address. The function saveEmail() then stores the user's email in the database for the purpose of using the email as the user's unique user ID. Identifying users by their email removed the need for us to ensure users only entered unique user IDs, as emails are unqiue anyway. However, this decision has cost us in 
 
 
 
+**User Testing.**
+
+Initially user surveys collected participant's emails. 
 
 
 ### Accessibility
 
-&nbsp;&nbsp; As stated, the crux of our application is a card game with two rounds. The card game itself is not universally accessible, for instance in its current state the game is inaccessible for blind or visually impaired individuals. However, the accessibility of the distractions implemented in the second round of our game is much better by our assessment. 
+As stated, the crux of our application is a card game with two rounds. The card game itself is not universally accessible, for instance in its current state the game is inaccessible for blind or visually impaired individuals. However, the accessibility of the distractions implemented in the second round of our game is much better by our assessment. 
 
-&nbsp;&nbsp; **The game itself.** The card game in its current state is inaccessible for visually impaired individuals, as it requires the user to be sighted in order to play. Future work on this application might therefore be to implement narration to describe the game at each state, and a natural language processor that would allow the user to instruct the computer which cards to flip by calling out card coordinates. Adding such features would be a significant step up for us as developers, so other changes are likely to be made first. 
+**The game itself.** The card game in its current state is inaccessible for visually impaired individuals, as it requires the user to be sighted in order to play. Future work on this application might therefore be to implement narration to describe the game at each state, and a natural language processor that would allow the user to instruct the computer which cards to flip by calling out card coordinates. Adding such features would be a significant step up for us as developers, so other changes are likely to be made first. 
 
-&nbsp;&nbsp; **The distractions.** Our application features both auditory and visual distractions in the second round of the game. The auditory distractions - notification sounds, construction work, etc - are inaccessible for deaf or hearing-impaired individuals. However, the visual distractions do not require the user to have any particular level of hearing. Similarly, though the visual distractions may be inaccessible for blind or visually-impaired individuals, if such individuals are not also hearing-impaired then the auditory distractions will be accessible to them.
+**The distractions.** Our application features both auditory and visual distractions in the second round of the game. The auditory distractions - notification sounds, construction work, etc - are inaccessible for deaf or hearing-impaired individuals. However, the visual distractions do not require the user to have any particular level of hearing. Similarly, though the visual distractions may be inaccessible for blind or visually-impaired individuals, if such individuals are not also hearing-impaired then the auditory distractions will be accessible to them.
 
 
 ## Future Work
