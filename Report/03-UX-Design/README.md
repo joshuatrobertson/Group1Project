@@ -92,13 +92,19 @@ View the initial prototype [here](../../Source/01-Paper-prototype/paper-prototyp
 *    In order to tie the distracting sounds to the typical lockdown experience we included [construction sounds](sounds/construction.wav), the [BBC theme song](sounds/BBC.mp3), and soundbites from Netflix’s [*Tiger King*](sounds/joeExotic2.mp3) - the second most watched TV series globally in 2020. 
 *    We omitted player specific demands. 
 
-**Evaluation**: The options presented in *Question 3* included examples of what we envisaged for each type of distraction. For instance, once option was ‘Advanced Sound (e.g. notification bells, incoming WhatsApp sound, BBC theme song)’. Providing these specific examples in a tick-box question does not provide much scope for participants to express a different view of what they consider an ‘Advanced Sound’ and the like. However, we believe we corrected this limitation with the following question, which gave respondents an open text box in which to make any additional suggestions as to what kind of distractions they would like to see. 
+**Evaluation**: The options presented in *Question 3* included examples of what we envisaged for each type of distraction. For instance, one option was ‘Advanced Sound (e.g. notification bells, incoming WhatsApp sound, BBC theme song)’. Providing these specific examples in a tick-box question does not provide much scope for participants to express a different view of what they consider an ‘Advanced Sound’ and the like. However, we believe we corrected this limitation with the following question, which gave respondents an open text box in which to make any additional suggestions as to what kind of distractions they would like to see. 
 
-<p align="center">
+<p align="left">
   <img src="FirstSurvey/kindsOfDistractions.png" width="500"/>
 </p>
-<p align="center">
+<p align="right"
+<img src="FirstSurvey/kindsOfDistractions.png" width="500"/>
+</p>
+<p align="left">
   <em>Responses to Question 3.</em>
+</p>
+<p align="right">
+  <em>Responses to Question 4.</em>
 </p>
 
 
