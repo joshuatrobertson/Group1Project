@@ -6,10 +6,10 @@
    a. [The Problem](#literature-review-the-problem)  
    b. [Serious Play](#literature-review-serious-play)  
 2. [Current Industry Review](#current-industry-review) 
-3. [Bibliographies](#bibliographies)
+3. [Bibliographies](#bibliographies)  
    a. [Bibliography: The Problem](#bibliography-the-problem)  
-   b. [Bibliography: Serious Play](#bibliography-serious-play) 
-   c. [Bibliography: Current Industry Review](#bibliography-current-industry-review)
+   b. [Bibliography: Serious Play](#bibliography-serious-play)  
+   c. [Bibliography: Current Industry Review](#bibliography-current-industry-review)  
 
 ## Literature Review
 
@@ -285,6 +285,8 @@
 </p>
 
 
+___
+
 <p></p>
 
 ## Bibliographies
@@ -456,9 +458,7 @@ L. Kolirin, "Crosswords and puzzles do not prevent mental decline, study says", 
 
 "15 Top Games That Will Reinforce Executive Functioning Skills", Fabulous Family Board Games, 2021. [Online]. Available: http://fabulousfamilyboardgames.com/games-executive-functioning-skills/. [Accessed: 03- May- 2021].
 
-
-[Back to the top](#table-of-contents)
-
+___
 
 <p align="center">
   <b>Navigation:</b><br>
