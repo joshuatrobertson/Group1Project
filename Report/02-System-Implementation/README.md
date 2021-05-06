@@ -363,7 +363,7 @@ A good example of how we used the API in our SPA is in the bar and line charts. 
   <img src="images/line.png" width="500"/>
 </p>
 <p align="center">
-  <em>Figure 7 - line chart showing user history.</em>
+  <em>Figure 7 - Line chart showing user history.</em>
   <br/><br/>
 </p>
 
