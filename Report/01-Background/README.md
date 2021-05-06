@@ -118,8 +118,9 @@
 <p align="center">
   <img src="images/001_screentime.png" width="400" />
 </p>
-
-&nbsp; *Figure 1: This bar chart displays the average daily use (in house) of computer games (red) and social media (blue) by children and adolescents in September 2019 (before lockdown; lighter colours) and April 2020 (during lockdown; darker colours) on school days (left) and days with no school (weekends, holidays, lockdown; right). Source: Spitzer, 2021.*
+<p align="center">
+  <em>This bar chart displays the average daily use (in house) of computer games (red) and social media (blue) by children and adolescents in September 2019 (before lockdown; lighter colours) and April 2020 (during lockdown; darker colours) on school days (left) and days with no school (weekends, holidays, lockdown; right). Source: Spitzer, 2021.</em>
+</p>
 
 &nbsp;&nbsp; Interestingly, the pandemic seems not only to have increased the frequency of people’s use of social media and streaming services, but also the potency of the attraction, i.e. the pull on people’s attention. In Shirking from Home, interviewee Rosen admits that in the context of our unprecedented social isolation, “When you get a [notification] from someone that says they’re following you on Instagram, when you crave connection, you immediately go there,” Rosen says (Cummins, 2020).
 
@@ -358,11 +359,10 @@ V. Frissen, J. de Mul and J. Raessens, "Homo Ludens 2.0: Play, Media and Identit
 <p align="center">
   <img src="images/driven1.png" width="300"/>
 </p>
-
 <p align="center">
   <img src="images/driven2.png" width="300"/>
 </p>
-<p>
+<p align="center">
   <em>Driven to Distractibility by Kwik Fit </em>
 </p>
 
@@ -375,6 +375,8 @@ V. Frissen, J. de Mul and J. Raessens, "Homo Ludens 2.0: Play, Media and Identit
 
 <p align="center">
   <img src="images/TwoDots.png" width="400"/>
+</p>
+<p align="center">
   <em>Two Dots game</em>
 </p>
 
@@ -385,6 +387,8 @@ V. Frissen, J. de Mul and J. Raessens, "Homo Ludens 2.0: Play, Media and Identit
 
 <p align="center">
   <img src="images/1Focus.png" width="600"/>
+</p>
+<p align="center">
   <em>1Focus content blocker </em>
 </p>
 
@@ -394,6 +398,8 @@ V. Frissen, J. de Mul and J. Raessens, "Homo Ludens 2.0: Play, Media and Identit
 
 <p align="center">
   <img src="images/Forest.png" width="300"/>
+</p>
+<p align="center">
   <em>Forest app </em>
 </p>
 
@@ -405,6 +411,8 @@ V. Frissen, J. de Mul and J. Raessens, "Homo Ludens 2.0: Play, Media and Identit
 
 <p align="center">
   <img src="images/SushiGo.png" width="500"/>
+</p>
+<p align="center">
   <em>SushiGo! card game </em>
 </p>
 
