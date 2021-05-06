@@ -94,10 +94,10 @@ View the initial prototype [here](../../Source/01-Paper-prototype/paper-prototyp
 
 **Evaluation**: The options presented in *Question 3* included examples of what we envisaged for each type of distraction. For instance, one option was ‘Advanced Sound (e.g. notification bells, incoming WhatsApp sound, BBC theme song)’. Providing these specific examples in a tick-box question does not provide much scope for participants to express a different view of what they consider an ‘Advanced Sound’ and the like. However, we believe we corrected this limitation with the following question, which gave respondents an open text box in which to make any additional suggestions as to what kind of distractions they would like to see. 
 
-<p align="left">
+<p align="centre">
   <img src="FirstSurvey/kindsOfDistractions.png" width="500"/>
 </p>
-<p align="left">
+<p align="centre">
   <em>Responses to Question 3.</em>
 </p>
 
