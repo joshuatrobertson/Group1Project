@@ -83,7 +83,7 @@ View the initial prototype [here](../../Source/01-Paper-prototype/paper-prototyp
 
 **Findings**: 
 *    Respondents would most like to see ‘Advanced Sound’ (92.9%) closely followed by ‘Advanced Animation’ (78.6%). The least popular option was ‘Player Specific Demands’ (7.1%).
-*    Respondents want distractions that relate to the typical lockdown experience – suggestions included construction sounds and P.E. with Joe Wicks.  
+*    Respondents want distractions that relate to the typical lockdown experience – suggestions included P.E. with Joe Wicks and construction sounds (the respondent reported "a lot of DIY in lockdown and it was very annoying").  
 *   Most respondents would prioritise mobile phone and social media notification sounds. 
 
 **Impact**: 
