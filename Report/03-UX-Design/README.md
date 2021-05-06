@@ -59,6 +59,11 @@ Towards the end of the development phase our research objectives were as follows
 *    One round of moderated user testing
 
 
+### Ethnography ###
+
+
+
+
 ### Survey 1: Testing the initial prototype ###
 
 View the initial prototype [here](../../Source/01-Paper-prototype/paper-prototype.pdf). View the survey questions [here](FirstSurvey/SurveyRound1_Questions.pdf).
@@ -81,18 +86,18 @@ View the initial prototype [here](../../Source/01-Paper-prototype/paper-prototyp
 
 **Research Question**:  What sorts of distractions will best exemplify the difficulties of focusing on work during lockdown? *Covered by survey questions 3-5*.
 
-**Findings**: 
+**Findings**
 *    Respondents would most like to see ‘Advanced Sound’ (92.9%) closely followed by ‘Advanced Animation’ (78.6%). The least popular option was ‘Player Specific Demands’ (7.1%).
 *    Respondents want distractions that relate to the typical lockdown experience – suggestions included P.E. with Joe Wicks and construction sounds (one respondent reported "a lot of DIY in lockdown and it was very annoying").  
 *   Most respondents would prioritise mobile phone and social media notification sounds. 
 
-**Impact**: 
+**Impact**
 *    We play a variety of what we consider ‘advanced sounds’, including ten different mobile phone and social media sound effects – more than any other type of distraction. Examples include an incoming [Microsoft Teams call](sounds/teamsCall.mp3), a [WhatsApp message](sounds/whatsappIncoming.mp3) and a [Facebook message](sounds/facebookCall.mp3). When related to the theoretical background discussed in the literature review, these sounds reflect the kinds of distractions that would fall in the ‘continuity’ camp.
 *    The news articles pulled in through the API are animated such that they move across the screen and change size.
 *    In order to tie the distracting sounds to the typical lockdown experience we included [construction sounds](sounds/construction.wav), the [BBC theme song](sounds/BBC.mp3), and soundbites from Netflix’s [*Tiger King*](sounds/joeExotic2.mp3) - the second most watched TV series globally in 2020. 
 *    We omitted player specific demands. 
 
-**Evaluation**: The options presented in *Question 3* included examples of what we envisaged for each type of distraction. For instance, one option was ‘Advanced Sound (e.g. notification bells, incoming WhatsApp sound, BBC theme song)’. Providing these specific examples in a tick-box question does not provide much scope for participants to express a different view of what they consider an ‘Advanced Sound’ and the like. However, we believe we corrected this limitation with the following question, which gave respondents an open text box in which to make any additional suggestions as to what kind of distractions they would like to see. 
+**Evaluation:** The options presented in *Question 3* included examples of what we envisaged for each type of distraction. For instance, one option was ‘Advanced Sound (e.g. notification bells, incoming WhatsApp sound, BBC theme song)’. Providing these specific examples in a tick-box question does not provide much scope for participants to express a different view of what they consider an ‘Advanced Sound’ and the like. However, we believe we corrected this limitation with the following question, which gave respondents an open text box in which to make any additional suggestions as to what kind of distractions they would like to see. 
 
 <p align="center">
   <img src="FirstSurvey/kindsOfDistractions.png" width="500"/>
@@ -104,15 +109,15 @@ View the initial prototype [here](../../Source/01-Paper-prototype/paper-prototyp
 
 **Research Question**: What sorts of mind-games will people find engaging?
 
-**Findings**: 
+**Findings**
 *   People would most like to play Logic Games, followed by Maths Games then General Knowledge.
 *   Some concern that general knowledge type games may not be a fair assessment, as what is general knowledge to one person is not common knowledge to the next.  
 
-**Impact**:
+**Impact**
 *    We took into consideration the preference for logic and mathematical games. But given the limitation in the way we asked this question (discussed below), we did not consider this preference more important than our primary objective of using a game that relies on working memory, given the link between working memory and concentration. 
 *    We saw that a general knowledge-based game might reduce the broadness of appeal of our application. We, the developers, are all similar in age and other demographic categories and so what is general knowledge to us is less likely to be general knowledge for as many people in other age ranges and demographics.
 
-**Evaluation**: The options provided for *Question 7* were unequally broad in their definition. For more analytic games we gave very broad categories (‘Maths Games’, ‘Logic Games’), whereas the options we gave which might be preferred by less mathematically inclined individuals were incredibly specific (‘Play Music, guess the artist’, ‘sudoku’). This may have biased respondents in favour of Maths and Logic games even if they would have generally preferred less analytical games, but simply have a specific dislike of sudoku, for instance. In fact, the broader the definition the more popular the option – so perhaps the preference for maths and logic games is due to this flaw in our methodology, rather than a genuine preference for more analytical games. Indeed, *Question 8* gave respondent’s free reign to write their comments about what kinds of games they would like to see in the application, and qualitatively, the preference was less heavily in favour of logical games.
+**Evaluation:** In hindsight *Question 7* was poorly designed, although we believe *Question 8* did somewhat atone for the limitations of 7. *Question 7* asked 'What kinds of mind games would you like to see?' and provided five options, with respondents able to select as many as they agreed with. For more analytic games we gave very broad categories (‘Maths Games’, ‘Logic Games’), whereas the options which might be preferred by less mathematically inclined individuals were incredibly specific (‘Play Music, guess the artist’, ‘sudoku’). This may have biased respondents in favour of Maths and Logic games even if they would have generally preferred less analytical games, but simply have a specific dislike of sudoku, for instance. In fact, the broader the definition the more popular the option – so perhaps the preference for maths and logic games is due to this flaw in our methodology, rather than a genuine preference for more analytical games. Indeed, *Question 8* gave respondent’s free reign to write their comments about what kinds of games they would like to see in the application, and qualitatively, the preference was less heavily in favour of explicitly analytic games.
 
 <p align="center">
   <img src="FirstSurvey/kindsOfGames.png" width="500"/>
@@ -125,15 +130,17 @@ View the initial prototype [here](../../Source/01-Paper-prototype/paper-prototyp
 
 **Research Question**: Evaluate proposed user experience (flow and UI design).
 
-**Findings**:
+**Findings**
 * 64% of respondents agreed the application should have the given structure, i.e. two roudns the first without distraction and the second with.
 * Respondents would like to see the effect of distraction on concentration *after* distractions have ceased. Some suggested a hybrid round that measures the effect of previous distraction on concentration. Others suggested an interlude between round one and two to allow the user to refresh.
 * In terms of UI design, respondents were fairly evenly split between preferring a minimalist design to something bold and colourful. 
 
-**Impact**: 
-* We retained the two-round structure, but will consider adding additional rounds in which the distractions are inconstant. 
+**Impact**
+* In line with the majority view we retained the two-round structure.
+* We will consider future improvements that include adding additional rounds in which the distractions are inconstant. 
 * Due to the lack of consensus on UI design we chose a bold and colourful aesthetic, which we feel is more memorable.  
 
+**Evaluation:** Our initial prototype was very basic and aesthetically really quite boring. Given that almost all of our respondents were from non-technical backgrounds, it was perhaps difficult for them to comment on the UI design without much inspiration in front of them. 
 
 ### Moderated User Testing ###
 
