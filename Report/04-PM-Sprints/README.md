@@ -8,7 +8,7 @@
 2. [Agile Working](#agile-working)  
    a. [Choice of Methodology](#choice-of-methodology)  
    b. [Project Vision and Scoping](#project-vision-and-scoping)  
-   c. [User Story Creation](#user-story-creation) 
+   c. [User Story Creation](#user-story-creation)  
    d. [Sprints](#sprints)  
 3. [CI/CD Pipeline](#cicd-pipeline)  
    a. [Continuous Integration with GitHub](#continuous-integration-with-github)  
