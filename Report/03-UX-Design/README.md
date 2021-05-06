@@ -142,6 +142,12 @@ View the initial prototype [here](../../Source/01-Paper-prototype/paper-prototyp
 
 **Evaluation:** Our initial prototype was very basic and aesthetically really quite boring. Given that almost all of our respondents were from non-technical backgrounds, it was perhaps difficult for them to comment on the UI design without much inspiration in front of them. 
 
+
+
+Prototype Results Page  |  Final Product Results Page
+:-------------------------:|:-------------------------:
+![](images/prototypeResults.png)  |  ![](images/endResults.png)
+
 ### Moderated User Testing ###
 
 
