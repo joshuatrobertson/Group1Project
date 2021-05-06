@@ -283,8 +283,8 @@ We setup an image repository on dockerhub to automate the build of our nodejs co
 
 
 <p align="center">
-  <img src="images/automated_builds.png" width="600"/>
-  <img src="images/recent_builds.png" width="600"/>
+  <img src="images/006_automated_builds.png" width="600"/>
+  <img src="images/007_recent_builds.png" width="600"/>
 </p>
 <div align="center">
   <em>Figure 6: Automated build process on dockerhub.</em>
