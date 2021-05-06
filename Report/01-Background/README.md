@@ -287,6 +287,8 @@
 
 ## Bibliographies
 
+<p></p>
+
 ### Bibliography: The Problem
 
 **Primary Sources**
@@ -402,6 +404,8 @@
 &nbsp; WHO, "Severe Acute Respiratory Syndrome (SARS)", Who.int, 2020. [Online]. Available: https://www.who.int/health-topics/severe-acute-respiratory-syndrome#tab=tab_1. [Accessed: 12- Apr- 2021].
 
 
+<p></p>
+
 
 ### Bibliography: Serious Play
 
@@ -420,6 +424,8 @@ K. Salen and E. Zimmerman, *Rules of Play: Game Design Fundamentals*. (Cambridge
 
 V. Frissen, J. de Mul and J. Raessens, "Homo Ludens 2.0: Play, Media and Identity", in *Contemporary Culture*, J. Thissen, R. Zwijnenberg and K. Zijlmans, Ed. (Amsterdam: Amsterdam University Press, 2013), pp.75-92.
 
+
+<p></p>
 
 
 ### Bibliography: Current Industry Review
