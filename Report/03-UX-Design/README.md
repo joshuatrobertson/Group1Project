@@ -180,7 +180,7 @@ View the survey questions [here](SecondSurvey/SurveyRound2_Questions.pdf).
 
 
 <p align="center">
-  <img src="SecondSurvey/harder.png" width="500"/>
+  <img src="SecondSurvey/secondHarder.png" width="500"/>
 </p>
 <p align="center">
   <em>Responses to Question 2.</em>
