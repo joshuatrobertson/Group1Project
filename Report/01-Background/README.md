@@ -200,10 +200,10 @@
 &nbsp;&nbsp; Recall the widely accepted premises that concentration is inextricably linked with working memory and that working memory is a finite resource. We chose this card game as the means of quantifying the impact of distraction on concentration precisely because it requires the use of working memory, and it provides scope for increasing the pressure on working memory exponentially. To successfully complete each round of the game, the user must hold the image and location of each card in working memory while simultaneously processing the image and location of new cards and cognitively correlating matching pairs to one another. The greater the quantity of cards to be matched in each round, the greater the cognitive load on working memory – which provides scope for us to introduce different difficulty levels to *DistractAbility* in the future. Once the distractions are introduced in the second round, the user must process a large number of interrupting stimuli while retaining the aforementioned information in working memory. Furthermore, our decision to distract the user with news articles pulled from various platforms touches upon the aforementioned link between poor concentration and negatively charged emotional stimuli, which have been particularly pronounced since the onset of the pandemic encouraged ‘doomscrolling’. 
 
 
-<p></p>
+-----------------
 
 
-## Current Industry Review
+# Current Industry Review
 
 
 &nbsp;&nbsp; When searching for applications that relate to the purpose of our application, its theoretical background and the core beliefs that underpin it, we found four themes into which the market can be categorized. (1) Applications that highlight the negative consequences of distraction. (2) Applications that are designed to be a distraction, for example, to distract the user from anxiety or stress. (3) Applications designed to limit distractions, which are often marketed as effective productivity enhancers. (4) Applications that tap into working memory. 
