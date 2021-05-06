@@ -1,4 +1,21 @@
 [&#8592; Back to Report Landing Page](../README.md)
+
+## Table of Contents
+1. [System Design Overview](#system-design-overview)  
+2. [Frontend](#front-end-angular)   
+   a. [Implementation](#implementation)  
+   b. [Routing](#routing)  
+   c. [Issues and Functionality of the Components](#issues-and-functionality-of-the-components)  
+3. [Middle Tier](#middle-tier-express-node-restful-api)  
+   a. [Choice of Software](#choice-of-software)  
+   b. [Building the API routes](#building-the-api-routes)  
+   c. [Using our API](#using-our-api)  
+4. [Backend (MongoDB)](#back-end-mongodb)  
+5. [Continuous Deployment using Docker](#continuous-deployment-using-docker)  
+   a. [Primer](#primer)  
+   b. [Deployment](#deployment)  
+6. [Bibliography](#bibliography)  
+   
 # System Implementation
 ## System Design Overview
 We chose to implement our SPA using the MEAN stack, a collection of software well suited to building dynamic web sites or applications. The driving force behind our choice was it's popularity. With so many resources available relating to use of the MEAN stack, it made drawing inspiration for our implementation and fixing the (inevitable) bugs far easier. The MEAN stack is as follows:
@@ -20,7 +37,8 @@ To best explain how we used this software to create our webpage, we use a helpfu
   <img src="images/Sequence Diagram.png" width="900"/>
 </p>
 <p align="center">
-  <em>Sequence Diagram showing how our website flows.</em>
+  <em>Figure 1: Sequence Diagram showing how our website flows.</em>
+  <br/><br/>
 </p>
 
 To aid comprehension of the diagram, when a User accesses the website, the Angular app.component.ts presents them with the welcome page HTML view. From this point, the user has some options. They can either look at the dev info, which prompts a pop-up component to display information. Alternatively, they may enter their email and begin the game. Upon doing so, depending on which point in the game they are at, various components are called (game-card, News-Api etc.). Functions within these components are then carried out and alter what the user sees on screen. It should be noted, some of these functions are those of the DataService, which, when called, send a request through Node and Express to our Database. Upon receiving this Http request, MongoDB sends back the required information in a JSON payload (Or, in the case of a POST request, a fulfilled promise).
@@ -33,7 +51,8 @@ To further clarify just how our frontend components interact and how that transl
   <img src="images/UML+Distract.png" width="900"/>
 </p>
 <p align="center">
-  <em>Class Diagram showcasing the relationship between components.</em>
+  <em>Figure 2: Class Diagram showcasing the relationship between components.</em>
+  <br/><br/>
 </p>
 
 
@@ -66,7 +85,7 @@ startTimer(): void {
     return minutes + ':' + (value - minutes * 60);
   }
  ```
- This was implemented within the main app.component.ts file, which contains most of the game logic. The memory card game implementation can be seen within the GameCardComponent and uses JavaScripts 'states' to animate the card.
+This was implemented within the main app.component.ts file, which contains most of the game logic. The memory card game implementation can be seen within the GameCardComponent and uses JavaScripts 'states' to animate the card.
 
 #### Distractions
 For the distraction elements of the game we decided to go with both visual and auditory distractions following feedback from the user survey. Having more than one distraction also aligns with the literature review, in that attention is a finite resource and the brain can only devote attention to a limited number of stimuli.
@@ -85,7 +104,8 @@ getRandomNumber(min, max): number {
   <img src="images/news-card.png" width="300"/>
 </p>
 <p align="center">
-  <em>News card created using News API.</em>
+  <em>Figure 3: News card created using News API.</em>
+  <br/><br/>
 </p>
 
 During the game, the news cards move across the screen in a seemingly random way, to further distract the user. To implement this, we first created an svg path with sudo random movements, before converting the path to coordinates. This then allowed us to make use of motion path within css to animate the div within its parent element. Although it would have been preferable to inject some randomness into the movement, for the task we deemed this suitable, along with it allowing us to easily adapt the code for future versions. The animated card can be seen below.
@@ -94,7 +114,8 @@ During the game, the news cards move across the screen in a seemingly random way
   <img src="images/news-card.gif" width="500"/>
 </p>
 <p align="center">
-  <em>Animated Angular Card Displaying News</em>
+  <em>Figure 4: Animated Angular Card Displaying News</em>
+  <br/><br/>
 </p>
 
 ##### Auditory Distractions
@@ -104,7 +125,8 @@ For the auditory distractions we decided to gather several sounds we found distr
   <img src="images/audacity.png" width="600"/>
 </p>
 <p align="center">
-  <em>Adding reverb to 'construction.wav' in Audacity</em>
+  <em>Figure 5: Adding reverb to 'construction.wav' in Audacity</em>
+  <br/><br/>
 </p>
 
 ### Routing
@@ -174,6 +196,11 @@ if (this.userSecondGame === true) {
 </td>
 </tr>
 </table>
+
+<p align="center">
+  <em>Table 1: Issues and Functionality of the Components</em>
+  <br/><br/>
+</p>
 
 ## Middle Tier (Express, Node, RESTful API)
 
@@ -328,7 +355,8 @@ A good example of how we used the API in our SPA is in the bar chart. The data w
   <img src="images/barChart.png" width="500"/>
 </p>
 <p align="center">
-  <em>Bar chart comparing users times.</em>
+  <em>Figure 6 - Bar chart comparing users times.</em>
+  <br/><br/>
 </p>
 
 </p>
@@ -337,11 +365,15 @@ A good example of how we used the API in our SPA is in the bar chart. The data w
 We chose MongoDB as our database. MongoDB is a NoSQL database which means it's flexible and easy to use. We prefer a NoSQL database to a SQL database because our application doesn't have huge amount of data to store and retrieve. Also with the popularity of the MEAN stack, it would be easier for us to find resources and solutions to potential problems online if we choose MongoDB.
 
 Below is the entity relationship diagram of our data model. Player is in a separate table rather than in the Play table so that the whole data model conforms to normal forms although this is not required by MongoDB as a NoSQL database. The player field in Play table is a foreign key that refers to Player table. The timewithoutdistraction and timewithdistraction record the time in seconds a player spends finishing the game in without distraction round and with distraction round respectively. In the Player table, we use email to identify players. The email field is required and unique. We also added a birthday field and an age virtual property in the Player table, but they are not used in our current minimal viable product. For clarity, one schema per file was made in the ./models/ directory.
+
+<br/><br/>
+
 <p align="center">
   <img src="images/schemas.png" width="500"/>
 </p>
 <p align="center">
-  <em>Our data model</em>
+  <em>Figure 7: Our data model</em>
+  <br/><br/>
 </p>
 
 ## Continuous Deployment using Docker
@@ -354,10 +386,11 @@ This contrasts more traditional forms of deployment including virtual machines (
   <img src="images/docker.png" width="800"/>
 </p>
 <div align="center">
-  <em>Figure XX: Docker vs traditional full virtualization for deployment.</em>
+  <em>Figure 8: Docker vs traditional full virtualization for deployment.</em>
+  <br/><br/>
 </div>
 
-### Implementation
+### Deployment
 The main idea behind our Docker deployment strategy was to use a docker compose script to spin up two containers that would talk to each other while the application was being served. The following containers were deployed:
 1. NodeJS container containing the Angular frontend and ExpressJS server
 2. MongoDB container to persist the data in our application
@@ -365,20 +398,9 @@ The main idea behind our Docker deployment strategy was to use a docker compose 
 #### Container 1: NodeJS Container
 The following [`Dockerfile`](../site/../../site/Dockerfile) was used to create an image containing our Angular front end and server using Alpine linux as a parent image that is pulled directly from DockerHub.
 The dependences are installed from the [`packages.json`](../../site/package.json) and port 3000 can then be accessed on the host machine to use the application.
-```dockerfile
-FROM node:10-alpine
-RUN mkdir -p /home/node/app/node_modules && chown -R node:node /home/node/app
-WORKDIR /home/node/app
-COPY package*.json ./
-USER node
-RUN npm install
-COPY --chown=node:node . .
-RUN ./node_modules/.bin/ng build --output-path ./dist
-EXPOSE 3000
-CMD [ "node", "server.js" ]
-```
+
 #### Container 2: MongoDB Container
-There was no need to build a custom image for the MongoDB container. We directly used the the official [`mongo:4.1.8-xenial`](https://hub.docker.com/_/mongo) from DockerHub.
+There was no need to build a custom image for the MongoDB container. We directly used the the official [`mongo:4.1.8-xenial`](https://hub.docker.com/_/mongo) image from DockerHub.
 
 #### Container Orchestration
 The [`docker-compose.yml`](../../site/docker-compose.yml) script was then used to orchestrate container creation and deployment.
@@ -387,7 +409,7 @@ Every container that is spun up can be thought of as a service. Services can tal
 
 Let us break the process down.
 
-First, the NodeJS container is built from the [Dockerfile above](#container-1-nodejs-container) and is defined as a `nodejs` service.
+First, the NodeJS container is built from the same [`Dockerfile`](#container-1-nodejs-container) mentioned above, and is defined as a `nodejs` service.
 
 ```yaml
 nodejs:
@@ -398,7 +420,7 @@ nodejs:
   container_name: nodejs
 ```
 
-Environment variables for this container are stored in the .env file and contain the credentials to login to our `db` service. We ensured that this file was added to our `.gitignore` file since it contained sensitive information of our users login credentials.
+Environment variables for this container are stored in the .env file and contain the credentials to login to our `db` service. We ensured that this file was added to our [`.gitignore`](../../site/.gitignore) file since it contained sensitive information of our users' login credentials.
 
 ```yaml
 env_file: .env
@@ -436,7 +458,7 @@ There was an issue where the `nodejs` service kept restarting when spinning up t
 command: ./wait-for.sh db:27017 -- /home/node/app/node_modules/.bin/nodemon server.js
 ```
 
-
+___
 
 ## Bibliography:
 
@@ -446,6 +468,7 @@ Node.js at Paypal - [Online]. Available at https://medium.com/paypal-tech/node-j
 
 What is REST - [Online]. Available at https://restfulapi.net/ [Accessed 04 May 2021].
 
+___
 
 <p align="center">
   <b>Navigation:</b><br>

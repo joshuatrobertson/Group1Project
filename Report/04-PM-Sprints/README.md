@@ -8,8 +8,8 @@
 2. [Agile Working](#agile-working)  
    a. [Choice of Methodology](#choice-of-methodology)  
    b. [Project Vision and Scoping](#project-vision-and-scoping)  
-   c. [User Story Creation](#user-story-creation) 
-   d. [Sprints](#sprints) 
+   c. [User Story Creation](#user-story-creation)  
+   d. [Sprints](#sprints)  
 3. [CI/CD Pipeline](#cicd-pipeline)  
    a. [Continuous Integration with GitHub](#continuous-integration-with-github)  
    b. [Continuous Deployment with Docker](#continuous-deployment-with-docker)  
@@ -39,6 +39,7 @@ We used Discord for our general day to day communication. The Discord server was
 </p>
 <div align="center">
   <em>Figure 1: Team discord server.</em>
+    <br/><br/>
 </div>
 
 ## Agile Working
@@ -74,6 +75,7 @@ The goal of each iteration is to produce a working product, which can be demonst
 </p>
 <div align="center">
   <em>Figure 2: The Scrum workflow.</em>
+    <br/><br/>
 </div>
 
 #### Waterfall 
@@ -94,6 +96,7 @@ In the waterfall methodology, all the requirements gathering, and design work is
 </p>
 <div align="center">
   <em>Figure 3: The Waterfall model.</em>
+    <br/><br/>
 </div>
 
 #### Evaluation
@@ -108,6 +111,8 @@ We evaluated these both of these frameworks against a set of factors critical to
 | Issue Identification           | Due to the lack of iterative review, issues become apparent upon delivery of the first prototype to the client.                                                                    | Issues are identified during sprint reviews and can be rectified instantaneously.                                                                                                         |
 | Scheduling                     | Given that meticulous planning is mandatory at the start if the project, this is a massive disadvantage to inexperienced teams as they are unable to estimate the effort required. | The short-lived nature of sprints provides invaluable insight into the abilities of team members early in the project, making scheduling a lot more accurate for future sprints.          |
 | Team Size                      | Suitable for big teams.                                                                                                                                                            | Suitable for teams with 3-10 members.                                                                                                                                                     |
+
+<br/>
 
 A big advantage of the Scrum framework is its iterative nature. We believed this would help us constantly reflect on our capabilities and rescope our project if necessary, at the end of every sprint. Moreover, the relatively short development lifecycle of the Scrum framework had the potential to provide us with invaluable insight into the weaknesses in our workflows. The idea would be to identify these weaknesses early in the project, learn from them, and rectify them in time for the next sprint. 
 
@@ -170,6 +175,7 @@ The way we approached our sprints were as follows:
 </p>
 <div align="center">
   <em>Figure 4: Timeline of sprints and critical milestones in the project.</em>
+    <br/><br/>
 </div>
 
 #### Sprint 1: Development I (05/04 - 11/04)
@@ -271,8 +277,11 @@ For the sake of completeness, it is important to mention that the **production**
 
 <p align="center">
   <img src="images/002_git.png" width="750"/>
-  <center><em> Figure 5: Continuous integration using git.</em></center>
 </p>
+<div align="center">
+  <em>Figure 5: Continuous integration using git.</em>
+  <br/><br/>
+</div>
 
 ### Continuous Deployment with Docker
 Prior to integrating Docker into our workflow, team development was turning out quite problematic given the fact that we were working on Windows, MacOS and Linux. There were instances where the website would be served completely fine on Windows and Linux, but would appear glitchy on MacOS. 
@@ -283,10 +292,12 @@ We setup an image repository on dockerhub to automate the build of our nodejs co
 
 
 <p align="center">
-  <img src="images/006_docker-automated.png" width="600"/>
+  <img src="images/006_automated_builds.png" width="600"/>
+  <img src="images/007_recent_builds.png" width="600"/>
 </p>
 <div align="center">
   <em>Figure 6: Automated build process on dockerhub.</em>
+  <br/><br/>
 </div>
 
 
@@ -299,19 +310,22 @@ To summarise our entire CI/CD pipeline:
 </p>
 <div align="center">
   <em>Figure 7: Final CI/CD Pipeline.</em>
+  <br/><br/>
 </div>
 
 
 ## Team Contributions
 
-Documentation contributions. [INSERT LINK HERE]
+Documentation contributions can be found [here](../../Source/02-Documentation-contributions/documentation-checklist.pdf).
+
+The technical role of each member can be found in the table below.
 
 | Team Member          | Contribution                    |
 | :------------------- | :------------------------------ |
-| Joshua Robertson     | Front end, UX/UI Design         |
+| Joshua Robertson     | Front end         |
 | Alan Cen             | Back end                        |
-| Ella Gryf-Lowczowska | Front end, UX/UI Design         |
-| Efan Haynes          | API                             |
+| Ella Gryf-Lowczowska | Front end         |
+| Efan Haynes          | API                           |
 | Keane Fernandes      | DevOps, project management |
 
 ---
