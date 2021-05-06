@@ -283,7 +283,8 @@ We setup an image repository on dockerhub to automate the build of our nodejs co
 
 
 <p align="center">
-  <img src="images/006_docker-automated.png" width="600"/>
+  <img src="images/automated_builds.png" width="600"/>
+  <img src="images/recent_builds.png" width="600"/>
 </p>
 <div align="center">
   <em>Figure 6: Automated build process on dockerhub.</em>
@@ -304,14 +305,16 @@ To summarise our entire CI/CD pipeline:
 
 ## Team Contributions
 
-Documentation contributions. [INSERT LINK HERE]
+Documentation contributions can be found [here](../../Source/02-Documentation-contributions/documentation-checklist.pdf).
+
+The technical role of each member can be found in the table below.
 
 | Team Member          | Contribution                    |
 | :------------------- | :------------------------------ |
-| Joshua Robertson     | Front end, UX/UI Design         |
+| Joshua Robertson     | Front end         |
 | Alan Cen             | Back end                        |
-| Ella Gryf-Lowczowska | Front end, UX/UI Design         |
-| Efan Haynes          | API                             |
+| Ella Gryf-Lowczowska | Front end         |
+| Efan Haynes          | API                           |
 | Keane Fernandes      | DevOps, project management |
 
 ---
