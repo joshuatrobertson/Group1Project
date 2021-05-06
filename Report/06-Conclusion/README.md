@@ -16,13 +16,15 @@ It has been an unusual year for all of us in this covid stricken era, and it goe
 
 ## Social / Ethical Implications
 
-
 ### Data Protection
 
 **saveEmail().** The login page of *DistractAbility* prompts the user for their email address. The function `saveEmail()` then stores the user's email in the database for the purpose of using the email as the user's unique user ID. We required users to be associated with a unique ID in order to organise the statistics around their score history, and as emails are guaranteed to be unique, identifying users by their email removed the need for us to ensure users only entered unique usernames. However, the negative implications this carries for privacy and security does somewhat compromise the ethical integrity of our project given that our database is not properly encrypted.
 
 **User Testing.** Initially our user surveys collected participants' email addresses. Upon reflection we realised this was bad practice and that all responses should be anonymised. We thus replaced the emails with a unique user ID and checked the rest of the data to ensure there were no identifying comments. 
 
+**Discord.** All of our team communication happened on Discord, a public server. For future work, we would aim to ensure our communication happens on a private and secured communication platform.
+
+To combat the issues outlined above, we would aim to follow a framework such as the [BCS Code of Conduct](https://www.bcs.org/membership/become-a-member/bcs-code-of-conduct/).
 
 ### Accessibility
 
@@ -34,7 +36,7 @@ As stated, the crux of our application is a card game with two rounds. The card 
 
 
 ## Future Work
-We believe the current state of the repository can act act as a solid foundation to carry out various kinds of future work. There are three main directions this can be take into are as follows:
+We believe the current state of the repository can act act as a solid foundation to carry out various kinds of future work. There are two main directions this can be take into which are as follows:
 
 ### Design 
 We got a multitude of interesting answers in our end user surveys to help improve the design of our product. We provide a short summary of the ones we believe would improve our product.
@@ -47,10 +49,12 @@ Another suggestion we believe was quite useful would be the potential use of puz
 There were numerous ways we could improve our development pipeline. Firstly, We did not harness the true capabilities of GitHub in our CI/CD pipeline. The use of tags to mark milestone commits (for example, releases on the production branch) could have made our commit logs a lot more readable to visitors of our repository. Secondly, we could have used the pull request feature on GitHub rather than holding code reviews every time a team member finished a feature. The use of comments within a pull request on GitHub could have been used to provide constructive feedback. This would have improved our development velocity by a significant margin.
 
 Automated testing frameworks available on DockerHub could be integrated into the CI/CD pipeline wherein upon creation of a container, a testing script can be run automatically on it. The advantage is all of this would be run on the cloud platform DockerHub uses, and your computer resources could be better utilised elsewhere. An automated response would then be sent back to GitHub notifying if the newly built image passed all the tests. Appropriate action could then be taken depending on the outcome of the tests by the project manager responsible for that feature. Along the same lines, test scripts can be run on code newly pushed code onto certain branches on GitHub, and this would help avoid some unnecessary manual tests and code reviews. At the moment, our testing is carried out manually by a tester, and there is always a possibility that logs may be incorrectly filled in, or certain steps may be missed – essentially the reason why computers came into existence, to enable automation and eliminate errors like these.
- 
-### Evaluation
 
+### Further Evaluation
 
+Publicly serving our application, perhaps through the use of Amazon Web Services, would aid in improving the feedback we would receive for our application. However, given the time for the project this was not possible and would definitely be at the top of the list for future work on this project.
+
+In summary, we believe that our application is indeed a minimum viable product that has been appropriately scoped given the time schedule. It can be delivered to potential clients as a proof of concept. There is a suitable balance between serious and play and if the further work outlined above is carried out, we believe that it can be a solid product that solves the problem of maintaining concentration during lockdown.
 ___
 
 <p align="center">
