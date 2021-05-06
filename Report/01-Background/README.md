@@ -361,6 +361,8 @@ V. Frissen, J. de Mul and J. Raessens, "Homo Ludens 2.0: Play, Media and Identit
 
 <p align="center">
   <img src="images/driven2.png" width="300"/>
+</p>
+<p>
   <em>Driven to Distractibility by Kwik Fit </em>
 </p>
 
