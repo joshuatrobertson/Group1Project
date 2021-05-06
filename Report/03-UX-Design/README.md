@@ -218,7 +218,7 @@ View the survey questions [here](SecondSurvey/SurveyRound2_Questions.pdf).
   <img src="SecondSurvey/distractionType.png" width="500"/>
 </p>
 <p align="center">
-  <em>Question 5: Did you find the visual distractions (news headlines) more distracting than the auditory distractions or visa versa?</em>
+  <em>Question 5 </em>
 </p>
 
 
