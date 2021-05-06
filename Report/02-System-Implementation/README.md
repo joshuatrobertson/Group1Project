@@ -15,7 +15,7 @@
    a. [Primer](#primer)  
    b. [Deployment](#deployment)  
 6. [Bibliography](#bibliography)  
-   
+
 # System Implementation
 ## System Design Overview
 We chose to implement our SPA using the MEAN stack, a collection of software well suited to building dynamic web sites or applications. The driving force behind our choice was it's popularity. With so many resources available relating to use of the MEAN stack, it made drawing inspiration for our implementation and fixing the (inevitable) bugs far easier. The MEAN stack is as follows:
@@ -349,13 +349,21 @@ export class DataService {
 ```
 With this, we can make streamlined requests at any place in the frontend! (an obvious example being adding a player to the database once they've registered). This is very powerful, and makes calling the API as simple as copying in a line of code.
 
-A good example of how we used the API in our SPA is in the bar chart. The data which the bar chart displays is pulled from the API functions into the component, where it is manipulated and then finally shown to the user.
+A good example of how we used the API in our SPA is in the bar and line charts. The data which the charts display is pulled from the API functions into the component, where it is manipulated and then finally shown to the user.
 
 <p align="center">
   <img src="images/barChart.png" width="500"/>
 </p>
 <p align="center">
   <em>Figure 6 - Bar chart comparing users times.</em>
+  <br/><br/>
+</p>
+
+<p align="center">
+  <img src="images/line.png" width="500"/>
+</p>
+<p align="center">
+  <em>Figure 7 - line chart showing user history.</em>
   <br/><br/>
 </p>
 
@@ -372,7 +380,7 @@ Below is the entity relationship diagram of our data model. Player is in a separ
   <img src="images/schemas.png" width="500"/>
 </p>
 <p align="center">
-  <em>Figure 7: Our data model</em>
+  <em>Figure 8: Our data model</em>
   <br/><br/>
 </p>
 
@@ -386,7 +394,7 @@ This contrasts more traditional forms of deployment including virtual machines (
   <img src="images/docker.png" width="800"/>
 </p>
 <div align="center">
-  <em>Figure 8: Docker vs traditional full virtualization for deployment.</em>
+  <em>Figure 9: Docker vs traditional full virtualization for deployment.</em>
   <br/><br/>
 </div>
 
