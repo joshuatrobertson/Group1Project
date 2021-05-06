@@ -200,7 +200,7 @@ View the survey questions [here](SecondSurvey/SurveyRound2_Questions.pdf).
   <img src="SecondSurvey/representative.png" width="500"/>
 </p>
 <p align="center">
-  <em>Question 3: Do you think our application 'DistractAbility' does a good job of demonstrating the problem of heightened distractibility in the context of COVID-19?</em>
+  <em>Question 3 </em>
 </p>
 
 
