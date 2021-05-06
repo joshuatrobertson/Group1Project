@@ -106,7 +106,7 @@ View the initial prototype [here](../../Source/01-Paper-prototype/paper-prototyp
 
 **Findings**: 
 *   People would most like to play Logic Games, followed by Maths Games then General Knowledge.
-*    General knowledge type games may not be a fair assessment as what is general knowledge to one person is not common knowledge to the next.  
+*   Some concern that general knowledge type games may not be a fair assessment, as what is general knowledge to one person is not common knowledge to the next.  
 
 **Impact**:
 *    We took into consideration the preference for logic and mathematical games, but noted the importance of a game that relies on working memory, given the link between working memory and concentration. 
