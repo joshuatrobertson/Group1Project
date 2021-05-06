@@ -176,6 +176,7 @@ View the survey questions [here](SecondSurvey/SurveyRound2_Questions.pdf).
 * 76.5% of respondents found the card game harder to complete in the second round, in the presence of distractions, than in the first round.
 
 **Impact**
+* This support for our hypothesis shows that our applications is in line with the theory presented in the literature review. 
 
 
 <p align="center">
@@ -193,7 +194,7 @@ View the survey questions [here](SecondSurvey/SurveyRound2_Questions.pdf).
 * 100% of respondents agreed that *DistractAbility* "does a good job of demonstrating the problem of heightened distractibility in the context of COVID-19".
 
 **Impact**
-
+* This unanimous support for our hypothesis has given us confidence that our application has successfully met the 'serious' side of serious play. 
 
 <p align="center">
   <img src="SecondSurvey/representative.png" width="500"/>
@@ -232,6 +233,9 @@ View the survey questions [here](SecondSurvey/SurveyRound2_Questions.pdf).
 
 
 **Evaluation of Survey 2**
+* Most importantly, the authenticity of the survey is limited by the fact that a handful of participants completed the survey on the basis of the demo video rather than first-hand experience of our site. Indeed it was these participants who tended to answer 'Not Sure' to the first question - for obvious reasons. This is clearly not ideal. However, given the current Covid situation, gathering a subset of responses on the basis of the demo video was the only way we could survey a greater diversity of ages and professions. We judged it preferable to diversify our participant pool at the cost of some responses not being as authentic as first-hand experience. 
+* We did not explicitly ask the respondents about their experience of play in *DistractAbility*. If we were to do more user testing, we would either ask survey respondents to what extent was their experience fun, or we would ask about the user's experience of play in an interview.
+
 
 
 ### Summary ### 
