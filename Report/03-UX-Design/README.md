@@ -149,7 +149,7 @@ In addition, when playing the game, it is fully centered, and devoid of any othe
 </p>
 
 
-## User Group Definition
+## End User Testing
 This section covers our end user testing for *DistractAbility*.
 ### Research Objectives
 
