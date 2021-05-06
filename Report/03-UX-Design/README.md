@@ -59,7 +59,13 @@ Towards the end of the development phase our research objectives were as follows
 *    One round of moderated user testing
 
 
-### Ethnography ###
+### Ethnography: Survey 1 ###
+
+Age  |  Gender | Background (technical/non-technical)
+:-------------------------:|:-------------------------:|:-------------------------:
+![](FirstSurvey/ethnography/age.png)  |  ![](FirstSurvey/ethnography/gender.png) |  ![](FirstSurvey/ethnography/background.png)
+
+### Ethnography: Survey 2 ###
 
 
 
