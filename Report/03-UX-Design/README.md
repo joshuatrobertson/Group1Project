@@ -197,10 +197,10 @@ View the survey questions [here](SecondSurvey/SurveyRound2_Questions.pdf).
 * This unanimous support for our hypothesis has given us confidence that our application has successfully met the 'serious' side of serious play. 
 
 <p align="center">
-  <img src="SecondSurvey/distractionType.png" width="500"/>
+  <img src="SecondSurvey/representative.png" width="500"/>
 </p>
 <p align="center">
-  <em>Responses to Question 3.</em>
+  <em>Question 3: Do you think our application 'DistractAbility' does a good job of demonstrating the problem of heightened distractibility in the context of COVID-19?</em>
 </p>
 
 
@@ -215,7 +215,7 @@ View the survey questions [here](SecondSurvey/SurveyRound2_Questions.pdf).
 
 
 <p align="center">
-  <img src="SecondSurvey/representative.png" width="500"/>
+  <img src="SecondSurvey/distractionType.png" width="500"/>
 </p>
 <p align="center">
   <em>Question 5: Did you find the visual distractions (news headlines) more distracting than the auditory distractions or visa versa?</em>
