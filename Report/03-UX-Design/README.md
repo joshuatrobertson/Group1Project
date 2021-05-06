@@ -230,13 +230,15 @@ View the survey questions [here](SecondSurvey/SurveyRound2_Questions.pdf).
 </p>
 
 
-
 **Research Question**: Evaluate user experience.
 
 
 **Findings**
+* Generally positive feedback.
+* One respondent said "Maybe an instructions menu to explain how the game works. To prepare the users on what to expect when carrying out the game." 
 
 **Impact**
+* That one respondent asked for an instructions menu indicates that either (i) the visibility of our 'App Info' popup modal could be improved, or (ii) the text in 'App Info' is not clear enough.  
 
 
 **Research Question**: Feedback on potential future improvements.
