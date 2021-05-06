@@ -97,14 +97,8 @@ View the initial prototype [here](../../Source/01-Paper-prototype/paper-prototyp
 <p align="left">
   <img src="FirstSurvey/kindsOfDistractions.png" width="500"/>
 </p>
-<p align="right"
-<img src="FirstSurvey/kindsOfDistractions.png" width="500"/>
-</p>
 <p align="left">
   <em>Responses to Question 3.</em>
-</p>
-<p align="right">
-  <em>Responses to Question 4.</em>
 </p>
 
 
