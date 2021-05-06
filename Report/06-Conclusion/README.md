@@ -34,14 +34,24 @@ As stated, the crux of our application is a card game with two rounds. The card 
 
 
 ## Future Work
-We believe the current state of the repository can act act as a solid foundation to carry out various kinds of future work. There are three main directions this can be take into are as follows:
+
+The future improvements that we propose for the design of *DistractAbility* are predominantly informed by the literature on serious play and end user feedback, which the future changes we would make to our development process come from self-reflection.  
 
 ### Design 
-We got a multitude of interesting answers in our end user surveys to help improve the design of our product. We provide a short summary of the ones we believe would improve our product.
 
-One of the suggestions was to incorporate an interlude in between the rounds. The idea behind this would be to allow the player to completely refresh their mind before starting the second round. At the end of the first round, the user would have an elevated mental function, hence it would be useful to bring the user back to some sort of mental baseline. The playing of the second round after this interlude would provide a more accurate description the impact of distractions on memory-based tasks.
+**Multiple Difficulty Levels.** Introduce different difficulty levels to the game and allow users to choose the level at which they wish to begin. Ensure the first few rounds are very easy and the top tier rounds extremely challenging. Allow the user to choose which level they wish to play at. We believe that having multiple difficulty levels would instill feelings of competence in the user after they inevitably complete the easier rounds without too much difficulty, and that this might motivate them to persevere with the more challenging rounds. Moreover, giving the user the freedom to choose which level they wish to play at introduces a presently-absent opportunity for self-determination within the game, which might also act as an intrinsic motivator. 
 
-Another suggestion we believe was quite useful would be the potential use of puzzle-based games. They would be fairly similar to implement in terms of technical complexity as our current memory game and would provide the user with another metric to assess the impact of distractions on their concentration whilst performing tasks involving logical thinking.
+
+**User Bubbles.** Allow users to create user 'bubbles' with groups of friends in which the members of the bubble either play the game individually but have their scores ranked in a leaderboard, or they play against each other, competing to flip the cards for instance. This would introduce a greater sense of relatedness than the current option to just see an anonymised average of all other users' scores. Allowing users to play against each other would also introduce an element of competition that some users might find very motivating. 
+
+
+**Connect Play with Purpose.** Inspired by *Forest* app and it's affiliation with *Trees for the Future*, we think that creating links with a philanthropic external organisation would be a great external source of motivation for some players and something that we ourselves would find rewarding. One way to implement this might be to award the user virtual coins every time the difference between their first and second round scores are within a certain bracket - or whenever they progress a level if we were to introduce mutltiple difficulty levels. These virtual coins could then reflect real revenue donated to causes such as: (i) A.D.H.D charities/organisations, (ii) distraction-proofing primary schools, (iii) creating free online seminars teaching people how to reduce distractions in their working environment and their daily lives. 
+
+
+**Interlude Between Rounds.** One of the suggestions made in a user survey was to incorporate an interlude in between the rounds. This modification might allow the player to refresh their mind before starting the second round. At the end of the first round, the user would have an elevated mental function, hence it would be useful to bring the user back to some sort of mental baseline. The playing of the second round after this interlude would provide a more accurate description the impact of distractions on memory-based tasks.
+
+**Greater Variety of Games.** Another suggestion we believe was quite useful would be the potential use of puzzle-based games. They would be fairly similar to implement in terms of technical complexity as our current memory game and would provide the user with another metric to assess the impact of distractions on their concentration whilst performing tasks involving logical thinking.
+
 
 ### Development
 There were numerous ways we could improve our development pipeline. Firstly, We did not harness the true capabilities of GitHub in our CI/CD pipeline. The use of tags to mark milestone commits (for example, releases on the production branch) could have made our commit logs a lot more readable to visitors of our repository. Secondly, we could have used the pull request feature on GitHub rather than holding code reviews every time a team member finished a feature. The use of comments within a pull request on GitHub could have been used to provide constructive feedback. This would have improved our development velocity by a significant margin.
