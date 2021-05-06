@@ -2,19 +2,19 @@
 
 ## Table of Contents
 1. [System Design Overview](#system-design-overview)  
-2. [Frontend](#frontend) 
-   a. [Implementation](#frontend-implementation)  
-   b. [Routing](#frontend-routing)  
-   c. [Issues and Functionality of the Components](#frontend-issues-and-functionality-of-the-components)  
-3. [Middle Tier](#middle-tier)
-   a. [Choice of Software](#middle-tier-choice-of-software)  
-   b. [Building the API routes](#middle-tier-building-the-api-routes) 
-   c. [Using our API](#middle-tier-using-our-api)
-4. [Backend (MongoDB)](#backend-mongodb)
-5. [Continuous Deployment using Docker](#continuous-deployment-using-docker)
-   a. [Primer](#continuous-deployment-using-docker-primer)
-   b. [Implementation](#continuous-deployment-using-docker-implementation)
-6. [Bibliography](#bibliography)
+2. [Frontend](#front-end-angular)   
+   a. [Implementation](#implementation)  
+   b. [Routing](#routing)  
+   c. [Issues and Functionality of the Components](#issues-and-functionality-of-the-components)  
+3. [Middle Tier](#middle-tier-express-node-restful-api)  
+   a. [Choice of Software](#choice-of-software)  
+   b. [Building the API routes](#building-the-api-routes)  
+   c. [Using our API](#using-our-api)  
+4. [Backend (MongoDB)](#back-end-mongodb)  
+5. [Continuous Deployment using Docker](#continuous-deployment-using-docker)  
+   a. [Primer](#primer)  
+   b. [Deployment](#deployment)  
+6. [Bibliography](#bibliography)  
    
 # System Implementation
 ## System Design Overview
@@ -378,7 +378,7 @@ This contrasts more traditional forms of deployment including virtual machines (
   <em>Figure 8: Docker vs traditional full virtualization for deployment.</em>
 </div>
 
-### Implementation
+### Deployment
 The main idea behind our Docker deployment strategy was to use a docker compose script to spin up two containers that would talk to each other while the application was being served. The following containers were deployed:
 1. NodeJS container containing the Angular frontend and ExpressJS server
 2. MongoDB container to persist the data in our application
