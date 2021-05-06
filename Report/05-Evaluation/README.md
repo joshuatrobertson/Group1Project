@@ -19,12 +19,6 @@ Following on from the decision to use a memory card game instead of a maths base
 - 'paper_prorotype.xd' is the prototype for our current idea (Focus on Lock).
 - 'prototype_document.docx' is documentation for the current prototype and the thought process behind it.
 
-### Personas
-
-### User testing
-Unfortunately, covid restrictions limited the amount of moderated user testing we would have liked to carry out.
-
-### Overall UX approach and conclusion
 
 ## Unit Testing
 For the unit testing, we decided that it would in theory would make sense to have one good unit test per component. Although this is the case for most of our components, those which share high similarity are tested together. This can be seen in the RestartGame and EndGame Components, of which there is only one test.
