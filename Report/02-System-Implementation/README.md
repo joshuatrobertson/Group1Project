@@ -199,6 +199,7 @@ if (this.userSecondGame === true) {
 
 <p align="center">
   <em>Table 1: Issues and Functionality of the Components</em>
+  <br/><br/>
 </p>
 
 ## Middle Tier (Express, Node, RESTful API)
