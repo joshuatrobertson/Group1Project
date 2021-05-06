@@ -26,7 +26,7 @@ It has been an unusual year for all of us in this covid stricken era, and it goe
 
 
 ## Future Work
-We believe the current state of the repository can act act as a solid foundation to carry out various kinds of future work. There are three main directions this can be take into and are as follows:
+We believe the current state of the repository can act act as a solid foundation to carry out various kinds of future work. There are three main directions this can be take into are as follows:
 
 ### Design 
 We got a multitude of interesting answers in our end user surveys to help improve the design of our product. We provide a short summary of the ones we believe would improve our product.
