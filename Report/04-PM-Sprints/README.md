@@ -65,7 +65,7 @@ The goal of each iteration is to produce a working product, which can be demonst
 - Suitable for continuous integration and deployment for live systems.
 
 ##### Cons:
-- Scrum is often more difficult to understand than Waterfall – at least initially due to the spontaneity of sprint planning and execution.
+- Scrum is often more overwhelming to use initially than Waterfall – due to the spontaneity of sprint planning and execution.
 - With the emphasis on building working software throughout, there can be a perception that documentation can sometimes be neglected &#8594; an issue we faced initially during our sprints.
 - Scrum does not suit very large teams.
   
@@ -87,7 +87,7 @@ In the waterfall methodology, all the requirements gathering, and design work is
 ##### Cons:
 - The level of planning required to lay out the project in phases can prove to be daunting for inexperienced software development teams.
 - Problems remain unnoticed until the project nears completion, which may turn out potentially expensive.
-- Changes to requirements can’t easily be incorporated with the waterfall method and there are often laborious change control procedures to go through when this happens.
+- Changes to requirements can’t easily be incorporated with the waterfall method, and there are often laborious change control procedures to go through when this happens.
   
 <p align="center">
   <img src="images/004_waterfall.png" width="600"/>
@@ -97,7 +97,7 @@ In the waterfall methodology, all the requirements gathering, and design work is
 </div>
 
 #### Evaluation
-We evaluated these frameworks against a set of factors critical to delivering our web application in the leanest and most efficient manner given the tight time schedule. A summary of these factors is presented below:
+We evaluated these both of these frameworks against a set of factors critical to delivering our web application in the leanest and most efficient manner given the tight time schedule. A summary of these factors is presented below:
 
 | Evaluation Criteria            | Waterfall                                                                                                                                                                          | Scrum                                                                                                                                                                                     |
 | :----------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -113,7 +113,7 @@ A big advantage of the Scrum framework is its iterative nature. We believed this
 
 A major factor that made the Waterfall model a poor candidate for our project was the planning complexity required at the start of the project. We believed that the lack of experience as developers would make it extremely difficult to implement this step.
 
-Based on this information and the feature-centric, modular nature of the project brief, we decided to adopt a slightly modified version of the **scrum** methodology. The modification here is that we allowed user stories to be carried forward into the next sprint if need be, since it was unable to estimate the effort required for certain tasks given our inexperience as software developers.
+Based on this information and the feature-centric, modular nature of the project brief, we decided to adopt a slightly modified version of the **scrum** methodology. The modification here is that we allowed user stories to be carried forward into the next sprint if need be, since we w unable to estimate the effort required for certain tasks given our inexperience as software developers.
 
 ### Project Vision and Scoping
 
@@ -141,7 +141,7 @@ A key step in the scrum workflow is the ideation of the user stories necessary t
 
 
 
-| Code                                                                                   | User Story                                                                                                                                             | Completed in                                                   |
+| Code                                                                                   | User Story                                                                                                                                             | Completed                                                   |
 | -------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------- |
 | [**US001**](https://github.com/keane-fernandes/Group1Project/projects/1#card-60261136) | As a user, I want to be able to type out the web address and arrive on the welcome page of the website.                                                | [Sprint 1](#sprint-1-development-i-0504---1104)                |
 | [**US002**](https://github.com/keane-fernandes/Group1Project/projects/1#card-58447299) | As a user, I want to compare my score against other users of the game.                                                                                 | [Sprint 3](#sprint-3-development-iii-1904---2504)              |
@@ -159,7 +159,7 @@ We started sprinting in the second week of the Easter holidays and managed to co
 
 The way we approached our sprints were as follows:
 
-1. At the start of the week, the team would pick user stories and break that down into smaller subtasks and categorise them into front end, back end or devops tasks.
+1. At the start of the week, the team would pick user stories and break them down into smaller subtasks and categorise them into front end, back end or devops tasks.
 2. Every member would assume repsonsibility of these subtasks based on their expertise and role in the team, and branch off to work (pun absolutely intended).
 3. During the week, daily standups would happen on MS Teams and verbal communication pertaining to issues/solutions would occur on the Discord server.
 4. At the end of the week, the team would reconvene for a review of how the week's work went. Merge commits into the **dev** branch were made if the feature was deemed complete by all team members. If a user story implementation was incomplete, it would simply get carried forward to the next week.
@@ -178,10 +178,10 @@ Given this was our first sprint, we were not expecting much to get done whilst o
 
 ##### Plan
 1. Setup development environments on all team members' workstations and practice the continuous integration process (push / pull workflow) using our own feature branches.
-2. Setup Jira to setup our scrum environment and document our sprints.
-3. Create the first page of our web application (US001).
-4. Create a first instance of the game on our website (US004).
-5. Create a first draft of our data model and implement this in MongoDB (US002, US003).
+2. Use Jira to setup our scrum environment and document our sprints.
+3. Create the first page of our web application.
+4. Create a first instance of the game on our website.
+5. Create a first draft of our data model and implement this in MongoDB.
 6. Begin JavaScript and API tutorials.
 
 ##### Outcomes and Review
@@ -196,43 +196,44 @@ Given this was our first sprint, we were not expecting much to get done whilst o
 The previous sprint helped prepare the necessary groundwork to optimise our development and delivery at the end of every sprint. We decided that now would be the right time to branch off and develop the features of the application that each of us were responsible for.
 ##### Plan
 1. Setup docker, ensure docker-compose script is able to spin up containers and serve our web application.
-2. Update the base game so that there is now a round two, where distractions in the form of news articles move across the screen as you play (US006).
-3. Add distractions in the form of sounds to our most current version of the game based on feedback from our user surveys and background research (US007).
-4. Setup the Express framework so that our front end can talk to our database (US002, US003, US008).
+2. Update the base game so that there is now a round two, where distractions in the form of news articles move across the screen as you play.
+3. Add distractions in the form of sounds to our most current version of the game based on feedback from our user surveys and background research.
+4. Setup the Express framework so that our front end can talk to our database.
 
 ##### Outcomes and Review
 1. Docker gave us some problems initially wherein our NodeJS container would keep restarting. This was fixed using this [shell script](../../site/wait-for.sh) and now continuous deployment was possible through docker containers.
 2. The application of the overlay to the game screen proved quite challenging. However, it worked out in the end as game now had news article distractions pop up on the screen which was being pulled by an [external news API](https://newsapi.org).
-3. The Express module was still a work in progress and was carried forward into the next sprint.
+3. The game was now also able to support sounds distractions.
+4. The Express module was still a work in progress and was carried forward into the next sprint.
 
 #### Sprint 3: Development III (19/04 - 25/04)
 ##### Preamble
 Based on the momentum and feedback from the development activities of last week's sprint we were coming closer to achieving a fully functional MVP. We exceeded our frontend goals and now had a game with auditory and visual distractions. This week's sprint was critical in developing our API, database and continue tweaking our continuous delivery pipeline.
 ##### Plan
 1. Add navigation buttons on the website based on UX/UI design workshops.
-2. Create the welcome page of our web application (US001).
-3. Continue work on the API and ensures that it interfaces well with our front end and back end (US002, US003, US008, US009).
+2. Create the welcome page of our web application.
+3. Continue work on our API and ensures that it interfaces well with our front end and back end.
 
 ##### Outcomes and Review
-1. The welcome page had been successfully created, although we did not been merge into **dev**. The merge was to be performed on the next sprint after it was more thoroughly tested for robustness.
+1. The welcome page had been successfully created, although we did not merge into **dev**. The merge was to be performed on the next sprint after it was more thoroughly tested for robustness.
 2. The navigation buttons had also been successfully added, and further work was required on the backend to ensure that the buttons were fully functional.
 3. We had a first working prototype of our API with more robustness testing to be performed in the next sprint.
    
 #### Sprint 4: Bugs, Fixes and Documentation (26/04 - 02/05) 
 ##### Preamble
-There was a first prototype of our API that required more robustness testing, a fully functional back and a welcome page that all had to be integrated. We were also facing some problems with pulling news sources from our external. Therefore, this sprint was mainly set aside to integrate the different elements of our application and fix bugs.
+There was a first prototype of our API that required more robustness testing, a fully functional back end and a welcome page that all had to be integrated. We were also facing some problems with pulling news sources from our external API. Therefore, this sprint was mainly set aside to integrate the different elements of our application and fix bugs.
 
 ##### Plan
 1. Finalize the API.
 2. Integrate welcome page, front end, back end and API. 
 3. Initiate the project documentation process on GitHub.
 4. Merge all features of the previous sprint and the work of this sprint into dev (welcome page, navigation buttons and API).
-5. If the above four tasks are accomplished, we should have an MVP by the end of the sprint (US005).
+5. If the above four tasks are accomplished, we should have an MVP by the end of the sprint.
 
 ##### Outcomes and Review
 1. The welcome page along with the navigation buttons were written in JavaScript, which caused a lot of issues during integration with the rest of the application. This was rectified by rewriting the components using TypeScript and remerging in dev.
 2. The API was finalised, review and merged into dev.
-3. The application was then tested using Docker, and worked as expected. At this point, we had a functioning minimum viable product.
+3. The application was then manually tested by spinning up our appliation using the docker compose scripts, and worked as expected. At this point, we had a functioning MVP.
 4. The project documentation process was successfully initiated, with the report template and navigation links fully setup on GitHub.
 
 #### Sprint 5: Deployment and Documentation (03/05 - 07/05)
@@ -242,12 +243,13 @@ We now had an MVP and the only thing left to complete was to finalise documentat
 ##### Plan
 1. Finish up documentation, with submission on Thursday evening at the very latest.
 2. Fix up any last-minute bugs, and merge into **master** as a release for project submission.
-3. Potentially, look at avenues to publicly serve our application using GitHub pages.
+3. Potentially, look at avenues to publicly serve our application.
+4. Create the project video.
  
 ##### Outcomes and Review
 1. As expected, there were a few bugs that required some attention and have now been fixed.
 2. Documentation was successfully completely and merged into our repo the day before submission (6th May 2021).
-3. Decided not to go with publicly serving our application due to lack of time.
+3. We had to rescope and decided not to go with publicly serving our application as this would impact the quality of documentation on our existing work. 
 
 ## CI/CD Pipeline
 ### Continuous Integration with GitHub
@@ -263,20 +265,41 @@ In the event of a new feature to be added, the relevant team member would perfor
 
 At the end of each sprint, depending on if we collectively agreed that the current version of our product on the **dev** branch could be deployed as a fully functional product, we would then merge **dev** into **staging**.
 
-The **staging** branch, as the name suggests, was used to stage potential releases of our web application. Our product would be manually tested here to ensure that it worked as expected after which it would be merged into **production** as a release. 
+The **staging** branch, as the name suggests, was used to stage potential releases of our web application. Our product would be manually tested here with the testing scripts to ensure that it worked as expected. It would be merged into **production** as a release. 
 
 For the sake of completeness, it is important to mention that the **production** branch was reserved for fully tested and stable working releases of our web application. 
 
 <p align="center">
   <img src="images/002_git.png" width="750"/>
-  <center><em> Figure 4: Continuous integration using git.</em></center>
+  <center><em> Figure 5: Continuous integration using git.</em></center>
 </p>
 
 ### Continuous Deployment with Docker
 Prior to integrating Docker into our workflow, team development was turning out quite problematic given the fact that we were working on Windows, MacOS and Linux. There were instances where the website would be served completely fine on Windows and Linux, but would appear glitchy on MacOS. 
 
-The use of Docker helped provide a consistent working environment for our application and OS-specific issues were avoided. More specifically, Docker was crucial in the manual testing of our application before merging our **staging** with the **production** branch. The technical implementation of Docker can be found in our [system implementation](../02-System-Implementation/README.md) section.
+The use of Docker helped provide a consistent working environment for our application and OS-specific issues were avoided. More specifically, Docker was crucial in the manual testing of our application before merging our **staging** branch into the **production** branch. The technical implementation of Docker can be found in our [system implementation](../02-System-Implementation/README.md) section.
 
+We setup an image repository on dockerhub to automate the build of our nodejs container. This automated build would be triggered when a push was made to the **production** branch in our github repository. The idea behind this is that a potential client could simply pull this image directly from dockerhub rather than having to build it locally. A docker compose script could then be used to orchestrate the rest of the process.
+
+
+<p align="center">
+  <img src="images/006_docker-automated.png" width="600"/>
+</p>
+<div align="center">
+  <em>Figure 6: Automated build process on dockerhub.</em>
+</div>
+
+
+The fact that our second container was a vanilla MongoDB image pulled directly from dockerhub meant that an automated build was not necessary for this container.
+
+To summarise our entire CI/CD pipeline:
+
+<p align="center">
+  <img src="images/008_pipeline.png" width="600"/>
+</p>
+<div align="center">
+  <em>Figure 7: Final CI/CD Pipeline.</em>
+</div>
 
 
 ## Team Contributions
