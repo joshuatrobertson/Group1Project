@@ -13,18 +13,18 @@ The only set up involved serving the site to run on localhost:3000.
 #### Tests
 ##### Allow the user to login with their email
 For this test, upon entering the website we entered an email within the text box and clicked login and play game. To test that the output of this had been recorded we used the function `playerEmail()` which, using the RESTfulAPI recorded the players email. This can be seen below.
-```
+```ts
 saveEmail(): void {
     this.playerEmail = document.getElementById('email');
     this.playerEmail = this.playerEmail.value;
     let ob = {"email": this.playerEmail};
-    this.dataService.postPlayer(ob).subscribe((res: any) => {​​​​​
+    this.dataService.postPlayer(ob).subscribe((res: any) => {
       let body = res.body;
       console.log('response body', body);
-      }​​​​​, (error) => {​​​​​
+      }, (error) => {
       console.log('Failed with post');
       console.error(error);
-    }​​​​​);
+    });
     this.dataService.setMessage(this.playerEmail);
   }
   ```
