@@ -6,10 +6,11 @@ The git workflow was relatively new to all of us which meant that there was a sl
 
 Initially, daily stand-ups and documentation seemed too excessive because we were still finding our way around the technical aspects of implementing our application. However, around the later sprints and documentation, the value of documenting meeting minutes and constant communication became apparent. We had the opportunity to constantly review and refocus depending on the status of the project. Meeting daily definitely helped emulate a working developer environment where we could ask questions and simply update each other on our progress. Moreover, it was useful to look back at the design decisions we made at different stages of the project and to learn from them.
 
-As an aside, given the choice, we would avoid the use of Microsoft Teams for communication due to it being a resource hog and the fact that it almost always caused significant disruptions during our stand-ups. Screen sharing during a video call would simply crash the computer and this would need to be rectified for future work in this project.
+As an aside, given the choice, we would avoid the use of Microsoft Teams for communication due to it being a resource hog and the fact that it almost always caused significant disruptions during our stand-ups. Screen sharing during a video call would simply crash the computer of the person presenting, and this would need to be rectified for future work in this project.
 
 ### Project Objectives
-We had gotten accustomed to the agile workflow by the third sprint, but given the short-lived nature of this project, we managed to achieve the primary objectives required to produce our minimum viable product (MVP). The underestimation of the effort needed to produce coherent and concise documentation meant that we decided not to pursue our secondary objectives of publicly serving our application and implementing user authentication. However, we believe that the current state of our application can act as a solid starting ground for these additional features to be added. 
+We had gotten accustomed to the agile workflow by the third sprint, but given the short-lived nature of this project, this may have been a little too late. Nonetheless, we managed to achieve the primary objectives required to produce our minimum viable product (MVP). The underestimation of the effort needed to produce coherent and concise documentation meant that we decided not to pursue our secondary objectives of publicly serving our application and implementing user authentication. However, we believe that the current state of our application can act as a solid starting ground for these additional features to be added. 
+
 ### Remote Working (COVID)
 It has been an unusual year for all of us in this covid stricken era, and it goes without saying that the lack of human interaction throughout the duration of the project has impacted us all. It is difficult to explain using words, but there is this sense of teamwork and spirit that lingers around the room where developers can talk to each other directly when working under the same roof. Anyhow, we believe that our working practices provided us the closest possible resemblance to what developing would be like in a workplace.
 
@@ -25,7 +26,24 @@ It has been an unusual year for all of us in this covid stricken era, and it goe
 
 
 ## Future Work
+We believe the current state of the repository can act act as a solid foundation to carry out various kinds of future work. There are three main directions this can be take into and are as follows:
 
+### Design 
+We got a multitude of interesting answers in our end user surveys to help improve the design of our product. We provide a short summary of the ones we believe would improve our product.
+
+One of the suggestions was to incorporate an interlude in between the rounds. The idea behind this would be to allow the player to completely refresh their mind before starting the second round. At the end of the first round, the user would have an elevated mental function, hence it would be useful to bring the user back to some sort of mental baseline. The playing of the second round after this interlude would provide a more accurate description the impact of distractions on memory-based tasks.
+
+Another suggestion we believe was quite useful would be the potential use of puzzle-based games. They would be fairly similar to implement in terms of technical complexity as our current memory game and would provide the user with another metric to assess the impact of distractions on their concentration whilst performing tasks involving logical thinking.
+
+### Development
+There were numerous ways we could improve our development pipeline. Firstly, We did not harness the true capabilities of GitHub in our CI/CD pipeline. The use of tags to mark milestone commits (for example, releases on the production branch) could have made our commit logs a lot more readable to visitors of our repository. Secondly, we could have used the pull request feature on GitHub rather than holding code reviews every time a team member finished a feature. The use of comments within a pull request on GitHub could have been used to provide constructive feedback. This would have improved our development velocity by a significant margin.
+
+Automated testing frameworks available on DockerHub could be integrated into the CI/CD pipeline wherein upon creation of a container, a testing script can be run automatically on it. The advantage is all of this would be run on the cloud platform DockerHub uses, and your computer resources could be better utilised elsewhere. An automated response would then be sent back to GitHub notifying if the newly built image passed all the tests. Appropriate action could then be taken depending on the outcome of the tests by the project manager responsible for that feature. Along the same lines, test scripts can be run on code newly pushed code onto certain branches on GitHub, and this would help avoid some unnecessary manual tests and code reviews. At the moment, our testing is carried out manually by a tester, and there is always a possibility that logs may be incorrectly filled in, or certain steps may be missed – essentially the reason why computers came into existence, to enable automation and eliminate errors like these.
+ 
+### Evaluation
+
+
+___
 
 <p align="center">
   <b>Navigation:</b><br>
