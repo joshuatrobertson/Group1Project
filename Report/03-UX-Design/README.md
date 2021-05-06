@@ -88,7 +88,7 @@ View the initial prototype [here](../../Source/01-Paper-prototype/paper-prototyp
 
 **Impact**: 
 *    We play a variety of what we consider ‘advanced sounds’, including ten different mobile phone and social media sound effects – more than any other type of distraction. Examples include an incoming [Microsoft Teams call](sounds/teamsCall.mp3), a [WhatsApp message](sounds/whatsappIncoming.mp3) and a [Facebook message](sounds/facebookCall.mp3). Importantly, when related to the theoretical background discussed in the literature review, these sounds reflect the kinds of distractions that would fall in the ‘continuity’ camp.
-*    For 'Advanced Animatino', the news articles pulled in through the API are animated such that they move across the screen and change size.
+*    The news articles pulled in through the API are animated such that they move across the screen and change size.
 *    In order to tie the distracting sounds to the typical lockdown experience we included [construction sounds](sounds/construction.wav), the [BBC theme song](sounds/BBC.mp3), and soundbites from Netflix’s [*Tiger King*](sounds/joeExotic2.mp3) - the second most watched TV series globally in 2020. 
 *    We omitted player specific demands. 
 
