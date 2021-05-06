@@ -170,48 +170,6 @@ Sample the kinds of sounds included in our application [here](sounds/teamsCall.m
 * Due to the lack of consensus on UI design we chose a bold and colourful aesthetic, which we feel is more memorable.
 
 
-### Moderated User Testing ###
-
-As part of our end user testing we carried out two moderated user tests, in which the participants each sat with one of the developers and were guided through playing the game, before an informal interview was carried out. Although the interview itself was unstructured, the responses of the participants will be evaluated against the five previously discussed research objectives.
-
-The first participant was a 30 year old male who works as a mechanical engineer and frequently codes as part of his job, he took 45 seconds to complete the first round of the game and 1 minute 10 to complete the second.
-
-The second participant was a 25 year old male student with a non-technical background, he took 43 seconds to complete the first round of the game and 55 seconds to complete the second.
-
-#### Responses
-
-##### Test our hypothesis that the presence of distractions negatively impacts performance.
-###### User 1
-The participant mentioned during the interview that he found that the presence of distractions greatly inhibited his ability to focus and therefore negatively affected his performance on the game. He discussed how he felt his short term memory was impeded by the distractions and that his attention felt diffuse throughout the second round. This was backed up qualitatively in that he scored a much worse time during the second round.
-
-###### User 2
-The participant discussed how although initially he found the distractions off-putting, he felt that after a short while he was able to block them out and focus his attention entirely on the game. Although the participant felt that his performance was not negatively affected by the distractions, his score does not reflect this and it took him much longer to complete the round.
-
-##### Evaluate distractions used in the second round.
-###### User 1
-The first participant mentioned how he felt that the sounds used were a good feature and that they were highly relevant given the amount of people home working. He said that although he did find the news articles distracting, he felt that more should have been used. When asked if the participant would have added any more elements, he stated that he felt the two were enough and anymore could have had the opposite effect and allowed the user to drown out the sounds.
-
-###### User 2
-The second participant left similar comments to the first. He thought that the sounds chosen worked well and that although he thought the news articles were a good addition, adding more would have been beneficial. The user also commented on how he felt that video would have improved the distractibility of our news items.
-
-##### Evaluate user experience.
-###### User 1
-The participant said that he enjoyed the overall user experience and felt that the game 'flowed well' and was 'enjoyable to play'
-###### User 2
-The participant left similar comments and mentioned that he enjoyed the game and felt it was intuitive and 'easy to use'.
-
-##### Feedback on potential future improvements.
-###### User 1
-The user felt that he improved as he played the game and suggested that we randomise the order of the rounds, so that the distracting round may come first. He also added that it would be good for us to add further games and allow the user to choose between them.
-
-###### User 2
-
-The participant made several suggestions throughout the interview. Similar to the first user, he felt that the game would be improved with the addition of more games to chose from. The user also mentioned that he would have liked to be able to create and account and felt concerned around the security aspects of our site.
-
-
-
-
-
 ### Survey 2: Testing hypotheses and evaluating final product ###
 
 View the survey questions [here](SecondSurvey/SurveyRound2_Questions.pdf).
@@ -288,19 +246,45 @@ View the survey questions [here](SecondSurvey/SurveyRound2_Questions.pdf).
 **Evaluation of Survey 2**
 
 
-### Summary ###
 
 
+### Moderated User Testing ###
 
+As part of our end user testing we carried out two moderated user tests, in which the participants each sat with one of the developers and were guided through playing the game, before an informal interview was carried out. Although the interview itself was unstructured, the responses of the participants will be evaluated against the five previously discussed research objectives.
 
+The first participant was a 30 year old male who works as a mechanical engineer and frequently codes as part of his job, he took 45 seconds to complete the first round of the game and 1 minute 10 to complete the second.
 
+The second participant was a 25 year old male student with a non-technical background, he took 43 seconds to complete the first round of the game and 55 seconds to complete the second.
 
+#### Responses
 
+##### Test our hypothesis that the presence of distractions negatively impacts performance.
+###### User 1
+The participant mentioned during the interview that he found that the presence of distractions greatly inhibited his ability to focus and therefore negatively affected his performance on the game. He discussed how he felt his short term memory was impeded by the distractions and that his attention felt diffuse throughout the second round. This was backed up qualitatively in that he scored a much worse time during the second round.
 
+###### User 2
+The participant discussed how although initially he found the distractions off-putting, he felt that after a short while he was able to block them out and focus his attention entirely on the game. Although the participant felt that his performance was not negatively affected by the distractions, his score does not reflect this and it took him much longer to complete the round.
 
+##### Evaluate distractions used in the second round.
+###### User 1
+The first participant mentioned how he felt that the sounds used were a good feature and that they were highly relevant given the amount of people home working. He said that although he did find the news articles distracting, he felt that more should have been used. When asked if the participant would have added any more elements, he stated that he felt the two were enough and anymore could have had the opposite effect and allowed the user to drown out the sounds.
 
+###### User 2
+The second participant left similar comments to the first. He thought that the sounds chosen worked well and that although he thought the news articles were a good addition, adding more would have been beneficial. The user also commented on how he felt that video would have improved the distractibility of our news items.
 
+##### Evaluate user experience.
+###### User 1
+The participant said that he enjoyed the overall user experience and felt that the game 'flowed well' and was 'enjoyable to play'
+###### User 2
+The participant left similar comments and mentioned that he enjoyed the game and felt it was intuitive and 'easy to use'.
 
+##### Feedback on potential future improvements.
+###### User 1
+The user felt that he improved as he played the game and suggested that we randomise the order of the rounds, so that the distracting round may come first. He also added that it would be good for us to add further games and allow the user to choose between them.
+
+###### User 2
+
+The participant made several suggestions throughout the interview. Similar to the first user, he felt that the game would be improved with the addition of more games to chose from. The user also mentioned that he would have liked to be able to create and account and felt concerned around the security aspects of our site.
 
 
 ## Wireframes/Interaction Flow Diagrams
