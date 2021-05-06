@@ -8,7 +8,7 @@
    a. [Match Between System And The Real World](#match-between-system-and-the-real-world)  
    b. [Consistency And Standards](#consistency-and-standards)  
    c. [Aesthetic and Minimalist Design](#aesthetic-and-minimalist-design)  
-4. [User Group Definition](#user-group-definition)  
+4. [End User Testing](#end-user-testing)  
    a. [Research Objectives](#research-objectives)  
    b. [Methodology](#methodology)  
    c. [Ethnography: Survey 1](#ethnography-survey-1)  
@@ -150,7 +150,6 @@ In addition, when playing the game, it is fully centered, and devoid of any othe
 
 
 ## End User Testing
-This section covers our end user testing for *DistractAbility*.
 ### Research Objectives
 
 During the initial prototyping stages our research objectives were as follows:
