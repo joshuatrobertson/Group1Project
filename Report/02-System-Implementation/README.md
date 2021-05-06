@@ -107,7 +107,27 @@ For the auditory distractions we decided to gather several sounds we found distr
   <em>Adding reverb to 'construction.wav' in Audacity</em>
 </p>
 
-### Functionality and Issues of the Components
+### Routing
+For the routing of our application we linked the two charts, BarChartComponent and LineChartComponent so that they can be displayed to the user after the game. This can be seen below.
+```js
+const routes: Routes = [
+  {path: 'bar-chart', component: BarChartComponent},
+  {path: 'line-chart', component: LineChartComponent}
+];
+```
+As our game centered around the card game, there was not a need for much routing and we instead used Angular dialogs to mediate the rounds. For example, in app.component.ts, the EndGameComponent and RestartGameComponent are linked through dialogs as can be seen below.
+```js
+if (this.userSecondGame === true) {
+  dialogRef = this.dialog.open(EndGameComponent, { height: '500px', width: '500px'
+  });
+} else {
+  dialogRef = this.dialog.open(RestartGameComponent, {
+    disableClose: true
+  });
+}
+ ```
+
+### Issues and Functionality of the Components
 <table>
 <tr>
   <th>Component</th>
@@ -314,13 +334,15 @@ A good example of how we used the API in our SPA is in the bar chart. The data w
 </p>
 
 ## Back End (MongoDB)
+We chose MongoDB as our database. MongoDB is a NoSQL database which means it's flexible and easy to use. We prefer a NoSQL database to a SQL database because our application doesn't have huge amount of data to store and retrieve. Also with the popularity of the MEAN stack, it would be easier for us to find resources and solutions to potential problems online if we choose MongoDB.
+
+Below is the entity relationship diagram of our data model. Player is in a separate table rather than in the Play table so that the whole data model conforms to normal forms although this is not required by MongoDB as a NoSQL database. The player field in Play table is a foreign key that refers to Player table. The timewithoutdistraction and timewithdistraction record the time in seconds a player spends finishing the game in without distraction round and with distraction round respectively. In the Player table, we use email to identify players. The email field is required and unique. We also added a birthday field and an age virtual property in the Player table, but they are not used in our current minimal viable product. For clarity, one schema per file was made in the ./models/ directory.
 <p align="center">
   <img src="images/schemas.png" width="500"/>
 </p>
 <p align="center">
   <em>Our data model</em>
 </p>
-Above is the entity relationship diagram of our data model. Player is in a separate table rather than in the Play table so that the whole data model conforms to normal forms. The player field in Play table is a foreign key that refers to Player table. The timewithoutdistraction and timewithdistraction record the time in seconds a player spends finishing the game in without distraction round and with distraction round respectively. In the Player table, we use email to identify players. The email field is required and unique. We also added a birthday field and an age virtual property in the Player table, but they are not used in our current minimal viable product. We made one schema per file in the ./models/ directory.
 
 ## Continuous Deployment using Docker
 ### Primer

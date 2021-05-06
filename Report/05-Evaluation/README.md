@@ -2,10 +2,6 @@
 # Evaluation
 ## Design Evaluation
 
-### Old Idea
-
-#### 1. Sustainadress (*provisional name*)
-In the project we propose Sustainadress, a single page application where the user is tasked with finding the most sustainable outfit of the options provided, sticking within time and budget constraints. This is meant to highlight the environmental impact of fast and unsustainable fashion. We task the user with dressing themselves out of the clothing options provided; after the time limit is up, we reveal whether the user chose the most sustainable outfit overall, out of the options provided. The playful element of this project comes in customizing and dressing up your avatar, and to get a better score on the next playthrough.
 
 ### Paper Prototype
 - 'old_idea/project 1.pptx' is the prototype we created for our initial idea (Sustainadress).
@@ -17,7 +13,7 @@ For the unit testing, we decided that it would in theory would make sense to hav
 
 ### NewsApiComponent
 For the NewsApiComponent, to test that the API is being used to correctly pull in the news articles, we make use of the HttpTesting Controller to inject the http requests into the test. An example of some of the unit tests for this component can be seen below.
-```
+```ts
 describe('Fetch the News Items', () => {
     it('should return a list of articles', () => {
       service.initArticles().subscribe(articles => {
@@ -34,7 +30,7 @@ describe('Fetch the News Items', () => {
 ### AppComponent
 The main testing is carried out within the AppComponent. Here, we begin by asserting that relevant variables have been set correctly, as can be seen below.
 
-```
+```ts
 it('begin sound variables should be set to true', () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
@@ -46,7 +42,7 @@ it('begin sound variables should be set to true', () => {
 ```
 The test file is also used to assert the output of any relevant functions. For example, within the component we use a random function, that returns a random integer between the two given integers, as can be seen below.
 
-```
+```ts
  it('should return a number between 1 and 4', () => {
     expect(component).toBeTruthy();
     const randomNumber = component.getRandomNumber(1, 4);

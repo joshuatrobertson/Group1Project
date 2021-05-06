@@ -19,7 +19,7 @@ As the testing was only on the essential functionality of the application the se
 ##### Test that the users score is collected with each round
 To test to see whether the users score had been collected with each round, we created a small function called `displayTimes()` which can be seen below/
 
-```
+```ts
 displayTimes(): void {
    this.returnTime = ('The first time was: ' + this.userFirstTime + '\nThe second time was: ' + this.userSecondTime);
  }

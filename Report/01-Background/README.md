@@ -5,10 +5,11 @@
 1. [Literature Review](#literature-review)  
    a. [The Problem](#literature-review-the-problem)  
    b. [Serious Play](#literature-review-serious-play)  
-   c. [Bibliography: The Problem](#bibliography-the-problem)  
-   d. [Bibliography: Serious Play](#bibliography-serious-play)  
-2. [Current Industry Review](#current-industry-review)  
-   a. [Bibliography: Current Industry Review](#bibliography-current-industry-review)  
+2. [Current Industry Review](#current-industry-review) 
+3. [Bibliographies](#bibliographies)
+   a. [Bibliography: The Problem](#bibliography-the-problem)  
+   b. [Bibliography: Serious Play](#bibliography-serious-play) 
+   c. [Bibliography: Current Industry Review](#bibliography-current-industry-review)
 
 ## Literature Review
 
@@ -118,8 +119,9 @@
 <p align="center">
   <img src="images/001_screentime.png" width="400" />
 </p>
-
-&nbsp; *Figure 1: This bar chart displays the average daily use (in house) of computer games (red) and social media (blue) by children and adolescents in September 2019 (before lockdown; lighter colours) and April 2020 (during lockdown; darker colours) on school days (left) and days with no school (weekends, holidays, lockdown; right). Source: Spitzer, 2021.*
+<p align="center">
+  <em>This bar chart displays the average daily use (in house) of computer games (red) and social media (blue) by children and adolescents in September 2019 (before lockdown; lighter colours) and April 2020 (during lockdown; darker colours) on school days (left) and days with no school (weekends, holidays, lockdown; right). Source: Spitzer, 2021.</em>
+</p>
 
 &nbsp;&nbsp; Interestingly, the pandemic seems not only to have increased the frequency of people’s use of social media and streaming services, but also the potency of the attraction, i.e. the pull on people’s attention. In Shirking from Home, interviewee Rosen admits that in the context of our unprecedented social isolation, “When you get a [notification] from someone that says they’re following you on Instagram, when you crave connection, you immediately go there,” Rosen says (Cummins, 2020).
 
@@ -198,6 +200,96 @@
 &nbsp;&nbsp; Recall the widely accepted premises that concentration is inextricably linked with working memory and that working memory is a finite resource. We chose this card game as the means of quantifying the impact of distraction on concentration precisely because it requires the use of working memory, and it provides scope for increasing the pressure on working memory exponentially. To successfully complete each round of the game, the user must hold the image and location of each card in working memory while simultaneously processing the image and location of new cards and cognitively correlating matching pairs to one another. The greater the quantity of cards to be matched in each round, the greater the cognitive load on working memory – which provides scope for us to introduce different difficulty levels to *DistractAbility* in the future. Once the distractions are introduced in the second round, the user must process a large number of interrupting stimuli while retaining the aforementioned information in working memory. Furthermore, our decision to distract the user with news articles pulled from various platforms touches upon the aforementioned link between poor concentration and negatively charged emotional stimuli, which have been particularly pronounced since the onset of the pandemic encouraged ‘doomscrolling’. 
 
 
+[Bibliographies](#bibliographies)
+
+-----------------
+
+
+# Current Industry Review
+
+
+&nbsp;&nbsp; When searching for applications that relate to the purpose of our application, its theoretical background and the core beliefs that underpin it, we found four themes into which the market can be categorized. (1) Applications that highlight the negative consequences of distraction. (2) Applications that are designed to be a distraction, for example, to distract the user from anxiety or stress. (3) Applications designed to limit distractions, which are often marketed as effective productivity enhancers. (4) Applications that tap into working memory. 
+
+&nbsp;&nbsp; Applications in category (1) are typically exactly how we understand serious play. In our discussion of (2) we acknowledge that the applications themselves generally fall outside the scope of serious play due to the lack of a serious element in their design, however, we comment on the link between serious play and user intent. Applications in (3) generally fall outside the scope of serious play due to the lack of a play aspect. Finally, in terms of serious play (4) is quite the hybrid, as is to be expected given the huge variety of purposes to which the scientific understanding of working memory may be applied.
+
+
+
+### (1) Applications that highlight the consequences of distraction
+
+&nbsp;&nbsp; In 2019, the servicing and repair company Kwik Fit released an interactive game called *Driven to Distraction*, that assesses how using a mobile phone affects motorists’ concentration and reaction times (Alan, 2019; Kwik Fit, 2021). Our team were not in fact aware of this application until after the prototyping stage, however of all applications currently on the market, *Driven to Distraction* certainly bears the most similarity to our own application, in terms of both its core objectives and the trajectory of the game itself. 
+
+&nbsp;&nbsp; *Driven to Distraction* is a fun and interactive game, with a colourful, cartoon-style user interface, yet its core objective is to highlight the impact of mobile phone distraction on road safety. This is clearly well within the scope of serious play and thereby very similar in purpose to our interactive and (hopefully) fun application, which at core is meant to highlight the extent to which productivity is impacted by the distractions that have typically arisen or been more pronounced since the onset of the pandemic. 
+
+&nbsp;&nbsp; The structure of *Driven to Distraction* is also very similar to the trajectory of our own application. *Driven to Distraction* puts drivers in a virtual car and asks them to react to a stop sign, first without any distractions and then again while answering driving-related questions on a mock mobile phone screen. This is clearly akin to our application *DistractAbility*, which first has the user play the memory game without distractions and then again with distractions. 
+
+&nbsp;&nbsp; *Driven to Distraction* is the only applications of its kind that we were able to find on the market at present.
+
+<p align="center">
+  <img src="images/driven1.png" width="300"/>
+</p>
+<p align="center">
+  <img src="images/driven2.png" width="300"/>
+</p>
+<p align="center">
+  <em>Driven to Distractibility by Kwik Fit </em>
+</p>
+
+
+### (2) Applications as a distraction from anxiety
+
+&nbsp;&nbsp; Many organizations, among them mental health charity *Mind*, have publicly endorsed a range of games and puzzles that are designed to distract the user. The theory is that playing such games can be a powerful way for the user to distract themselves from internal anxiety and/or external stressors in their lives (Mind, 2021). Writing for the Mental Health section of Self in October 2020, Anna Borges opens up about “embracing the power of the mindless mobile game” since the onset of the pandemic, as she found such games to be “unexpected anxiety coping mechanisms” amongst the stressors of COVID-19 (Borges, 2020). Included in Borges’ recommended games are: *Candy Crush Saga*; *2048*, a slide-and-combine number game; a simple dot-connecting game *Two Dots*; *Solitaire*; and many others, including braining-training games such as *Numberzilla*.
+
+&nbsp;&nbsp; We acknowledge that the kinds of ‘mindless mobile games’ mentioned above clearly were not designed to fit the criteria of serious play; in and of themselves applications like Candy Crush typically bear no relevance to serious issues. Notwithstanding, we deemed this category worth including in our industry review because of the relevance of user intent to serious play in this context. Here the user plays a fun and interactive game (play) in order to take their mind off anxiety, stress or panic (an undoubtedly serious problem). In other words, the user’s motivation for engaging with the applications in this category makes these otherwise unserious applications instrumental in addressing a very serious problem. This does not necessarily bring the applications themselves under the scope of serious play, indeed most would not count as serious play in the hands of a user without the same serious motivation. But at the least we think it is interesting to consider the extent to which the user’s intent or motivation might exert a transformative effect on what does and does not count as serious play.
+
+<p align="center">
+  <img src="images/TwoDots.png" width="400"/>
+</p>
+<p align="center">
+  <em>Two Dots game</em>
+</p>
+
+
+### (3) Applications that boost productivity by limiting distractions
+
+&nbsp;&nbsp; Applications in the category of ‘focus apps’ are often designed to: block selected websites and/or apps; allow the user to set a schedule or a timer for the period in which the given sites will be blocked; be difficult or impossible to disable during scheduled hours; and to offer encouragement. For instance, team member Ella uses *1Focus* to block social media during the working day, which covers the screen with an ‘inspirational’ quote about the benefits of not being distracted when the user tries to reach a blocked site during scheduled hours. Other such applications include the following. *Freedom* app, which can block distractions across multiple devices at once (Freedom.to, 2021). *Serene*, a dual planner and content-blocker for MacOS that apparently “gives you productivity superpowers” (Venture Harbour Ltd, 2021). Developed in Canada, *Cold Turkey Blocker* is a content blocker for MacOS and Windows that blocks given sites across the whole operating system (Cold Turkey Ltd, 2021). 
+
+<p align="center">
+  <img src="images/1Focus.png" width="600"/>
+</p>
+<p align="center">
+  <em>1Focus content blocker </em>
+</p>
+
+&nbsp;&nbsp; The aforementioned applications relate to our project insofar as we share the premise that social media and other such distractions – distractions that we categorised as ‘continuity’ in the literature review – negatively impact productivity. The creators of these applications evidently believe that distraction is a serious problem, or at least trust that their customers do. Nonetheless, these applications arguably do not count as serious play due to the lack of any real play aspect. 
+
+&nbsp;&nbsp; That being the case, *Forest* app, for Android, iOS and Chrome, is perhaps an exception as it is more on the side of serious play than the other applications in this category (Seekrtech, 2021). *Forest* is colourful, interactive and, by our own assessment, fun. Users of *Forest* plant a virtual tree whenever they start a session of focus and as they focus on their work the tree grows. The user earns points every time they make it to the end of the scheduled focus session without using their phone for an unproductive purpose, but if the user leaves the app before the end of the session then the tree dies. From personal experience the point system itself is fairly effective motivation to keep earning more points. Moreover, the *Forest* app brilliantly incorporates external motivation through its partnership with the real-tree-planting organization *Trees for the Future*. When users of Forest accrue enough points from planting virtual trees they earn virtual coins, which can then be spent planting real trees through selecting the option to do so in-app, and Forest then uses the money to place planting orders with *Trees for the Future*. If we were to continue with our application *DistractAblity* after university we would certainly consider building in similar kinds of external motivation. 
+
+<p align="center">
+  <img src="images/Forest.png" width="300"/>
+</p>
+<p align="center">
+  <em>Forest app </em>
+</p>
+
+### (4) Applications that tap into working memory ###
+
+&nbsp;&nbsp; Many games and applications on the market can apparently help the user improve their working memory. Board games such as *Sushi Go!*, *The Blue Plate Dinner* and *Sleeping Queens* are marketed as beneficial for children’s cognitive development (Fabulous Family Board Games, 2021). Similarly, more traditional crossword and jigsaw puzzles are often touted as cognitive exercise for the brain that can “improve our vocabulary, refresh our mind, and increase our concentration” (Madaan, 2018). In fact there is little evidence that regularly playing certain games or completing crosswords has any real, long-term impact on a person’s cognition or working memory (Kolirin, 2018; BrainHQ, 2021). But whether such games have a long term impact on cognition or not, the common theme in this category was to ‘exercise’ working memory through play that involved remembering  images, patterns, locations and/or words while simultaneously processing new information. The card game in our application does precisely this by requiring the user to remember multiple images on the cards and their locations while simultaneously processing new images at new locations. 
+
+&nbsp;&nbsp; The games and applications in this category do typically meet the criteria of ‘play’, albeit different forms of play, but whether such applications count as serious play really has to be assessed on a case-to-case basis. Applications in this category that are designed to ward off dementia (or at least marketed as such) arguably do count as serious play due to the seriousness of dementia and related illnesses. However, a simple sudoku puzzle arguably lacks a serious enough aspect to count as serious play.   
+
+<p align="center">
+  <img src="images/SushiGo.png" width="500"/>
+</p>
+<p align="center">
+  <em>SushiGo! card game </em>
+</p>
+
+
+<p></p>
+
+## Bibliographies
+
+<p></p>
 
 ### Bibliography: The Problem
 
@@ -314,6 +406,8 @@
 &nbsp; WHO, "Severe Acute Respiratory Syndrome (SARS)", Who.int, 2020. [Online]. Available: https://www.who.int/health-topics/severe-acute-respiratory-syndrome#tab=tab_1. [Accessed: 12- Apr- 2021].
 
 
+<p></p>
+
 
 ### Bibliography: Serious Play
 
@@ -333,79 +427,8 @@ K. Salen and E. Zimmerman, *Rules of Play: Game Design Fundamentals*. (Cambridge
 V. Frissen, J. de Mul and J. Raessens, "Homo Ludens 2.0: Play, Media and Identity", in *Contemporary Culture*, J. Thissen, R. Zwijnenberg and K. Zijlmans, Ed. (Amsterdam: Amsterdam University Press, 2013), pp.75-92.
 
 
+<p></p>
 
-[Back to the top](#table-of-contents)
-
-## Current Industry Review
-
-
-&nbsp;&nbsp; When searching for applications that relate to the purpose of our application, its theoretical background and the core beliefs that underpin it, we found four themes into which the market can be categorized. (1) Applications that highlight the negative consequences of distraction. (2) Applications that are designed to be a distraction, for example, to distract the user from anxiety or stress. (3) Applications designed to limit distractions, which are often marketed as effective productivity enhancers. (4) Applications that tap into working memory. 
-
-&nbsp;&nbsp; Applications in category (1) are typically exactly how we understand serious play. In our discussion of (2) we acknowledge that the applications themselves generally fall outside the scope of serious play due to the lack of a serious element in their design, however, we comment on the link between serious play and user intent. Applications in (3) generally fall outside the scope of serious play due to the lack of a play aspect. Finally, in terms of serious play (4) is quite the hybrid, as is to be expected given the huge variety of purposes to which the scientific understanding of working memory may be applied.
-
-
-
-### (1) Applications that highlight the consequences of distraction
-
-&nbsp;&nbsp; In 2019, the servicing and repair company Kwik Fit released an interactive game called *Driven to Distraction*, that assesses how using a mobile phone affects motorists’ concentration and reaction times (Alan, 2019; Kwik Fit, 2021). Our team were not in fact aware of this application until after the prototyping stage, however of all applications currently on the market, *Driven to Distraction* certainly bears the most similarity to our own application, in terms of both its core objectives and the trajectory of the game itself. 
-
-&nbsp;&nbsp; *Driven to Distraction* is a fun and interactive game, with a colourful, cartoon-style user interface, yet its core objective is to highlight the impact of mobile phone distraction on road safety. This is clearly well within the scope of serious play and thereby very similar in purpose to our interactive and (hopefully) fun application, which at core is meant to highlight the extent to which productivity is impacted by the distractions that have typically arisen or been more pronounced since the onset of the pandemic. 
-
-&nbsp;&nbsp; The structure of *Driven to Distraction* is also very similar to the trajectory of our own application. *Driven to Distraction* puts drivers in a virtual car and asks them to react to a stop sign, first without any distractions and then again while answering driving-related questions on a mock mobile phone screen. This is clearly akin to our application *DistractAbility*, which first has the user play the memory game without distractions and then again with distractions. 
-
-&nbsp;&nbsp; *Driven to Distraction* is the only applications of its kind that we were able to find on the market at present.
-
-<p align="center">
-  <img src="images/driven1.png" width="300"/>
-  <em>Figure 2.1</em>
-</p>
-
-<p align="center">
-  <img src="images/driven2.png" width="300"/>
-  <em>Figure 2.2 </em>
-</p>
-
-
-### (2) Applications as a distraction from anxiety
-
-&nbsp;&nbsp; Many organizations, among them mental health charity *Mind*, have publicly endorsed a range of games and puzzles that are designed to distract the user. The theory is that playing such games can be a powerful way for the user to distract themselves from internal anxiety and/or external stressors in their lives (Mind, 2021). Writing for the Mental Health section of Self in October 2020, Anna Borges opens up about “embracing the power of the mindless mobile game” since the onset of the pandemic, as she found such games to be “unexpected anxiety coping mechanisms” amongst the stressors of COVID-19 (Borges, 2020). Included in Borges’ recommended games are: *Candy Crush Saga*; *2048*, a slide-and-combine number game; a simple dot-connecting game *Two Dots*; *Solitaire*; and many others, including braining-training games such as *Numberzilla*.
-
-&nbsp;&nbsp; We acknowledge that the kinds of ‘mindless mobile games’ mentioned above clearly were not designed to fit the criteria of serious play; in and of themselves applications like Candy Crush typically bear no relevance to serious issues. Notwithstanding, we deemed this category worth including in our industry review because of the relevance of user intent to serious play in this context. Here the user plays a fun and interactive game (play) in order to take their mind off anxiety, stress or panic (an undoubtedly serious problem). In other words, the user’s motivation for engaging with the applications in this category makes these otherwise unserious applications instrumental in addressing a very serious problem. This does not necessarily bring the applications themselves under the scope of serious play, indeed most would not count as serious play in the hands of a user without the same serious motivation. But at the least we think it is interesting to consider the extent to which the user’s intent or motivation might exert a transformative effect on what does and does not count as serious play.
-
-<p align="center">
-  <img src="images/TwoDots.png" width="400"/>
-  <em>Figure 3: Two Dots </em>
-</p>
-
-
-### (3) Applications that boost productivity by limiting distractions
-
-&nbsp;&nbsp; Applications in the category of ‘focus apps’ are often designed to: block selected websites and/or apps; allow the user to set a schedule or a timer for the period in which the given sites will be blocked; be difficult or impossible to disable during scheduled hours; and to offer encouragement. For instance, team member Ella uses *1Focus* to block social media during the working day, which covers the screen with an ‘inspirational’ quote about the benefits of not being distracted when the user tries to reach a blocked site during scheduled hours. Other such applications include the following. *Freedom* app, which can block distractions across multiple devices at once (Freedom.to, 2021). *Serene*, a dual planner and content-blocker for MacOS that apparently “gives you productivity superpowers” (Venture Harbour Ltd, 2021). Developed in Canada, *Cold Turkey Blocker* is a content blocker for MacOS and Windows that blocks given sites across the whole operating system (Cold Turkey Ltd, 2021). 
-
-<p align="center">
-  <img src="images/1Focus.png" width="600"/>
-  <em>Figure 4: 1Focus </em>
-</p>
-
-&nbsp;&nbsp; The aforementioned applications relate to our project insofar as we share the premise that social media and other such distractions – distractions that we categorised as ‘continuity’ in the literature review – negatively impact productivity. The creators of these applications evidently believe that distraction is a serious problem, or at least trust that their customers do. Nonetheless, these applications arguably do not count as serious play due to the lack of any real play aspect. 
-
-&nbsp;&nbsp; That being the case, *Forest* app, for Android, iOS and Chrome, is perhaps an exception as it is more on the side of serious play than the other applications in this category (Seekrtech, 2021). *Forest* is colourful, interactive and, by our own assessment, fun. Users of *Forest* plant a virtual tree whenever they start a session of focus and as they focus on their work the tree grows. The user earns points every time they make it to the end of the scheduled focus session without using their phone for an unproductive purpose, but if the user leaves the app before the end of the session then the tree dies. From personal experience the point system itself is fairly effective motivation to keep earning more points. Moreover, the *Forest* app brilliantly incorporates external motivation through its partnership with the real-tree-planting organization *Trees for the Future*. When users of Forest accrue enough points from planting virtual trees they earn virtual coins, which can then be spent planting real trees through selecting the option to do so in-app, and Forest then uses the money to place planting orders with *Trees for the Future*. If we were to continue with our application *DistractAblity* after university we would certainly consider building in similar kinds of external motivation. 
-
-<p align="center">
-  <img src="images/Forest.png" width="300"/>
-  <em>Figure 5: Forest app </em>
-</p>
-
-### (4) Applications that tap into working memory ###
-
-&nbsp;&nbsp; Many games and applications on the market can apparently help the user improve their working memory. Board games such as *Sushi Go!*, *The Blue Plate Dinner* and *Sleeping Queens* are marketed as beneficial for children’s cognitive development (Fabulous Family Board Games, 2021). Similarly, more traditional crossword and jigsaw puzzles are often touted as cognitive exercise for the brain that can “improve our vocabulary, refresh our mind, and increase our concentration” (Madaan, 2018). In fact there is little evidence that regularly playing certain games or completing crosswords has any real, long-term impact on a person’s cognition or working memory (Kolirin, 2018; BrainHQ, 2021). But whether such games have a long term impact on cognition or not, the common theme in this category was to ‘exercise’ working memory through play that involved remembering  images, patterns, locations and/or words while simultaneously processing new information. The card game in our application does precisely this by requiring the user to remember multiple images on the cards and their locations while simultaneously processing new images at new locations. 
-
-&nbsp;&nbsp; The games and applications in this category do typically meet the criteria of ‘play’, albeit different forms of play, but whether such applications count as serious play really has to be assessed on a case-to-case basis. Applications in this category that are designed to ward off dementia (or at least marketed as such) arguably do count as serious play due to the seriousness of dementia and related illnesses. However, a simple sudoku puzzle arguably lacks a serious enough aspect to count as serious play.   
-
-<p align="center">
-  <img src="images/SushiGo.png" width="500"/>
-  <em>Figure 6: SushiGo! </em>
-</p>
 
 ### Bibliography: Current Industry Review
 
@@ -432,6 +455,9 @@ L. Kolirin, "Crosswords and puzzles do not prevent mental decline, study says", 
 &nbsp; Serene. Venture Harbour Ltd, 2021. Available: https://zapier.com/blog/stay-focused-avoid-distractions/#serene. [Accessed: 22- Apr- 2021].
 
 "15 Top Games That Will Reinforce Executive Functioning Skills", Fabulous Family Board Games, 2021. [Online]. Available: http://fabulousfamilyboardgames.com/games-executive-functioning-skills/. [Accessed: 03- May- 2021].
+
+
+[Back to the top](#table-of-contents)
 
 
 <p align="center">
